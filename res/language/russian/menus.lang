@@ -22,7 +22,7 @@
 	<string name="option.ui_hud_dashbar.title">Полоска рывка игрока</string>
 	<string name="option.ui_cursor_health.title">Параметры рядом с курсором</string>
 	<string name="option.g_laser_sight.title">Aim Guide</string>
-	<string name="option.g_quickcast.title">Быстрое сотворение заклинаний</string>
+	<string name="option.g_quickcast.title">Быстрое применение навыков</string>
 
 	<string name="option.g_movedir_snap.title">Movement Direction Snap</string>
 	<string name="option.g_aimdir_snap.title">Aim Direction Snap</string>
