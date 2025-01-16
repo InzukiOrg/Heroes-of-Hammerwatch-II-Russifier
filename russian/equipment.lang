@@ -1,0 +1,199 @@
+<lang>
+
+	<string name="item.system.epic_name">%prefix% %suffix%</string>
+	<string name="item.system.eqipment_pfx">%prefix% %base%</string>
+	<string name="item.system.eqipment_sfx">%base% %suffix%</string>
+	<string name="item.system.eqipment_pfx_sfx">%prefix% %base% %suffix%</string>
+
+
+	<string name="equipment.mainhand.axe.1a">Боевой топорик</string>
+	<string name="equipment.mainhand.axe.2a">Боевой топор</string>
+	<string name="equipment.mainhand.axe.3a">Двуглавый боевой топор</string>
+	<string name="equipment.mainhand.axe.4a">Королевский топор</string>
+
+	<string name="equipment.mainhand.mace.1a">Шаровая булава</string>
+	<string name="equipment.mainhand.mace.2a">Фланцевая булава</string>
+	<string name="equipment.mainhand.mace.3a">Военная булава</string>
+	<string name="equipment.mainhand.mace.4a">Царственная булава</string>
+
+	<string name="equipment.mainhand.longsword.1a">Длинный меч</string>
+	<string name="equipment.mainhand.longsword.2a">Полуторный меч</string>
+	<string name="equipment.mainhand.longsword.3a">Военный меч</string>
+	<string name="equipment.mainhand.longsword.4a">Платиновый меч</string>
+
+	<string name="equipment.mainhand.shortsword.1a">Короткий меч</string>
+	<string name="equipment.mainhand.shortsword.2a">Элегантный меч</string>
+	<string name="equipment.mainhand.shortsword.3a">Благородный меч</string>
+	<string name="equipment.mainhand.shortsword.4a">Чемпионский меч</string>
+
+	<string name="equipment.mainhand.dagger.1a">Железный кинжал</string>
+	<string name="equipment.mainhand.dagger.2a">Стальной кинжал</string>
+	<string name="equipment.mainhand.dagger.3a">Благородный кинжал</string>
+	<string name="equipment.mainhand.dagger.4a">Величественный кинжал</string>
+
+	<string name="equipment.mainhand.wand.fire.1a">Огненный жезл</string>
+	<string name="equipment.mainhand.wand.fire.2a">Огненный жезл адепта</string>
+	<string name="equipment.mainhand.wand.fire.3a">Великий огненный жезл</string>
+	<string name="equipment.mainhand.wand.fire.4a">Огненный жезл мастера</string>
+
+	<string name="equipment.mainhand.wand.ice.1a">Морозный жезл</string>
+	<string name="equipment.mainhand.wand.ice.2a">Морозный жезл адепта</string>
+	<string name="equipment.mainhand.wand.ice.3a">Великий морозный жезл</string>
+	<string name="equipment.mainhand.wand.ice.4a">Морозный жезл мастера</string>
+
+	<string name="equipment.mainhand.wand.lightning.1a">Жезл молнии</string>
+	<string name="equipment.mainhand.wand.lightning.2a">Жезл молнии адепта</string>
+	<string name="equipment.mainhand.wand.lightning.3a">Великий жезл молнии</string>
+	<string name="equipment.mainhand.wand.lightning.4a">Жезл молнии мастера</string>
+
+
+	<string name="equipment.offhand.dirk.1a">Железный кортик</string>
+	<string name="equipment.offhand.dirk.2a">Стальной кортик</string>
+	<string name="equipment.offhand.dirk.3a">Ритуальный Крис</string>
+	<string name="equipment.offhand.dirk.4a">Золотой Крис</string>
+
+	<string name="equipment.offhand.shield.1a">Деревянный щит</string>
+	<string name="equipment.offhand.shield.2a">Круглый щит</string>
+	<string name="equipment.offhand.shield.3a">Нагревающий щит</string>
+	<string name="equipment.offhand.shield.4a">Украшенный щит</string>
+
+	<string name="equipment.offhand.crossbow.1a">Ручной арбалет</string>
+	<string name="equipment.offhand.crossbow.2a">Ручной арбалет</string>
+	<string name="equipment.offhand.crossbow.3a">Благородный ручной арбалет</string>
+	<string name="equipment.offhand.crossbow.4a">Позолоченный ручной арбалет</string>
+
+	<string name="equipment.offhand.tome.fire.1a">Огненный том</string>
+	<string name="equipment.offhand.tome.fire.2a">Огненный том адепта</string>
+	<string name="equipment.offhand.tome.fire.3a">Великий огненный том</string>
+	<string name="equipment.offhand.tome.fire.4a">Огненный том мастера</string>
+
+	<string name="equipment.offhand.tome.ice.1a">Морозный том</string>
+	<string name="equipment.offhand.tome.ice.2a">Морозный том адепта</string>
+	<string name="equipment.offhand.tome.ice.3a">Великий морозный том</string>
+	<string name="equipment.offhand.tome.ice.4a">Морозный том мастера</string>
+
+	<string name="equipment.offhand.tome.lightning.1a">Том молний</string>
+	<string name="equipment.offhand.tome.lightning.2a">Том молний адепта</string>
+	<string name="equipment.offhand.tome.lightning.3a">Великий Том молний</string>
+	<string name="equipment.offhand.tome.lightning.4a">Том молний мастера</string>
+
+
+	<string name="equipment.twohanded.daggers.1a">Двойные кинжалы</string>
+	<string name="equipment.twohanded.daggers.2a">Тяжелые кинжалы</string>
+	<string name="equipment.twohanded.daggers.3a">Изогнутые кинжалы</string>
+	<string name="equipment.twohanded.daggers.4a">Величественные кинжалы</string>
+
+	<string name="equipment.twohanded.maul.1a">Деревянный молот</string>
+	<string name="equipment.twohanded.maul.2a">Боевой молот</string>
+	<string name="equipment.twohanded.maul.3a">Военный молот</string>
+	<string name="equipment.twohanded.maul.4a">Титановый молот</string>
+
+	<string name="equipment.twohanded.greataxe.1a">Великий секач</string>
+	<string name="equipment.twohanded.greataxe.2a">Великий топор</string>
+	<string name="equipment.twohanded.greataxe.3a">Тяжёлый великий топор</string>
+	<string name="equipment.twohanded.greataxe.4a">Великий топор завоевателя</string>
+
+	<string name="equipment.twohanded.shortbow.1a">Короткий лук</string>
+	<string name="equipment.twohanded.shortbow.2a">Изогнутый лук</string>
+	<string name="equipment.twohanded.shortbow.3a">Эльфийский лук</string>
+	<string name="equipment.twohanded.shortbow.4a">Вирмвудский лук</string>
+
+	<string name="equipment.twohanded.longbow.1a">Длинный лук</string>
+	<string name="equipment.twohanded.longbow.2a">Военный лук</string>
+	<string name="equipment.twohanded.longbow.3a">Имперский лук</string>
+	<string name="equipment.twohanded.longbow.4a">Драконий лук</string>
+
+	<string name="equipment.twohanded.crossbow.1a">Арбалет</string>
+	<string name="equipment.twohanded.crossbow.2a">Тяжёлый арбалет</string>
+	<string name="equipment.twohanded.crossbow.3a">Имперский арбалет</string>
+	<string name="equipment.twohanded.crossbow.4a">Позолоченный арбалет</string>
+
+
+	<string name="equipment.twohanded.staff.fire.1a">Огненный посох</string>
+	<string name="equipment.twohanded.staff.fire.2a">Огненный посох адепта</string>
+	<string name="equipment.twohanded.staff.fire.3a">Великий огненный посох</string>
+	<string name="equipment.twohanded.staff.fire.4a">Огненный посох мастера</string>
+
+	<string name="equipment.twohanded.staff.ice.1a">Морозный посох</string>
+	<string name="equipment.twohanded.staff.ice.2a">Морозный посох адепта</string>
+	<string name="equipment.twohanded.staff.ice.3a">Великий морозный посох</string>
+	<string name="equipment.twohanded.staff.ice.4a">Морозный посох мастера</string>
+
+	<string name="equipment.twohanded.staff.lightning.1a">Посох молнии</string>
+	<string name="equipment.twohanded.staff.lightning.2a">Посох молнии адепта</string>
+	<string name="equipment.twohanded.staff.lightning.3a">Великий посох молнии</string>
+	<string name="equipment.twohanded.staff.lightning.4a">Посох молнии мастера</string>
+
+
+
+
+
+	<string name="equipment.chest.str.1a">Нагрудник</string>
+	<string name="equipment.chest.str.2a">Тяжелые латы</string>
+	<string name="equipment.chest.str.3a">Полные латы</string>
+	<string name="equipment.chest.str.4a">Латы крестоносца</string>
+	<string name="equipment.chest.dex.1a">Кожаный Колет</string>
+	<string name="equipment.chest.dex.2a">Кожаная броня</string>
+	<string name="equipment.chest.dex.3a">Проклёпанная кожа</string>
+	<string name="equipment.chest.dex.4a">Чешуйчатая бригантина</string>
+	<string name="equipment.chest.int.1a">Поростая роба</string>
+	<string name="equipment.chest.int.2a">Шёлковая одежда</string>
+	<string name="equipment.chest.int.3a">Позолоченная роба</string>
+	<string name="equipment.chest.int.4a">Величественная роба</string>
+
+	<string name="equipment.head.str.1a">Железный колпак</string>
+	<string name="equipment.head.str.2a">Стальной шлем</string>
+	<string name="equipment.head.str.3a">Великий шлем</string>
+	<string name="equipment.head.str.4a">Салад крестоносца</string>
+	<string name="equipment.head.dex.1a">Тканевый колпак</string>
+	<string name="equipment.head.dex.1b">Простая маска</string>
+	<string name="equipment.head.dex.2a">Кожаный капюшон</string>
+	<string name="equipment.head.dex.2b">Маска бандита</string>
+	<string name="equipment.head.dex.2c">Маска бандита</string>
+	<string name="equipment.head.dex.3a">Эльфийский капюшон</string>
+	<string name="equipment.head.dex.3b">Бандана</string>
+	<string name="equipment.head.dex.3c">Шапка с перьями</string>
+	<string name="equipment.head.dex.4a">Темный капюшон</string>
+	
+	<string name="equipment.head.int.1a">Простой колпак</string>
+	<string name="equipment.head.int.1b">Простой обруч</string>
+	<string name="equipment.head.int.2a">Шляпа ученика</string>
+	<string name="equipment.head.int.2b">Серебряный обруч</string>
+	<string name="equipment.head.int.3a">Шляпа адепта</string>
+	<string name="equipment.head.int.3b">Драгоценный обруч</string>
+	<string name="equipment.head.int.4a">Великая шляпа</string>
+	<string name="equipment.head.int.4b">Золотой обруч</string>
+
+	<string name="equipment.hands.str.1a">Железные рукавицы</string>
+	<string name="equipment.hands.str.2a">Латные ручной</string>
+	<string name="equipment.hands.str.3a">Позолоченные рукавицы</string>
+	<string name="equipment.hands.str.4a">Золотые рукавицы</string>
+	<string name="equipment.hands.dex.1a">Кожаные браслеты</string>
+	<string name="equipment.hands.dex.2a">Проклёпанные браслеты</string>
+	<string name="equipment.hands.dex.3a">Благородные браслеты</string>
+	<string name="equipment.hands.dex.4a">Браслеты из чешуи змея</string>
+	<string name="equipment.hands.int.1a">Тканевые перчатки</string>
+	<string name="equipment.hands.int.2a">Бархатные перчатки</string>
+	<string name="equipment.hands.int.3a">Нарядные перчатки</string>
+	<string name="equipment.hands.int.4a">Роскошные перчатки</string>
+
+	<string name="equipment.feet.str.1a">Железные поножи</string>
+	<string name="equipment.feet.str.2a">Латные поножи</string>
+	<string name="equipment.feet.str.3a">Имперские поножи</string>
+	<string name="equipment.feet.str.4a">Дракони поножи</string>
+	<string name="equipment.feet.dex.1a">Сапоги из шкур</string>
+	<string name="equipment.feet.dex.2a">Кожаные сапоги</string>
+	<string name="equipment.feet.dex.3a">Благородные сапоги</string>
+	<string name="equipment.feet.dex.4a">Яркие сапоги</string>
+	<string name="equipment.feet.int.1a">Тканевые тапочки</string>
+	<string name="equipment.feet.int.2a">Бархатные тапочки</string>
+	<string name="equipment.feet.int.3a">Нарядные тапочки</string>
+	<string name="equipment.feet.int.4a">Королевские тапочки</string>
+
+	<string name="equipment.back.2a">Накидка</string>
+	<string name="equipment.back.2b">Плащ</string>
+	<string name="equipment.back.4a">Королевская накидка</string>
+	<string name="equipment.back.4b">Величественный плащ</string>
+
+
+</lang>
