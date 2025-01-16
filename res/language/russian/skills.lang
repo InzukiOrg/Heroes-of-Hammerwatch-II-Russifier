@@ -1,214 +1,211 @@
 <lang>
-	<!-- Skills -->
+	<!-- Навыки -->
 
+	<string name="skills.type.dash">Рывок</string>
+	<string name="skills.type.dash.upgrade">Улучшение рывка</string>
+	<string name="skills.type.mainhand.attack">Атака основной рукой</string>
+	<string name="skills.type.mainhand.attack.upgrade">Улучшение атаки основной рукой</string>
+	<string name="skills.type.offhand.attack">Атака дополнительной рукой</string>
+	<string name="skills.type.offhand.attack.upgrade">Улучшение атаки дополнительной рукой</string>
+	<string name="skills.type.offhand.skill">Навык дополнительной руки</string>
+	<string name="skills.type.offhand.skill.upgrade">Улучшение навыка дополнительной руки</string>
+	<string name="skills.type.spell">Заклинание</string>
+	<string name="skills.type.spell.upgrade">Улучшение заклинания</string>
+	<string name="skills.type.passive">Пассивный навык</string>
+	<string name="skills.type.passive.upgrade">Улучшение пассивного навыка</string>
+	<string name="skills.type.passive.toggle">Переключение пассивного навыка</string>
 
-	<string name="skills.type.dash">Dash</string>
-	<string name="skills.type.dash.upgrade">Dash Upgrade</string>
-	<string name="skills.type.mainhand.attack">Mainhand Attack</string>
-	<string name="skills.type.mainhand.attack.upgrade">Mainhand Attack Upgrade</string>
-	<string name="skills.type.offhand.attack">Offhand Attack</string>
-	<string name="skills.type.offhand.attack.upgrade">Offhand Attack Upgrade</string>
-	<string name="skills.type.offhand.skill">Offhand Skill</string>
-	<string name="skills.type.offhand.skill.upgrade">Offhand Skill Upgrade</string>
-	<string name="skills.type.spell">Spell</string>
-	<string name="skills.type.spell.upgrade">Spell Upgrade</string>
-	<string name="skills.type.passive">Passive</string>
-	<string name="skills.type.passive.upgrade">Passive Upgrade</string>
-	<string name="skills.type.passive.toggle">Passive Toggleable</string>
+	<string name="skills.desc.params.mana_cost">Стоимость маны:</string>
+	<string name="skills.desc.params.stamina_cost">Стоимость выносливости:</string>
+	<string name="skills.desc.params.health_cost">Стоимость здоровья:</string>
+	<string name="skills.desc.params.cooldown">Перезарядка:</string>
+	<string name="skills.desc.params.cooldown.effect">Перезарядка эффекта:</string>
+	<string name="skills.desc.params.amount">Количество:</string>
+	<string name="skills.desc.params.duration">Длительность:</string>
+	<string name="skills.desc.params.duration.min">Мин. длительность:</string>
+	<string name="skills.desc.params.duration.max">Макс. длительность:</string>
+	<string name="skills.desc.params.duration.health_lost">Длительность за потерянное здоровье:</string>
+	<string name="skills.desc.params.tick_rate">Частота тиков:</string>
+	<string name="skills.desc.params.chance">Шанс:</string>
+	<string name="skills.desc.params.range">Дальность:</string>
+	<string name="skills.desc.params.size">Размер:</string>
+	<string name="skills.desc.params.frequency">Частота:</string>
+	<string name="skills.desc.params.completion">Время завершения:</string>
+	<string name="skills.desc.params.conversion">Коэффициент конверсии:</string>
+	<string name="skills.desc.params.strikes">Удары:</string>
 
-	<string name="skills.desc.params.mana_cost">Mana Cost:</string>
-	<string name="skills.desc.params.stamina_cost">Stamina Cost:</string>
-	<string name="skills.desc.params.health_cost">Health Cost:</string>
-	<string name="skills.desc.params.cooldown">Cooldown:</string>
-	<string name="skills.desc.params.cooldown.effect">Effect Cooldown:</string>
-	<string name="skills.desc.params.amount">Amount:</string>
-	<string name="skills.desc.params.duration">Duration:</string>
-	<string name="skills.desc.params.duration.min">Min Duration:</string>
-	<string name="skills.desc.params.duration.max">Max Duration:</string>
-	<string name="skills.desc.params.duration.health_lost">Duration per Health Lost:</string>
-	<string name="skills.desc.params.tick_rate">Tick Rate:</string>
-	<string name="skills.desc.params.chance">Chance:</string>
-	<string name="skills.desc.params.range">Range:</string>
-	<string name="skills.desc.params.size">Size:</string>
-	<string name="skills.desc.params.frequency">Frequency:</string>
-	<string name="skills.desc.params.completion">Completion Time:</string>
-	<string name="skills.desc.params.conversion">Conversion Rate:</string>
-	<string name="skills.desc.params.strikes">Strikes:</string>
+	<string name="skills.desc.params.health">Здоровье:</string>
+	<string name="skills.desc.params.stamina">Выносливость:</string>
+	<string name="skills.desc.params.mana">Мана:</string>
+	<string name="skills.desc.params.healthregen">Восстановление здоровья:</string>
+	<string name="skills.desc.params.healthregen.dex">Восстановление здоровья за ловкость:</string>
+	<string name="skills.desc.params.healthregen.int">Восстановление здоровья за интеллект:</string>
+	<string name="skills.desc.params.manaregen">Восстановление маны:</string>
+	<string name="skills.desc.params.manaregen.str">Восстановление маны за силу:</string>
+	<string name="skills.desc.params.manaregen.dex">Восстановление маны за ловкость:</string>
+	<string name="skills.desc.params.regenall">Все восстановления:</string>
+	<string name="skills.desc.params.str">Сила:</string>
+	<string name="skills.desc.params.dex">Ловкость:</string>
+	<string name="skills.desc.params.int">Интеллект:</string>
+	<string name="skills.desc.params.foc">Фокус:</string>
+	<string name="skills.desc.params.vit">Живучесть:</string>
+	<string name="skills.desc.params.attributes">Атрибуты:</string>
+	<string name="skills.desc.params.weaponpower">Мощность оружия:</string>
+	<string name="skills.desc.params.spellpower">Сила заклинаний:</string>
 
-	<string name="skills.desc.params.health">Health:</string>
-	<string name="skills.desc.params.stamina">Stamina:</string>
-	<string name="skills.desc.params.mana">Mana:</string>
-	<string name="skills.desc.params.healthregen">Health Regen:</string>
-	<string name="skills.desc.params.healthregen.dex">Health Regen per Dexterity:</string>
-	<string name="skills.desc.params.healthregen.int">Health Regen per Strength:</string>
-	<string name="skills.desc.params.manaregen">Mana Regen:</string>
-	<string name="skills.desc.params.manaregen.str">Mana Regen per Strength:</string>
-	<string name="skills.desc.params.manaregen.dex">Mana Regen per Dexterity:</string>
-	<string name="skills.desc.params.regenall">All Regen:</string>
-	<string name="skills.desc.params.str">Strength:</string>
-	<string name="skills.desc.params.dex">Dexterity:</string>
-	<string name="skills.desc.params.int">Intelligence:</string>
-	<string name="skills.desc.params.foc">Focus:</string>
-	<string name="skills.desc.params.vit">Vitality:</string>
-	<string name="skills.desc.params.attributes">Attributes:</string>
-	<string name="skills.desc.params.weaponpower">Weapon Power:</string>
-	<string name="skills.desc.params.spellpower">Spell Power:</string>
+	<string name="skills.desc.params.damage">Урон:</string>
+	<string name="skills.desc.params.damage.spell">Урон заклинаний:</string>
+	<string name="skills.desc.params.damage.weapon">Урон оружия:</string>
+	<string name="skills.desc.params.damage.mainhand">Урон основной руки:</string>
+	<string name="skills.desc.params.damage.offhand">Урон дополнительной руки:</string>
+	<string name="skills.desc.params.damage.physical">Физический урон:</string>
+	<string name="skills.desc.params.damage.fire">Огненный урон:</string>
+	<string name="skills.desc.params.damage.ice">Ледяной урон:</string>
+	<string name="skills.desc.params.damage.lightning">Урон молнией:</string>
+	<string name="skills.desc.params.damage.poison">Ядовитый урон:</string>
+	<string name="skills.desc.params.damage.pure">Чистый урон:</string>
 
-	<string name="skills.desc.params.damage">Damage:</string>
-	<string name="skills.desc.params.damage.spell">Spell Damage:</string>
-	<string name="skills.desc.params.damage.weapon">Weapon Damage:</string>
-	<string name="skills.desc.params.damage.mainhand">Mainhand Damage:</string>
-	<string name="skills.desc.params.damage.offhand">Offhand Damage:</string>
-	<string name="skills.desc.params.damage.physical">Physical Damage:</string>
-	<string name="skills.desc.params.damage.fire">Fire Damage:</string>
-	<string name="skills.desc.params.damage.ice">Ice Damage:</string>
-	<string name="skills.desc.params.damage.lightning">Lightning Damage:</string>
-	<string name="skills.desc.params.damage.poison">Poison Damage:</string>
-	<string name="skills.desc.params.damage.pure">Pure Damage:</string>
+	<string name="skills.desc.params.damage.lvl">Урон за уровень:</string>
+	<string name="skills.desc.params.damage.str">Урон за силу:</string>
+	<string name="skills.desc.params.damage.dex">Урон за ловкость:</string>
+	<string name="skills.desc.params.damage.int">Урон за интеллект:</string>
+	<string name="skills.desc.params.damage.stamina.current">Урон за текущую выносливость:</string>
+	<string name="skills.desc.params.damage.mana.current">Урон за текущую ману:</string>
+	<string name="skills.desc.params.damage.str.physical">Физический урон за силу:</string>
+	<string name="skills.desc.params.damage.int.ice">Ледяной урон за интеллект:</string>
+	<string name="skills.desc.params.damage.int.pure">Чистый урон за интеллект:</string>
+	<string name="skills.desc.params.damage.missing.health">Урон за недостающее здоровье:</string>
+	<string name="skills.desc.params.damage.armor">Урон за броню:</string>
 
-	<string name="skills.desc.params.damage.lvl">Damage per Level:</string>
-	<string name="skills.desc.params.damage.str">Damage per Strength:</string>
-	<string name="skills.desc.params.damage.dex">Damage per Dexterity:</string>
-	<string name="skills.desc.params.damage.int">Damage per Intelligence:</string>
-	<string name="skills.desc.params.damage.stamina.current">Damage per Current Stamina:</string>
-	<string name="skills.desc.params.damage.mana.current">Damage per Current Mana:</string>
-	<string name="skills.desc.params.damage.str.physical">Physical Damage per Strength:</string>
-	<string name="skills.desc.params.damage.int.ice">Ice Damage per Intelligence:</string>
-	<string name="skills.desc.params.damage.int.pure">Pure Damage per Intellgence:</string>
-	<string name="skills.desc.params.damage.missing.health">Damage per missing percent Health:</string>
-	<string name="skills.desc.params.damage.armor">Damage per Armor:</string>
+	<string name="skills.desc.params.attack_speed">Скорость атаки:</string>
+	<string name="skills.desc.params.weapon_speed">Скорость оружия:</string>
+	<string name="skills.desc.params.cast_speed">Скорость произнесения заклинаний:</string>
+	<string name="skills.desc.params.skill_speed">Скорость навыка:</string>
+	<string name="skills.desc.params.spell_cost">Стоимость заклинания:</string>
 
-	<string name="skills.desc.params.attack_speed">Attack Speed:</string>
-	<string name="skills.desc.params.weapon_speed">Weapon Speed:</string>
-	<string name="skills.desc.params.cast_speed">Cast Speed:</string>
-	<string name="skills.desc.params.skill_speed">Skill Speed:</string>
-	<string name="skills.desc.params.spell_cost">Spell Cost:</string>
+	<string name="skills.desc.params.crit.chance">Шанс критического удара:</string>
+	<string name="skills.desc.params.crit.chance.attack">Шанс критической атаки:</string>
+	<string name="skills.desc.params.crit.chance.weapon">Шанс критического удара оружием:</string>
+	<string name="skills.desc.params.crit.chance.spell">Шанс критического заклинания:</string>
+	<string name="skills.desc.params.crit.damage">Урон критического удара:</string>
+	<string name="skills.desc.params.crit.damage.attack">Урон критической атаки:</string>
+	<string name="skills.desc.params.crit.damage.weapon">Урон критического удара оружием:</string>
+	<string name="skills.desc.params.crit.damage.spell">Урон критического заклинания:</string>
+	<string name="skills.desc.params.leech">Похищение жизни:</string>
+	<string name="skills.desc.params.leech.attack">Похищение жизни атакой:</string>
+	<string name="skills.desc.params.leech.weapon">Похищение жизни оружием:</string>
+	<string name="skills.desc.params.leech.spell">Похищение жизни заклинанием:</string>
+	<string name="skills.desc.params.leech.mana">Похищение маны:</string>
 
-	<string name="skills.desc.params.crit.chance">Crit Chance:</string>
-	<string name="skills.desc.params.crit.chance.attack">Attack Crit Chance:</string>
-	<string name="skills.desc.params.crit.chance.weapon">Weapon Crit Chance:</string>
-	<string name="skills.desc.params.crit.chance.spell">Spell Crit Chance:</string>
-	<string name="skills.desc.params.crit.damage">Crit Damage:</string>
-	<string name="skills.desc.params.crit.damage.attack">Attack Crit Damage:</string>
-	<string name="skills.desc.params.crit.damage.weapon">Weapon Crit Damage:</string>
-	<string name="skills.desc.params.crit.damage.spell">Spell Crit Damage:</string>
-	<string name="skills.desc.params.leech">Life Leech:</string>
-	<string name="skills.desc.params.leech.attack">Attack Life Leech:</string>
-	<string name="skills.desc.params.leech.weapon">Weapon Life Leech:</string>
-	<string name="skills.desc.params.leech.spell">Spell Life Leech:</string>
-	<string name="skills.desc.params.leech.mana">Mana Leech:</string>
+	<string name="skills.desc.params.heal">Лечение:</string>
+	<string name="skills.desc.params.restore.health.max">Восстановление здоровья:</string>
+	<string name="skills.desc.params.restore.stamina.max">Восстановление выносливости:</string>
 
-	<string name="skills.desc.params.heal">Heal:</string>
-	<string name="skills.desc.params.restore.health.max">Health Restored:</string>
-	<string name="skills.desc.params.restore.stamina.max">Stamina Restored:</string>
+	<string name="skills.desc.params.dmg_taken">Получаемый урон:</string>
+	<string name="skills.desc.params.dmg_threshold">Порог урона:</string>
 
-	<string name="skills.desc.params.dmg_taken">Damage Taken:</string>
-	<string name="skills.desc.params.dmg_threshold">Damage Threshold:</string>
+	<string name="skills.desc.params.armor">Броня:</string>
+	<string name="skills.desc.params.armor.str">Броня за силу:</string>
+	<string name="skills.desc.params.armor.int">Броня за интеллект:</string>
+	<string name="skills.desc.params.armor.dex">Броня за ловкость:</string>
+	<string name="skills.desc.params.resistance">Сопротивление:</string>
+	<string name="skills.desc.params.resistance.fire">Сопротивление огню:</string>
+	<string name="skills.desc.params.resistance.ice">Сопротивление льду:</string>
+	<string name="skills.desc.params.resistance.lightning">Сопротивление молнии:</string>
+	<string name="skills.desc.params.resistance.poison">Сопротивление яду:</string>
+	<string name="skills.desc.params.block">Блокирование:</string>
+	<string name="skills.desc.params.block.instances">Количество блоков:</string>
+	<string name="skills.desc.params.block.chance.max">Максимальный шанс блока:</string>
+	<string name="skills.desc.params.block.mana_cost">Потеря маны за блокированный урон:</string>
+	<string name="skills.desc.params.armor_pen">Пробивание брони:</string>
+	<string name="skills.desc.params.armor_pen.str">Пробивание брони за силу:</string>
+	<string name="skills.desc.params.fire_pen">Пробивание огня:</string>
+	<string name="skills.desc.params.ice_pen">Пробивание льда:</string>
+	<string name="skills.desc.params.lightning_pen">Пробивание молнии:</string>
+	<string name="skills.desc.params.poison_pen">Пробивание яда:</string>
 
-	<string name="skills.desc.params.armor">Armor:</string>
-	<string name="skills.desc.params.armor.str">Armor per Strength:</string>
-	<string name="skills.desc.params.armor.int">Armor per Intelligence:</string>
-	<string name="skills.desc.params.armor.dex">Armor per Dexterity:</string>
-	<string name="skills.desc.params.resistance">Resistance:</string>
-	<string name="skills.desc.params.resistance.fire">Fire Resistance:</string>
-	<string name="skills.desc.params.resistance.ice">Ice Resistance:</string>
-	<string name="skills.desc.params.resistance.lightning">Lightning Resistance:</string>
-	<string name="skills.desc.params.resistance.poison">Poison Resistance:</string>
-	<string name="skills.desc.params.block">Block Amount:</string>
-	<string name="skills.desc.params.block.instances">Block Instances:</string>
-	<string name="skills.desc.params.block.chance.max">Max Block Chance:</string>
-	<string name="skills.desc.params.block.mana_cost">Mana Lost per Damage Blocked:</string>
-	<string name="skills.desc.params.armor_pen">Armor Penetration:</string>
-	<string name="skills.desc.params.armor_pen.str">Armor Penetration per Strength:</string>
-	<string name="skills.desc.params.fire_pen">Fire Penetration:</string>
-	<string name="skills.desc.params.ice_pen">Ice Penetration:</string>
-	<string name="skills.desc.params.lightning_pen">Lightning Penetration:</string>
-	<string name="skills.desc.params.poison_pen">Poison Penetration:</string>
+	<string name="skills.desc.params.evasion">Уклонение:</string>
+	<string name="skills.desc.params.mspeed">Скорость передвижения:</string>
+	<string name="skills.desc.params.mspeed.reduction">Снижение скорости передвижения:</string>
+	<string name="skills.desc.params.slow_effect">Эффект замедления:</string>
+	<string name="skills.desc.params.expgain">Получение опыта:</string>
 
-	<string name="skills.desc.params.evasion">Evasion:</string>
-	<string name="skills.desc.params.mspeed">Movement Speed:</string>
-	<string name="skills.desc.params.mspeed.reduction">Movement Speed Reduction:</string>
-	<string name="skills.desc.params.slow_effect">Slow Effect:</string>
-	<string name="skills.desc.params.expgain">Experience Gain:</string>
+	<string name="skills.desc.params.chanelling.max">Максимальное время канала:</string>
+	<string name="skills.desc.params.charge.max">Максимальное время заряда:</string>
+	<string name="skills.desc.params.charge.stamina">Стоимость выносливости для заряда:</string>
+	<string name="skills.desc.params.charge.ttl">Максимальное время жизни:</string>
+	<string name="skills.desc.params.recharge">Время перезарядки:</string>
 
-	<string name="skills.desc.params.chanelling.max">Max Channelling Time:</string>
-	<string name="skills.desc.params.charge.max">Max Charge Time:</string>
-	<string name="skills.desc.params.charge.stamina">Charging Stamina Cost:</string>
-	<string name="skills.desc.params.charge.ttl">Max Lifetime:</string>
-	<string name="skills.desc.params.recharge">Recharge Time:</string>
+	<string name="skills.desc.params.stacks">Стеки:</string>
+	<string name="skills.desc.params.stacks.max">Максимальное количество стеков:</string>
+	<string name="skills.desc.params.stacks.duration">Длительность стека:</string>
+	<string name="skills.desc.params.stacks.replenish">Время восстановления стека:</string>
+	<string name="skills.desc.params.stacks.damage">Урон за стек:</string>
+	<string name="skills.desc.params.stacks.damage.weapon">Урон оружия за стек:</string>
+	<string name="skills.desc.params.stacks.damage.spell">Урон заклинания за стек:</string>
+	<string name="skills.desc.params.stacks.armor">Броня за стек:</string>
+	<string name="skills.desc.params.stacks.mspeed">Скорость передвижения за стек:</string>
+	<string name="skills.desc.params.stacks.str">Сила за стек:</string>
+	<string name="skills.desc.params.stacks.dex">Ловкость за стек:</string>
+	<string name="skills.desc.params.stacks.int">Интеллект за стек:</string>
+	<string name="skills.desc.params.stacks.attack_speed">Скорость атаки за стек:</string>
+	<string name="skills.desc.params.stacks.weapon_speed">Скорость оружия за стек:</string>
+	<string name="skills.desc.params.stacks.cast_speed">Скорость произнесения заклинаний за стек:</string>
+	<string name="skills.desc.params.stacks.crit.weapon">Шанс критического удара оружием за стек:</string>
+	<string name="skills.desc.params.stacks.crit.spell">Шанс критического заклинания за стек:</string>
+	<string name="skills.desc.params.stacks.healthregen">Восстановление здоровья за стек:</string>
+	<string name="skills.desc.params.stacks.manaregen">Восстановление маны за стек:</string>
+	<string name="skills.desc.params.stacks.mana_cost">Стоимость маны за стек:</string>
+	<string name="skills.desc.params.stacks.max.regen">Восстановление на максимальных стеках:</string>
+	<string name="skills.desc.params.stacks.max.crit">Шанс критического удара на максимальных стеках:</string>
+	<string name="skills.desc.params.stacks.max.dmg_taken">Получаемый урон на максимальных стеках:</string>
+	<string name="skills.desc.params.stacks.gain">Полученные стеки:</string>
+	<string name="skills.desc.params.stacks.bleeding">Стеки кровотечения:</string>
 
-	<string name="skills.desc.params.stacks">Stacks:</string>
-	<string name="skills.desc.params.stacks.max">Max Stacks:</string>
-	<string name="skills.desc.params.stacks.duration">Stack Duration:</string>
-	<string name="skills.desc.params.stacks.replenish">Stack Replenish Time:</string>
-	<string name="skills.desc.params.stacks.damage">Damage per Stack:</string>
-	<string name="skills.desc.params.stacks.damage.weapon">Weapon Damage per Stack:</string>
-	<string name="skills.desc.params.stacks.damage.spell">Spell Damage per Stack:</string>
-	<string name="skills.desc.params.stacks.armor">Armor per Stack:</string>
-	<string name="skills.desc.params.stacks.mspeed">Movement Speed per Stack:</string>
-	<string name="skills.desc.params.stacks.str">Strength per Stack:</string>
-	<string name="skills.desc.params.stacks.dex">Dexterity per Stack:</string>
-	<string name="skills.desc.params.stacks.int">Intellgience per Stack:</string>
-	<string name="skills.desc.params.stacks.attack_speed">Attack Speed per Stack:</string>
-	<string name="skills.desc.params.stacks.weapon_speed">Weapon Speed per Stack:</string>
-	<string name="skills.desc.params.stacks.cast_speed">Cast Speed per Stack:</string>
-	<string name="skills.desc.params.stacks.crit.weapon">Weapon Crit Chance per Stack:</string>
-	<string name="skills.desc.params.stacks.crit.spell">Spell Crit Chance per Stack:</string>
-	<string name="skills.desc.params.stacks.healthregen">Health Regen per Stack:</string>
-	<string name="skills.desc.params.stacks.manaregen">Mana Regen per Stack:</string>
-	<string name="skills.desc.params.stacks.mana_cost">Mana Cost per Stack:</string>
-	<string name="skills.desc.params.stacks.max.regen">Regen at Max Stacks:</string>
-	<string name="skills.desc.params.stacks.max.crit">Crit Chance at Max Stacks:</string>
-	<string name="skills.desc.params.stacks.max.dmg_taken">Damage Taken at Max Stacks:</string>
-	<string name="skills.desc.params.stacks.gain">Stacks Gained:</string>
-	<string name="skills.desc.params.stacks.bleeding">Bleeding Stacks:</string>
+	<string name="skills.desc.params.status_effect">Эффект состояния:</string>
+	<string name="skills.desc.params.affliction.mul">Множитель страдания:</string>
+	<string name="skills.desc.params.aura.range">Радиус ауры:</string>
+	<string name="skills.desc.params.detection.range">Радиус обнаружения:</string>
 
-	<string name="skills.desc.params.status_effect">Status Effect:</string>
-	<string name="skills.desc.params.affliction.mul">Affliction Multiplier:</string>
-	<string name="skills.desc.params.aura.range">Aura Range:</string>
-	<string name="skills.desc.params.detection.range">Detection Range:</string>
+	<string name="skills.desc.params.health_lost">Потеря здоровья:</string>
+	<string name="skills.desc.params.health_lost.mana">Потеря здоровья в зависимости от стоимости маны:</string>
+	<string name="skills.desc.params.health_lost.stamina">Потеря здоровья в зависимости от стоимости выносливости:</string>
+	<string name="skills.desc.params.mana_lost">Потеря маны:</string>
+	<string name="skills.desc.params.mana.spent.trigger">Потрачено маны для активации:</string>
+	<string name="skills.desc.params.threshold.mana">Порог маны:</string>
+	<string name="skills.desc.params.stamina_cost.max">Стоимость выносливости навыка:</string>
 
-	<string name="skills.desc.params.health_lost">Health Lost:</string>
-	<string name="skills.desc.params.health_lost.mana">Health Lost based on Mana Cost:</string>
-	<string name="skills.desc.params.health_lost.stamina">Health Lost based on Stamina Cost:</string>
-	<string name="skills.desc.params.mana_lost">Mana Lost:</string>
-	<string name="skills.desc.params.mana.spent.trigger">Mana Spent to Trigger:</string>
-	<string name="skills.desc.params.threshold.mana">Mana Threshold:</string>
-	<string name="skills.desc.params.stamina_cost.max">Skill Stamina Cost:</string>
+	<string name="skills.desc.params.projectile.pierce">Пробивание снаряда:</string>
+	<string name="skills.desc.params.projectile.range_speed">Дальность и скорость снаряда:</string>
+	<string name="skills.desc.params.projectile.dmg_speed">Урон и скорость снаряда:</string>
+	<string name="skills.desc.params.projectile.number">Количество снарядов:</string>
+	<string name="skills.desc.params.projectile.lifetime">Время жизни снаряда:</string>
 
+	<string name="skills.desc.params.bounce">Отскоки:</string>
+	<string name="skills.desc.params.bounce.damage">Урон за отскок:</string>
+	<string name="skills.desc.params.jumps">Прыжки:</string>
+	<string name="skills.desc.params.jumps.damage">Урон за прыжок:</string>
+	<string name="skills.desc.params.chains">Цепи:</string>
+	<string name="skills.desc.params.chains.damage">Урон за цепь:</string>
+	<string name="skills.desc.params.cleave.damage">Урон рассечения:</string>
+	<string name="skills.desc.params.cleave.range">Дальность рассечения:</string>
+	<string name="skills.desc.params.cleave.arc">Дуга рассечения:</string>
+	<string name="skills.desc.params.hits.destroy">Ударов для уничтожения:</string>
 
-	<string name="skills.desc.params.projectile.pierce">Projectile Piercing:</string>
-	<string name="skills.desc.params.projectile.range_speed">Projectile Range & Speed:</string>
-	<string name="skills.desc.params.projectile.dmg_speed">Projectile Damage & Speed:</string>
-	<string name="skills.desc.params.projectile.number">Projectiles:</string>
-	<string name="skills.desc.params.projectile.lifetime">Projectile Lifetime:</string>
-
-	<string name="skills.desc.params.bounce">Bounces:</string>
-	<string name="skills.desc.params.bounce.damage">Damage per Bounce:</string>
-	<string name="skills.desc.params.jumps">Jumps:</string>
-	<string name="skills.desc.params.jumps.damage">Damage per Jump:</string>
-	<string name="skills.desc.params.chains">Chains:</string>
-	<string name="skills.desc.params.chains.damage">Damage per Chain:</string>
-	<string name="skills.desc.params.cleave.damage">Cleave Damage:</string>
-	<string name="skills.desc.params.cleave.range">Cleave Range:</string>
-	<string name="skills.desc.params.cleave.arc">Cleave Arc:</string>
-	<string name="skills.desc.params.hits.destroy">Hits to Destroy:</string>
-
-
-	<string name="skills.desc.params.pillars.strikes">Additional Explosions:</string>
-	<string name="skills.desc.params.pillars.add">Additional Pillars:</string>
-	<string name="skills.desc.params.wolf.damage">Wolf Damage:</string>
-	<string name="skills.desc.params.wolf.health">Wolf Health:</string>
-	<string name="skills.desc.params.lightning_bolts">Lightning Bolts:</string>
-	<string name="skills.desc.params.spirit_wolves">Spirit Wolves:</string>
-	<string name="skills.desc.params.flurry.strikes">Enemies Hit per Strike:</string>
-	<string name="skills.desc.params.traps.max">Max Traps Placed:</string>
-	<string name="skills.desc.params.traps.add">Additional Traps:</string>
-	<string name="skills.desc.params.fiend.health">Fiend Health:</string>
-	<string name="skills.desc.params.fiend.lifetime">Fiend Lifetime:</string>
-	<string name="skills.desc.params.fiend.damage">Fiend Damage:</string>
-	<string name="skills.desc.params.frost_shards">Frost Shards:</string>
-	<string name="skills.desc.params.meteors">Meteors:</string>
+	<string name="skills.desc.params.pillars.strikes">Дополнительные взрывы:</string>
+	<string name="skills.desc.params.pillars.add">Дополнительные столбы:</string>
+	<string name="skills.desc.params.wolf.damage">Урон волка:</string>
+	<string name="skills.desc.params.wolf.health">Здоровье волка:</string>
+	<string name="skills.desc.params.lightning_bolts">Молнии:</string>
+	<string name="skills.desc.params.spirit_wolves">Духовные волки:</string>
+	<string name="skills.desc.params.flurry.strikes">Врагов за удар:</string>
+	<string name="skills.desc.params.traps.max">Максимальное количество ловушек:</string>
+	<string name="skills.desc.params.traps.add">Дополнительные ловушки:</string>
+	<string name="skills.desc.params.fiend.health">Здоровье демона:</string>
+	<string name="skills.desc.params.fiend.lifetime">Время жизни демона:</string>
+	<string name="skills.desc.params.fiend.damage">Урон демона:</string>
+	<string name="skills.desc.params.frost_shards">Ледяные осколки:</string>
+	<string name="skills.desc.params.meteors">Метеоры:</string>
 
 
 
@@ -216,506 +213,501 @@
 
 
 
-	<!-- Attacks -->
+	<!-- Атаки -->
+
+	<string name="skills.attacks.mainhand.mace.name">Удар булавой</string>
+	<string name="skills.attacks.mainhand.mace.desc">Мощный удар, наносящий 100% урона оружием с 15% шансом оглушить цель.</string>
+	<string name="skills.attacks.mainhand.axe.name">Удар топором</string>
+	<string name="skills.attacks.mainhand.axe.desc">Режущий удар, наносящий 100% урона оружием с 20% шансом наложить эффект кровотечения.</string>
+	<string name="skills.attacks.mainhand.sword.name">Удар мечом</string>
+	<string name="skills.attacks.mainhand.sword.desc">Широкий удар, наносящий 100% урона оружием.</string>
+	<string name="skills.attacks.mainhand.dagger.name">Удар кинжалом</string>
+	<string name="skills.attacks.mainhand.dagger.desc">Быстрый удар, наносящий 100% урона оружием с 20% шансом наложить эффект кровотечения.</string>
+	<string name="skills.attacks.mainhand.dirk.name">Укол кинжалом</string>
+	<string name="skills.attacks.mainhand.dirk.desc">Быстрый укол, наносящий 60% урона оружием.</string>
+	<string name="skills.attacks.mainhand.wand.fire.name">Огненная стрела</string>
+	<string name="skills.attacks.mainhand.wand.fire.desc">Выпускает огненную стрелу, которая взрывается при попадании, нанося 40% урона оружием.</string>
+	<string name="skills.attacks.mainhand.wand.ice.name">Ледяные осколки</string>
+	<string name="skills.attacks.mainhand.wand.ice.desc">Выпускает три ледяных осколка, каждый из которых наносит 60% урона оружием.</string>
+	<string name="skills.attacks.mainhand.wand.lightning.name">Молния</string>
+	<string name="skills.attacks.mainhand.wand.lightning.desc">Выпускает молнию, которая может перескакивать между врагами, нанося 40% урона оружием. Урон уменьшается на 10% за каждый прыжок.</string>
+
+	<string name="skills.attacks.offhand.crossbow.name">Быстрый выстрел</string>
+	<string name="skills.attacks.offhand.crossbow.desc">Быстро выпускает стрелу, наносящую 75% физического урона.</string>
+	<string name="skills.attacks.offhand.shield.name">Удар щитом</string>
+	<string name="skills.attacks.offhand.shield.desc">Удар щитом, оглушающий врагов.</string>
+	<string name="skills.attacks.offhand.tome.fire.name">Глиф огня</string>
+	<string name="skills.attacks.offhand.tome.fire.desc">Устанавливает глиф на земле, который активируется при приближении врага, создавая зону огня на 5 секунд, нанося 75% урона оружием.</string>
+	<string name="skills.attacks.offhand.tome.ice.name">Глиф льда</string>
+	<string name="skills.attacks.offhand.tome.ice.desc">Устанавливает глиф на земле, который активируется при приближении врага, создавая взрыв льда, наносящий 100% урона оружием в области.</string>
+	<string name="skills.attacks.offhand.tome.lightning.name">Глиф молнии</string>
+	<string name="skills.attacks.offhand.tome.lightning.desc">Устанавливает глиф на земле, который активируется при приближении врага, вызывая три удара молнии, каждый из которых наносит 75% урона оружием.</string>
+
+	<string name="skills.attacks.twohanded.shortbow1.name">Быстрый выстрел</string>
+	<string name="skills.attacks.twohanded.shortbow1.desc">Быстро выпускает стрелу, наносящую 50% урона оружием.</string>
+	<string name="skills.attacks.twohanded.shortbow2.name">Мощный выстрел</string>
+	<string name="skills.attacks.twohanded.shortbow2.desc">Удерживайте для заряда мощного выстрела. Дальность, скорость и урон снаряда увеличиваются в зависимости от времени заряда, нанося до 150% урона оружием.</string>
+
+	<string name="skills.attacks.twohanded.longbow1.name">Быстрый выстрел</string>
+	<string name="skills.attacks.twohanded.longbow1.desc">Быстро выпускает стрелу, наносящую 60% урона оружием.</string>
+	<string name="skills.attacks.twohanded.longbow2.name">Мощный выстрел</string>
+	<string name="skills.attacks.twohanded.longbow2.desc">Удерживайте для заряда мощного выстрела. Дальность, скорость и урон снаряда увеличиваются в зависимости от времени заряда, нанося до 150% урона оружием.</string>
+
+	<string name="skills.attacks.twohanded.crossbow1.name">Быстрый выстрел</string>
+	<string name="skills.attacks.twohanded.crossbow1.desc">Быстро выпускает стрелу, наносящую 100% урона оружием.</string>
+	<string name="skills.attacks.twohanded.crossbow2.name">Взрывной выстрел</string>
+	<string name="skills.attacks.twohanded.crossbow2.desc">Выпускает стрелу, которая взрывается при попадании, нанося 150% урона оружием.</string>
+
+	<string name="skills.attacks.twohanded.maul1.name">Удар молотом</string>
+	<string name="skills.attacks.twohanded.maul1.desc">Медленный мощный удар, наносящий 150% урона оружием с 20% шансом оглушить цель.</string>
+	<string name="skills.attacks.twohanded.maul2.name">Удар по земле</string>
+	<string name="skills.attacks.twohanded.maul2.desc">Мощный удар по земле, наносящий 200% урона оружием в области и оглушающий врагов.</string>
+
+	<string name="skills.attacks.twohanded.greataxe1.name">Удар двуручным топором</string>
+	<string name="skills.attacks.twohanded.greataxe1.desc">Широкий режущий удар, наносящий 125% урона оружием с 20% шансом наложить эффект кровотечения.</string>
+	<string name="skills.attacks.twohanded.greataxe2.name">Вихрь</string>
+	<string name="skills.attacks.twohanded.greataxe2.desc">Удерживайте для непрерывного вращения с топором, нанося 75% урона оружием всем врагам в области.</string>
+
+	<string name="skills.attacks.twohanded.daggers1.name">Двойной удар</string>
+	<string name="skills.attacks.twohanded.daggers1.desc">Наносит два быстрых удара, каждый из которых наносит 100% физического урона.</string>
+	<string name="skills.attacks.twohanded.daggers2.name">Рывок с ударом</string>
+	<string name="skills.attacks.twohanded.daggers2.desc">Быстрый рывок вперед, наносящий 200% урона оружием всем врагам на пути.</string>
+
+	<string name="skills.attacks.twohanded.staff.fire1.name">Огненный поток</string>
+	<string name="skills.attacks.twohanded.staff.fire1.desc">Удерживайте для непрерывного выброса огня, наносящего 25% урона оружием.</string>
+	<string name="skills.attacks.twohanded.staff.fire2.name">Огненный взрыв</string>
+	<string name="skills.attacks.twohanded.staff.fire2.desc">Удар посохом по земле, вызывающий огненный взрыв, наносящий 100% урона оружием в области.</string>
+
+	<string name="skills.attacks.twohanded.staff.ice1.name">Ледяное копье</string>
+	<string name="skills.attacks.twohanded.staff.ice1.desc">Удерживайте для заряда ледяного снаряда. Дальность, скорость и урон снаряда увеличиваются в зависимости от времени заряда, нанося до 75% урона оружием.</string>
+	<string name="skills.attacks.twohanded.staff.ice2.name">Ледяные шипы</string>
+	<string name="skills.attacks.twohanded.staff.ice2.desc">Удар посохом по земле, вызывающий три ледяных шипа, которые появляются в направлении вперед, каждый из которых наносит 150% урона оружием.</string>
+
+	<string name="skills.attacks.twohanded.staff.lightning1.name">Луч молнии</string>
+	<string name="skills.attacks.twohanded.staff.lightning1.desc">Удерживайте для создания луча электричества, наносящего 40% урона оружием. Урон уменьшается на 10% за каждого последующего врага.</string>
+	<string name="skills.attacks.twohanded.staff.lightning2.name">Удары молнии</string>
+	<string name="skills.attacks.twohanded.staff.lightning2.desc">Удар посохом по земле, вызывающий два удара молнии, которые поражают область перед вами, каждый из которых наносит 100% урона оружием.</string>
+
+	<!-- Паладин -->
+
+	<string name="skills.paladin.spell_1.name">Благословенный удар</string>
+	<string name="skills.paladin.spell_1.desc">Вы наносите удар по всем врагам в области перед вами, нанося физический урон.</string>
+	<string name="skills.paladin.spell_1.up1.name">Массивный удар</string>
+	<string name="skills.paladin.spell_1.up1.desc">Увеличивает область удара.</string>
+	<string name="skills.paladin.spell_1.up2.name">Очищающее пламя</string>
+	<string name="skills.paladin.spell_1.up2.desc">Область удара вспыхивает пламенем, нанося дополнительный урон огнем в течение некоторого времени.</string>
+	<string name="skills.paladin.spell_1.up3.name">Гневный удар</string>
+	<string name="skills.paladin.spell_1.up3.desc">Наносит дополнительный урон молнией, который может переходить на других ближайших врагов.</string>
+
+	<string name="skills.paladin.spell_2.name">Возложение рук</string>
+	<string name="skills.paladin.spell_2.desc">Вы исцеляете себя и всех союзников вокруг.</string>
+	<string name="skills.paladin.spell_2.up1.name">Оживляющее прикосновение</string>
+	<string name="skills.paladin.spell_2.up1.desc">Также накладывает бафф, увеличивающий восстановление здоровья и маны на короткий период.</string>
+	<string name="skills.paladin.spell_2.up2.name">Очищающее прикосновение</string>
+	<string name="skills.paladin.spell_2.up2.desc">Удаляет все дебаффы и страдания. Вы также получаете иммунитет ко всем дебаффам на короткий период.</string>
+	<string name="skills.paladin.spell_2.up3.name">Изгнание нежити</string>
+	<string name="skills.paladin.spell_2.up3.desc">Наносит физический урон всем врагам-нежити в области.</string>
+
+	<string name="skills.paladin.passive_1.name">Бронированный рыцарь</string>
+	<string name="skills.paladin.passive_1.desc">Увеличивает вашу броню и дает шанс блокировать 100% физического урона.</string>
+	<string name="skills.paladin.passive_1.up1.name">Элементальный бастион</string>
+	<string name="skills.paladin.passive_1.up1.desc">Увеличивает ваше сопротивление огню, льду и молнии.</string>
+	<string name="skills.paladin.passive_1.up2.name">Скользящие удары</string>
+	<string name="skills.paladin.passive_1.up2.desc">Вы получаете дополнительный шанс блокировать 100% урона любого типа.</string>
+	<string name="skills.paladin.passive_1.up3.name">Броня гнева</string>
+	<string name="skills.paladin.passive_1.up3.desc">Вы получаете шанс ударить случайного ближайшего врага молнией при получении урона, нанося урон молнией, основанный на значении вашей брони.</string>
+
+	<string name="skills.paladin.passive_2.name">Убеждение</string>
+	<string name="skills.paladin.passive_2.desc">Ваши удары \cffdfb0Ближнего оружия\d имеют шанс восстановить часть вашей маны.</string>
+	<string name="skills.paladin.passive_2.up1.name">Решимость</string>
+	<string name="skills.paladin.passive_2.up1.desc">Пока ваше здоровье ниже половины, ваши заклинания стоят меньше маны.</string>
+	<string name="skills.paladin.passive_2.up2.name">Щит веры</string>
+	<string name="skills.paladin.passive_2.up2.desc">Пока у вас больше половины максимальной маны, вы блокируете урон за счет маны.</string>
+	<string name="skills.paladin.passive_2.up3.name">Рвение</string>
+	<string name="skills.paladin.passive_2.up3.desc">Когда срабатывает \cb0dfffУбеждение\d, вы наносите дополнительный физический урон, основанный на текущем уровне маны.</string>
 
 
-	<string name="skills.attacks.mainhand.mace.name">Mace Bash</string>
-	<string name="skills.attacks.mainhand.mace.desc">A powerful swing that deal 100% Weapon damage and has a 15% chance to inflict \cb0dfffStun\d.</string>
-	<string name="skills.attacks.mainhand.axe.name">Axe Slash</string>
-	<string name="skills.attacks.mainhand.axe.desc">A rending slash that deal 100% Weapon damage and has a 20% chance to inflict a stack of \cb0dfffBleeding\d.</string>
-	<string name="skills.attacks.mainhand.sword.name">Sword Swing</string>
-	<string name="skills.attacks.mainhand.sword.desc">A wide arcing swing that deal 100% Weapon damage.</string>
-	<string name="skills.attacks.mainhand.dagger.name">Dagger Slash</string>
-	<string name="skills.attacks.mainhand.dagger.desc">A quick slash that deal 100% Weapon damage and has a 20% chance to inflict a stack of \cb0dfffBleeding\d.</string>
-	<string name="skills.attacks.mainhand.dirk.name">Dirk Stab</string>
-	<string name="skills.attacks.mainhand.dirk.desc">A quick stab that deal 60% Weapon damage.</string>
-	<string name="skills.attacks.mainhand.wand.fire.name">Fire Bolt</string>
-	<string name="skills.attacks.mainhand.wand.fire.desc">Launch a fire bolt that explodes on impact dealing 40% Weapon damage.</string>
-	<string name="skills.attacks.mainhand.wand.ice.name">Ice Shards</string>
-	<string name="skills.attacks.mainhand.wand.ice.desc">Unleash three shards of ice that deal 60% Weapon damage each.</string>
-	<string name="skills.attacks.mainhand.wand.lightning.name">Lightning Bolt</string>
-	<string name="skills.attacks.mainhand.wand.lightning.desc">Discharge a bolt of lightning that can jump between enemies, dealing 40% Weapon damage. The bolt deals 10% less damage for each jump.</string>
-
-	<string name="skills.attacks.offhand.crossbow.name">Quick Shot</string>
-	<string name="skills.attacks.offhand.crossbow.desc">Quickly release a fast bolt that deal 75% Physical damage.</string>
-	<string name="skills.attacks.offhand.shield.name">Shield Bash</string>
-	<string name="skills.attacks.offhand.shield.desc">Bash enemies with your shield inflicting \cb0dfffStun\d.</string>
-	<string name="skills.attacks.offhand.tome.fire.name">Glyph of Fire</string>
-	<string name="skills.attacks.offhand.tome.fire.desc">Place a glyph at the ground that activates when an enemy gets near, producing an area of flames for 5 seconds, dealing 75% Weapon damage.</string>
-	<string name="skills.attacks.offhand.tome.ice.name">Glyph of Ice</string>
-	<string name="skills.attacks.offhand.tome.ice.desc">Place a glyph at the ground that activates when an enemy gets near, triggering a blast of ice dealing 100% Weapon damage in an area.</string>
-	<string name="skills.attacks.offhand.tome.lightning.name">Glyph of Lightning</string>
-	<string name="skills.attacks.offhand.tome.lightning.desc">Place a glyph at the ground that activates when an enemy gets near, causing three bolts of lightning to strike the area, each dealing 75% Weapon damage.</string>
-
-	<string name="skills.attacks.twohanded.shortbow1.name">Quick Shot</string>
-	<string name="skills.attacks.twohanded.shortbow1.desc">Rapidly fires an arrow that deal 50% Weapon damage.</string>
-	<string name="skills.attacks.twohanded.shortbow2.name">Power Shot</string>
-	<string name="skills.attacks.twohanded.shortbow2.desc">Hold to charge up a powerful shot. The range, speed and damage of the projectile is increased by the time charged, dealing up to 150% Weapon damage.</string>
-
-	<string name="skills.attacks.twohanded.longbow1.name">Quick Shot</string>
-	<string name="skills.attacks.twohanded.longbow1.desc">Rapidly fires an arrow that deal 60% Weapon damage.</string>
-	<string name="skills.attacks.twohanded.longbow2.name">Power Shot</string>
-	<string name="skills.attacks.twohanded.longbow2.desc">Hold to charge up a powerful shot. The range, speed and damage of the projectile is increased by the time charged, dealing up to 150% Weapon damage.</string>
-
-	<string name="skills.attacks.twohanded.crossbow1.name">Quick Shot</string>
-	<string name="skills.attacks.twohanded.crossbow1.desc">Quickly unleash a fast bolt that deal 100% Weapon damage.</string>
-	<string name="skills.attacks.twohanded.crossbow2.name">Explosive Shot</string>
-	<string name="skills.attacks.twohanded.crossbow2.desc">Fires an armed bolt that explodes upon impact dealing 150% Weapon damage.</string>
-
-	<string name="skills.attacks.twohanded.maul1.name">Maul Swing</string>
-	<string name="skills.attacks.twohanded.maul1.desc">A slow heavy swing that deal 150% Weapon damage and has a 20% chance to inflict \cb0dfffStun\d.</string>
-	<string name="skills.attacks.twohanded.maul2.name">Ground Slam</string>
-	<string name="skills.attacks.twohanded.maul2.desc">A powerful ground slam that deal 200% Weapon damage in an area and inflicts \cb0dfffStun\d.</string>
-
-	<string name="skills.attacks.twohanded.greataxe1.name">Greataxe Slash</string>
-	<string name="skills.attacks.twohanded.greataxe1.desc">A wide rending slash that deal 125% Weapon damage and has a 20% chance to inflict a stack of \cb0dfffBleeding\d.</string>
-	<string name="skills.attacks.twohanded.greataxe2.name">Whirlwind</string>
-	<string name="skills.attacks.twohanded.greataxe2.desc">Hold to continously spin around with your axe, dealing 75% Weapon damage to any enemies in the area.</string>
-
-	<string name="skills.attacks.twohanded.daggers1.name">Dual Slice</string>
-	<string name="skills.attacks.twohanded.daggers1.desc">Deliver two strikes in quick succession, each dealing 100% Physical damage.</string>
-	<string name="skills.attacks.twohanded.daggers2.name">Lunging Strike</string>
-	<string name="skills.attacks.twohanded.daggers2.desc">A quick lunge forward that strikes all enemies along your path, dealing 200% Weapon damage.</string>
-
-	<string name="skills.attacks.twohanded.staff.fire1.name">Flame Spray</string>
-	<string name="skills.attacks.twohanded.staff.fire1.desc">Hold to continously spew flames dealing 25% Weapon damage.</string>
-	<string name="skills.attacks.twohanded.staff.fire2.name">Fire Blast</string>
-	<string name="skills.attacks.twohanded.staff.fire2.desc">Slam the staff in the ground to unleash a fiery blast dealing 100% Weapon damage in an area.</string>
-
-	<string name="skills.attacks.twohanded.staff.ice1.name">Ice Lance</string>
-	<string name="skills.attacks.twohanded.staff.ice1.desc">Hold to charge up an icy projectile. The range, speed and damage of the projectile is increased by the time charged, dealing up to 75% Weapon damage.</string>
-	<string name="skills.attacks.twohanded.staff.ice2.name">Ice Spikes</string>
-	<string name="skills.attacks.twohanded.staff.ice2.desc">Slam the staff in the ground to cause three consecutive ice spikes to erupt in a forward direction, each dealing 150% Weapon damage.</string>
-
-	<string name="skills.attacks.twohanded.staff.lightning1.name">Lightning Beam</string>
-	<string name="skills.attacks.twohanded.staff.lightning1.desc">Hold to channel a beam of electricity that deal 40% Weapon damage. The beam loses 10% damage with each consecutive enemy pierced.</string>
-	<string name="skills.attacks.twohanded.staff.lightning2.name">Thunderbolts</string>
-	<string name="skills.attacks.twohanded.staff.lightning2.desc">Slam the staff in the ground to conjure two thunderbolts to strike the area in front of you, each dealing 100% Weapon damage.</string>
-
-
-
-	<!-- Paladin -->
-
-
-	<string name="skills.paladin.spell_1.name">Blessed Strike</string>
-	<string name="skills.paladin.spell_1.desc">You strike all enemies in the area in front of you, dealing Physical Damage.</string>
-	<string name="skills.paladin.spell_1.up1.name">Massive Strike</string>
-	<string name="skills.paladin.spell_1.up1.desc">Increases the size of the strike area.</string>
-	<string name="skills.paladin.spell_1.up2.name">Purging Flames</string>
-	<string name="skills.paladin.spell_1.up2.desc">The strike area erupts in flames dealing additional Fire damage for a period.</string>
-	<string name="skills.paladin.spell_1.up3.name">Wrathful Strike</string>
-	<string name="skills.paladin.spell_1.up3.desc">Deals additional Lightning damage that can chain to other nearby enemies.</string>
-
-	<string name="skills.paladin.spell_2.name">Lay on Hands</string>
-	<string name="skills.paladin.spell_2.desc">You heal yourself and all allies around you.</string>
-	<string name="skills.paladin.spell_2.up1.name">Invigorating Touch</string>
-	<string name="skills.paladin.spell_2.up1.desc">Also applies a buff that increases Health and Mana Regen for a short period.</string>
-	<string name="skills.paladin.spell_2.up2.name">Cleansing Touch</string>
-	<string name="skills.paladin.spell_2.up2.desc">Removes all Debuffs and Afflictions. You also gain immunity to all Debuffs for a short period.</string>
-	<string name="skills.paladin.spell_2.up3.name">Turn Undead</string>
-	<string name="skills.paladin.spell_2.up3.desc">Deals Physical damage to all Undead enemies in the area.</string>
-
-	<string name="skills.paladin.passive_1.name">Armored Knight</string>
-	<string name="skills.paladin.passive_1.desc">Increases your Armor, and grants a chance to block 100% Physical Damage.</string>
-	<string name="skills.paladin.passive_1.up1.name">Elemental Bulwark</string>
-	<string name="skills.paladin.passive_1.up1.desc">Increases your Fire, Ice and Lightning resistances.</string>
-	<string name="skills.paladin.passive_1.up2.name">Glancing Blows</string>
-	<string name="skills.paladin.passive_1.up2.desc">You gain an additional chance to block 100% of any damage type.</string>
-	<string name="skills.paladin.passive_1.up3.name">Armor of Wrath</string>
-	<string name="skills.paladin.passive_1.up3.desc">You gain a chance to strike a random nearby enemy with a bolt of lightning when taking damage, dealing Lightning damage based on your Armor value.</string>
-
-	<string name="skills.paladin.passive_2.name">Conviction</string>
-	<string name="skills.paladin.passive_2.desc">Your \cffdfb0Melee Weapon\d hits have a chance to restore some of your Mana.</string>
-	<string name="skills.paladin.passive_2.up1.name">Resolve</string>
-	<string name="skills.paladin.passive_2.up1.desc">While you are below half health your Spells cost less mana.</string>
-	<string name="skills.paladin.passive_2.up2.name">Shield of Faith</string>
-	<string name="skills.paladin.passive_2.up2.desc">While you have more than half of your maximum mana left, you block damage for a cost of mana.</string>
-	<string name="skills.paladin.passive_2.up3.name">Zeal</string>
-	<string name="skills.paladin.passive_2.up3.desc">When \cb0dfffConviction\d triggers you deal additional Physical damage based on your current Mana.</string>
-
-
-	<string name="skills.paladin.mastery_1.name">Justice</string>
+	<string name="skills.paladin.mastery_1.name">Правосудие</string>
 	<string name="skills.paladin.mastery_1.desc"></string>
 
-	<string name="skills.paladin.mastery_1.spell_1.name">Judgement</string>
-	<string name="skills.paladin.mastery_1.spell_1.desc">You pass judgement on random nearby enemies for a duration, striking them with a divine hammer dealing Physical damage. </string>
-	<string name="skills.paladin.mastery_1.spell_1.up1.name">Prolonged Prosecution</string>
-	<string name="skills.paladin.mastery_1.spell_1.up1.desc">While \cb0dfffJudgement\d is active you gain a chance to extend the duration when killing enemies. The duration cannot be extended to more than 7 seconds.</string>
-	<string name="skills.paladin.mastery_1.spell_1.up2.name">Hammer of Wrath</string>
-	<string name="skills.paladin.mastery_1.spell_1.up2.desc">Deals additional Lightning damage.</string>
+	<string name="skills.paladin.mastery_1.spell_1.name">Суд</string>
+	<string name="skills.paladin.mastery_1.spell_1.desc">Вы выносите приговор случайным ближайшим врагам на некоторое время, нанося им удар божественным молотом, нанося физический урон.</string>
+	<string name="skills.paladin.mastery_1.spell_1.up1.name">Продолжительное преследование</string>
+	<string name="skills.paladin.mastery_1.spell_1.up1.desc">Пока \cb0dfffСуд\d активен, вы получаете шанс продлить его длительность при убийстве врагов. Длительность не может быть продлена более чем на 7 секунд.</string>
+	<string name="skills.paladin.mastery_1.spell_1.up2.name">Молот гнева</string>
+	<string name="skills.paladin.mastery_1.spell_1.up2.desc">Наносит дополнительный урон молнией.</string>
 	<string name="skills.paladin.mastery_1.spell_1.up3.name"></string>
 	<string name="skills.paladin.mastery_1.spell_1.up3.desc"></string>
 
-	<string name="skills.paladin.mastery_1.passive_1.name">Lawbringer</string>
-	<string name="skills.paladin.mastery_1.passive_1.desc">When you block or take damage you have a chance to inflict \cb0dfffDisarm\d and \cb0dfffSilence\d to the attacker.</string>
-	<string name="skills.paladin.mastery_1.passive_1.up1.name">Punish the Wicked</string>
-	<string name="skills.paladin.mastery_1.passive_1.up1.desc">You deal more damage to enemies inflicted by \cb0dfffDisarm\d or \cb0dfffSilence\d.</string>
-	<string name="skills.paladin.mastery_1.passive_1.up2.name">Shackles</string>
-	<string name="skills.paladin.mastery_1.passive_1.up2.desc">\cffdfb0Weapon\d and \cffdfb0Spell\d hits gain a chance to shackle the target and a different nearby enemy. Shackled enemies have reduced movement speed and take continuous Physical damage.</string>
+	<string name="skills.paladin.mastery_1.passive_1.name">Законодатель</string>
+	<string name="skills.paladin.mastery_1.passive_1.desc">Когда вы блокируете или получаете урон, у вас есть шанс наложить \cb0dfffРазоружение\d и \cb0dfffБезмолвие\d на атакующего.</string>
+	<string name="skills.paladin.mastery_1.passive_1.up1.name">Наказание нечестивых</string>
+	<string name="skills.paladin.mastery_1.passive_1.up1.desc">Вы наносите больше урона врагам, пораженным \cb0dfffРазоружением\d или \cb0dfffБезмолвием\d.</string>
+	<string name="skills.paladin.mastery_1.passive_1.up2.name">Оковы</string>
+	<string name="skills.paladin.mastery_1.passive_1.up2.desc">Удары \cffdfb0Оружием\d и \cffdfb0Заклинаниями\d имеют шанс сковать цель и другого ближайшего врага. Скованные враги имеют сниженную скорость передвижения и получают постоянный физический урон.</string>
 	<string name="skills.paladin.mastery_1.passive_1.up3.name"></string>
 	<string name="skills.paladin.mastery_1.passive_1.up3.desc"></string>
 
-	<string name="skills.paladin.mastery_2.name">Divine</string>
+	<string name="skills.paladin.mastery_2.name">Божественное</string>
 	<string name="skills.paladin.mastery_2.desc"></string>
 
-	<string name="skills.paladin.mastery_2.spell_1.name">Divine Pillars</string>
-	<string name="skills.paladin.mastery_2.spell_1.desc">You summon pillars of heavenly light to explode at your location, dealing Physical damage and inflicting \cb0dfffBlindness\d.</string>
-	<string name="skills.paladin.mastery_2.spell_1.up1.name">Divine Pattern</string>
-	<string name="skills.paladin.mastery_2.spell_1.up1.desc">Causes additional pillars to strike in succession in a grid like pattern. The pillars deal half as much damage with each consecutive strike.</string>
-	<string name="skills.paladin.mastery_2.spell_1.up2.name">Pillars of Wrath</string>
-	<string name="skills.paladin.mastery_2.spell_1.up2.desc">Deals additional Lightning damage.</string>
+	<string name="skills.paladin.mastery_2.spell_1.name">Божественные столпы</string>
+	<string name="skills.paladin.mastery_2.spell_1.desc">Вы призываете столпы небесного света, которые взрываются на вашем месте, нанося физический урон и накладывая \cb0dfffСлепоту\d.</string>
+	<string name="skills.paladin.mastery_2.spell_1.up1.name">Божественный узор</string>
+	<string name="skills.paladin.mastery_2.spell_1.up1.desc">Вызывает дополнительные столпы, которые ударяют последовательно в виде сетки. Каждый последующий столп наносит вдвое меньше урона.</string>
+	<string name="skills.paladin.mastery_2.spell_1.up2.name">Столпы гнева</string>
+	<string name="skills.paladin.mastery_2.spell_1.up2.desc">Наносит дополнительный урон молнией.</string>
 	<string name="skills.paladin.mastery_2.spell_1.up3.name"></string>
 	<string name="skills.paladin.mastery_2.spell_1.up3.desc"></string>
 
-	<string name="skills.paladin.mastery_2.passive_1.name">Divine Protection</string>
-	<string name="skills.paladin.mastery_2.passive_1.desc">Taking damage when below half health has a chance to grant you a buff of \cb0dfffInvulnerability\d for a brief period. This effect has a cooldown.</string>
-	<string name="skills.paladin.mastery_2.passive_1.up1.name">Restoration</string>
-	<string name="skills.paladin.mastery_2.passive_1.up1.desc">You gain a massive increase to Health Regen while you have the buff.</string>
-	<string name="skills.paladin.mastery_2.passive_1.up2.name">Divine Retort</string>
-	<string name="skills.paladin.mastery_2.passive_1.up2.desc">When you gain the buff you automatically cast \cb0dfffDivine Pillars\d.</string>
+	<string name="skills.paladin.mastery_2.passive_1.name">Божественная защита</string>
+	<string name="skills.paladin.mastery_2.passive_1.desc">Получение урона при здоровье ниже половины дает шанс получить бафф \cb0dfffНеуязвимости\d на короткий период. Этот эффект имеет перезарядку.</string>
+	<string name="skills.paladin.mastery_2.passive_1.up1.name">Восстановление</string>
+	<string name="skills.paladin.mastery_2.passive_1.up1.desc">Вы получаете значительное увеличение восстановления здоровья, пока действует бафф.</string>
+	<string name="skills.paladin.mastery_2.passive_1.up2.name">Божественный ответ</string>
+	<string name="skills.paladin.mastery_2.passive_1.up2.desc">Когда вы получаете бафф, вы автоматически применяете \cb0dfffБожественные столпы\d.</string>
 	<string name="skills.paladin.mastery_2.passive_1.up3.name"></string>
 	<string name="skills.paladin.mastery_2.passive_1.up3.desc"></string>
 
-	<string name="skills.paladin.mastery_3.name">Radiance</string>
+	<string name="skills.paladin.mastery_3.name">Сияние</string>
 	<string name="skills.paladin.mastery_3.desc"></string>
 
-	<string name="skills.paladin.mastery_3.spell_1.name">Immolation</string>
-	<string name="skills.paladin.mastery_3.spell_1.desc">You charge up a massive explosion that is unleashed when you release the spell, dealing Fire damage to all enemies around you.</string>
-	<string name="skills.paladin.mastery_3.spell_1.up1.name">Fuel the Flame</string>
-	<string name="skills.paladin.mastery_3.spell_1.up1.desc">You gain additional stacks of \cb0dfffInner Flames\d when casting \cb0dfffImmolation\d.</string>
-	<string name="skills.paladin.mastery_3.spell_1.up2.name">Blazing Lance</string>
-	<string name="skills.paladin.mastery_3.spell_1.up2.desc">You now unleash a blazing lance projectile that deals additional Fire damage to all enemies in its path.</string>
+	<string name="skills.paladin.mastery_3.spell_1.name">Сожжение</string>
+	<string name="skills.paladin.mastery_3.spell_1.desc">Вы заряжаете мощный взрыв, который высвобождается при отпускании заклинания, нанося урон огнем всем врагам вокруг.</string>
+	<string name="skills.paladin.mastery_3.spell_1.up1.name">Подпитка пламени</string>
+	<string name="skills.paladin.mastery_3.spell_1.up1.desc">Вы получаете дополнительные стеки \cb0dfffВнутреннего пламени\d при использовании \cb0dfffСожжения\d.</string>
+	<string name="skills.paladin.mastery_3.spell_1.up2.name">Пылающее копье</string>
+	<string name="skills.paladin.mastery_3.spell_1.up2.desc">Теперь вы выпускаете пылающее копье, которое наносит дополнительный урон огнем всем врагам на своем пути.</string>
 	<string name="skills.paladin.mastery_3.spell_1.up3.name"></string>
 	<string name="skills.paladin.mastery_3.spell_1.up3.desc"></string>
 
-	<string name="skills.paladin.mastery_3.passive_1.name">Inner Flames</string>
-	<string name="skills.paladin.mastery_3.passive_1.desc">Casting Spells generate stacks of \cb0dfffInner Flames\d. While you have stacks of \cb0dfffInner Flames\d you gain an aura dealing Fire damage to nearby enemies.</string>
-	<string name="skills.paladin.mastery_3.passive_1.up1.name">Flames of Devotion</string>
-	<string name="skills.paladin.mastery_3.passive_1.up1.desc">Each stack of \cb0dfffInner Flames\d adds Fire damage to your weapons.</string>
-	<string name="skills.paladin.mastery_3.passive_1.up2.name">Bringer of Flames</string>
-	<string name="skills.paladin.mastery_3.passive_1.up2.desc">Each stack of \cb0dfffInner Flames\d increases your Fire Resistance and Fire Penetration.</string>
+	<string name="skills.paladin.mastery_3.passive_1.name">Внутреннее пламя</string>
+	<string name="skills.paladin.mastery_3.passive_1.desc">Использование заклинаний создает стеки \cb0dfffВнутреннего пламени\d. Пока у вас есть стеки \cb0dfffВнутреннего пламени\d, вы получаете ауру, наносящую урон огнем ближайшим врагам.</string>
+	<string name="skills.paladin.mastery_3.passive_1.up1.name">Пламя преданности</string>
+	<string name="skills.paladin.mastery_3.passive_1.up1.desc">Каждый стек \cb0dfffВнутреннего пламени\d добавляет урон огнем вашему оружию.</string>
+	<string name="skills.paladin.mastery_3.passive_1.up2.name">Приносящий пламя</string>
+	<string name="skills.paladin.mastery_3.passive_1.up2.desc">Каждый стек \cb0dfffВнутреннего пламени\d увеличивает ваше сопротивление огню и пробивание огня.</string>
 	<string name="skills.paladin.mastery_3.passive_1.up3.name"></string>
 	<string name="skills.paladin.mastery_3.passive_1.up3.desc"></string>
 
 
 
-	<!-- Ranger -->
+	<!-- Следопыт -->
 
-	<string name="skills.ranger.spell_1.name">Marked Shot</string>
-	<string name="skills.ranger.spell_1.desc">You fire a projectile that deals Physical damage and applies \cb0dfffMarked\d to all enemies in the targeted area. You deal more damage to enemies inflicted by \cb0dfffMarked\d.</string>
-	<string name="skills.ranger.spell_1.up1.name">Hot Pursuit</string>
-	<string name="skills.ranger.spell_1.up1.desc">You gain a short buff of increased Movement Speed when hitting \cb0dfffMarked\d targets.</string>
-	<string name="skills.ranger.spell_1.up2.name">Thrill of the Hunt</string>
-	<string name="skills.ranger.spell_1.up2.desc">Killing enemies inflicted by \cb0dfffMarked\d has a chance to restore some of your Health and Mana.</string>
-	<string name="skills.ranger.spell_1.up3.name">Big Game Hunter</string>
-	<string name="skills.ranger.spell_1.up3.desc">You deal additional damage to \cb0dfffBosses\d and \cb0dfffElites\d inflicted by \cb0dfffMarked\d.</string>
+	<string name="skills.ranger.spell_1.name">Меткий выстрел</string>
+	<string name="skills.ranger.spell_1.desc">Вы выпускаете снаряд, который наносит физический урон и накладывает \cb0dfffМетку\d на всех врагов в целевой области. Вы наносите больше урона врагам, пораженным \cb0dfffМеткой\d.</string>
+	<string name="skills.ranger.spell_1.up1.name">Горячая погоня</string>
+	<string name="skills.ranger.spell_1.up1.desc">Вы получаете кратковременный бафф, увеличивающий скорость передвижения при попадании по целям с \cb0dfffМеткой\d.</string>
+	<string name="skills.ranger.spell_1.up2.name">Азарт охоты</string>
+	<string name="skills.ranger.spell_1.up2.desc">Убийство врагов, пораженных \cb0dfffМеткой\d, имеет шанс восстановить часть вашего здоровья и маны.</string>
+	<string name="skills.ranger.spell_1.up3.name">Охотник на крупную дичь</string>
+	<string name="skills.ranger.spell_1.up3.desc">Вы наносите дополнительный урон \cb0dfffБоссам\d и \cb0dfffЭлитам\d, пораженным \cb0dfffМеткой\d.</string>
 
-	<string name="skills.ranger.spell_2.name">Trap</string>
-	<string name="skills.ranger.spell_2.desc">Throws a trap that deploys after a brief duration. The traps deal Physical damage in a small area when triggered and inflict \cb0dfffCripple\d.</string>
-	<string name="skills.ranger.spell_2.up1.name">Multiple Deploy</string>
-	<string name="skills.ranger.spell_2.up1.desc">You deploy additional traps with each cast.</string>
-	<string name="skills.ranger.spell_2.up2.name">Serrated Traps</string>
-	<string name="skills.ranger.spell_2.up2.desc">The traps now inflict stacks of \cb0dfffBleeding\d.</string>
-	<string name="skills.ranger.spell_2.up3.name">Frost Traps</string>
-	<string name="skills.ranger.spell_2.up3.desc">The traps deal additional Ice damage.</string>
+	<string name="skills.ranger.spell_2.name">Ловушка</string>
+	<string name="skills.ranger.spell_2.desc">Бросает ловушку, которая активируется через короткое время. Ловушки наносят физический урон в небольшой области при срабатывании и накладывают \cb0dfffХромоту\d.</string>
+	<string name="skills.ranger.spell_2.up1.name">Множественная установка</string>
+	<string name="skills.ranger.spell_2.up1.desc">Вы устанавливаете дополнительные ловушки с каждым применением.</string>
+	<string name="skills.ranger.spell_2.up2.name">Зубчатые ловушки</string>
+	<string name="skills.ranger.spell_2.up2.desc">Ловушки теперь накладывают стеки \cb0dfffКровотечения\d.</string>
+	<string name="skills.ranger.spell_2.up3.name">Ледяные ловушки</string>
+	<string name="skills.ranger.spell_2.up3.desc">Ловушки наносят дополнительный урон льдом.</string>
 
-	<string name="skills.ranger.passive_1.name">Rhythm</string>
-	<string name="skills.ranger.passive_1.desc">You gain Weapon Crit Chance, and scoring Weapon Crits grant you stacks of \cb0dfffRhythm\d. Each stack of \cb0dfffRhythm\d increases your Weapon Crit Chance and Damage.</string>
-	<string name="skills.ranger.passive_1.up1.name">In the Flow</string>
-	<string name="skills.ranger.passive_1.up1.desc">Each stack of \cb0dfffRhythm\d increases your Weapon Speed.</string>
-	<string name="skills.ranger.passive_1.up2.name">Efficiency</string>
-	<string name="skills.ranger.passive_1.up2.desc">Each stack of \cb0dfffRhythm\d reduces your Mana costs.</string>
-	<string name="skills.ranger.passive_1.up3.name">Momentum</string>
-	<string name="skills.ranger.passive_1.up3.desc">You gain a stack of \cb0dfffRhythm\d when dashing.</string>
+	<string name="skills.ranger.passive_1.name">Ритм</string>
+	<string name="skills.ranger.passive_1.desc">Вы получаете шанс критического удара оружием, а критические удары оружием дают вам стеки \cb0dfffРитма\d. Каждый стек \cb0dfffРитма\d увеличивает ваш шанс критического удара и урон оружием.</string>
+	<string name="skills.ranger.passive_1.up1.name">В потоке</string>
+	<string name="skills.ranger.passive_1.up1.desc">Каждый стек \cb0dfffРитма\d увеличивает скорость вашего оружия.</string>
+	<string name="skills.ranger.passive_1.up2.name">Эффективность</string>
+	<string name="skills.ranger.passive_1.up2.desc">Каждый стек \cb0dfffРитма\d снижает затраты маны.</string>
+	<string name="skills.ranger.passive_1.up3.name">Импульс</string>
+	<string name="skills.ranger.passive_1.up3.desc">Вы получаете стек \cb0dfffРитма\d при использовании рывка.</string>
 
-	<string name="skills.ranger.passive_2.name">Survivalist</string>
-	<string name="skills.ranger.passive_2.desc">Each time you get hit you gain a buff that reduces damage taken for a short period. This effect has a short cooldown.</string>
-	<string name="skills.ranger.passive_2.up1.name">Evasive Maneuver</string>
-	<string name="skills.ranger.passive_2.up1.desc">Also grants Evasion for the duration of the buff.</string>
-	<string name="skills.ranger.passive_2.up2.name">Tactical Maneuver</string>
-	<string name="skills.ranger.passive_2.up2.desc">You gain a Dash Charge when taking damage. This effect has a short cooldown.</string>
-	<string name="skills.ranger.passive_2.up3.name">Quick Recovery</string>
-	<string name="skills.ranger.passive_2.up3.desc">Increases your Health Regen for the duration of the buff.</string>
+	<string name="skills.ranger.passive_2.name">Выживальщик</string>
+	<string name="skills.ranger.passive_2.desc">Каждый раз, когда вы получаете удар, вы получаете бафф, который снижает получаемый урон на короткий период. Этот эффект имеет короткую перезарядку.</string>
+	<string name="skills.ranger.passive_2.up1.name">Уклончивый маневр</string>
+	<string name="skills.ranger.passive_2.up1.desc">Также дает уклонение на время действия баффа.</string>
+	<string name="skills.ranger.passive_2.up2.name">Тактический маневр</string>
+	<string name="skills.ranger.passive_2.up2.desc">Вы получаете заряд рывка при получении урона. Этот эффект имеет короткую перезарядку.</string>
+	<string name="skills.ranger.passive_2.up3.name">Быстрое восстановление</string>
+	<string name="skills.ranger.passive_2.up3.desc">Увеличивает восстановление здоровья на время действия баффа.</string>
 
 
-	<string name="skills.ranger.mastery_1.name">Marksman</string>
+	<string name="skills.ranger.mastery_1.name">Стрелок</string>
 	<string name="skills.ranger.mastery_1.desc"></string>
 
-	<string name="skills.ranger.mastery_1.spell_1.name">Rain of Arrows</string>
-	<string name="skills.ranger.mastery_1.spell_1.desc">You launch a barrage of arrows into the air that strike the ground in a forward direction, dealing Physical damage.</string>
-	<string name="skills.ranger.mastery_1.spell_1.up1.name">Storm of Arrows</string>
-	<string name="skills.ranger.mastery_1.spell_1.up1.desc">Increases the impact area.</string>
-	<string name="skills.ranger.mastery_1.spell_1.up2.name">Thundercaller</string>
-	<string name="skills.ranger.mastery_1.spell_1.up2.desc">The arrows are followed by a sequence of lightning strikes, dealing Lightning damage.</string>
+	<string name="skills.ranger.mastery_1.spell_1.name">Дождь стрел</string>
+	<string name="skills.ranger.mastery_1.spell_1.desc">Вы запускаете град стрел в воздух, которые падают на землю в направлении вперед, нанося физический урон.</string>
+	<string name="skills.ranger.mastery_1.spell_1.up1.name">Шторм стрел</string>
+	<string name="skills.ranger.mastery_1.spell_1.up1.desc">Увеличивает область поражения.</string>
+	<string name="skills.ranger.mastery_1.spell_1.up2.name">Призыватель грома</string>
+	<string name="skills.ranger.mastery_1.spell_1.up2.desc">Стрелы сопровождаются серией ударов молнии, наносящих урон молнией.</string>
 	<string name="skills.ranger.mastery_1.spell_1.up3.name"></string>
 	<string name="skills.ranger.mastery_1.spell_1.up3.desc"></string>
 
-	<string name="skills.ranger.mastery_1.passive_1.name">Archery</string>
-	<string name="skills.ranger.mastery_1.passive_1.desc">The movement speed penalty for using \cffdfb0Bow\d skills is reduced, and you deal increased damage with \cffdfb0Bow\d skills.</string>
-	<string name="skills.ranger.mastery_1.passive_1.up1.name">Fast Shot</string>
-	<string name="skills.ranger.mastery_1.passive_1.up1.desc">You gain increased skill speed with \cffdfb0Bow\d skills.</string>
-	<string name="skills.ranger.mastery_1.passive_1.up2.name">Frost Arrows</string>
-	<string name="skills.ranger.mastery_1.passive_1.up2.desc">Your \cffdfb0Bow\d skills gain a chance to trigger a frost explosion on hit, dealing Ice damage. This effect has a short cooldown.</string>
+	<string name="skills.ranger.mastery_1.passive_1.name">Стрельба из лука</string>
+	<string name="skills.ranger.mastery_1.passive_1.desc">Штраф к скорости передвижения при использовании навыков \cffdfb0Лука\d уменьшен, и вы наносите увеличенный урон навыками \cffdfb0Лука\d.</string>
+	<string name="skills.ranger.mastery_1.passive_1.up1.name">Быстрый выстрел</string>
+	<string name="skills.ranger.mastery_1.passive_1.up1.desc">Вы получаете увеличенную скорость навыков с \cffdfb0Луком\d.</string>
+	<string name="skills.ranger.mastery_1.passive_1.up2.name">Ледяные стрелы</string>
+	<string name="skills.ranger.mastery_1.passive_1.up2.desc">Ваши навыки \cffdfb0Лука\d имеют шанс вызвать ледяной взрыв при попадании, нанося урон льдом. Этот эффект имеет короткую перезарядку.</string>
 	<string name="skills.ranger.mastery_1.passive_1.up3.name"></string>
 	<string name="skills.ranger.mastery_1.passive_1.up3.desc"></string>
 
-	<string name="skills.ranger.mastery_2.name">Beastmaster</string>
+	<string name="skills.ranger.mastery_2.name">Повелитель зверей</string>
 	<string name="skills.ranger.mastery_2.desc"></string>
 
-	<string name="skills.ranger.mastery_2.spell_1.name">Spirit Wolves</string>
-	<string name="skills.ranger.mastery_2.spell_1.desc">You unleash spirit wolves that seek out nearby enemies, dealing Physical and Ice damage on impact.</string>
-	<string name="skills.ranger.mastery_2.spell_1.up1.name">Relentless Hunters</string>
-	<string name="skills.ranger.mastery_2.spell_1.up1.desc">The spirit wolves gain a chance to seek out a new target on hit.</string>
-	<string name="skills.ranger.mastery_2.spell_1.up2.name">Restless Spirits</string>
-	<string name="skills.ranger.mastery_2.spell_1.up2.desc">You gain a chance to unleash a spirit wolf when killing enemies. This effect has a short cooldown.</string>
+	<string name="skills.ranger.mastery_2.spell_1.name">Духовные волки</string>
+	<string name="skills.ranger.mastery_2.spell_1.desc">Вы выпускаете духовных волков, которые ищут ближайших врагов, нанося физический и ледяной урон при попадании.</string>
+	<string name="skills.ranger.mastery_2.spell_1.up1.name">Неутомимые охотники</string>
+	<string name="skills.ranger.mastery_2.spell_1.up1.desc">Духовные волки получают шанс найти новую цель при попадании.</string>
+	<string name="skills.ranger.mastery_2.spell_1.up2.name">Беспокойные духи</string>
+	<string name="skills.ranger.mastery_2.spell_1.up2.desc">Вы получаете шанс выпустить духовного волка при убийстве врагов. Этот эффект имеет короткую перезарядку.</string>
 	<string name="skills.ranger.mastery_2.spell_1.up3.name"></string>
 	<string name="skills.ranger.mastery_2.spell_1.up3.desc"></string>
 
-	<string name="skills.ranger.mastery_2.passive_1.name">Wolf Companion</string>
-	<string name="skills.ranger.mastery_2.passive_1.desc">You passively summon a wolf companion to fight by your side that attacks nearby enemies dealing Physical damage.</string>
-	<string name="skills.ranger.mastery_2.passive_1.up1.name">Wolf Pack</string>
-	<string name="skills.ranger.mastery_2.passive_1.up1.desc">You summon additional wolves.</string>
-	<string name="skills.ranger.mastery_2.passive_1.up2.name">Winter Wolf</string>
-	<string name="skills.ranger.mastery_2.passive_1.up2.desc">Your wolves deals additional Ice damage.</string>
+	<string name="skills.ranger.mastery_2.passive_1.name">Волчий спутник</string>
+	<string name="skills.ranger.mastery_2.passive_1.desc">Вы пассивно призываете волка-спутника, который сражается рядом с вами и атакует ближайших врагов, нанося физический урон.</string>
+	<string name="skills.ranger.mastery_2.passive_1.up1.name">Волчья стая</string>
+	<string name="skills.ranger.mastery_2.passive_1.up1.desc">Вы призываете дополнительных волков.</string>
+	<string name="skills.ranger.mastery_2.passive_1.up2.name">Зимний волк</string>
+	<string name="skills.ranger.mastery_2.passive_1.up2.desc">Ваши волки наносят дополнительный урон льдом.</string>
 	<string name="skills.ranger.mastery_2.passive_1.up3.name"></string>
 	<string name="skills.ranger.mastery_2.passive_1.up3.desc"></string>
 
-	<string name="skills.ranger.mastery_3.name">Warden</string>
+	<string name="skills.ranger.mastery_3.name">Страж</string>
 	<string name="skills.ranger.mastery_3.desc"></string>
 
-	<string name="skills.ranger.mastery_3.spell_1.name">Entangle</string>
-	<string name="skills.ranger.mastery_3.spell_1.desc">You conjure roots to sprout in a large area around you that lingers for a duration. Enemies in the area take Physical damage and are inflicted by \cb0dfffCripple\d.</string>
-	<string name="skills.ranger.mastery_3.spell_1.up1.name">Healing Wisps</string>
-	<string name="skills.ranger.mastery_3.spell_1.up1.desc">The roots spawn wisps that attaches to allies entering the area, restoring Health for a period.</string>
-	<string name="skills.ranger.mastery_3.spell_1.up2.name">Poison Ivy</string>
-	<string name="skills.ranger.mastery_3.spell_1.up2.desc">Deals additional Poison damage.</string>
+	<string name="skills.ranger.mastery_3.spell_1.name">Оковы</string>
+	<string name="skills.ranger.mastery_3.spell_1.desc">Вы создаете корни, которые прорастают в большой области вокруг вас и сохраняются некоторое время. Враги в области получают физический урон и накладывают \cb0dfffХромоту\d.</string>
+	<string name="skills.ranger.mastery_3.spell_1.up1.name">Исцеляющие огоньки</string>
+	<string name="skills.ranger.mastery_3.spell_1.up1.desc">Корни создают огоньки, которые прикрепляются к союзникам, входящим в область, восстанавливая здоровье в течение некоторого времени.</string>
+	<string name="skills.ranger.mastery_3.spell_1.up2.name">Ядовитый плющ</string>
+	<string name="skills.ranger.mastery_3.spell_1.up2.desc">Наносит дополнительный урон ядом.</string>
 	<string name="skills.ranger.mastery_3.spell_1.up3.name"></string>
 	<string name="skills.ranger.mastery_3.spell_1.up3.desc"></string>
 	
-	<string name="skills.ranger.mastery_3.passive_1.name">Wind Weaver</string>
-	<string name="skills.ranger.mastery_3.passive_1.desc">\cffdfb0Weapon\d hits unleash a gusts of wind in a forward direction dealing Physical damage. This effect has a short cooldown.</string>
-	<string name="skills.ranger.mastery_3.passive_1.up1.name">Winter Winds</string>
-	<string name="skills.ranger.mastery_3.passive_1.up1.desc">The gusts of wind deal additional Ice damage.</string>
-	<string name="skills.ranger.mastery_3.passive_1.up2.name">Wind Runner</string>
-	<string name="skills.ranger.mastery_3.passive_1.up2.desc">You unleash several gusts of wind in all directions when dashing.</string>
+	<string name="skills.ranger.mastery_3.passive_1.name">Ткач ветра</string>
+	<string name="skills.ranger.mastery_3.passive_1.desc">Удары \cffdfb0Оружием\d выпускают порывы ветра вперед, нанося физический урон. Этот эффект имеет короткую перезарядку.</string>
+	<string name="skills.ranger.mastery_3.passive_1.up1.name">Зимние ветры</string>
+	<string name="skills.ranger.mastery_3.passive_1.up1.desc">Порывы ветра наносят дополнительный урон льдом.</string>
+	<string name="skills.ranger.mastery_3.passive_1.up2.name">Бегун ветра</string>
+	<string name="skills.ranger.mastery_3.passive_1.up2.desc">Вы выпускаете несколько порывов ветра во всех направлениях при использовании рывка.</string>
 	<string name="skills.ranger.mastery_3.passive_1.up3.name"></string>
 	<string name="skills.ranger.mastery_3.passive_1.up3.desc"></string>
 
 
 
-	<!-- Rogue -->
+<!-- Разбойник -->
 
-	<string name="skills.rogue.spell_1.name">Fan of Knives</string>
-	<string name="skills.rogue.spell_1.desc">Throws several knives in a cone dealing Physical damage.</string>
-	<string name="skills.rogue.spell_1.up1.name">Ricochet</string>
-	<string name="skills.rogue.spell_1.up1.desc">The projectiles now bounce off walls and collisions. Each bounce reduces speed and damage.</string>
-	<string name="skills.rogue.spell_1.up2.name">Deadly Aim</string>
-	<string name="skills.rogue.spell_1.up2.desc">You gain increased crit chance with \cb0dfffFan of Knives\d.</string>
-	<string name="skills.rogue.spell_1.up3.name">Poisoned Knives</string>
-	<string name="skills.rogue.spell_1.up3.desc">Deals additional Poison damage.</string>
-	<string name="skills.rogue.spell_1.up4.name">Focused Throw</string>
-	<string name="skills.rogue.spell_1.up4.desc">You throw fewer projectiles in a forward direction. The projectiles deal more damage and have a slightly longer lifetime.</string>
+	<string name="skills.rogue.spell_1.name">Веер клинков</string>
+	<string name="skills.rogue.spell_1.desc">Метает несколько клинков в форме конуса, нанося физический урон.</string>
+	<string name="skills.rogue.spell_1.up1.name">Рикошет</string>
+	<string name="skills.rogue.spell_1.up1.desc">Снаряды теперь отскакивают от стен и препятствий. Каждый отскок уменьшает скорость и урон.</string>
+	<string name="skills.rogue.spell_1.up2.name">Смертельный прицел</string>
+	<string name="skills.rogue.spell_1.up2.desc">Вы получаете увеличенный шанс критического удара с \cb0dfffВеером клинков\d.</string>
+	<string name="skills.rogue.spell_1.up3.name">Отравленные клинки</string>
+	<string name="skills.rogue.spell_1.up3.desc">Наносит дополнительный урон ядом.</string>
+	<string name="skills.rogue.spell_1.up4.name">Сосредоточенный бросок</string>
+	<string name="skills.rogue.spell_1.up4.desc">Вы бросаете меньше снарядов вперёд. Снаряды наносят больше урона и имеют немного большее время жизни.</string>
 
-	<string name="skills.rogue.spell_2.name">Flurry of Blades</string>
-	<string name="skills.rogue.spell_2.desc">You perform a series of strikes, hitting all enemies in an area around you, dealing Physical damage.</string>
-	<string name="skills.rogue.spell_2.up1.name">Disarming Strikes</string>
-	<string name="skills.rogue.spell_2.up1.desc">Gains a chance to inflict \cb0dfffDisarm\d.</string>
-	<string name="skills.rogue.spell_2.up2.name">Fiery Bolas</string>
-	<string name="skills.rogue.spell_2.up2.desc">Bolas are applied to each target hit plus an additional nearby enemy. Enemies affected are slowed and take Fire damage for a period.</string>
-	<string name="skills.rogue.spell_2.up3.name">Shock Assault</string>
-	<string name="skills.rogue.spell_2.up3.desc">Deals additional Lightning Damage</string>
+	<string name="skills.rogue.spell_2.name">Шквал клинков</string>
+	<string name="skills.rogue.spell_2.desc">Вы совершаете серию ударов, поражая всех врагов в области вокруг себя, нанося физический урон.</string>
+	<string name="skills.rogue.spell_2.up1.name">Обезоруживающие удары</string>
+	<string name="skills.rogue.spell_2.up1.desc">Получает шанс наложить \cb0dfffРазоружение\d.</string>
+	<string name="skills.rogue.spell_2.up2.name">Огненные болас</string>
+	<string name="skills.rogue.spell_2.up2.desc">Болас применяются к каждому поражённому врагу и дополнительному ближайшему врагу. Поражённые враги замедляются и получают урон огнём в течение некоторого времени.</string>
+	<string name="skills.rogue.spell_2.up3.name">Шоковая атака</string>
+	<string name="skills.rogue.spell_2.up3.desc">Наносит дополнительный урон молнией.</string>
 
-	<string name="skills.rogue.passive_1.name">Slice and Dice</string>
-	<string name="skills.rogue.passive_1.desc">Hits with \cffdfb0Melee\d skills grant stacks of \cb0dfffSlice and Dice\d. Each stack increases your Weapon Speed. You lose all stacks at once if the duration runs out.</string>
-	<string name="skills.rogue.passive_1.up1.name">Adrenaline</string>
-	<string name="skills.rogue.passive_1.up1.desc">Each stack increases your Mana Regen.</string>
-	<string name="skills.rogue.passive_1.up2.name">Blade Parry</string>
-	<string name="skills.rogue.passive_1.up2.desc">Each stack increases your Parry.</string>
-	<string name="skills.rogue.passive_1.up3.name">Agile Casting</string>
-	<string name="skills.rogue.passive_1.up3.desc">Each stack increases your Cast Speed, and you also gain stacks by casting Spells.</string>
+	<string name="skills.rogue.passive_1.name">Резка и рубка</string>
+	<string name="skills.rogue.passive_1.desc">Удары \cffdfb0Ближнего боя\d дают стаки \cb0dfffРезки и рубки\d. Каждый стак увеличивает вашу скорость атаки. Вы теряете все стаки, если время действия истекает.</string>
+	<string name="skills.rogue.passive_1.up1.name">Адреналин</string>
+	<string name="skills.rogue.passive_1.up1.desc">Каждый стак увеличивает ваше восстановление маны.</string>
+	<string name="skills.rogue.passive_1.up2.name">Парирование клинком</string>
+	<string name="skills.rogue.passive_1.up2.desc">Каждый стак увеличивает ваше парирование.</string>
+	<string name="skills.rogue.passive_1.up3.name">Ловкое колдовство</string>
+	<string name="skills.rogue.passive_1.up3.desc">Каждый стак увеличивает вашу скорость произнесения заклинаний, и вы также получаете стаки при произнесении заклинаний.</string>
 
-	<string name="skills.rogue.passive_2.name">Sidestep</string>
-	<string name="skills.rogue.passive_2.desc">Grants Evasion and a single stack of guaranteed evasion that is recharged every few seconds.</string>
-	<string name="skills.rogue.passive_2.up1.name">Fleet Footed</string>
-	<string name="skills.rogue.passive_2.up1.desc">Increases your Movement Speed.</string>
-	<string name="skills.rogue.passive_2.up2.name">Lethal Opening</string>
-	<string name="skills.rogue.passive_2.up2.desc">Grants additional Crit Chance for a short period after evading.</string>
-	<string name="skills.rogue.passive_2.up3.name">On the Move</string>
-	<string name="skills.rogue.passive_2.up3.desc">Dashing gains a chance to recharge the guaranteed evasion of \cb0dfffSidestep\d.</string>
+	<string name="skills.rogue.passive_2.name">Уклонение</string>
+	<string name="skills.rogue.passive_2.desc">Даёт уклонение и один стак гарантированного уклонения, который восстанавливается каждые несколько секунд.</string>
+	<string name="skills.rogue.passive_2.up1.name">Легконогий</string>
+	<string name="skills.rogue.passive_2.up1.desc">Увеличивает вашу скорость передвижения.</string>
+	<string name="skills.rogue.passive_2.up2.name">Смертельное начало</string>
+	<string name="skills.rogue.passive_2.up2.desc">Даёт дополнительный шанс критического удара на короткое время после уклонения.</string>
+	<string name="skills.rogue.passive_2.up3.name">В движении</string>
+	<string name="skills.rogue.passive_2.up3.desc">Рывок получает шанс восстановить гарантированное уклонение от \cb0dfffУклонения\d.</string>
 
-
-	<string name="skills.rogue.mastery_1.name">Blades</string>
+	<string name="skills.rogue.mastery_1.name">Клинки</string>
 	<string name="skills.rogue.mastery_1.desc"></string>
 
-	<string name="skills.rogue.mastery_1.spell_1.name">Mortal Strike</string>
-	<string name="skills.rogue.mastery_1.spell_1.desc">You deliver a quick deadly strike that deals massive Physical damage.</string>
-	<string name="skills.rogue.mastery_1.spell_1.up1.name">Phantasmal Strike</string>
-	<string name="skills.rogue.mastery_1.spell_1.up1.desc">The strike now chains to additional enemies in a cone behind the target. Deals less damage for each consecutive enemy hit.</string>
-	<string name="skills.rogue.mastery_1.spell_1.up2.name">Crimson Strike</string>
-	<string name="skills.rogue.mastery_1.spell_1.up2.desc">You gain a small amount of Life Leech with \cb0dfffMortal Strike\d.</string>
+	<string name="skills.rogue.mastery_1.spell_1.name">Смертельный удар</string>
+	<string name="skills.rogue.mastery_1.spell_1.desc">Вы наносите быстрый смертельный удар, который наносит огромный физический урон.</string>
+	<string name="skills.rogue.mastery_1.spell_1.up1.name">Фантомный удар</string>
+	<string name="skills.rogue.mastery_1.spell_1.up1.desc">Удар теперь переходит на дополнительных врагов в конусе за целью. Наносит меньше урона за каждого последующего поражённого врага.</string>
+	<string name="skills.rogue.mastery_1.spell_1.up2.name">Кровавый удар</string>
+	<string name="skills.rogue.mastery_1.spell_1.up2.desc">Вы получаете небольшое количество кражи жизни с \cb0dfffСмертельным ударом\d.</string>
 	<string name="skills.rogue.mastery_1.spell_1.up3.name"></string>
 	<string name="skills.rogue.mastery_1.spell_1.up3.desc"></string>
 
-	<string name="skills.rogue.mastery_1.passive_1.name">Assassin</string>
-	<string name="skills.rogue.mastery_1.passive_1.desc">Increases your Weapon Crit Damage and reduces the range of enemies detecting you.</string>
-	<string name="skills.rogue.mastery_1.passive_1.up1.name">Executioner</string>
-	<string name="skills.rogue.mastery_1.passive_1.up1.desc">You gain a chance to instantly kill an enemy on \cb0dfffLow Life\d when scoring crits with \cffdfb0Melee\d skills. Does not work on Bosses.</string>
-	<string name="skills.rogue.mastery_1.passive_1.up2.name">Hidden Cuts</string>
-	<string name="skills.rogue.mastery_1.passive_1.up2.desc">Attacking with \cffdfb0Melee\d weapons strikes a random nearby enemy for Mainhand Weapon damage.</string>
+	<string name="skills.rogue.mastery_1.passive_1.name">Убийца</string>
+	<string name="skills.rogue.mastery_1.passive_1.desc">Увеличивает ваш критический урон оружием и уменьшает радиус обнаружения вас врагами.</string>
+	<string name="skills.rogue.mastery_1.passive_1.up1.name">Палач</string>
+	<string name="skills.rogue.mastery_1.passive_1.up1.desc">Вы получаете шанс мгновенно убить врага на \cb0dfffНизком здоровье\d при нанесении критических ударов \cffdfb0Ближнего боя\d. Не работает на боссов.</string>
+	<string name="skills.rogue.mastery_1.passive_1.up2.name">Скрытые порезы</string>
+	<string name="skills.rogue.mastery_1.passive_1.up2.desc">Атаки \cffdfb0Ближнего боя\d оружием наносят урон случайному ближайшему врагу, равный урону основной руки.</string>
 	<string name="skills.rogue.mastery_1.passive_1.up3.name"></string>
 	<string name="skills.rogue.mastery_1.passive_1.up3.desc"></string>
 
-	<string name="skills.rogue.mastery_2.name">Poison</string>
+	<string name="skills.rogue.mastery_2.name">Яд</string>
 	<string name="skills.rogue.mastery_2.desc"></string>
 
-	<string name="skills.rogue.mastery_2.spell_1.name">Toxic Cloud</string>
-	<string name="skills.rogue.mastery_2.spell_1.desc">You deploy a large toxic cloud that lingers for a period. The cloud blocks enemy vision and deals Poison damage to any enemies inside the cloud.</string>
-	<string name="skills.rogue.mastery_2.spell_1.up1.name">Billowing Cloud</string>
-	<string name="skills.rogue.mastery_2.spell_1.up1.desc">You and your allies gain Evasion while inside the cloud.</string>
-	<string name="skills.rogue.mastery_2.spell_1.up2.name">Corrosion</string>
-	<string name="skills.rogue.mastery_2.spell_1.up2.desc">Enemies entering the cloud are inflicted by \cb0dfffArmor Break\d.</string>
+	<string name="skills.rogue.mastery_2.spell_1.name">Токсичное облако</string>
+	<string name="skills.rogue.mastery_2.spell_1.desc">Вы создаёте большое токсичное облако, которое сохраняется некоторое время. Облако блокирует обзор врагов и наносит урон ядом всем врагам внутри облака.</string>
+	<string name="skills.rogue.mastery_2.spell_1.up1.name">Клубящееся облако</string>
+	<string name="skills.rogue.mastery_2.spell_1.up1.desc">Вы и ваши союзники получаете уклонение, находясь внутри облака.</string>
+	<string name="skills.rogue.mastery_2.spell_1.up2.name">Коррозия</string>
+	<string name="skills.rogue.mastery_2.spell_1.up2.desc">Враги, входящие в облако, получают \cb0dfffСлом брони\d.</string>
 	<string name="skills.rogue.mastery_2.spell_1.up3.name"></string>
 	<string name="skills.rogue.mastery_2.spell_1.up3.desc"></string>
 
-	<string name="skills.rogue.mastery_2.passive_1.name">Poison Mastery</string>
-	<string name="skills.rogue.mastery_2.passive_1.desc">You deal increased Poison damage and your \cffdfb0Poison\d skills gain a chance to inflict \cb0dfffVulnerability\d.</string>
-	<string name="skills.rogue.mastery_2.passive_1.up1.name">Coated Weapons</string>
-	<string name="skills.rogue.mastery_2.passive_1.up1.desc">Adds Poison damage to your weapons per character level.</string>
-	<string name="skills.rogue.mastery_2.passive_1.up2.name">Deadly Toxins</string>
-	<string name="skills.rogue.mastery_2.passive_1.up2.desc">Increases your Poison Penetration and Poison Resistance.</string>
+	<string name="skills.rogue.mastery_2.passive_1.name">Мастерство яда</string>
+	<string name="skills.rogue.mastery_2.passive_1.desc">Вы наносите увеличенный урон ядом, и ваши \cffdfb0Ядовитые\d навыки получают шанс наложить \cb0dfffУязвимость\d.</string>
+	<string name="skills.rogue.mastery_2.passive_1.up1.name">Покрытые оружия</string>
+	<string name="skills.rogue.mastery_2.passive_1.up1.desc">Добавляет урон ядом к вашему оружию за каждый уровень персонажа.</string>
+	<string name="skills.rogue.mastery_2.passive_1.up2.name">Смертельные токсины</string>
+	<string name="skills.rogue.mastery_2.passive_1.up2.desc">Увеличивает ваше проникновение ядом и сопротивление яду.</string>
 	<string name="skills.rogue.mastery_2.passive_1.up3.name"></string>
 	<string name="skills.rogue.mastery_2.passive_1.up3.desc"></string>
 
-	<string name="skills.rogue.mastery_3.name">Demolitions</string>
+	<string name="skills.rogue.mastery_3.name">Взрывчатка</string>
 	<string name="skills.rogue.mastery_3.desc"></string>
 
-	<string name="skills.rogue.mastery_3.spell_1.name">Grenade</string>
-	<string name="skills.rogue.mastery_3.spell_1.desc">You throw a grenade in forward direction that detonates after a brief period, dealing Physical damage.</string>
-	<string name="skills.rogue.mastery_3.spell_1.up1.name">Incendiary Grenades</string>
-	<string name="skills.rogue.mastery_3.spell_1.up1.desc">The grenade now explodes on impact and leaves an area of burning ground for a short period, dealing Fire damage.</string>
-	<string name="skills.rogue.mastery_3.spell_1.up2.name">Shock Grenades</string>
-	<string name="skills.rogue.mastery_3.spell_1.up2.desc">The grenade deals additional Lightning damage that can chain to other nearby enemies.</string>
-	<string name="skills.rogue.mastery_3.spell_1.up3.name">Explosive Exit</string>
-	<string name="skills.rogue.mastery_3.spell_1.up3.desc">If you start a dash near an enemy you drop a grenade. This effect has a short cooldown.</string>
-	
-	<string name="skills.rogue.mastery_3.passive_1.name">Artificer Suit</string>
-	<string name="skills.rogue.mastery_3.passive_1.desc">Increases your Armor and Physical damage. Taking damage causes a flashbang to trigger inflicting nearby enemies with \cb0dfffBlindness\d. This effect has a short cooldown</string>
-	<string name="skills.rogue.mastery_3.passive_1.up1.name">Zzzap</string>
-	<string name="skills.rogue.mastery_3.passive_1.up1.desc">\cffdfb0Weapon\d skills has a chance to trigger a lightning bolt to zap a random nearby enemy, dealing Lightning damage.</string>
-	<string name="skills.rogue.mastery_3.passive_1.up2.name">Shrapnels</string>
-	<string name="skills.rogue.mastery_3.passive_1.up2.desc">Casting spells has a chance of discharging multiple shrapnels in all directions, dealing Physical and Fire damage.</string>
+	<string name="skills.rogue.mastery_3.spell_1.name">Граната</string>
+	<string name="skills.rogue.mastery_3.spell_1.desc">Вы бросаете гранату вперёд, которая взрывается через короткое время, нанося физический урон.</string>
+	<string name="skills.rogue.mastery_3.spell_1.up1.name">Зажигательные гранаты</string>
+	<string name="skills.rogue.mastery_3.spell_1.up1.desc">Граната теперь взрывается при ударе и оставляет область горящей земли на короткое время, нанося урон огнём.</string>
+	<string name="skills.rogue.mastery_3.spell_1.up2.name">Шоковые гранаты</string>
+	<string name="skills.rogue.mastery_3.spell_1.up2.desc">Граната наносит дополнительный урон молнией, который может переходить на других ближайших врагов.</string>
+	<string name="skills.rogue.mastery_3.spell_1.up3.name">Взрывной выход</string>
+	<string name="skills.rogue.mastery_3.spell_1.up3.desc">Если вы начинаете рывок рядом с врагом, вы бросаете гранату. Этот эффект имеет короткое время восстановления.</string>
+
+	<string name="skills.rogue.mastery_3.passive_1.name">Артифакторный костюм</string>
+	<string name="skills.rogue.mastery_3.passive_1.desc">Увеличивает вашу броню и физический урон. Получение урона вызывает срабатывание светошумовой гранаты, которая ослепляет ближайших врагов. Этот эффект имеет короткое время восстановления.</string>
+	<string name="skills.rogue.mastery_3.passive_1.up1.name">Зззап</string>
+	<string name="skills.rogue.mastery_3.passive_1.up1.desc">\cffdfb0Оружейные\d навыки имеют шанс вызвать удар молнии, который поражает случайного ближайшего врага, нанося урон молнией.</string>
+	<string name="skills.rogue.mastery_3.passive_1.up2.name">Осколки</string>
+	<string name="skills.rogue.mastery_3.passive_1.up2.desc">Произнесение заклинаний имеет шанс выбросить множество осколков во всех направлениях, нанося физический и огненный урон.</string>
 	<string name="skills.rogue.mastery_3.passive_1.up3.name"></string>
 	<string name="skills.rogue.mastery_3.passive_1.up3.desc"></string>
 
-	<!-- Rogue -->
+	<!-- Разбойник -->
 
 
 
 
-	<!-- Sorcerer -->
+	<!-- Колдун -->
 
-	<string name="skills.sorcerer.spell_1.name">Discharge</string>
-	<string name="skills.sorcerer.spell_1.desc">You unleash several arcs of lightning in a cone, dealing Lightning damage. Each enemy can only be hit by one arc.</string>
-	<string name="skills.sorcerer.spell_1.up1.name">Chain Lightning</string>
-	<string name="skills.sorcerer.spell_1.up1.desc">Each arc of lightning can chain to additional targets.</string>
-	<string name="skills.sorcerer.spell_1.up2.name">Extended Discharge</string>
-	<string name="skills.sorcerer.spell_1.up2.desc">Increases the range of the spell.</string>
-	<string name="skills.sorcerer.spell_1.up3.name">Scorching Rays</string>
-	<string name="skills.sorcerer.spell_1.up3.desc">Changes damage type to Fire and the rays now pierce targets.</string>
-	<string name="skills.sorcerer.spell_1.up4.name">Rays of Frost</string>
-	<string name="skills.sorcerer.spell_1.up4.desc">Unleashes fewer rays in a tighter cone, but enemies can now be hit by multiple rays. Changes damage type to Ice.</string>
+	<string name="skills.sorcerer.spell_1.name">Разряд</string>
+	<string name="skills.sorcerer.spell_1.desc">Вы выпускаете несколько дуг молний в форме конуса, нанося урон молнией. Каждый враг может быть поражён только одной дугой.</string>
+	<string name="skills.sorcerer.spell_1.up1.name">Цепная молния</string>
+	<string name="skills.sorcerer.spell_1.up1.desc">Каждая дуга молнии может переходить на дополнительные цели.</string>
+	<string name="skills.sorcerer.spell_1.up2.name">Расширенный разряд</string>
+	<string name="skills.sorcerer.spell_1.up2.desc">Увеличивает дальность заклинания.</string>
+	<string name="skills.sorcerer.spell_1.up3.name">Опаляющие лучи</string>
+	<string name="skills.sorcerer.spell_1.up3.desc">Меняет тип урона на огненный, и лучи теперь пронзают цели.</string>
+	<string name="skills.sorcerer.spell_1.up4.name">Лучи холода</string>
+	<string name="skills.sorcerer.spell_1.up4.desc">Выпускает меньше лучей в более узкий конус, но враги теперь могут быть поражены несколькими лучами. Меняет тип урона на ледяной.</string>
 
-	<string name="skills.sorcerer.spell_2.name">Elemental Orb</string>
-	<string name="skills.sorcerer.spell_2.desc">You conjure a slow moving orb that continuously deals damage of all elements to nearby enemies.</string>
-	<string name="skills.sorcerer.spell_2.up1.name">Adaptive Orb</string>
-	<string name="skills.sorcerer.spell_2.up1.desc">If you have \cb0dfffElemental Affinity\d when casting the spell the orb will only deal damage of the corresponding element.</string>
-	<string name="skills.sorcerer.spell_2.up2.name">Stable Orb</string>
-	<string name="skills.sorcerer.spell_2.up2.desc">Extends the lifetime of the orb.</string>
-	<string name="skills.sorcerer.spell_2.up3.name">Elemental Torrent</string>
-	<string name="skills.sorcerer.spell_2.up3.desc">The orb now starts spewing smaller projectiles in all directions. These projectiles deal less damage.</string>
+	<string name="skills.sorcerer.spell_2.name">Стихийная сфера</string>
+	<string name="skills.sorcerer.spell_2.desc">Вы создаёте медленно движущуюся сферу, которая постоянно наносит урон всеми элементами ближайшим врагам.</string>
+	<string name="skills.sorcerer.spell_2.up1.name">Адаптивная сфера</string>
+	<string name="skills.sorcerer.spell_2.up1.desc">Если у вас есть \cb0dfffСтихийное сродство\d при произнесении заклинания, сфера будет наносить урон только соответствующим элементом.</string>
+	<string name="skills.sorcerer.spell_2.up2.name">Стабильная сфера</string>
+	<string name="skills.sorcerer.spell_2.up2.desc">Увеличивает время жизни сферы.</string>
+	<string name="skills.sorcerer.spell_2.up3.name">Стихийный поток</string>
+	<string name="skills.sorcerer.spell_2.up3.desc">Сфера теперь начинает выбрасывать меньшие снаряды во всех направлениях. Эти снаряды наносят меньше урона.</string>
 
-	<string name="skills.sorcerer.passive_1.name">Elemental Affinity</string>
-	<string name="skills.sorcerer.passive_1.desc">When casting a \cffdfb0Spell\d you gain \cb0dfffElemental Affinity\d of the same element as the spell cast. You deal more damage of the corresponding element as long as you have \cb0dfffElemental Affinity\d. You can only have one type of element active at a time.</string>
-	<string name="skills.sorcerer.passive_1.up1.name">Elemental Ward</string>
-	<string name="skills.sorcerer.passive_1.up1.desc">Grants additional Fire, Ice and Lightning Resistance per character level.</string>
-	<string name="skills.sorcerer.passive_1.up2.name">Elemental Penetration</string>
-	<string name="skills.sorcerer.passive_1.up2.desc">Grants Fire, Ice and Lightning Penetration.</string>
-	<string name="skills.sorcerer.passive_1.up3.name">Elemental Equilibrium</string>
-	<string name="skills.sorcerer.passive_1.up3.desc">As long as you have \cb0dfffElemental Affinity\d your damage bonus is doubled for the other elements.</string>
+	<string name="skills.sorcerer.passive_1.name">Стихийное сродство</string>
+	<string name="skills.sorcerer.passive_1.desc">При произнесении \cffdfb0Заклинания\d вы получаете \cb0dfffСтихийное сродство\d того же элемента, что и произнесённое заклинание. Вы наносите больше урона соответствующим элементом, пока у вас есть \cb0dfffСтихийное сродство\d. Одновременно может быть активен только один тип элемента.</string>
+	<string name="skills.sorcerer.passive_1.up1.name">Стихийная защита</string>
+	<string name="skills.sorcerer.passive_1.up1.desc">Даёт дополнительное сопротивление огню, льду и молнии за каждый уровень персонажа.</string>
+	<string name="skills.sorcerer.passive_1.up2.name">Стихийное проникновение</string>
+	<string name="skills.sorcerer.passive_1.up2.desc">Даёт проникновение огня, льда и молнии.</string>
+	<string name="skills.sorcerer.passive_1.up3.name">Стихийное равновесие</string>
+	<string name="skills.sorcerer.passive_1.up3.desc">Пока у вас есть \cb0dfffСтихийное сродство\d, ваш бонус к урону удваивается для других элементов.</string>
 
-	<string name="skills.sorcerer.passive_2.name">Innate Power</string>
-	<string name="skills.sorcerer.passive_2.desc">Grants Spell Crit Chance.</string>
-	<string name="skills.sorcerer.passive_2.up1.name">Uncontrolled Power</string>
-	<string name="skills.sorcerer.passive_2.up1.desc">You deal increased Spell Crit Damage.</string>
-	<string name="skills.sorcerer.passive_2.up2.name">Power Surge</string>
-	<string name="skills.sorcerer.passive_2.up2.desc">You gain a buff of increased Weapon, Cast and Movement Speed when scoring a Spell Crit.</string>
-	<string name="skills.sorcerer.passive_2.up3.name">Mana Surge</string>
-	<string name="skills.sorcerer.passive_2.up3.desc">You restore some of your Mana when scoring a Spell Crit.</string>
+	<string name="skills.sorcerer.passive_2.name">Врождённая сила</string>
+	<string name="skills.sorcerer.passive_2.desc">Даёт шанс критического удара заклинаниями.</string>
+	<string name="skills.sorcerer.passive_2.up1.name">Неуправляемая сила</string>
+	<string name="skills.sorcerer.passive_2.up1.desc">Вы наносите увеличенный критический урон заклинаниями.</string>
+	<string name="skills.sorcerer.passive_2.up2.name">Скачок силы</string>
+	<string name="skills.sorcerer.passive_2.up2.desc">Вы получаете бафф увеличенной скорости атаки, произнесения заклинаний и передвижения при нанесении критического удара заклинанием.</string>
+	<string name="skills.sorcerer.passive_2.up3.name">Скачок маны</string>
+	<string name="skills.sorcerer.passive_2.up3.desc">Вы восстанавливаете часть своей маны при нанесении критического удара заклинанием.</string>
 
-
-	<string name="skills.sorcerer.mastery_1.name">Fire</string>
+	<string name="skills.sorcerer.mastery_1.name">Огонь</string>
 	<string name="skills.sorcerer.mastery_1.desc"></string>
 
-	<string name="skills.sorcerer.mastery_1.spell_1.name">Flame Wall</string>
-	<string name="skills.sorcerer.mastery_1.spell_1.desc">You produce a blazing wall of flames in front of you, dealing Fire damage to all enemies near it.</string>
-	<string name="skills.sorcerer.mastery_1.spell_1.up1.name">Flamewalker</string>
-	<string name="skills.sorcerer.mastery_1.spell_1.up1.desc">You and your allies entering the wall are ignited with a temporary aura that deals Fire damage to nearby enemies.</string>
-	<string name="skills.sorcerer.mastery_1.spell_1.up2.name">Flamestep</string>
-	<string name="skills.sorcerer.mastery_1.spell_1.up2.desc">You spawn a single wall instance when dashing.</string>
-	<string name="skills.sorcerer.mastery_1.spell_1.up3.name">Wall Placement</string>
-	<string name="skills.sorcerer.mastery_1.spell_1.up3.desc">The placement of the wall can now be targeted.</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.name">Стена огня</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.desc">Вы создаёте пылающую стену огня перед собой, нанося урон огнём всем врагам рядом с ней.</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up1.name">Огненный след</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up1.desc">Вы и ваши союзники, входящие в стену, получают временную ауру, которая наносит урон огнём ближайшим врагам.</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up2.name">Огненный шаг</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up2.desc">Вы создаёте одну стену при использовании рывка.</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up3.name">Управление стеной</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up3.desc">Теперь можно выбирать место размещения стены.</string>
 
-	<string name="skills.sorcerer.mastery_1.passive_1.name">Fire Mastery</string>
-	<string name="skills.sorcerer.mastery_1.passive_1.desc">You deal increased Fire damage, and your \cffdfb0Fire\d skills gain a chance to inflict \cb0dfffWeakness\d.</string>
-	<string name="skills.sorcerer.mastery_1.passive_1.up1.name">Volatile Flames</string>
-	<string name="skills.sorcerer.mastery_1.passive_1.up1.desc">Your \cffdfb0Fire\d skills gain a chance to trigger an explosion dealing additional Fire damage. This effect has a short cooldown.</string>
-	<string name="skills.sorcerer.mastery_1.passive_1.up2.name">Healing Flames</string>
-	<string name="skills.sorcerer.mastery_1.passive_1.up2.desc">You restore some of your Health when scoring a Spell Crit.</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.name">Мастерство огня</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.desc">Вы наносите увеличенный урон огнём, и ваши \cffdfb0Огненные\d навыки получают шанс наложить \cb0dfffСлабость\d.</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.up1.name">Взрывные пламена</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.up1.desc">Ваши \cffdfb0Огненные\d навыки получают шанс вызвать взрыв, наносящий дополнительный урон огнём. Этот эффект имеет короткое время восстановления.</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.up2.name">Исцеляющие пламена</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.up2.desc">Вы восстанавливаете часть своего здоровья при нанесении критического удара заклинанием.</string>
 	<string name="skills.sorcerer.mastery_1.passive_1.up3.name"></string>
 	<string name="skills.sorcerer.mastery_1.passive_1.up3.desc"></string>
 
-	<string name="skills.sorcerer.mastery_2.name">Ice</string>
+	<string name="skills.sorcerer.mastery_2.name">Лёд</string>
 	<string name="skills.sorcerer.mastery_2.desc"></string>
 
-	<string name="skills.sorcerer.mastery_2.spell_1.name">Frost Nova</string>
-	<string name="skills.sorcerer.mastery_2.spell_1.desc">You unleash multiple frost shards in all directions, dealing Ice damage.</string>
-	<string name="skills.sorcerer.mastery_2.spell_1.up1.name">Frost Seekers</string>
-	<string name="skills.sorcerer.mastery_2.spell_1.up1.desc">The projectiles gain the chance to seek out new targets on hit.</string>
-	<string name="skills.sorcerer.mastery_2.spell_1.up2.name">Frost Splinters</string>
-	<string name="skills.sorcerer.mastery_2.spell_1.up2.desc">The projectiles gain a chance to unleash a new smaller nova of projectiles when killing enemies.</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.name">Ледяная nova</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.desc">Вы выпускаете множество ледяных осколков во всех направлениях, нанося ледяной урон.</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.up1.name">Ледяные искатели</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.up1.desc">Снаряды получают шанс искать новые цели при попадании.</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.up2.name">Ледяные осколки</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.up2.desc">Снаряды получают шанс создать новую меньшую nova из снарядов при убийстве врагов.</string>
 	<string name="skills.sorcerer.mastery_2.spell_1.up3.name"></string>
 	<string name="skills.sorcerer.mastery_2.spell_1.up3.desc"></string>
 
-	<string name="skills.sorcerer.mastery_2.passive_1.name">Ice Mastery</string>
-	<string name="skills.sorcerer.mastery_2.passive_1.desc">You deal increased Ice damage and your \cffdfb0Ice\d skills gain a chance to inflict \cb0dfffFreeze\d.</string>
-	<string name="skills.sorcerer.mastery_2.passive_1.up1.name">Shatter</string>
-	<string name="skills.sorcerer.mastery_2.passive_1.up1.desc">Killing enemies with \cffdfb0Ice\d skills have a chance to trigger an explosion dealing Ice damage.</string>
-	<string name="skills.sorcerer.mastery_2.passive_1.up2.name">Ice Block</string>
-	<string name="skills.sorcerer.mastery_2.passive_1.up2.desc">You gain a chance to block Physical and Ice damage.</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.name">Мастерство льда</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.desc">Вы наносите увеличенный ледяной урон, и ваши \cffdfb0Ледяные\d навыки получают шанс наложить \cb0dfffЗаморозку\d.</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.up1.name">Разрушение</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.up1.desc">Убийство врагов \cffdfb0Ледяными\d навыками имеет шанс вызвать взрыв, наносящий ледяной урон.</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.up2.name">Ледяной блок</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.up2.desc">Вы получаете шанс блокировать физический и ледяной урон.</string>
 	<string name="skills.sorcerer.mastery_2.passive_1.up3.name"></string>
 	<string name="skills.sorcerer.mastery_2.passive_1.up3.desc"></string>
 
-	<string name="skills.sorcerer.mastery_3.name">Lightning</string>
+	<string name="skills.sorcerer.mastery_3.name">Молния</string>
 	<string name="skills.sorcerer.mastery_3.desc"></string>
 
-	<string name="skills.sorcerer.mastery_3.spell_1.name">Lightning Ball</string>
-	<string name="skills.sorcerer.mastery_3.spell_1.desc">You charge up a ball of lightning that is unleashed when cast, dealing Lightning damage to all enemies in its path. The damage of the projectile is based on how long you charge the spell.</string>
-	<string name="skills.sorcerer.mastery_3.spell_1.up1.name">Energized Ball</string>
-	<string name="skills.sorcerer.mastery_3.spell_1.up1.desc">Each enemy hit extends the lifetime of the projectile.</string>
-	<string name="skills.sorcerer.mastery_3.spell_1.up2.name">Static Field</string>
-	<string name="skills.sorcerer.mastery_3.spell_1.up2.desc">You leave behind a field of electricity that lingers for a period, dealing additional Lightning damage.</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.name">Шар молнии</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.desc">Вы заряжаете шар молнии, который выпускается при произнесении заклинания, нанося урон молнией всем врагам на его пути. Урон снаряда зависит от времени зарядки.</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.up1.name">Энергизированный шар</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.up1.desc">Каждый поражённый враг увеличивает время жизни снаряда.</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.up2.name">Статическое поле</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.up2.desc">Вы оставляете за собой поле электричества, которое сохраняется некоторое время, нанося дополнительный урон молнией.</string>
 	<string name="skills.sorcerer.mastery_3.spell_1.up3.name"></string>
 	<string name="skills.sorcerer.mastery_3.spell_1.up3.desc"></string>
-	
-	<string name="skills.sorcerer.mastery_3.passive_1.name">Lightning Mastery</string>
-	<string name="skills.sorcerer.mastery_3.passive_1.desc">You deal increased Lightning damage and your \cffdfb0Lightning\d skills gain a chance to inflict \cb0dfffStun\d.</string>
-	<string name="skills.sorcerer.mastery_3.passive_1.up1.name">Arc Lightning</string>
-	<string name="skills.sorcerer.mastery_3.passive_1.up1.desc">Your \cffdfb0Lightning\d skills gain a chance to trigger an arc of electricity that chain between enemies, dealing Lightning damage.</string>
-	<string name="skills.sorcerer.mastery_3.passive_1.up2.name">Null Field</string>
-	<string name="skills.sorcerer.mastery_3.passive_1.up2.desc">You gain a chance to block most projectiles. This effect has a short cooldown.</string>
+
+	<string name="skills.sorcerer.mastery_3.passive_1.name">Мастерство молнии</string>
+	<string name="skills.sorcerer.mastery_3.passive_1.desc">Вы наносите увеличенный урон молнией, и ваши \cffdfb0Молниеносные\d навыки получают шанс наложить \cb0dfffОглушение\d.</string>
+	<string name="skills.sorcerer.mastery_3.passive_1.up1.name">Дуга молнии</string>
+	<string name="skills.sorcerer.mastery_3.passive_1.up1.desc">Ваши \cffdfb0Молниеносные\d навыки получают шанс вызвать дугу электричества, которая переходит между врагами, нанося урон молнией.</string>
+	<string name="skills.sorcerer.mastery_3.passive_1.up2.name">Нулевое поле</string>
+	<string name="skills.sorcerer.mastery_3.passive_1.up2.desc">Вы получаете шанс блокировать большинство снарядов. Этот эффект имеет короткое время восстановления.</string>
 	<string name="skills.sorcerer.mastery_3.passive_1.up3.name"></string>
 	<string name="skills.sorcerer.mastery_3.passive_1.up3.desc"></string>
 
+	<!-- Колдун -->
 
 
 
@@ -726,115 +718,109 @@
 
 
 
-	<!-- Warlock -->
 
-	<string name="skills.warlock.spell_1.name">Demon's Tail</string>
-	<string name="skills.warlock.spell_1.desc">Conjures a diabolical whip to lash out in a forward direction, dealing Physical damage and inflicting \cb0dfffSlow\d.</string>
-	<string name="skills.warlock.spell_1.up1.name">Crackling Lash</string>
-	<string name="skills.warlock.spell_1.up1.desc">Crackling arcs of lightning are discharged at nearby enemies, dealing Lightning damage.</string>
-	<string name="skills.warlock.spell_1.up2.name">Fiery Lash</string>
-	<string name="skills.warlock.spell_1.up2.desc">Flames erupt along the lash that lingers for a short period, dealing Fire damage.</string>
-	<string name="skills.warlock.spell_1.up3.name">Heavy Impact</string>
-	<string name="skills.warlock.spell_1.up3.desc">Enemies hit by the end of the whip are now also inflicted by \cb0dfffStun\d.</string>
+	<!-- Чернокнижник -->
 
-	<string name="skills.warlock.spell_2.name">Dark Ritual</string>
-	<string name="skills.warlock.spell_2.desc">You start performing a ritual that completes after a few seconds. Enemies take Physical damage while inside the area and even more damage when it completes. The ritual is terminated if you leave the area before it is completed.</string>
-	<string name="skills.warlock.spell_2.up1.name">Blood Ritual</string>
-	<string name="skills.warlock.spell_2.up1.desc">Enemies inside the area now has a chance to be inflicted with stacks of Bleeding.</string>
-	<string name="skills.warlock.spell_2.up2.name">Conflagration</string>
-	<string name="skills.warlock.spell_2.up2.desc">The damage type is changed to Fire and the ritual deals even more damage when it is completed.</string>
-	<string name="skills.warlock.spell_2.up3.name">Leeching Ritual</string>
-	<string name="skills.warlock.spell_2.up3.desc">You and your allies gain \cb0dfffLife Leech\d while inside the area.</string>
+	<string name="skills.warlock.spell_1.name">Хвост демона</string>
+	<string name="skills.warlock.spell_1.desc">Создаёт дьявольский хлыст, который бьёт вперёд, нанося физический урон и накладывая \cb0dfffЗамедление\d.</string>
+	<string name="skills.warlock.spell_1.up1.name">Трескучий удар</string>
+	<string name="skills.warlock.spell_1.up1.desc">Вокруг хлыста возникают трескучие дуги молний, которые поражают ближайших врагов, нанося урон молнией.</string>
+	<string name="skills.warlock.spell_1.up2.name">Огненный хлыст</string>
+	<string name="skills.warlock.spell_1.up2.desc">Вдоль хлыста возникают языки пламени, которые сохраняются на короткое время, нанося урон огнём.</string>
+	<string name="skills.warlock.spell_1.up3.name">Мощный удар</string>
+	<string name="skills.warlock.spell_1.up3.desc">Враги, поражённые кончиком хлыста, также получают \cb0dfffОглушение\d.</string>
 
-	<string name="skills.warlock.passive_1.name">Drain Essence</string>
-	<string name="skills.warlock.passive_1.desc">You gain stacks of \cb0dfffEssence\d when hitting enemies with \cffdfb0Melee\d skills. Each stack increases your Health and Mana. This effect has a short cooldown.</string>
-	<string name="skills.warlock.passive_1.up1.name">Life Siphon</string>
-	<string name="skills.warlock.passive_1.up1.desc">When you gain stacks of \cb0dfffEssence\d you restore a percentage of your Health.</string>
-	<string name="skills.warlock.passive_1.up2.name">Energy Siphon</string>
-	<string name="skills.warlock.passive_1.up2.desc">When you gain stacks of \cb0dfffEssence\d you restore a percentage of your Mana.</string>
-	<string name="skills.warlock.passive_1.up3.name">Drain Blood</string>
-	<string name="skills.warlock.passive_1.up3.desc">You now also inflict stacks of \cb0dfffBleeding\d to the targets you gain \cb0dfffEssence\d from.</string>
-	<string name="skills.warlock.passive_1.up4.name">Essence Harvester</string>
-	<string name="skills.warlock.passive_1.up4.desc">You gain a chance to gain stacks of \cb0dfffEssence\d when killing enemies.</string>
+	<string name="skills.warlock.spell_2.name">Тёмный ритуал</string>
+	<string name="skills.warlock.spell_2.desc">Вы начинаете проводить ритуал, который завершается через несколько секунд. Враги внутри области получают физический урон, а при завершении ритуала — ещё больше урона. Ритуал прерывается, если вы покидаете область до его завершения.</string>
+	<string name="skills.warlock.spell_2.up1.name">Кровавый ритуал</string>
+	<string name="skills.warlock.spell_2.up1.desc">Враги внутри области теперь имеют шанс получить стаки \cb0dfffКровотечения\d.</string>
+	<string name="skills.warlock.spell_2.up2.name">Пожар</string>
+	<string name="skills.warlock.spell_2.up2.desc">Тип урона изменён на огненный, и ритуал наносит ещё больше урона при завершении.</string>
+	<string name="skills.warlock.spell_2.up3.name">Похищающий ритуал</string>
+	<string name="skills.warlock.spell_2.up3.desc">Вы и ваши союзники получаете \cb0dfffКражу жизни\d, находясь внутри области.</string>
 
-	<string name="skills.warlock.passive_2.name">Aura of Atrophy</string>
-	<string name="skills.warlock.passive_2.desc">You project an aura around you that makes enemies deal less damage.</string>
-	<string name="skills.warlock.passive_2.up1.name">Agony</string>
-	<string name="skills.warlock.passive_2.up1.desc">Enemies in your aura also take more damage.</string>
-	<string name="skills.warlock.passive_2.up2.name">Spreading Corruption</string>
-	<string name="skills.warlock.passive_2.up2.desc">\cffdfb0Melee\d weapon hits deal additional Poison damage to a different nearby enemy.</string>
-	<string name="skills.warlock.passive_2.up3.name">Spontaneous Combustion</string>
-	<string name="skills.warlock.passive_2.up3.desc">Casting a \cffdfb0Spell\d deals Fire damage to all enemies affected by your aura.</string>
+	<string name="skills.warlock.passive_1.name">Высасывание сущности</string>
+	<string name="skills.warlock.passive_1.desc">Вы получаете стаки \cb0dfffСущности\d при попадании по врагам \cffdfb0Ближнего боя\d. Каждый стак увеличивает ваше здоровье и ману. Этот эффект имеет короткое время восстановления.</string>
+	<string name="skills.warlock.passive_1.up1.name">Похищение жизни</string>
+	<string name="skills.warlock.passive_1.up1.desc">Когда вы получаете стаки \cb0dfffСущности\d, вы восстанавливаете процент своего здоровья.</string>
+	<string name="skills.warlock.passive_1.up2.name">Похищение энергии</string>
+	<string name="skills.warlock.passive_1.up2.desc">Когда вы получаете стаки \cb0dfffСущности\d, вы восстанавливаете процент своей маны.</string>
+	<string name="skills.warlock.passive_1.up3.name">Высасывание крови</string>
+	<string name="skills.warlock.passive_1.up3.desc">Теперь вы также накладываете стаки \cb0dfffКровотечения\d на цели, от которых получаете \cb0dfffСущность\d.</string>
+	<string name="skills.warlock.passive_1.up4.name">Сборщик сущности</string>
+	<string name="skills.warlock.passive_1.up4.desc">Вы получаете шанс получить стаки \cb0dfffСущности\d при убийстве врагов.</string>
 
+	<string name="skills.warlock.passive_2.name">Аура истощения</string>
+	<string name="skills.warlock.passive_2.desc">Вы создаёте ауру вокруг себя, которая снижает урон, наносимый врагами.</string>
+	<string name="skills.warlock.passive_2.up1.name">Агония</string>
+	<string name="skills.warlock.passive_2.up1.desc">Враги в вашей ауре также получают больше урона.</string>
+	<string name="skills.warlock.passive_2.up2.name">Распространяющаяся порча</string>
+	<string name="skills.warlock.passive_2.up2.desc">\cffdfb0Ближний бой\d оружием наносит дополнительный урон ядом другому ближайшему врагу.</string>
+	<string name="skills.warlock.passive_2.up3.name">Самовозгорание</string>
+	<string name="skills.warlock.passive_2.up3.desc">Произнесение \cffdfb0Заклинания\d наносит урон огнём всем врагам, находящимся под действием вашей ауры.</string>
 
-	<string name="skills.warlock.mastery_1.name">Summoning</string>
+	<string name="skills.warlock.mastery_1.name">Призыв</string>
 	<string name="skills.warlock.mastery_1.desc"></string>
 
-	<string name="skills.warlock.mastery_1.spell_1.name">Summon Fiends</string>
-	<string name="skills.warlock.mastery_1.spell_1.desc">Channel the spell to summon fiends by consuming stacks of \cb0dfffEssence\d. Fiends attack nearby enemies, dealing Physical damage.</string>
-	<string name="skills.warlock.mastery_1.spell_1.up1.name">Infernal Fiends</string>
-	<string name="skills.warlock.mastery_1.spell_1.up1.desc">Your fiends deal additional Fire damage and gain the ability to spew fireballs at their targets.</string>
-	<string name="skills.warlock.mastery_1.spell_1.up2.name">Explosive Demise</string>
-	<string name="skills.warlock.mastery_1.spell_1.up2.desc">Your fiends explode upon death, dealing Physical damage in a small area.</string>
+	<string name="skills.warlock.mastery_1.spell_1.name">Призыв бесов</string>
+	<string name="skills.warlock.mastery_1.spell_1.desc">Направляйте заклинание, чтобы призывать бесов, расходуя стаки \cb0dfffСущности\d. Бесы атакуют ближайших врагов, нанося физический урон.</string>
+	<string name="skills.warlock.mastery_1.spell_1.up1.name">Инфернальные бесы</string>
+	<string name="skills.warlock.mastery_1.spell_1.up1.desc">Ваши бесы наносят дополнительный урон огнём и получают способность метать огненные шары в свои цели.</string>
+	<string name="skills.warlock.mastery_1.spell_1.up2.name">Взрывная гибель</string>
+	<string name="skills.warlock.mastery_1.spell_1.up2.desc">Ваши бесы взрываются при смерти, нанося физический урон по небольшой области.</string>
 	<string name="skills.warlock.mastery_1.spell_1.up3.name"></string>
 	<string name="skills.warlock.mastery_1.spell_1.up3.desc"></string>
 
-	<string name="skills.warlock.mastery_1.passive_1.name">Gargoyle Servant</string>
-	<string name="skills.warlock.mastery_1.passive_1.desc">Passively summons a gargoyle to fight by your side. The gargoyle attacks enemies with its claws and trident, dealing Physical damage.</string>
-	<string name="skills.warlock.mastery_1.passive_1.up1.name">Flaming Strikes</string>
-	<string name="skills.warlock.mastery_1.passive_1.up1.desc">Your gargoyle deals additional Fire damage with its claws.</string>
-	<string name="skills.warlock.mastery_1.passive_1.up2.name">Lightning Trident</string>
-	<string name="skills.warlock.mastery_1.passive_1.up2.desc">Your gargoyle's trident now continously zap enemies for additional Lightning damage.</string>
+	<string name="skills.warlock.mastery_1.passive_1.name">Слуга-горгулья</string>
+	<string name="skills.warlock.mastery_1.passive_1.desc">Пассивно призывает горгулью, которая сражается на вашей стороне. Горгулья атакует врагов когтями и трезубцем, нанося физический урон.</string>
+	<string name="skills.warlock.mastery_1.passive_1.up1.name">Огненные удары</string>
+	<string name="skills.warlock.mastery_1.passive_1.up1.desc">Ваша горгулья наносит дополнительный урон огнём своими когтями.</string>
+	<string name="skills.warlock.mastery_1.passive_1.up2.name">Молниеносный трезубец</string>
+	<string name="skills.warlock.mastery_1.passive_1.up2.desc">Трезубец вашей горгульи теперь постоянно поражает врагов молнией, нанося дополнительный урон молнией.</string>
 	<string name="skills.warlock.mastery_1.passive_1.up3.name"></string>
 	<string name="skills.warlock.mastery_1.passive_1.up3.desc"></string>
 
-	<string name="skills.warlock.mastery_2.name">Souls</string>
+	<string name="skills.warlock.mastery_2.name">Души</string>
 	<string name="skills.warlock.mastery_2.desc"></string>
 
-	<string name="skills.warlock.mastery_2.spell_1.name">Soul Vortex</string>
-	<string name="skills.warlock.mastery_2.spell_1.desc">You conjure a swirling vortex of soul energy around you, dealing Physical and Poison damage to all enemies in the area.</string>
-	<string name="skills.warlock.mastery_2.spell_1.up1.name">Lightning Vortex</string>
-	<string name="skills.warlock.mastery_2.spell_1.up1.desc">The vortex now continously trigger bolts of lightning to randomly strike the area around you, dealing additional Lightning damage.</string>
-	<string name="skills.warlock.mastery_2.spell_1.up2.name">Vortex Shroud</string>
-	<string name="skills.warlock.mastery_2.spell_1.up2.desc">You gain Evasion for the duration of the spell.</string>
+	<string name="skills.warlock.mastery_2.spell_1.name">Вихрь душ</string>
+	<string name="skills.warlock.mastery_2.spell_1.desc">Вы создаёте вращающийся вихрь энергии душ вокруг себя, нанося физический и ядовитый урон всем врагам в области.</string>
+	<string name="skills.warlock.mastery_2.spell_1.up1.name">Молниеносный вихрь</string>
+	<string name="skills.warlock.mastery_2.spell_1.up1.desc">Вихрь теперь постоянно вызывает удары молний, которые случайным образом поражают область вокруг вас, нанося дополнительный урон молнией.</string>
+	<string name="skills.warlock.mastery_2.spell_1.up2.name">Покров вихря</string>
+	<string name="skills.warlock.mastery_2.spell_1.up2.desc">Вы получаете уклонение на время действия заклинания.</string>
 	<string name="skills.warlock.mastery_2.spell_1.up3.name"></string>
 	<string name="skills.warlock.mastery_2.spell_1.up3.desc"></string>
 
-	<string name="skills.warlock.mastery_2.passive_1.name">Soul Shaper</string>
-	<string name="skills.warlock.mastery_2.passive_1.desc">As long as you have stacks of \cb0dfffEssence\d your Mainhand Weapon attacks unleash a soul projectile towards a random nearby enemy, dealing Mainhand damage.</string>
-	<string name="skills.warlock.mastery_2.passive_1.up1.name">Soul Cleave</string>
-	<string name="skills.warlock.mastery_2.passive_1.up1.desc">The projectiles gain a chance to explode for additional damage. This effect has a short cooldown.</string>
-	<string name="skills.warlock.mastery_2.passive_1.up2.name">Relentless Souls</string>
-	<string name="skills.warlock.mastery_2.passive_1.up2.desc">The projectiles jumps to additional targets on hit.</string>
+	<string name="skills.warlock.mastery_2.passive_1.name">Формирователь душ</string>
+	<string name="skills.warlock.mastery_2.passive_1.desc">Пока у вас есть стаки \cb0dfffСущности\d, ваши атаки оружием основной руки выпускают снаряд души в случайного ближайшего врага, нанося урон оружием основной руки.</string>
+	<string name="skills.warlock.mastery_2.passive_1.up1.name">Рассечение душ</string>
+	<string name="skills.warlock.mastery_2.passive_1.up1.desc">Снаряды получают шанс взрываться, нанося дополнительный урон. Этот эффект имеет короткое время восстановления.</string>
+	<string name="skills.warlock.mastery_2.passive_1.up2.name">Неутомимые души</string>
+	<string name="skills.warlock.mastery_2.passive_1.up2.desc">Снаряды переходят на дополнительные цели при попадании.</string>
 	<string name="skills.warlock.mastery_2.passive_1.up3.name"></string>
 	<string name="skills.warlock.mastery_2.passive_1.up3.desc"></string>
 
-	<string name="skills.warlock.mastery_3.name">Chaos</string>
+	<string name="skills.warlock.mastery_3.name">Хаос</string>
 	<string name="skills.warlock.mastery_3.desc"></string>
 
-	<string name="skills.warlock.mastery_3.spell_1.name">Chaos Blade</string>
-	<string name="skills.warlock.mastery_3.spell_1.desc">You conjure a magical blade to slash the area in front of you, dealing Physical and Lightning damage.</string>
-	<string name="skills.warlock.mastery_3.spell_1.up1.name">Blade Arcs</string>
-	<string name="skills.warlock.mastery_3.spell_1.up1.desc">The spell now also unleashes a number of projectiles in arc in front of you.</string>
-	<string name="skills.warlock.mastery_3.spell_1.up2.name">Rupture</string>
-	<string name="skills.warlock.mastery_3.spell_1.up2.desc">The blade slash now inflict stacks of \cb0dfffBleeding\d.</string>
+	<string name="skills.warlock.mastery_3.spell_1.name">Клинок хаоса</string>
+	<string name="skills.warlock.mastery_3.spell_1.desc">Вы создаёте магический клинок, который рассекает область перед вами, нанося физический и урон молнией.</string>
+	<string name="skills.warlock.mastery_3.spell_1.up1.name">Дуги клинка</string>
+	<string name="skills.warlock.mastery_3.spell_1.up1.desc">Заклинание теперь также выпускает несколько снарядов по дуге перед вами.</string>
+	<string name="skills.warlock.mastery_3.spell_1.up2.name">Разрыв</string>
+	<string name="skills.warlock.mastery_3.spell_1.up2.desc">Удар клинка теперь накладывает стаки \cb0dfffКровотечения\d.</string>
 	<string name="skills.warlock.mastery_3.spell_1.up3.name"></string>
 	<string name="skills.warlock.mastery_3.spell_1.up3.desc"></string>
-	
-	<string name="skills.warlock.mastery_3.passive_1.name">Chaos Rifts</string>
-	<string name="skills.warlock.mastery_3.passive_1.desc">Casting a \cffdfb0Spell\d spawns a rift that deals Physical and Lightning damage to nearby enemies. Rifts spawned close to each other create streams of energy between them, dealing additional damage.</string>
-	<string name="skills.warlock.mastery_3.passive_1.up1.name">Chaos Reaper</string>
-	<string name="skills.warlock.mastery_3.passive_1.up1.desc">Killing an enemy has a chance to spawn a rift. This effect has a short cooldown.</string>
-	<string name="skills.warlock.mastery_3.passive_1.up2.name">Rift Blade</string>
-	<string name="skills.warlock.mastery_3.passive_1.up2.desc">Hits with \cb0dfffChaos Blade\d gains a chance to spawn a rift. This effect has a short cooldown.</string>
+
+	<string name="skills.warlock.mastery_3.passive_1.name">Разломы хаоса</string>
+	<string name="skills.warlock.mastery_3.passive_1.desc">Произнесение \cffdfb0Заклинания\d создаёт разлом, который наносит физический и урон молнией ближайшим врагам. Разломы, созданные близко друг к другу, образуют потоки энергии между собой, нанося дополнительный урон.</string>
+	<string name="skills.warlock.mastery_3.passive_1.up1.name">Жнец хаоса</string>
+	<string name="skills.warlock.mastery_3.passive_1.up1.desc">Убийство врага имеет шанс создать разлом. Этот эффект имеет короткое время восстановления.</string>
+	<string name="skills.warlock.mastery_3.passive_1.up2.name">Клинок разлома</string>
+	<string name="skills.warlock.mastery_3.passive_1.up2.desc">Удары \cb0dfffКлинком хаоса\d получают шанс создать разлом. Этот эффект имеет короткое время восстановления.</string>
 	<string name="skills.warlock.mastery_3.passive_1.up3.name"></string>
 	<string name="skills.warlock.mastery_3.passive_1.up3.desc"></string>
-
-
-
-
-
-
 
 
 	<!-- Warrior -->
@@ -961,222 +947,197 @@
 
 
 
-	<!-- Wizard -->
+<!-- Маг -->
 
-	<string name="skills.wizard.spell_1.name">Magic Missiles</string>
-	<string name="skills.wizard.spell_1.desc">Discharges several magic missiles that seek out nearby enemies and deal Physical damage on impact.</string>
-	<string name="skills.wizard.spell_1.up1.name">Missile Barrage</string>
-	<string name="skills.wizard.spell_1.up1.desc">Fires additional projectiles per cast.</string>
-	<string name="skills.wizard.spell_1.up2.name">Rebounding Missiles</string>
-	<string name="skills.wizard.spell_1.up2.desc">The projectiles gain the ability to jump to additional targets on hit.</string>
-	<string name="skills.wizard.spell_1.up3.name">Concussive Impacts</string>
-	<string name="skills.wizard.spell_1.up3.desc">The projectiles gain a chance to inflict \cb0dfffStun\d.</string>
+	<string name="skills.wizard.spell_1.name">Магические стрелы</string>
+	<string name="skills.wizard.spell_1.desc">Выпускает несколько магических стрел, которые находят ближайших врагов и наносят физический урон при попадании.</string>
+	<string name="skills.wizard.spell_1.up1.name">Барадж стрел</string>
+	<string name="skills.wizard.spell_1.up1.desc">Выпускает дополнительные снаряды за каждое произнесение.</string>
+	<string name="skills.wizard.spell_1.up2.name">Отскакивающие стрелы</string>
+	<string name="skills.wizard.spell_1.up2.desc">Снаряды получают способность переходить на дополнительные цели при попадании.</string>
+	<string name="skills.wizard.spell_1.up3.name">Оглушающие удары</string>
+	<string name="skills.wizard.spell_1.up3.desc">Снаряды получают шанс наложить \cb0dfffОглушение\d.</string>
 
-	<string name="skills.wizard.spell_2.name">Fireball</string>
-	<string name="skills.wizard.spell_2.desc">Unleash a fireball towards the targeted location that explodes dealing Fire damage.</string>
-	<string name="skills.wizard.spell_2.up1.name">Enhanced Fireball</string>
-	<string name="skills.wizard.spell_2.up1.desc">Increasese the size of the explosion.</string>
-	<string name="skills.wizard.spell_2.up2.name">Blastwave</string>
-	<string name="skills.wizard.spell_2.up2.desc">Enemies hit by the fireball are inflicted by \cb0dfffSlow\d.</string>
-	<string name="skills.wizard.spell_2.up3.name">Bouncing Fireball</string>
-	<string name="skills.wizard.spell_2.up3.desc">The fireball now bounces and triggers an explosion with each bounce.</string>
+	<string name="skills.wizard.spell_2.name">Огненный шар</string>
+	<string name="skills.wizard.spell_2.desc">Выпускает огненный шар в выбранное место, который взрывается, нанося урон огнём.</string>
+	<string name="skills.wizard.spell_2.up1.name">Усиленный огненный шар</string>
+	<string name="skills.wizard.spell_2.up1.desc">Увеличивает размер взрыва.</string>
+	<string name="skills.wizard.spell_2.up2.name">Ударная волна</string>
+	<string name="skills.wizard.spell_2.up2.desc">Враги, поражённые огненным шаром, получают \cb0dfffЗамедление\d.</string>
+	<string name="skills.wizard.spell_2.up3.name">Отскакивающий огненный шар</string>
+	<string name="skills.wizard.spell_2.up3.desc">Огненный шар теперь отскакивает и вызывает взрыв при каждом отскоке.</string>
 
-	<string name="skills.wizard.passive_1.name">Arcane Intellect</string>
-	<string name="skills.wizard.passive_1.desc">Increases your Mana and Intelligence.</string>
-	<string name="skills.wizard.passive_1.up1.name">Savant</string>
-	<string name="skills.wizard.passive_1.up1.desc">Reduces your spell cooldowns.</string>
-	<string name="skills.wizard.passive_1.up2.name">Arcane Weaponry</string>
-	<string name="skills.wizard.passive_1.up2.desc">You deal increased damage with \cffdfb0Arcane\d weapons.</string>
-	<string name="skills.wizard.passive_1.up3.name">Learning</string>
-	<string name="skills.wizard.passive_1.up3.desc">Increases your Experience Gain.</string>
+	<string name="skills.wizard.passive_1.name">Магический интеллект</string>
+	<string name="skills.wizard.passive_1.desc">Увеличивает вашу ману и интеллект.</string>
+	<string name="skills.wizard.passive_1.up1.name">Савант</string>
+	<string name="skills.wizard.passive_1.up1.desc">Уменьшает время восстановления ваших заклинаний.</string>
+	<string name="skills.wizard.passive_1.up2.name">Магическое оружие</string>
+	<string name="skills.wizard.passive_1.up2.desc">Вы наносите увеличенный урон \cffdfb0Магическим\d оружием.</string>
+	<string name="skills.wizard.passive_1.up3.name">Обучение</string>
+	<string name="skills.wizard.passive_1.up3.desc">Увеличивает ваш прирост опыта.</string>
 
-	<string name="skills.wizard.passive_2.name">Barrier</string>
-	<string name="skills.wizard.passive_2.desc">You generate protective stacks of \cb0dfffBarrier\d over time. When taking damage a stack is expended, lowering the damage taken.</string>
-	<string name="skills.wizard.passive_2.up1.name">Flame Shield</string>
-	<string name="skills.wizard.passive_2.up1.desc">Taking damage while having stacks of \cb0dfffBarrier\d ignites the air around yourself for a duration, dealing Fire damage to nearby enemies.</string>
-	<string name="skills.wizard.passive_2.up2.name">Frost Shell</string>
-	<string name="skills.wizard.passive_2.up2.desc">As long as you have stacks of \cb0dfffBarrier\d you have increased Armor and Ice Resistance. You also inflict \cb0dfffFreeze\d to any attackers.</string>
-	<string name="skills.wizard.passive_2.up3.name">Protective Warding</string>
-	<string name="skills.wizard.passive_2.up3.desc">Casting a \cffdfb0Spell\d gains a chance to generate stacks of Barrier. This effect has a short cooldown.</string>
+	<string name="skills.wizard.passive_2.name">Барьер</string>
+	<string name="skills.wizard.passive_2.desc">Вы генерируете защитные стаки \cb0dfffБарьера\d со временем. При получении урона расходуется стак, снижая полученный урон.</string>
+	<string name="skills.wizard.passive_2.up1.name">Огненный щит</string>
+	<string name="skills.wizard.passive_2.up1.desc">Получение урона при наличии стаков \cb0dfffБарьера\d поджигает воздух вокруг вас на некоторое время, нанося урон огнём ближайшим врагам.</string>
+	<string name="skills.wizard.passive_2.up2.name">Ледяная оболочка</string>
+	<string name="skills.wizard.passive_2.up2.desc">Пока у вас есть стаки \cb0dfffБарьера\d, вы получаете увеличенную броню и сопротивление льду. Вы также накладываете \cb0dfffЗаморозку\d на атакующих.</string>
+	<string name="skills.wizard.passive_2.up3.name">Защитные чары</string>
+	<string name="skills.wizard.passive_2.up3.desc">Произнесение \cffdfb0Заклинания\d получает шанс генерировать стаки Барьера. Этот эффект имеет короткое время восстановления.</string>
 
-
-	<string name="skills.wizard.mastery_1.name">Evocation</string>
+	<string name="skills.wizard.mastery_1.name">Эвокация</string>
 	<string name="skills.wizard.mastery_1.desc"></string>
 
-	<string name="skills.wizard.mastery_1.spell_1.name">Meteor Shower</string>
-	<string name="skills.wizard.mastery_1.spell_1.desc">You summon meteors to fall in the area for a duration, dealing both Physical and Fire damage.</string>
-	<string name="skills.wizard.mastery_1.spell_1.up1.name">Burning Ground</string>
-	<string name="skills.wizard.mastery_1.spell_1.up1.desc">The meteors creates a an area of burning ground on impact, dealing additional Fire damage for a period.</string>
-	<string name="skills.wizard.mastery_1.spell_1.up2.name">Comet</string>
-	<string name="skills.wizard.mastery_1.spell_1.up2.desc">Changes the damage type to Ice and Physical, and gains a chance to inflict \cb0dfffFreeze\d.</string>
+	<string name="skills.wizard.mastery_1.spell_1.name">Метеоритный дождь</string>
+	<string name="skills.wizard.mastery_1.spell_1.desc">Вы призываете метеоры, которые падают в область в течение некоторого времени, нанося как физический, так и огненный урон.</string>
+	<string name="skills.wizard.mastery_1.spell_1.up1.name">Горящая земля</string>
+	<string name="skills.wizard.mastery_1.spell_1.up1.desc">Метеоры создают область горящей земли при ударе, нанося дополнительный урон огнём в течение некоторого времени.</string>
+	<string name="skills.wizard.mastery_1.spell_1.up2.name">Комета</string>
+	<string name="skills.wizard.mastery_1.spell_1.up2.desc">Меняет тип урона на ледяной и физический, а также получает шанс наложить \cb0dfffЗаморозку\d.</string>
 	<string name="skills.wizard.mastery_1.spell_1.up3.name"></string>
 	<string name="skills.wizard.mastery_1.spell_1.up3.desc"></string>
 
-	<string name="skills.wizard.mastery_1.passive_1.name">Incanter's Cadence</string>
-	<string name="skills.wizard.mastery_1.passive_1.desc">Casting \cffdfb0Spells\d generate stacks of \cb0dfffIncanter's Cadence\d. Each stack increases your Cast Speed and reduces the Mana Cost of spells.</string>
-	<string name="skills.wizard.mastery_1.passive_1.up1.name">Rising Crescendo</string>
-	<string name="skills.wizard.mastery_1.passive_1.up1.desc">Each stack of \cb0dfffIncanter's Cadence\d increases your Spell Crit Chance.</string>
-	<string name="skills.wizard.mastery_1.passive_1.up2.name">Incanter's Flow</string>
-	<string name="skills.wizard.mastery_1.passive_1.up2.desc">Each stack of Incanter's Cadence increases your Weapon Speed.</string>
+	<string name="skills.wizard.mastery_1.passive_1.name">Ритм заклинателя</string>
+	<string name="skills.wizard.mastery_1.passive_1.desc">Произнесение \cffdfb0Заклинаний\d генерирует стаки \cb0dfffРитма заклинателя\d. Каждый стак увеличивает вашу скорость произнесения заклинаний и снижает стоимость маны заклинаний.</string>
+	<string name="skills.wizard.mastery_1.passive_1.up1.name">Растущий крещендо</string>
+	<string name="skills.wizard.mastery_1.passive_1.up1.desc">Каждый стак \cb0dfffРитма заклинателя\d увеличивает ваш шанс критического удара заклинаниями.</string>
+	<string name="skills.wizard.mastery_1.passive_1.up2.name">Поток заклинателя</string>
+	<string name="skills.wizard.mastery_1.passive_1.up2.desc">Каждый стак Ритма заклинателя увеличивает вашу скорость атаки.</string>
 	<string name="skills.wizard.mastery_1.passive_1.up3.name"></string>
 	<string name="skills.wizard.mastery_1.passive_1.up3.desc"></string>
 
-	<string name="skills.wizard.mastery_2.name">Conjuration</string>
+	<string name="skills.wizard.mastery_2.name">Конъюрация</string>
 	<string name="skills.wizard.mastery_2.desc"></string>
 
-	<string name="skills.wizard.mastery_2.spell_1.name">Conjure Hydras</string>
-	<string name="skills.wizard.mastery_2.spell_1.desc">You conjure multiple hydra that spew fire at nearby enemies dealing Fire damage.</string>
-	<string name="skills.wizard.mastery_2.spell_1.up1.name">Greater Hydra</string>
-	<string name="skills.wizard.mastery_2.spell_1.up1.desc">You conjure additional hydra heads with each cast.</string>
-	<string name="skills.wizard.mastery_2.spell_1.up2.name">Frost Breath</string>
-	<string name="skills.wizard.mastery_2.spell_1.up2.desc">Changes damage type to Ice.</string>
+	<string name="skills.wizard.mastery_2.spell_1.name">Призыв гидр</string>
+	<string name="skills.wizard.mastery_2.spell_1.desc">Вы призываете несколько гидр, которые извергают огонь по ближайшим врагам, нанося урон огнём.</string>
+	<string name="skills.wizard.mastery_2.spell_1.up1.name">Великая гидра</string>
+	<string name="skills.wizard.mastery_2.spell_1.up1.desc">Вы призываете дополнительные головы гидры с каждым произнесением.</string>
+	<string name="skills.wizard.mastery_2.spell_1.up2.name">Ледяное дыхание</string>
+	<string name="skills.wizard.mastery_2.spell_1.up2.desc">Меняет тип урона на ледяной.</string>
 	<string name="skills.wizard.mastery_2.spell_1.up3.name"></string>
 	<string name="skills.wizard.mastery_2.spell_1.up3.desc"></string>
 
-	<string name="skills.wizard.mastery_2.passive_1.name">Animated Sword</string>
-	<string name="skills.wizard.mastery_2.passive_1.desc">You conjure a magical sword that follows you around at all times. The sword slashes at nearby enemies dealing Physical damage.</string>
-	<string name="skills.wizard.mastery_2.passive_1.up1.name">Flame Blade</string>
-	<string name="skills.wizard.mastery_2.passive_1.up1.desc">The sword is now engulfed in flames and continously deal Fire damage to nearby enemies.</string>
-	<string name="skills.wizard.mastery_2.passive_1.up2.name">Ice Blade</string>
-	<string name="skills.wizard.mastery_2.passive_1.up2.desc">The sword now deals Ice damage and gains a chance to inflict \cb0dfffFreeze\d.</string>
+	<string name="skills.wizard.mastery_2.passive_1.name">Оживлённый меч</string>
+	<string name="skills.wizard.mastery_2.passive_1.desc">Вы призываете магический меч, который следует за вами. Меч атакует ближайших врагов, нанося физический урон.</string>
+	<string name="skills.wizard.mastery_2.passive_1.up1.name">Огненный меч</string>
+	<string name="skills.wizard.mastery_2.passive_1.up1.desc">Меч теперь охвачен пламенем и постоянно наносит урон огнём ближайшим врагам.</string>
+	<string name="skills.wizard.mastery_2.passive_1.up2.name">Ледяной меч</string>
+	<string name="skills.wizard.mastery_2.passive_1.up2.desc">Меч теперь наносит ледяной урон и получает шанс наложить \cb0dfffЗаморозку\d.</string>
 	<string name="skills.wizard.mastery_2.passive_1.up3.name"></string>
 	<string name="skills.wizard.mastery_2.passive_1.up3.desc"></string>
 
-	<string name="skills.wizard.mastery_3.name">Transmutation</string>
+	<string name="skills.wizard.mastery_3.name">Трансмутация</string>
 	<string name="skills.wizard.mastery_3.desc"></string>
 
-	<string name="skills.wizard.mastery_3.spell_1.name">Haste</string>
-	<string name="skills.wizard.mastery_3.spell_1.desc">You gain a temporary buff that increases your Weapon, Cast and Movement Speed.</string>
-	<string name="skills.wizard.mastery_3.spell_1.up1.name">Blur</string>
-	<string name="skills.wizard.mastery_3.spell_1.up1.desc">You also gain Evasion for the duration of the buff.</string>
-	<string name="skills.wizard.mastery_3.spell_1.up2.name">Temporal Shift</string>
-	<string name="skills.wizard.mastery_3.spell_1.up2.desc">For the duration of the buff you inflict nearby enemies with \cb0dfffSlow\d.</string>
+	<string name="skills.wizard.mastery_3.spell_1.name">Ускорение</string>
+	<string name="skills.wizard.mastery_3.spell_1.desc">Вы получаете временный бафф, который увеличивает вашу скорость атаки, произнесения заклинаний и передвижения.</string>
+	<string name="skills.wizard.mastery_3.spell_1.up1.name">Размытие</string>
+	<string name="skills.wizard.mastery_3.spell_1.up1.desc">Вы также получаете уклонение на время действия баффа.</string>
+	<string name="skills.wizard.mastery_3.spell_1.up2.name">Временной сдвиг</string>
+	<string name="skills.wizard.mastery_3.spell_1.up2.desc">На время действия баффа вы накладываете \cb0dfffЗамедление\d на ближайших врагов.</string>
 	<string name="skills.wizard.mastery_3.spell_1.up3.name"></string>
 	<string name="skills.wizard.mastery_3.spell_1.up3.desc"></string>
-	
-	<string name="skills.wizard.mastery_3.passive_1.name">Enhanced Physique</string>
-	<string name="skills.wizard.mastery_3.passive_1.desc">Grants additional Strength, Dexterity and Intelligence per character level.</string>
-	<string name="skills.wizard.mastery_3.passive_1.up1.name">Enhanced Strength</string>
-	<string name="skills.wizard.mastery_3.passive_1.up1.desc">Grants Spell Power per Strength.</string>
-	<string name="skills.wizard.mastery_3.passive_1.up2.name">Enhanced Dexterity</string>
-	<string name="skills.wizard.mastery_3.passive_1.up2.desc">Grants Spell Power per Dexterity.</string>
-	<string name="skills.wizard.mastery_3.passive_1.up3.name">Free Movement</string>
-	<string name="skills.wizard.mastery_3.passive_1.up3.desc">You gain immunity to \cb0dfffSlow\d and \cb0dfffCripple\d.</string>
+
+	<string name="skills.wizard.mastery_3.passive_1.name">Улучшенное телосложение</string>
+	<string name="skills.wizard.mastery_3.passive_1.desc">Даёт дополнительную силу, ловкость и интеллект за каждый уровень персонажа.</string>
+	<string name="skills.wizard.mastery_3.passive_1.up1.name">Улучшенная сила</string>
+	<string name="skills.wizard.mastery_3.passive_1.up1.desc">Даёт силу заклинаний за каждую единицу силы.</string>
+	<string name="skills.wizard.mastery_3.passive_1.up2.name">Улучшенная ловкость</string>
+	<string name="skills.wizard.mastery_3.passive_1.up2.desc">Даёт силу заклинаний за каждую единицу ловкости.</string>
+	<string name="skills.wizard.mastery_3.passive_1.up3.name">Свобода передвижения</string>
+	<string name="skills.wizard.mastery_3.passive_1.up3.desc">Вы получаете иммунитет к \cb0dfffЗамедлению\d и \cb0dfffХромоте\d.</string>
 
 
 
+	<!-- Крафтинг -->
 
+	<string name="menu.crafting.potion.title">Приготовление зелий</string>
+	<string name="menu.crafting.food.title">Кулинария</string>
+	<string name="menu.crafting.workbench.title">Верстак</string>
+	<string name="menu.crafting.cloth.title">Портной</string>
+	<string name="menu.crafting.leather.title">Кожевник</string>
+	<string name="menu.crafting.metal.title">Кузнец</string>
+	<string name="menu.crafting.armor.title">Броня</string>
+	<string name="menu.crafting.weaponsmith.title">Оружейник</string>
+	<string name="menu.crafting.scales.title">Чешуйчатая броня</string>
 
+	<string name="menu.crafting.slot.tier.name">Уровень</string>
+	<string name="menu.crafting.slot.tier.desc">Выберите уровень предмета для крафта.</string>
+	<string name="menu.crafting.slot.quality.name">Качество</string>
+	<string name="menu.crafting.slot.quality.desc">Выберите качество предмета для крафта.</string>
+	<string name="menu.crafting.slot.blueprint.name">Чертеж</string>
+	<string name="menu.crafting.slot.blueprint.desc">Выберите, какой предмет создать.</string>
+	<string name="menu.crafting.slot.meal.name">Рецепт блюда</string>
+	<string name="menu.crafting.slot.meal.desc">Выберите, какое блюдо приготовить.</string>
+	<string name="menu.crafting.slot.potion.name">Рецепт зелья</string>
+	<string name="menu.crafting.slot.potion.desc">Выберите, какое зелье создать.</string>
+	<string name="menu.crafting.slot.bottle.name">Бутылка</string>
+	<string name="menu.crafting.slot.bottle.desc">Выберите, какую бутылку использовать для зелья.</string>
 
+	<string name="menu.enchanting.title">Зачарование</string>
+	<string name="menu.enchanting.slot.equipment.name">Зачаровать</string>
+	<string name="menu.enchanting.slot.equipment.desc">Улучшите выбранное снаряжение, чтобы добавить случайный модификатор.</string>
+	<string name="menu.enchanting.slot.component.name">Компонент</string>
+	<string name="menu.enchanting.slot.component.desc">Примените компонент к зачарованию, чтобы добавить определённый модификатор.</string>
+	<string name="menu.disenchanting.title">Разачарование</string>
+	<string name="menu.disenchanting.slot.equipment.name">Разачаровать</string>
+	<string name="menu.disenchanting.slot.equipment.desc">Уничтожьте выбранное снаряжение, чтобы получить эльфийские руны.</string>
+	<string name="menu.reenchanting.title">Перезачарование</string>
+	<string name="menu.reenchanting.slot.equipment.name">Перезачаровать</string>
+	<string name="menu.reenchanting.slot.equipment.desc">Пересоздайте модификаторы на выбранном снаряжении.</string>
 
+	<string name="crafting.blueprint.apprentice.name">Ученик</string>
+	<string name="crafting.blueprint.apprentice.desc">Создайте предмет уровня Ученика.</string>
+	<string name="crafting.blueprint.adept.name">Адепт</string>
+	<string name="crafting.blueprint.adept.desc">Создайте предмет уровня Адепта.</string>
+	<string name="crafting.blueprint.expert.name">Эксперт</string>
+	<string name="crafting.blueprint.expert.desc">Создайте предмет уровня Эксперта.</string>
+	<string name="crafting.blueprint.master.name">Мастер</string>
+	<string name="crafting.blueprint.master.desc">Создайте предмет уровня Мастера.</string>
+	<string name="crafting.blueprint.common.name">Обычный</string>
+	<string name="crafting.blueprint.common.desc">Создайте предмет обычного качества.</string>
+	<string name="crafting.blueprint.uncommon.name">Необычный</string>
+	<string name="crafting.blueprint.uncommon.desc">Создайте предмет необычного качества.</string>
+	<string name="crafting.blueprint.rare.name">Редкий</string>
+	<string name="crafting.blueprint.rare.desc">Создайте предмет редкого качества.</string>
+	<string name="crafting.blueprint.epic.name">Эпический</string>
+	<string name="crafting.blueprint.epic.desc">Создайте предмет эпического качества.</string>
 
+	<string name="crafting.blueprint.chest_str.name">Латный доспех</string>
+	<string name="crafting.blueprint.chest_dex.name">Кожаный доспех</string>
+	<string name="crafting.blueprint.chest_int.name">Мантия</string>
+	<string name="crafting.blueprint.head_str.name">Латный шлем</string>
+	<string name="crafting.blueprint.head_dex.name">Капюшон</string>
+	<string name="crafting.blueprint.head_int.name">Венец</string>
+	<string name="crafting.blueprint.hands_str.name">Латные перчатки</string>
+	<string name="crafting.blueprint.hands_dex.name">Кожаные наручи</string>
+	<string name="crafting.blueprint.hands_int.name">Перчатки</string>
+	<string name="crafting.blueprint.feet_str.name">Латные поножи</string>
+	<string name="crafting.blueprint.feet_dex.name">Кожаные ботинки</string>
+	<string name="crafting.blueprint.feet_int.name">Туфли</string>
 
+	<string name="crafting.blueprint.acc_belt.name">Кожаный пояс</string>
 
+	<string name="crafting.blueprint.paladin.mainhand.name">Основная рука паладина</string>
+	<string name="crafting.blueprint.paladin.offhand.name">Дополнительная рука паладина</string>
+	<string name="crafting.blueprint.ranger.mainhand.name">Основная рука следопыта</string>
+	<string name="crafting.blueprint.ranger.offhand.name">Дополнительная рука следопыта</string>
+	<string name="crafting.blueprint.rogue.mainhand.name">Основная рука разбойника</string>
+	<string name="crafting.blueprint.rogue.offhand.name">Дополнительная рука разбойника</string>
+	<string name="crafting.blueprint.warlock.mainhand.name">Основная рука чернокнижника</string>
+	<string name="crafting.blueprint.warlock.offhand.name">Дополнительная рука чернокнижника</string>
+	<string name="crafting.blueprint.wizard.mainhand.name">Основная рука мага</string>
+	<string name="crafting.blueprint.wizard.offhand.name">Дополнительная рука мага</string>
 
+	<string name="crafting.blueprint.potion.health.name">Зелье здоровья</string>
+	<string name="crafting.blueprint.potion.health.desc">Восстанавливает здоровье.</string>
+	<string name="crafting.blueprint.potion.mana.name">Зелье маны</string>
+	<string name="crafting.blueprint.potion.mana.desc">Восстанавливает ману.</string>
+	<string name="crafting.blueprint.potion.rejuvenation.name">Зелье восстановления</string>
+	<string name="crafting.blueprint.potion.rejuvenation.desc">Восстанавливает небольшое количество здоровья, маны и выносливости.</string>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<!-- Crafting -->
-
-
-	<string name="menu.crafting.potion.title">Potion Brewing</string>
-	<string name="menu.crafting.food.title">Cooking</string>
-	<string name="menu.crafting.workbench.title">Workbench</string>
-	<string name="menu.crafting.cloth.title">Seamstress</string>
-	<string name="menu.crafting.leather.title">Leatherworker</string>
-	<string name="menu.crafting.metal.title">Blacksmith</string>
-	<string name="menu.crafting.armor.title">Armorer</string>
-	<string name="menu.crafting.weaponsmith.title">Weapon Smith</string>
-	<string name="menu.crafting.scales.title">Scale Armorer</string>
-
-	<string name="menu.crafting.slot.tier.name">Tier</string>
-	<string name="menu.crafting.slot.tier.desc">Select what tier of item to craft.</string>
-	<string name="menu.crafting.slot.quality.name">Quality</string>
-	<string name="menu.crafting.slot.quality.desc">Select what quality of item to craft.</string>
-	<string name="menu.crafting.slot.blueprint.name">Blueprint</string>
-	<string name="menu.crafting.slot.blueprint.desc">Select what item to craft.</string>
-	<string name="menu.crafting.slot.meal.name">Meal Recipe</string>
-	<string name="menu.crafting.slot.meal.desc">Select what meal to cook.</string>
-	<string name="menu.crafting.slot.potion.name">Potion Recipe</string>
-	<string name="menu.crafting.slot.potion.desc">Select what potion to craft.</string>
-	<string name="menu.crafting.slot.bottle.name">Bottle</string>
-	<string name="menu.crafting.slot.bottle.desc">Select what bottle to use for the potion.</string>
-
-	<string name="menu.enchanting.title">Enchanting</string>
-	<string name="menu.enchanting.slot.equipment.name">Enchant</string>
-	<string name="menu.enchanting.slot.equipment.desc">Upgrade the selected equipment to add a random modifier.</string>
-	<string name="menu.enchanting.slot.component.name">Component</string>
-	<string name="menu.enchanting.slot.component.desc">Apply a component to the enchantment to add a pre-determined modifier. </string>
-	<string name="menu.disenchanting.title">Disenchanting</string>
-	<string name="menu.disenchanting.slot.equipment.name">Disenchant</string>
-	<string name="menu.disenchanting.slot.equipment.desc">Destroy the selected equipment to gain elven runes.</string>
-	<string name="menu.reenchanting.title">Re-enchanting</string>
-	<string name="menu.reenchanting.slot.equipment.name">Re-enchant</string>
-	<string name="menu.reenchanting.slot.equipment.desc">Re-rolls the modifiers on the selected equipment.</string>
-
-	<string name="crafting.blueprint.apprentice.name">Apprentice</string>
-	<string name="crafting.blueprint.apprentice.desc">Craft an Apprentice tier item.</string>
-	<string name="crafting.blueprint.adept.name">Adept</string>
-	<string name="crafting.blueprint.adept.desc">Craft an Adept tier item.</string>
-	<string name="crafting.blueprint.expert.name">Expert</string>
-	<string name="crafting.blueprint.expert.desc">Craft an Expert tier item.</string>
-	<string name="crafting.blueprint.master.name">Master</string>
-	<string name="crafting.blueprint.master.desc">Craft a Master tier item.</string>
-	<string name="crafting.blueprint.common.name">Common</string>
-	<string name="crafting.blueprint.common.desc">Craft a Common quality item.</string>
-	<string name="crafting.blueprint.uncommon.name">Uncommon</string>
-	<string name="crafting.blueprint.uncommon.desc">Craft a Uncommon quality item.</string>
-	<string name="crafting.blueprint.rare.name">Rare</string>
-	<string name="crafting.blueprint.rare.desc">Craft a Rare quality item.</string>
-	<string name="crafting.blueprint.epic.name">Epic</string>
-	<string name="crafting.blueprint.epic.desc">Craft a Epic quality item.</string>
-
-	<string name="crafting.blueprint.chest_str.name">Plate Armor</string>
-	<string name="crafting.blueprint.chest_dex.name">Leather Armor</string>
-	<string name="crafting.blueprint.chest_int.name">Robe</string>
-	<string name="crafting.blueprint.head_str.name">Plate Helmet</string>
-	<string name="crafting.blueprint.head_dex.name">Hood</string>
-	<string name="crafting.blueprint.head_int.name">Circlet</string>
-	<string name="crafting.blueprint.hands_str.name">Plate Gauntlets</string>
-	<string name="crafting.blueprint.hands_dex.name">Leather Bracers</string>
-	<string name="crafting.blueprint.hands_int.name">Gloves</string>
-	<string name="crafting.blueprint.feet_str.name">Plate Greaves</string>
-	<string name="crafting.blueprint.feet_dex.name">Leather Boots</string>
-	<string name="crafting.blueprint.feet_int.name">Slippers</string>
-
-	<string name="crafting.blueprint.acc_belt.name">Leather Belt</string>
-
-	<string name="crafting.blueprint.paladin.mainhand.name">Paladin Mainhand</string>
-	<string name="crafting.blueprint.paladin.offhand.name">Paladin Offhand</string>
-	<string name="crafting.blueprint.ranger.mainhand.name">Ranger Mainhand</string>
-	<string name="crafting.blueprint.ranger.offhand.name">Ranger Offhand</string>
-	<string name="crafting.blueprint.rogue.mainhand.name">Rogue Mainhand</string>
-	<string name="crafting.blueprint.rogue.offhand.name">Rogue Offhand</string>
-	<string name="crafting.blueprint.warlock.mainhand.name">Warlock Mainhand</string>
-	<string name="crafting.blueprint.warlock.offhand.name">Warlock Offhand</string>
-	<string name="crafting.blueprint.wizard.mainhand.name">Wizard Mainhand</string>
-	<string name="crafting.blueprint.wizard.offhand.name">Wizard Offhand</string>
-
-	<string name="crafting.blueprint.potion.health.name">Healing Potion</string>
-	<string name="crafting.blueprint.potion.health.desc">Restores Health.</string>
-	<string name="crafting.blueprint.potion.mana.name">Mana Potion</string>
-	<string name="crafting.blueprint.potion.mana.desc">Restores Mana.</string>
-	<string name="crafting.blueprint.potion.rejuvenation.name">Rejuvenation Potion</string>
-	<string name="crafting.blueprint.potion.rejuvenation.desc">Restores a small amount of Health, Mana and Stamina.</string>
-
-	<string name="crafting.blueprint.leather.name">Leather (%type%)</string>
+	<string name="crafting.blueprint.leather.name">Кожа (%type%)</string>
 
 
 
