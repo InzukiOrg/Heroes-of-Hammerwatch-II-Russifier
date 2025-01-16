@@ -36,10 +36,10 @@
 	<string name="equipment.mainhand.wand.fire.3a">Великий огненный жезл</string>
 	<string name="equipment.mainhand.wand.fire.4a">Огненный жезл мастера</string>
 
-	<string name="equipment.mainhand.wand.ice.1a">Морозный жезл</string>
-	<string name="equipment.mainhand.wand.ice.2a">Морозный жезл адепта</string>
-	<string name="equipment.mainhand.wand.ice.3a">Великий морозный жезл</string>
-	<string name="equipment.mainhand.wand.ice.4a">Морозный жезл мастера</string>
+	<string name="equipment.mainhand.wand.ice.1a">Ледяной жезл</string>
+	<string name="equipment.mainhand.wand.ice.2a">Ледяной жезл адепта</string>
+	<string name="equipment.mainhand.wand.ice.3a">Великий ледяной жезл</string>
+	<string name="equipment.mainhand.wand.ice.4a">Ледяной жезл мастера</string>
 
 	<string name="equipment.mainhand.wand.lightning.1a">Жезл молнии</string>
 	<string name="equipment.mainhand.wand.lightning.2a">Жезл молнии адепта</string>
@@ -67,14 +67,14 @@
 	<string name="equipment.offhand.tome.fire.3a">Великий огненный том</string>
 	<string name="equipment.offhand.tome.fire.4a">Огненный том мастера</string>
 
-	<string name="equipment.offhand.tome.ice.1a">Морозный том</string>
-	<string name="equipment.offhand.tome.ice.2a">Морозный том адепта</string>
-	<string name="equipment.offhand.tome.ice.3a">Великий морозный том</string>
-	<string name="equipment.offhand.tome.ice.4a">Морозный том мастера</string>
+	<string name="equipment.offhand.tome.ice.1a">Ледяной том</string>
+	<string name="equipment.offhand.tome.ice.2a">Ледяной том адепта</string>
+	<string name="equipment.offhand.tome.ice.3a">Великий ледяной том</string>
+	<string name="equipment.offhand.tome.ice.4a">Ледяной том мастера</string>
 
 	<string name="equipment.offhand.tome.lightning.1a">Том молний</string>
 	<string name="equipment.offhand.tome.lightning.2a">Том молний адепта</string>
-	<string name="equipment.offhand.tome.lightning.3a">Великий Том молний</string>
+	<string name="equipment.offhand.tome.lightning.3a">Великий том молний</string>
 	<string name="equipment.offhand.tome.lightning.4a">Том молний мастера</string>
 
 
@@ -114,10 +114,10 @@
 	<string name="equipment.twohanded.staff.fire.3a">Великий огненный посох</string>
 	<string name="equipment.twohanded.staff.fire.4a">Огненный посох мастера</string>
 
-	<string name="equipment.twohanded.staff.ice.1a">Морозный посох</string>
-	<string name="equipment.twohanded.staff.ice.2a">Морозный посох адепта</string>
-	<string name="equipment.twohanded.staff.ice.3a">Великий морозный посох</string>
-	<string name="equipment.twohanded.staff.ice.4a">Морозный посох мастера</string>
+	<string name="equipment.twohanded.staff.ice.1a">Ледяной посох</string>
+	<string name="equipment.twohanded.staff.ice.2a">Ледяной посох адепта</string>
+	<string name="equipment.twohanded.staff.ice.3a">Великий ледяной посох</string>
+	<string name="equipment.twohanded.staff.ice.4a">Ледяной посох мастера</string>
 
 	<string name="equipment.twohanded.staff.lightning.1a">Посох молнии</string>
 	<string name="equipment.twohanded.staff.lightning.2a">Посох молнии адепта</string>
