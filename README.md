@@ -3,7 +3,7 @@
 
 Перевод в процессе:
 - [ ] additional.lang —— Первый, в процессе перевода.
-- [X] dialogue.lang
+- [ ] dialogue.lang — Частично переведён. Диалоги NPC не поддерживают Киррилицу.
 - [X] equipment.lang
 - [ ] input.lang — Не уверен, что вообще требует перевода.
 - [X] items.lang
