@@ -24,8 +24,8 @@
 	<string name="option.g_laser_sight.title">Aim Guide</string>
 	<string name="option.g_quickcast.title">Быстрое применение навыков</string>
 
-	<string name="option.g_movedir_snap.title">Movement Direction Snap</string>
-	<string name="option.g_aimdir_snap.title">Aim Direction Snap</string>
+	<string name="option.g_movedir_snap.title">Привязка направления движения</string>
+	<string name="option.g_aimdir_snap.title">Привязка направления прицеливания</string>
 	<string name="option.g_charge_movedir.title">Рывок в направлении движения</string>
 	<string name="option.g_controller_move_dir.title">Прицеливание в направлении движения</string>
 
