@@ -54,39 +54,39 @@
 
 	<string name="npc.shop.armorer">Оружейник</string>
 	<string name="upgrades.armor.name">Броня %num%</string>
-	<string name="upgrades.armor.desc">+%gain% брони</string>
+	<string name="upgrades.armor.desc">+%gain% armor</string>
 	<string name="upgrades.attack_power.name">Оружие %num%</string>
-	<string name="upgrades.attack_power.desc">+%gain% силы оружия</string>
+	<string name="upgrades.attack_power.desc">+%gain% weapon power</string>
 	<string name="upgrades.attack_speed.name">Скорость оружия %num%</string>
-	<string name="upgrades.attack_speed.desc">+%gain%% скорости оружия</string>
+	<string name="upgrades.attack_speed.desc">+%gain%% weapon speed</string>
 	
 	<string name="npc.shop.apothecary">Аптекарь</string>
 	<string name="upgrades.potion_charges.name">Заряды зелий %num%</string>
-	<string name="upgrades.potion_charges.desc">+%gain% зарядов зелья</string>
+	<string name="upgrades.potion_charges.desc">+%gain% potion charge</string>
 	<string name="upgrades.potion_health.name">Зелье здоровья %num%</string>
-	<string name="upgrades.potion_health.desc">Зелье лечит %to% вместо %from%</string>
+	<string name="upgrades.potion_health.desc">Potion heals for %to% instead of %from%</string>
 	<string name="upgrades.potion_mana.name">Зелье маны %num%</string>
-	<string name="upgrades.potion_mana.desc">Зелье даёт %to% маны вместо %from%</string>
+	<string name="upgrades.potion_mana.desc">Potion gives %to% mana instead of %from%</string>
 	<string name="upgrades.poison_res.name">Сопротивление яду %num%</string>
-	<string name="upgrades.poison_res.desc">+%gain% сопротивления яду</string>
+	<string name="upgrades.poison_res.desc">+%gain% Poison resistance</string>
 	
 	<string name="npc.shop.athlete">Спортсмен</string>
 	<string name="upgrades.dash_charges.name">Заряды рывка %num%</string>
-	<string name="upgrades.dash_charges.desc">+%gain% зярядов рыка</string>
+	<string name="upgrades.dash_charges.desc">+%gain% dash charge</string>
 	<string name="upgrades.dash_recharge.name">Перезарядка рывка %num%</string>
-	<string name="upgrades.dash_recharge.desc">-%gain%% времени перезарядки рывка</string>
+	<string name="upgrades.dash_recharge.desc">-%gain%% Dash recharge time</string>
 	<string name="upgrades.move_speed.name">Скорость движения %num%</string>
-	<string name="upgrades.move_speed.desc">+%gain%% скорости дижения</string>
+	<string name="upgrades.move_speed.desc">+%gain%% move speed</string>
 	<string name="upgrades.health_pickups.name">Подбираемое здоровье %num%</string>
-	<string name="upgrades.health_pickups.desc">+%gain%% подбираемого здоровья</string>
+	<string name="upgrades.health_pickups.desc">+%gain%% health pickup gain</string>
 	
 	<string name="npc.shop.mystic">Мистика</string>
 	<string name="upgrades.ele_res.name">Сопротивление стихиям %num%</string>
-	<string name="upgrades.ele_res.desc">+%gain% сопротивления огню, морозу и молнии</string>
+	<string name="upgrades.ele_res.desc">+%gain% Fire, Ice, and Lightning resistance</string>
 	<string name="upgrades.mana_pickups.name">Подбираемая мана %num%</string>
-	<string name="upgrades.mana_pickups.desc">+%gain%% подбираемой маны</string>
+	<string name="upgrades.mana_pickups.desc">+%gain%% mana pickup gain</string>
 	<string name="upgrades.spell_power.name">Сила заклинаний %num%</string>
-	<string name="upgrades.spell_power.desc">+%gain% силы заклинаний</string>
+	<string name="upgrades.spell_power.desc">+%gain% spell power</string>
 
 	<string name="npc.shop.attribute_assigner">Тренер атрибутов</string>
 	<string name="npc.shop.material_trader">Торговые материалы</string>
