@@ -52,7 +52,7 @@
 
 	<string name="tavern.drink.sudden_death.name">Внезапная смерть</string>
 	<string name="tavern.drink.sudden_death.desc">+50% урона заклинаний.\nПри произнесении заклинаний вы теряете 50% стоимости Маны в виде Здоровья.</string>
-	<string name="tavern.drink.double_edged.name">Double-Edged</string>
+	<string name="tavern.drink.double_edged.name">Двусторонний</string>
 	<string name="tavern.drink.double_edged.desc">25% шанс критического урона оружия.\nВы теряете 2,5% текущего Здоровья при получении критического урона от оружия.</string>
 	<string name="tavern.drink.soul_anguish.name">Soul Anguish</string>
 	<string name="tavern.drink.soul_anguish.desc">3% похищение Маны оружием.\nРегенерация Маны равна 0.</string>
