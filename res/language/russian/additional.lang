@@ -1,175 +1,175 @@
 <lang>
 	<!-- System -->
 
-	<string name="tooltips.equipped">Equipped</string>
+	<string name="tooltips.equipped">Надето</string>
 
-	<string name="item.info.tooltip.slot.mainhand">Main Hand</string>
+	<string name="item.info.tooltip.slot.mainhand">Основная рука</string>
 	<string name="item.info.tooltip.slot.offhand">Off Hand</string>
-	<string name="item.info.tooltip.slot.head">Head</string>
-	<string name="item.info.tooltip.slot.chest">Chest</string>
-	<string name="item.info.tooltip.slot.feet">Feet</string>
-	<string name="item.info.tooltip.slot.hands">Hands</string>
-	<string name="item.info.tooltip.slot.accessory">Accessory</string>
-	<string name="item.info.tooltip.slot.potion">Potion</string>
+	<string name="item.info.tooltip.slot.head">Голова</string>
+	<string name="item.info.tooltip.slot.chest">Грудь</string>
+	<string name="item.info.tooltip.slot.feet">Ноги</string>
+	<string name="item.info.tooltip.slot.hands">Руки</string>
+	<string name="item.info.tooltip.slot.accessory">Аксессуар</string>
+	<string name="item.info.tooltip.slot.potion">Зелье</string>
 
 
 
-	<string name="text.openselsewhere">It opens elsewhere!</string>
-	<string name="text.needakey">I need a key!</string>
-	<string name="text.needbox">I need a toolbox!</string>
-	<string name="text.needpan">I need a pan!</string>
-	<string name="text.needaxe">I need an axe!</string>
-	<string name="text.needshovel">I need a shovel!</string>
-	<string name="text.needpickaxe">I need a\npick axe!</string>
-	<string name="text.needreddye">I need\nred dye!</string>
-	<string name="text.needrope">I need a rope!</string>
-	<string name="text.needladder">I need a ladder!</string>
+	<string name="text.openselsewhere">Открывается в другом месте!</string>
+	<string name="text.needakey">Мне нужен ключ!</string>
+	<string name="text.needbox">Мне нужен ящик с инструментами!</string>
+	<string name="text.needpan">Мне нужна сковорода!</string>
+	<string name="text.needaxe">Мне нужен топор!</string>
+	<string name="text.needshovel">Мне нужна лопата!</string>
+	<string name="text.needpickaxe">Мне нужна\nкирка!</string>
+	<string name="text.needreddye">Мне нужна\nкрасная краска!</string>
+	<string name="text.needrope">Мне нужна верёвка!</string>
+	<string name="text.needladder">Мне нужна лестница!</string>
 
 
 
-	<string name="rg_post_phosphor">Post Phosphor</string>
-	<string name="rg_post_phosphor.help">Enable Phosphor retro effect</string>
-	<string name="rg_post_bloom">Post Dot & Bloom</string>
-	<string name="rg_post_bloom.help">Enable Dot and Bloom retro effect</string>
+	<string name="rg_post_phosphor">Пост Фосфор</string>
+	<string name="rg_post_phosphor.help">Включает ретро-эффект «Фосфор»</string>
+	<string name="rg_post_bloom">Пост Точка и Свечение</string>
+	<string name="rg_post_bloom.help">Включает ретро-эффекты «Точка» и «Свечение»</string>
 
 
 
 
-	<string name="button.shop.more">More</string>
-	<string name="button.shop.tailor">Tailor</string>
+	<string name="button.shop.more">Больше</string>
+	<string name="button.shop.tailor">Портной</string>
 
 
 
-	<string name="epic.name.wicked">Wicked</string>
-	<string name="epic.name.griffon">Griffon</string>
-	<string name="epic.name.titan">Titan</string>
-	<string name="epic.name.fiend">Fiend</string>
-	<string name="epic.name.serpent">Serpent</string>
-	<string name="epic.name.hellion">Hellion</string>
-	<string name="epic.name.imp">Imp</string>
-	<string name="epic.name.colossus">Colossus</string>
-	<string name="epic.name.leviathan">Leviathan</string>
-	<string name="epic.name.torrent">Torrent</string>
-	<string name="epic.name.macabre">Macabre</string>
+	<string name="epic.name.wicked">Злой</string>
+	<string name="epic.name.griffon">Грифон</string>
+	<string name="epic.name.titan">Титан</string>
+	<string name="epic.name.fiend">Демон</string>
+	<string name="epic.name.serpent">Змея</string>
+	<string name="epic.name.hellion">Озорник</string>
+	<string name="epic.name.imp">Чертёнок</string>
+	<string name="epic.name.colossus">Колосс</string>
+	<string name="epic.name.leviathan">Левиафан</string>
+	<string name="epic.name.torrent">Поток</string>
+	<string name="epic.name.macabre">Мрачный</string>
 
 
-	<string name="epic.name.gift">Gift</string>
-	<string name="epic.name.favor">Favor</string>
-	<string name="epic.name.boon">Boon</string>
-	<string name="epic.name.scourge">Scourge</string>
-	<string name="epic.name.legacy">Legacy</string>
-	<string name="epic.name.insignia">Insignia</string>
-	<string name="epic.name.fragment">Fragment</string>
-	<string name="epic.name.signet">Signet</string>
-	<string name="epic.name.seal">Seal</string>
-	<string name="epic.name.bastion">Bastion</string>
-	<string name="epic.name.citadel">Citadel</string>
-	<string name="epic.name.wall">Wall</string>
-	<string name="epic.name.gate">Gate</string>
-	<string name="epic.name.heart">Heart</string>
-	<string name="epic.name.raiment">Raiment</string>
-	<string name="epic.name.garb">Garb</string>
-	<string name="epic.name.regalia">Regalia</string>
-	<string name="epic.name.souvenir">Souvenir</string>
-	<string name="epic.name.token">Token</string>
-	<string name="epic.name.symbol">Symbol</string>
-	<string name="epic.name.emblem">Emblem</string>
-	<string name="epic.name.image">Image</string>
-	<string name="epic.name.band">Band</string>
-	<string name="epic.name.link">Link</string>
-	<string name="epic.name.circuit">Circuit</string>
-	<string name="epic.name.chain">Chain</string>
-	<string name="epic.name.loop">Loop</string>
-	<string name="epic.name.knot">Knot</string>
-	<string name="epic.name.mark">Mark</string>
-	<string name="epic.name.edge">Edge</string>
-	<string name="epic.name.bite">Bite</string>
-	<string name="epic.name.sting">Sting</string>
-	<string name="epic.name.punch">Punch</string>
-	<string name="epic.name.blade">Blade</string>
-	<string name="epic.name.edge">Edge</string>
-	<string name="epic.name.talon">Talon</string>
-	<string name="epic.name.needle">Needle</string>
-	<string name="epic.name.impaler">Impaler</string>
-	<string name="epic.name.razor">Razor</string>
-	<string name="epic.name.twig">Twig</string>
-	<string name="epic.name.branch">Branch</string>
-	<string name="epic.name.script">Script</string>
-	<string name="epic.name.tome">Tome</string>
-	<string name="epic.name.manuscript">Manuscript</string>
-	<string name="epic.name.theory">Theory</string>
-	<string name="epic.name.article">Article</string>
-	<string name="epic.name.fable">Fable</string>
-	<string name="epic.name.crusher">Crusher</string>
-	<string name="epic.name.mauler">Mauler</string>
-	<string name="epic.name.smasher">Smasher</string>
-	<string name="epic.name.breaker">Breaker</string>
-	<string name="epic.name.volley">Volley</string>
-	<string name="epic.name.barrage">Barrage</string>
-	<string name="epic.name.song">Song</string>
-	<string name="epic.name.wind">Wind</string>
-	<string name="epic.name.wing">Wing</string>
-	<string name="epic.name.deluge">Deluge</string>
-	<string name="epic.name.eye">Eye</string>
-	<string name="epic.name.gaze">Gaze</string>
+	<string name="epic.name.gift">Подарок</string>
+	<string name="epic.name.favor">Услуга</string>
+	<string name="epic.name.boon">Дар</string>
+	<string name="epic.name.scourge">Бич</string>
+	<string name="epic.name.legacy">Наследие</string>
+	<string name="epic.name.insignia">Символика</string>
+	<string name="epic.name.fragment">Фрагмент</string>
+	<string name="epic.name.signet">Печатка</string>
+	<string name="epic.name.seal">Печать</string>
+	<string name="epic.name.bastion">Бастион</string>
+	<string name="epic.name.citadel">Цитадель</string>
+	<string name="epic.name.wall">Стена</string>
+	<string name="epic.name.gate">Врата</string>
+	<string name="epic.name.heart">Сердце</string>
+	<string name="epic.name.raiment">Одеяние</string>
+	<string name="epic.name.garb">Наряд</string>
+	<string name="epic.name.regalia">Регалии</string>
+	<string name="epic.name.souvenir">Сувенир</string>
+	<string name="epic.name.token">Жетон</string>
+	<string name="epic.name.symbol">Символ</string>
+	<string name="epic.name.emblem">Эмблема</string>
+	<string name="epic.name.image">Образ</string>
+	<string name="epic.name.band">Группа</string>
+	<string name="epic.name.link">Связь</string>
+	<string name="epic.name.circuit">Контур</string>
+	<string name="epic.name.chain">Цепь</string>
+	<string name="epic.name.loop">Петля</string>
+	<string name="epic.name.knot">Узел</string>
+	<string name="epic.name.mark">Марка</string>
+	<string name="epic.name.edge">Край</string>
+	<string name="epic.name.bite">Укус</string>
+	<string name="epic.name.sting">Жало</string>
+	<string name="epic.name.punch">Удар</string>
+	<string name="epic.name.blade">Лезвие</string>
+	<string name="epic.name.edge">Край</string>
+	<string name="epic.name.talon">Коготь</string>
+	<string name="epic.name.needle">Игла</string>
+	<string name="epic.name.impaler">Колосожатель</string>
+	<string name="epic.name.razor">Бритва</string>
+	<string name="epic.name.twig">Прут</string>
+	<string name="epic.name.branch">Ветвь</string>
+	<string name="epic.name.script">Сценарий</string>
+	<string name="epic.name.tome">Том</string>
+	<string name="epic.name.manuscript">Рукопись</string>
+	<string name="epic.name.theory">Теория</string>
+	<string name="epic.name.article">Статья</string>
+	<string name="epic.name.fable">Басня</string>
+	<string name="epic.name.crusher">Дробилка</string>
+	<string name="epic.name.mauler">Сокрушитель</string>
+	<string name="epic.name.smasher">Разрушитель</string>
+	<string name="epic.name.breaker">Прерыватель</string>
+	<string name="epic.name.volley">Залп</string>
+	<string name="epic.name.barrage">Шквал</string>
+	<string name="epic.name.song">Песня</string>
+	<string name="epic.name.wind">Ветер</string>
+	<string name="epic.name.wing">Крыло</string>
+	<string name="epic.name.deluge">Потоп</string>
+	<string name="epic.name.eye">Глаз</string>
+	<string name="epic.name.gaze">Взгляд</string>
 
-	<string name="modifiers.enchant.bone_dust.desc">Scoring a kill has a %chance%% chance to summon a crawler.</string>
-	<string name="modifiers.enchant.shambler_claw.desc">Attack hits have a %chance%% chance to strike a different nearby enemy with a bolt of lightning dealing %dmg% Lightning damage.</string>
-	<string name="modifiers.enchant.wasp_stinger.desc">Attacking has a %chance%% chance to fire a stinger projectile at a random enemy.</string>
-	<string name="modifiers.enchant.wasp_stinger.desc2">Casting a Spell fires a stinger projectile at a random enemy.</string>
-	<string name="modifiers.enchant.wolf_liver.desc">%value% Movement Speed at full Health.</string>
+	<string name="modifiers.enchant.bone_dust.desc">Убийство имеет шанс %chance%% призвать краулера.</string>
+	<string name="modifiers.enchant.shambler_claw.desc">Попадание атакой с шансом %chance%% поражают близкостаящего врага молнией, наносящей %dmg% урона.</string>
+	<string name="modifiers.enchant.wasp_stinger.desc">Атака имеет шанс %chance%% выстрелить жалящим снарядом в случайного врага.</string>
+	<string name="modifiers.enchant.wasp_stinger.desc2">При сотворении Заклинания выпускается жалящий снаряд в случайного врага.</string>
+	<string name="modifiers.enchant.wolf_liver.desc">Скорость передвижения при полном здоровье: %value%</string>
 
-	<string name="modifiers.epic.skills.dmg.desc">%c-highlight%%skillname%\d deal %amount%% increased damage.</string>
-	<string name="modifiers.epic.skills.cd.desc">%c-highlight%%skillname%\d has %amount%% reduced Cooldown.</string>
-	<string name="modifiers.epic.skills.costmana.desc">%c-highlight%%skillname%\d has %amount%% reduced Mana Cost.</string>
-	<string name="modifiers.epic.skills.coststamina.desc">%c-highlight%%skillname%\d has %amount%% reduced Stamina Cost.</string>
-	<string name="modifiers.epic.skills.speed.desc">%c-highlight%%skillname%\d has %amount%% increased skill speed.</string>
-	<string name="modifiers.epic.skills.stacksmax.desc">%c-highlight%%skillname%\d has %amount% max stacks.</string>
-	<string name="modifiers.epic.skills.stacksduration.desc">%c-highlight%%skillname%\d has %amount% longer duration.</string>
-	<string name="modifiers.epic.skills.summonmax.desc">%c-highlight%%skillname%\d has %amount% max summoned.</string>
+	<string name="modifiers.epic.skills.dmg.desc">Урон %c-highlight%%skillname%\d увеличен на %amount%%.</string>
+	<string name="modifiers.epic.skills.cd.desc">Перезарядка %c-highlight%%skillname%\d уменьшена на %amount%%.</string>
+	<string name="modifiers.epic.skills.costmana.desc">Затраты маны %c-highlight%%skillname%\d уменьшены на %amount%%.</string>
+	<string name="modifiers.epic.skills.coststamina.desc">Затраты выносливости %c-highlight%%skillname%\d уменьшены на %amount%%.</string>
+	<string name="modifiers.epic.skills.speed.desc">Скорость навыка %c-highlight%%skillname%\d увеличена на %amount%%.</string>
+	<string name="modifiers.epic.skills.stacksmax.desc">%c-highlight%%skillname%\d накладывается до %amount% раз.</string>
+	<string name="modifiers.epic.skills.stacksduration.desc">Продолжительность %c-highlight%%skillname%\d увеличена на %amount%.</string>
+	<string name="modifiers.epic.skills.summonmax.desc">Призывы %c-highlight%%skillname%\d ограничены %amount%.</string>
 
-	<string name="modifiers.potions.kill_refill_all.desc">%chance%% chance to refill all Potions on Kill.</string>
-	<string name="modifiers.potions.kill_refill_charge.desc">%chance%% chance to refill a random Potion Charge on Kill.</string>
+	<string name="modifiers.potions.kill_refill_all.desc">%chance%% шанс пополнить все зелья при убийстве.</string>
+	<string name="modifiers.potions.kill_refill_charge.desc">%chance%% шанс пополнить случайный заряд зелья при убийстве.</string>
 
-	<string name="skills.desc.params.fiend.max">Fiend Max Summoned:</string>
+	<string name="skills.desc.params.fiend.max">Максимум призывов демона:</string>
 
-	<string name="equipment.unique.accessory.expert_3.name">Cauldron of Fire</string>
-	<string name="skills.equipment.cauldron_of_fire.desc">Place a cauldron that spews small fireballs in random directions, dealing %amount% Fire damage. %cd% cooldown.</string>
+	<string name="equipment.unique.accessory.expert_3.name">Огненный котел</string>
+	<string name="skills.equipment.cauldron_of_fire.desc">Поместите котел, который извергает небольшие огненные шары в случайном направлении, нанося %amount% Огненного урона. Перезарядка: %cd%.</string>
 
-	<string name="equipment.unique.accessory.master_2.name">Elemental Prism</string>
-	<string name="skills.equipment.elemental_prism.desc">Spawns a prism that projects three rotating beams, one for each element: Fire, Ice, Lightning. Each beam deals %amount% damage of the corresponding element. %cd% cooldown.</string>
+	<string name="equipment.unique.accessory.master_2.name">Призма стихий</string>
+	<string name="skills.equipment.elemental_prism.desc">Вызывает призму, которая проецирует три вращающихся луча, по одному на каждый элемент: Огонь, Лёд, Молния. Каждый луч наносит %amount% урона соответствующего элемента. Перезарядка: %cd%.</string>
 
-	<string name="equipment.unique.chest.master_1.name">Bulwark of Titans</string>
-	<string name="equipment.unique.chest.master_2.name">Shirt of Coins</string>
-	<string name="equipment.unique.chest.master_2.desc">You lose %amount% gold when taking damage.</string>
+	<string name="equipment.unique.chest.master_1.name">Оплот титанов</string>
+	<string name="equipment.unique.chest.master_2.name">Рубашка с монетами</string>
+	<string name="equipment.unique.chest.master_2.desc">Вы теряете %amount% золота, при получении урона.</string>
 
-	<string name="equipment.unique.head.apprentice_1.name">Hood for the Hopeless</string>
-	<string name="equipment.unique.hands.apprentice_1.name">The Grim Gardener</string>
-	<string name="equipment.unique.hands.master_1.name">Spell Fingers</string>
+	<string name="equipment.unique.head.apprentice_1.name">Капюшон для безнадежных</string>
+	<string name="equipment.unique.hands.apprentice_1.name">Мрачный садовник</string>
+	<string name="equipment.unique.hands.master_1.name">Пальцы заклинаний</string>
 
-	<string name="equipment.unique.feet.expert_3.name">Sunwalker Sandals</string>
-	<string name="equipment.unique.feet.expert_3.desc">You deal %amount% Fire damage to enemies you collide with. %cd% effect cooldown.</string>
+	<string name="equipment.unique.feet.expert_3.name">Сандали Солнцехода</string>
+	<string name="equipment.unique.feet.expert_3.desc">Вы наносите %amount% Огненного урона врагам, с которыми столкнулись. Перезарядка эффекта: %cd%.</string>
 
-	<string name="equipment.unique.rogue.mainhand.adept_1.name">Parrying Daggers</string>
-	<string name="equipment.unique.rogue.offhand.master_1.name">The Flying Virtuosos</string>
+	<string name="equipment.unique.rogue.mainhand.adept_1.name">Парирование кинжалов</string>
+	<string name="equipment.unique.rogue.offhand.master_1.name">Летучие виртуозы</string>
 
-	<string name="equipment.unique.warlock.offhand.adept_1.name">Chained Suffering</string>
-	<string name="equipment.unique.warlock.offhand.adept_1.desc">You gain stacks of %c-highlight%Soul Essence\d when taking damage.</string>
+	<string name="equipment.unique.warlock.offhand.adept_1.name">Скованные страдания</string>
+	<string name="equipment.unique.warlock.offhand.adept_1.desc">Вы получаете стаки %c-highlight%Эссенция души\d при получении урона.</string>
 
-	<string name="equipment.unique.wizard.offhand.adept_1.name">Rock Launcher</string>
-	<string name="equipment.unique.wizard.offhand.adept_1.desc">Launches a rock projectile that explodes upon impact, dealing Offhand damage.\n\nCan be charged to increase the speed and range of the projectile.\n\nMana Cost: %cost%\nCooldown: %cd%</string>
+	<string name="equipment.unique.wizard.offhand.adept_1.name">Запускатель камней</string>
+	<string name="equipment.unique.wizard.offhand.adept_1.desc">Запускает каменный снаряд, который взрывается при ударе, нанося Offhand damage.\n\nМожно заряжать, чтобы увеличить скорость и дальность полета снаряда.\n\nЗатраты маны: %cost%\nПерезарядка: %cd%</string>
 
-	<string name="item.meal.sizzling_essence_tea.name">Sizzling Essence Tea</string>
-	<string name="item.meal.sizzling_essence_tea.desc">%amount% Spell Cost and Spell Cooldown. Mana Regen set to 0. Lasts for %dur% minutes.</string>
+	<string name="item.meal.sizzling_essence_tea.name">Обжигающий чай с эссенцией</string>
+	<string name="item.meal.sizzling_essence_tea.desc">Затраты маны на Заклинания и их перезарядка: %amount%. Регенерация маны: 0. Действует %dur% мин.</string>
 
-	<string name="item.map_bb.name">Map of Blackbarrow</string>
-	<string name="item.map_bb.desc">A map over the region Blackbarrow.</string>
+	<string name="item.map_bb.name">Карта Блэкбарроу</string>
+	<string name="item.map_bb.desc">Карта региона Блэкбарроу.</string>
 	
-	<string name="hud.newtier">New tier!</string>
+	<string name="hud.newtier">Новый уровень!</string>
 	
-	<string name="quest.timedcomp">\"icn-quest-need" This quest has a timed component and needs to be completed within a reasonable time.</string>
+	<string name="quest.timedcomp">\"icn-quest-need" Это задание имеет временную составляющую и должно быть выполнено в разумные сроки.</string>
 
-	<string name="misc.dmg.immortal">Invulnerable!</string>
+	<string name="misc.dmg.immortal">Неуязвимый!</string>
 
 	<!-- Missing Added 0421 -->
 	<!-- Missing Added 0421 -->
@@ -178,149 +178,149 @@
 	<!-- Missing Added 0421 -->
 	
 	
-	<string name="skills.paladin.spell_1.up3.desc">The hammer now returns to you after a short delay.</string>
-	<string name="skills.rogue.master.passive_1.up1.desc">You gain a chance to instantly kill an enemy on %c-highlight%Low Life\d when scoring an Attack Critical Hit. Does not work on Bosses.</string>
-	<string name="skills.rogue.master.spell_2.desc">You slip into the shadows and become undetectable for a brief period. Dealing any kind of damage will end the spell early.</string>
-	<string name="skills.warlock.mainhand.up1.desc">Soul projectiles gain the ability to seek out new targets on hit. The projectiles deal less damage with each enemy hit.</string>
-	<string name="modifiers.misc.experience.desc">%desc%% Experience Gain.</string>
+	<string name="skills.paladin.spell_1.up3.desc">Теперь молоток возвращается к вам после небольшой задержки.</string>
+	<string name="skills.rogue.master.passive_1.up1.desc">Вы получаете шанс мгновенно убить врага с %c-highlight%Низким Здоровьем\d при нанесении критического удара атакой. Не действует на Боссов.</string>
+	<string name="skills.rogue.master.spell_2.desc">На короткое время вы погружаетесь в тень и становитесь необнаруживаемым. Нанесение любого вида урона приведет к досрочному завершению Заклинания.</string>
+	<string name="skills.warlock.mainhand.up1.desc">Снаряды души обретают способность искать новые цели при попадании. Снаряды наносят меньше урона с каждым попаданием по врагу.</string>
+	<string name="modifiers.misc.experience.desc">Получаемый опыт: %desc%%.</string>
 
-	<string name="item.meal.raging_behemoth.desc">%amount% Damage. %amount2% Spell Cost and Spell Cooldown. Lasts for %dur% minutes.</string>
-	<string name="item.meal.ghost_jam.desc">%amount% Evasion. Armor and Fire Resistance set to 0. Lasts for %dur% minutes.</string>
-	<string name="item.meal.pancakes.desc">%amount% Experience Gain and %amount2% Movement Speed for %dur% minutes.</string>
-	<string name="item.meal.summer_city_platter.desc">%amount% increased attributes for %dur% minutes.</string>
+	<string name="item.meal.raging_behemoth.desc">Урон: %amount%. Затраты маны на Заклинания и их перезарядка: %amount2%. Действует %dur% мин.</string>
+	<string name="item.meal.ghost_jam.desc">Уклонение: %amount%. Броня и сопротивление Огню: 0. Действует %dur% мин.</string>
+	<string name="item.meal.pancakes.desc">Получаемый опыт: %amount%, скорость передвижения: %amount2%. Действует %dur% мин.</string>
+	<string name="item.meal.summer_city_platter.desc">Увеличение аттрибутов на %amount%. Действует %dur% мин.</string>
 
-	<string name="log.objectives">Objectives</string>
-	<string name="log.rewards">Rewards</string>
-	<string name="log.noquest">Your quest log is empty.</string>
-	<string name="log.desc">Description</string>
+	<string name="log.objectives">Цели</string>
+	<string name="log.rewards">Награды</string>
+	<string name="log.noquest">Ваш журнал заданий пуст.</string>
+	<string name="log.desc">Описание</string>
 	
-	<string name="text.saving">Saving...</string>
+	<string name="text.saving">Сохранение...</string>
 
-	<string name="menu.playerlist.profile.title">Profile</string>
-	<string name="menu.playerlist.profile.tooltip">Open this player's profile.</string>
-	<string name="menu.playerlist.kick.title">Kick</string>
-	<string name="menu.playerlist.kick.tooltip">Kick this player.</string>
-	<string name="menu.playerlist.kick.prompt">Are you sure you want to kick %name%?</string>
+	<string name="menu.playerlist.profile.title">Профиль</string>
+	<string name="menu.playerlist.profile.tooltip">Открыть профиль игрока.</string>
+	<string name="menu.playerlist.kick.title">Выгнать</string>
+	<string name="menu.playerlist.kick.tooltip">Выгнать игрока.</string>
+	<string name="menu.playerlist.kick.prompt">Вы уверены, что хотите выгнать %name%?</string>
 	<string name="menu.playerlist.ping">%value% ms</string>
-	<string name="menu.playerlist.host">Host</string>
+	<string name="menu.playerlist.host">Хост</string>
 
 
 
-	<string name="item.torch.name">Torch</string>
-	<string name="item.torch.desc">Makes it a little brighter around you.</string>
+	<string name="item.torch.name">Факел</string>
+	<string name="item.torch.desc">Вокруг становится немного светлее.</string>
 
 
-	<string name="menu.controls.menuaccept">Menu Accept</string>
-	<string name="rope.tied">Rope tied!</string>
-	<string name="cred.title.engine2">Powered by the A000FF engine, that also runs Serious Sam's Bogus Detour,\nHeroes of Hammerwatch and Hammerwatch II.</string>
-	<string name="menu.lobby.chat.minplayers">You need at least %min% players to start.</string>
-	<string name="menu.lobby.chat.maxplayers">You can have at most %max% players in this scenario.</string>
+	<string name="menu.controls.menuaccept">Меню Принять</string>
+	<string name="rope.tied">Веревка привязана!</string>
+	<string name="cred.title.engine2">Создано на движке A000FF, на котором также работают: Serious Sam's Bogus Detour,\nHeroes of Hammerwatch and Hammerwatch II.</string>
+	<string name="menu.lobby.chat.minplayers">Для игры необходимо не менее %min% игроков.</string>
+	<string name="menu.lobby.chat.maxplayers">В данном сценарии допустимо не более %max% игроков.</string>
 	<string name="menu.controls.layout.ds41">DualShock 4 1</string>
 	<string name="menu.controls.layout.ds42">DualShock 4 2</string>
 	<string name="menu.controls.layout.ds43">DualShock 4 3</string>
 	<string name="menu.controls.layout.ds44">DualShock 4 4</string>
-	<string name="menu.loadgame.failed">Failed to load savegame.</string>
+	<string name="menu.loadgame.failed">Не удалось загрузить сохранение.</string>
 
-	<string name="button.skip">Skip</string>
+	<string name="button.skip">Пропуск</string>
 
-	<string name="g_autoequip">Autoequip</string>
-	<string name="g_autoequip.help">Automatically equips new equipment if there is not already something in that slot.</string>
+	<string name="g_autoequip">Автоэкипировка</string>
+	<string name="g_autoequip.help">Автоматически экипирует новое снаряжение, если в этом слоте еще ничего нет.</string>
 
-	<string name="g_quickcast">Quickcast</string>
-	<string name="g_quickcast.help">Casts skills immediately on use, ignoring the aim step.</string>
+	<string name="g_quickcast">Быстрое применение навыков</string>
+	<string name="g_quickcast.help">Применяет навыки сразу после использования, игнорируя шаг прицеливания.</string>
 
-	<string name="ui_show_controlbinds">Control Bindings</string>
-	<string name="ui_show_controlbinds.help">Show button prompts in UI.</string>
+	<string name="ui_show_controlbinds">Настройка управления</string>
+	<string name="ui_show_controlbinds.help">Показывать подсказки на кнопках в интерфейсе.</string>
 
-	<string name="g_movedir_snap">Movement Direction Snap</string>
-	<string name="g_movedir_snap.help">Restricts the number of different directions that you can move.</string>
+	<string name="g_movedir_snap">Привязка направления движения</string>
+	<string name="g_movedir_snap.help">Ограничивает количество различных направлений, в которых вы можете двигаться.</string>
 
-	<string name="g_aimdir_snap">Aim Direction Snap</string>
-	<string name="g_aimdir_snap.help">Restricts the number of different directions that you can aim.</string>
+	<string name="g_aimdir_snap">Привязка направления прицеливания</string>
+	<string name="g_aimdir_snap.help">Ограничивает количество различных направлений, в которых вы можете прицелиться.</string>
 
-	<string name="g_charge_movedir">Movement Direction Dash</string>
-	<string name="g_charge_movedir.help">While walking, use the movement direction to dash.</string>
+	<string name="g_charge_movedir">Рывок в направлении движения</string>
+	<string name="g_charge_movedir.help">Рывок в направлении движения.</string>
 
-	<string name="ui_hud_hpbars_plr">Ally Health Bars</string>
-	<string name="ui_hud_hpbars_plr.help">Display health of allies.</string>
+	<string name="ui_hud_hpbars_plr">Полоски Здоровья у союзников</string>
+	<string name="ui_hud_hpbars_plr.help">Отображать Здоровье союзников.</string>
 
 	<string name="menu.controls.actionmenuforward">ACTION MENU FORWARD</string>
 
-	<string name="menu.loadgame.ren">Rename</string>
-	<string name="menu.loadgame.del">Delete</string>
-	<string name="menu.loadgame.load">Load</string>
-	<string name="button.save">Save</string>
+	<string name="menu.loadgame.ren">Переименовать</string>
+	<string name="menu.loadgame.del">Удалить</string>
+	<string name="menu.loadgame.load">Загрузить</string>
+	<string name="button.save">Сохранить</string>
 
-	<string name="item.error.empty_potion">Potion is empty! Needs to be refilled!</string>
+	<string name="item.error.empty_potion">Зелье пустое! Необходимо пополнить!</string>
 
-	<string name="menu.notifier.joinfailed.join">Failed to join lobby.</string>
-	<string name="menu.notifier.joinfailed.host">Failed to create lobby.</string>
+	<string name="menu.notifier.joinfailed.join">Не удалось присоединиться к лобби.</string>
+	<string name="menu.notifier.joinfailed.host">Не удалось создать к лобби.</string>
 
-	<string name="misc.dmg.miss">Miss!</string>
-	<string name="misc.dmg.evade">Evade!</string>
-	<string name="misc.dmg.parry">Parry!</string>
+	<string name="misc.dmg.miss">Промах!</string>
+	<string name="misc.dmg.evade">Уклонение!</string>
+	<string name="misc.dmg.parry">Парирование!</string>
 
-	<string name="menu.player.stats.currpoints">Points to spend: %points%\"icn-attrpt"</string>
-	<string name="menu.player.stats.mainhand">Mainhand</string>
+	<string name="menu.player.stats.currpoints">Очки для траты: %points%\"icn-attrpt"</string>
+	<string name="menu.player.stats.mainhand">Основная рука</string>
 	<string name="menu.player.stats.offhand">Offhand</string>
-	<string name="menu.player.stats.damage">Damage</string>
+	<string name="menu.player.stats.damage">Урон</string>
 
-	<string name="character.stat.tooltip.evasion.title">Evasion</string>
-	<string name="character.stat.tooltip.evasion.text">Chance to evade attacks.</string>
+	<string name="character.stat.tooltip.evasion.title">Уклонение</string>
+	<string name="character.stat.tooltip.evasion.text">Шанс уклониться от Атаки.</string>
 	<string name="character.stat.tooltip.parry.title">Parry</string>
-	<string name="character.stat.tooltip.parry.text">Chance to parry frontal melee attacks.</string>
+	<string name="character.stat.tooltip.parry.text">Шанс парировать Атаки спереди.</string>
 
-	<string name="character.stat.tooltip.castspeed.title">Cast Speed</string>
-	<string name="character.stat.tooltip.castspeed.text">This is how fast you cast spells.</string>
-	<string name="character.stat.tooltip.spellcooldown.title">Spell Cooldown</string>
-	<string name="character.stat.tooltip.spellcooldown.text">This is how long you need to wait before casting a spell again.</string>
-	<string name="character.stat.tooltip.spellcritdmg.title">Spell Critical Hit Damage</string>
-	<string name="character.stat.tooltip.spellcritdmg.text">This is how much damage critical hits of spells do.</string>
-	<string name="character.stat.tooltip.spellcritchance.title">Spell Critical Hit Chance</string>
-	<string name="character.stat.tooltip.spellcritchance.text">Chance to score critical hits with spells.</string>
+	<string name="character.stat.tooltip.castspeed.title">Скорость сотворения Заклинаний</string>
+	<string name="character.stat.tooltip.castspeed.text">Как быстро вы сотворяете Заклинания.</string>
+	<string name="character.stat.tooltip.spellcooldown.title">Перезарядка заклинаний</string>
+	<string name="character.stat.tooltip.spellcooldown.text">Это время, которое нужно подождать, прежде чем сотворить Заклинание снова.</string>
+	<string name="character.stat.tooltip.spellcritdmg.title">Критический урон Заклинания</string>
+	<string name="character.stat.tooltip.spellcritdmg.text">Количество урона, наносимое критическим попаданием Заклинания.</string>
+	<string name="character.stat.tooltip.spellcritchance.title">Шанс критического попадания Заклинания</string>
+	<string name="character.stat.tooltip.spellcritchance.text">Шанс нанести критическое попадание Заклинанием.</string>
 
-	<string name="character.stat.tooltip.attackspeed.title">Attack Speed</string>
-	<string name="character.stat.tooltip.attackspeed.text">This is how fast you perform attacks.</string>
-	<string name="character.stat.tooltip.attackcritdmg.title">Attack Critical Hit Damage</string>
-	<string name="character.stat.tooltip.attackcritdmg.text">This is how much damage critical hits of attacks do.</string>
-	<string name="character.stat.tooltip.attackcritchance.title">Attack Critical Hit Chance</string>
-	<string name="character.stat.tooltip.attackcritchance.text">Chance to score critical hits with attacks.</string>
+	<string name="character.stat.tooltip.attackspeed.title">Скорость Атаки</string>
+	<string name="character.stat.tooltip.attackspeed.text">Это то, как быстро вы выполняете Атаки.</string>
+	<string name="character.stat.tooltip.attackcritdmg.title">Критически урон Атакой</string>
+	<string name="character.stat.tooltip.attackcritdmg.text">Количество урона, наносимое критическим попаданием Атаки.</string>
+	<string name="character.stat.tooltip.attackcritchance.title">Шанс критического попадания Атакой</string>
+	<string name="character.stat.tooltip.attackcritchance.text">Шанс нанести критическое попадание Атакой.</string>
 
-	<string name="character.stat.tooltip.armorbreak.title">Armor Penetration</string>
-	<string name="character.stat.tooltip.armorbreak.text">Reduces the Armor of your target.</string>
-	<string name="character.stat.tooltip.resistancefirebreak.title">Fire Resistance Penetration</string>
-	<string name="character.stat.tooltip.resistancefirebreak.text">Reduces the Fire Resistance of your target.</string>
-	<string name="character.stat.tooltip.resistanceicebreak.title">Ice Resistance Penetration</string>
-	<string name="character.stat.tooltip.resistanceicebreak.text">Reduces the Ice Resistance of your target.</string>
-	<string name="character.stat.tooltip.resistancelightningbreak.title">Lightning Resistance Penetration</string>
-	<string name="character.stat.tooltip.resistancelightningbreak.text">Reduces the Lightning Resistance of your target.</string>
-	<string name="character.stat.tooltip.resistancepoisonbreak.title">Poison Resistance Penetration</string>
-	<string name="character.stat.tooltip.resistancepoisonbreak.text">Reduces the Poison Resistance of your target.</string>
+	<string name="character.stat.tooltip.armorbreak.title">Пробитие брони</string>
+	<string name="character.stat.tooltip.armorbreak.text">Уменьшает броню цели.</string>
+	<string name="character.stat.tooltip.resistancefirebreak.title">Игнорирование сопротивления Огню</string>
+	<string name="character.stat.tooltip.resistancefirebreak.text">Уменьшает сопротивление Огню цели.</string>
+	<string name="character.stat.tooltip.resistanceicebreak.title">Игнорирование сопротивления Льду</string>
+	<string name="character.stat.tooltip.resistanceicebreak.text">Уменьшает сопротивление Льду цели.</string>
+	<string name="character.stat.tooltip.resistancelightningbreak.title">Игнорирование сопротивления Молнии</string>
+	<string name="character.stat.tooltip.resistancelightningbreak.text">Уменьшает сопротивление Молнии цели.</string>
+	<string name="character.stat.tooltip.resistancepoisonbreak.title">Игнорирование сопротивления Яду</string>
+	<string name="character.stat.tooltip.resistancepoisonbreak.text">Уменьшает сопротивление Яду цели.</string>
 
-	<string name="skills.equipment.archon_nova.name">Essence Nova</string>
-	<string name="skills.equipment.archon_nova.desc">Discharges several swirling projectiles dealing %dmg% Fire and Pure damage. %cd% cooldown.</string>
-	<string name="skills.equipment.thunderbird_lightning.name">Call Lightning</string>
-	<string name="skills.equipment.thunderbird_lightning.desc">Summons a series of lightning strikes in a forward direction dealing %dmg% Lightning damage. %cd% cooldown.</string>
-	<string name="modifiers.class.warlock.fiends_add.desc">You can summon %value% additional %c-highlight%Fiends\d.</string>
-	<string name="modifiers.class.wizard.duplicate_add.desc">You can summon %value% additional %c-highlight%Duplicate\d.</string>
+	<string name="skills.equipment.archon_nova.name">Эссенция Новы</string>
+	<string name="skills.equipment.archon_nova.desc">Выпускает несколько закрученных снарядов, наносящих %dmg% Огненного и Чистого урона. Перезарядка: %cd%.</string>
+	<string name="skills.equipment.thunderbird_lightning.name">Вызов молнии</string>
+	<string name="skills.equipment.thunderbird_lightning.desc">Вызывает серию ударов молнии в прямом направлении, наносящих %dmg% урона от молнии. Перезарядка: %cd%.</string>
+	<string name="modifiers.class.warlock.fiends_add.desc">Вы можете призвать %value% дополнительных %c-highlight%Демонов\d.</string>
+	<string name="modifiers.class.wizard.duplicate_add.desc">Вы можете призвать %value% дополнительных %c-highlight%Дубликатов\d.</string>
 
-	<string name="skills.desc.params.projectile.dmg">Projectile Damage:</string>
-	<string name="modifiers.misc.attack_hit_health_chance.desc">%chance%% to restore %value% Health on Attack Hit.</string>
-	<string name="modifiers.misc.attack_hit_stamina_chance.desc">%chance%% to restore %value% Stamina on Attack Hit.</string>
-	<string name="modifiers.misc.attack_hit_mana_chance.desc">%chance%% to restore %value% Mana on Attack Hit.</string>
-	<string name="modifiers.enchant.blackheart.prefix">Blackheart</string>
-	<string name="modifiers.enchant.blackheart.suffix">of Corruption</string>
-	<string name="modifiers.damage_taken.desc">%desc%% more damage taken.</string>
+	<string name="skills.desc.params.projectile.dmg">Урон снаряда:</string>
+	<string name="modifiers.misc.attack_hit_health_chance.desc">Шанс %chance%% восстановить %value% Здоровья от попадания Атакой.</string>
+	<string name="modifiers.misc.attack_hit_stamina_chance.desc">Шанс %chance%% восстановить %value% Stamina от попадания Атакой.</string>
+	<string name="modifiers.misc.attack_hit_mana_chance.desc">Шанс %chance%% восстановить %value% Mana от попадания Атакой.</string>
+	<string name="modifiers.enchant.blackheart.prefix">Черное сердце</string>
+	<string name="modifiers.enchant.blackheart.suffix">Порча</string>
+	<string name="modifiers.damage_taken.desc">Получаемый урон увеличен: %desc%%.</string>
 
 
-	<string name="menu.player.stats.mainhand">Mainhand</string>
+	<string name="menu.player.stats.mainhand">Основная рука</string>
 	<string name="menu.player.stats.offhand">Offhand</string>
-	<string name="menu.player.stats.damage">Damage</string>
+	<string name="menu.player.stats.damage">Урон</string>
 
 
-	<string name="dialogue.player_door_locked_generic">It's locked!</string>
+	<string name="dialogue.player_door_locked_generic">Закрыто!</string>
 
-	<string name="enemy.ghost_priest.name">Priest Ghost</string>
+	<string name="enemy.ghost_priest.name">Призрак священника</string>
 
 	<!-- Missing Added 0911 -->
 	<!-- Missing Added 0911 -->
@@ -328,16 +328,16 @@
 	<!-- Missing Added 0911 -->
 	<!-- Missing Added 0911 -->
 
-	<string name="menu.pick_character.title">Select Character</string>
-	<string name="menu.pick_character.createnew">Create new character</string>
-	<string name="menu.pick_character.localsave">Local Save</string>
+	<string name="menu.pick_character.title">Выбрать персонажа</string>
+	<string name="menu.pick_character.createnew">Создать нового персонажа</string>
+	<string name="menu.pick_character.localsave">Локальное сохранение</string>
 
-	<string name="o.press.specific.key">Press %key%</string>
+	<string name="o.press.specific.key">Нажмите %key%</string>
 
-	<string name="o.press.specific.key.to.join">Press %key% to join session.</string>
+	<string name="o.press.specific.key.to.join">Нажмите %key%, чтобы присоединиться к сессии.</string>
 
-	<string name="menu.options.legacy.control.title">Legacy Controls</string>
-	<string name="menu.options.legacy.control.desc">Emulates original controls and handling from Hammerwatch, released 2013.</string>
+	<string name="menu.options.legacy.control.title">Устаревшое управление</string>
+	<string name="menu.options.legacy.control.desc">Эмулирует оригинальное управление из игры Hammerwatch, выпущенной в 2013.</string>
 	<string name="menu.controls.hold">HOLD POSITION</string>
 
 
