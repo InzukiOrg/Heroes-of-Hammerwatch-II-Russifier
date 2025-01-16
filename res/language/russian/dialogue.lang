@@ -88,7 +88,7 @@
 	<string name="upgrades.spell_power.name">Сила заклинаний %num%</string>
 	<string name="upgrades.spell_power.desc">+%gain% силы заклинаний</string>
 
-	<string name="npc.shop.attribute_assigner">Назначение атрибутов</string>
+	<string name="npc.shop.attribute_assigner">Тренер атрибутов</string>
 	<string name="npc.shop.material_trader">Торговые материалы</string>
 	<string name="npc.shop.library_skill">Назначить навык</string>
 	<string name="npc.shop.skill_trainer">Тренер навыков</string>
