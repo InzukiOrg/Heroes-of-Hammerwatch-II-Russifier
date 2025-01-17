@@ -1,0 +1,1646 @@
+<?xml version='1.0' encoding='utf-8'?>
+<lang>
+	
+
+	<string name="skills.type.dash">Рывок</string>
+	<string name="skills.type.dash.upgrade">Улучшение рывка</string>
+	<string name="skills.type.mainhand.attack">Атака основной рукой</string>
+	<string name="skills.type.mainhand.attack.upgrade">Улучшение атаки основной рукой</string>
+	<string name="skills.type.offhand.attack">Атака дополнительной рукой</string>
+	<string name="skills.type.offhand.attack.upgrade">Улучшение атаки дополнительной рукой</string>
+	<string name="skills.type.offhand.skill">Навык дополнительной руки</string>
+	<string name="skills.type.offhand.skill.upgrade">Улучшение навыка дополнительной руки</string>
+	<string name="skills.type.spell">Заклинание</string>
+	<string name="skills.type.spell.upgrade">Улучшение заклинания</string>
+	<string name="skills.type.passive">Пассивный навык</string>
+	<string name="skills.type.passive.upgrade">Улучшение пассивного навыка</string>
+	<string name="skills.type.passive.toggle">Переключение пассивного навыка</string>
+
+	<string name="skills.desc.params.mana_cost">CToumocT' maHbl:</string>
+	<string name="skills.desc.params.stamina_cost">CToumocT' BblHocluBocTu:</string>
+	<string name="skills.desc.params.health_cost">CToumocT' 3dopoB'R:</string>
+	<string name="skills.desc.params.cooldown">TTepe3apRdka:</string>
+	<string name="skills.desc.params.cooldown.effect">TTepe3apRdka 8ffekTa:</string>
+	<string name="skills.desc.params.amount">Kolu4ecTBo:</string>
+	<string name="skills.desc.params.duration">DluTel'HocT':</string>
+	<string name="skills.desc.params.duration.min">MuH. dluTel'HocT':</string>
+	<string name="skills.desc.params.duration.max">Makc. dluTel'HocT':</string>
+	<string name="skills.desc.params.duration.health_lost">DluTel'HocT' 3a TToTepRHHoe 3dopoB'e:</string>
+	<string name="skills.desc.params.tick_rate">4acToTa TukoB:</string>
+	<string name="skills.desc.params.chance">WaHc:</string>
+	<string name="skills.desc.params.range">Dal'HocT':</string>
+	<string name="skills.desc.params.size">Pa3mep:</string>
+	<string name="skills.desc.params.frequency">4acToTa:</string>
+	<string name="skills.desc.params.completion">BpemR 3aBepweHuR:</string>
+	<string name="skills.desc.params.conversion">Ko8ffuttueHT koHBepcuu:</string>
+	<string name="skills.desc.params.strikes">Ydapbl:</string>
+
+	<string name="skills.desc.params.health">3dopoB'e:</string>
+	<string name="skills.desc.params.stamina">BblHocluBocT':</string>
+	<string name="skills.desc.params.mana">MaHa:</string>
+	<string name="skills.desc.params.healthregen">BoccTaHoBleHue 3dopoB'R:</string>
+	<string name="skills.desc.params.healthregen.dex">BoccTaHoBleHue 3dopoB'R 3a loBkocT':</string>
+	<string name="skills.desc.params.healthregen.int">BoccTaHoBleHue 3dopoB'R 3a uHTellekT:</string>
+	<string name="skills.desc.params.manaregen">BoccTaHoBleHue maHbl:</string>
+	<string name="skills.desc.params.manaregen.str">BoccTaHoBleHue maHbl 3a culy:</string>
+	<string name="skills.desc.params.manaregen.dex">BoccTaHoBleHue maHbl 3a loBkocT':</string>
+	<string name="skills.desc.params.regenall">Bce BoccTaHoBleHuR:</string>
+	<string name="skills.desc.params.str">Cula:</string>
+	<string name="skills.desc.params.dex">LoBkocT':</string>
+	<string name="skills.desc.params.int">NHTellekT:</string>
+	<string name="skills.desc.params.foc">Fokyc:</string>
+	<string name="skills.desc.params.vit">JuBy4ecT':</string>
+	<string name="skills.desc.params.attributes">ATpu6yTbl:</string>
+	<string name="skills.desc.params.weaponpower">MowHocT' opyjuR:</string>
+	<string name="skills.desc.params.spellpower">Cula 3akluHaHuu:</string>
+
+	<string name="skills.desc.params.damage">YpoH:</string>
+	<string name="skills.desc.params.damage.spell">YpoH 3akluHaHuu:</string>
+	<string name="skills.desc.params.damage.weapon">YpoH opyjuR:</string>
+	<string name="skills.desc.params.damage.mainhand">YpoH ocHoBHou pyku:</string>
+	<string name="skills.desc.params.damage.offhand">YpoH doTTolHuTel'Hou pyku:</string>
+	<string name="skills.desc.params.damage.physical">Fu3u4eckuu ypoH:</string>
+	<string name="skills.desc.params.damage.fire">OrHeHHblu ypoH:</string>
+	<string name="skills.desc.params.damage.ice">LedRHou ypoH:</string>
+	<string name="skills.desc.params.damage.lightning">YpoH molHueu:</string>
+	<string name="skills.desc.params.damage.poison">RdoBuTblu ypoH:</string>
+	<string name="skills.desc.params.damage.pure">4ucTblu ypoH:</string>
+
+	<string name="skills.desc.params.damage.lvl">YpoH 3a ypoBeH':</string>
+	<string name="skills.desc.params.damage.str">YpoH 3a culy:</string>
+	<string name="skills.desc.params.damage.dex">YpoH 3a loBkocT':</string>
+	<string name="skills.desc.params.damage.int">YpoH 3a uHTellekT:</string>
+	<string name="skills.desc.params.damage.stamina.current">YpoH 3a TekywyI0 BblHocluBocT':</string>
+	<string name="skills.desc.params.damage.mana.current">YpoH 3a TekywyI0 maHy:</string>
+	<string name="skills.desc.params.damage.str.physical">Fu3u4eckuu ypoH 3a culy:</string>
+	<string name="skills.desc.params.damage.int.ice">LedRHou ypoH 3a uHTellekT:</string>
+	<string name="skills.desc.params.damage.int.pure">4ucTblu ypoH 3a uHTellekT:</string>
+	<string name="skills.desc.params.damage.missing.health">YpoH 3a HedocTaI0wee 3dopoB'e:</string>
+	<string name="skills.desc.params.damage.armor">YpoH 3a 6poHI0:</string>
+
+	<string name="skills.desc.params.attack_speed">CkopocT' aTaku:</string>
+	<string name="skills.desc.params.weapon_speed">CkopocT' opyjuR:</string>
+	<string name="skills.desc.params.cast_speed">CkopocT' TTpou3HeceHuR 3akluHaHuu:</string>
+	<string name="skills.desc.params.skill_speed">CkopocT' HaBblka:</string>
+	<string name="skills.desc.params.spell_cost">CToumocT' 3akluHaHuR:</string>
+
+	<string name="skills.desc.params.crit.chance">WaHc kpuTu4eckoro ydapa:</string>
+	<string name="skills.desc.params.crit.chance.attack">WaHc kpuTu4eckou aTaku:</string>
+	<string name="skills.desc.params.crit.chance.weapon">WaHc kpuTu4eckoro ydapa opyjuem:</string>
+	<string name="skills.desc.params.crit.chance.spell">WaHc kpuTu4eckoro 3akluHaHuR:</string>
+	<string name="skills.desc.params.crit.damage">YpoH kpuTu4eckoro ydapa:</string>
+	<string name="skills.desc.params.crit.damage.attack">YpoH kpuTu4eckou aTaku:</string>
+	<string name="skills.desc.params.crit.damage.weapon">YpoH kpuTu4eckoro ydapa opyjuem:</string>
+	<string name="skills.desc.params.crit.damage.spell">YpoH kpuTu4eckoro 3akluHaHuR:</string>
+	<string name="skills.desc.params.leech">TToxuweHue ju3Hu:</string>
+	<string name="skills.desc.params.leech.attack">TToxuweHue ju3Hu aTakou:</string>
+	<string name="skills.desc.params.leech.weapon">TToxuweHue ju3Hu opyjuem:</string>
+	<string name="skills.desc.params.leech.spell">TToxuweHue ju3Hu 3akluHaHuem:</string>
+	<string name="skills.desc.params.leech.mana">TToxuweHue maHbl:</string>
+
+	<string name="skills.desc.params.heal">Le4eHue:</string>
+	<string name="skills.desc.params.restore.health.max">BoccTaHoBleHue 3dopoB'R:</string>
+	<string name="skills.desc.params.restore.stamina.max">BoccTaHoBleHue BblHocluBocTu:</string>
+
+	<string name="skills.desc.params.dmg_taken">TToly4aemblu ypoH:</string>
+	<string name="skills.desc.params.dmg_threshold">TTopor ypoHa:</string>
+
+	<string name="skills.desc.params.armor">6poHR:</string>
+	<string name="skills.desc.params.armor.str">6poHR 3a culy:</string>
+	<string name="skills.desc.params.armor.int">6poHR 3a uHTellekT:</string>
+	<string name="skills.desc.params.armor.dex">6poHR 3a loBkocT':</string>
+	<string name="skills.desc.params.resistance">CoTTpoTuBleHue:</string>
+	<string name="skills.desc.params.resistance.fire">CoTTpoTuBleHue orHI0:</string>
+	<string name="skills.desc.params.resistance.ice">CoTTpoTuBleHue l'dy:</string>
+	<string name="skills.desc.params.resistance.lightning">CoTTpoTuBleHue molHuu:</string>
+	<string name="skills.desc.params.resistance.poison">CoTTpoTuBleHue Rdy:</string>
+	<string name="skills.desc.params.block">6lokupoBaHue:</string>
+	<string name="skills.desc.params.block.instances">Kolu4ecTBo 6lokoB:</string>
+	<string name="skills.desc.params.block.chance.max">Makcumal'Hblu waHc 6loka:</string>
+	<string name="skills.desc.params.block.mana_cost">TToTepR maHbl 3a 6lokupoBaHHblu ypoH:</string>
+	<string name="skills.desc.params.armor_pen">TTpo6uBaHue 6poHu:</string>
+	<string name="skills.desc.params.armor_pen.str">TTpo6uBaHue 6poHu 3a culy:</string>
+	<string name="skills.desc.params.fire_pen">TTpo6uBaHue orHR:</string>
+	<string name="skills.desc.params.ice_pen">TTpo6uBaHue l'da:</string>
+	<string name="skills.desc.params.lightning_pen">TTpo6uBaHue molHuu:</string>
+	<string name="skills.desc.params.poison_pen">TTpo6uBaHue Rda:</string>
+
+	<string name="skills.desc.params.evasion">YkloHeHue:</string>
+	<string name="skills.desc.params.mspeed">CkopocT' TTepedBujeHuR:</string>
+	<string name="skills.desc.params.mspeed.reduction">CHujeHue ckopocTu TTepedBujeHuR:</string>
+	<string name="skills.desc.params.slow_effect">8ffekT 3amedleHuR:</string>
+	<string name="skills.desc.params.expgain">TToly4eHue oTTblTa:</string>
+
+	<string name="skills.desc.params.chanelling.max">Makcumal'Hoe BpemR kaHala:</string>
+	<string name="skills.desc.params.charge.max">Makcumal'Hoe BpemR 3apRda:</string>
+	<string name="skills.desc.params.charge.stamina">CToumocT' BblHocluBocTu dlR 3apRda:</string>
+	<string name="skills.desc.params.charge.ttl">Makcumal'Hoe BpemR ju3Hu:</string>
+	<string name="skills.desc.params.recharge">BpemR TTepe3apRdku:</string>
+
+	<string name="skills.desc.params.stacks">CTeku:</string>
+	<string name="skills.desc.params.stacks.max">Makcumal'Hoe kolu4ecTBo cTekoB:</string>
+	<string name="skills.desc.params.stacks.duration">DluTel'HocT' cTeka:</string>
+	<string name="skills.desc.params.stacks.replenish">BpemR BoccTaHoBleHuR cTeka:</string>
+	<string name="skills.desc.params.stacks.damage">YpoH 3a cTek:</string>
+	<string name="skills.desc.params.stacks.damage.weapon">YpoH opyjuR 3a cTek:</string>
+	<string name="skills.desc.params.stacks.damage.spell">YpoH 3akluHaHuR 3a cTek:</string>
+	<string name="skills.desc.params.stacks.armor">6poHR 3a cTek:</string>
+	<string name="skills.desc.params.stacks.mspeed">CkopocT' TTepedBujeHuR 3a cTek:</string>
+	<string name="skills.desc.params.stacks.str">Cula 3a cTek:</string>
+	<string name="skills.desc.params.stacks.dex">LoBkocT' 3a cTek:</string>
+	<string name="skills.desc.params.stacks.int">NHTellekT 3a cTek:</string>
+	<string name="skills.desc.params.stacks.attack_speed">CkopocT' aTaku 3a cTek:</string>
+	<string name="skills.desc.params.stacks.weapon_speed">CkopocT' opyjuR 3a cTek:</string>
+	<string name="skills.desc.params.stacks.cast_speed">CkopocT' TTpou3HeceHuR 3akluHaHuu 3a cTek:</string>
+	<string name="skills.desc.params.stacks.crit.weapon">WaHc kpuTu4eckoro ydapa opyjuem 3a cTek:</string>
+	<string name="skills.desc.params.stacks.crit.spell">WaHc kpuTu4eckoro 3akluHaHuR 3a cTek:</string>
+	<string name="skills.desc.params.stacks.healthregen">BoccTaHoBleHue 3dopoB'R 3a cTek:</string>
+	<string name="skills.desc.params.stacks.manaregen">BoccTaHoBleHue maHbl 3a cTek:</string>
+	<string name="skills.desc.params.stacks.mana_cost">CToumocT' maHbl 3a cTek:</string>
+	<string name="skills.desc.params.stacks.max.regen">BoccTaHoBleHue Ha makcumal'Hblx cTekax:</string>
+	<string name="skills.desc.params.stacks.max.crit">WaHc kpuTu4eckoro ydapa Ha makcumal'Hblx cTekax:</string>
+	<string name="skills.desc.params.stacks.max.dmg_taken">TToly4aemblu ypoH Ha makcumal'Hblx cTekax:</string>
+	<string name="skills.desc.params.stacks.gain">TToly4eHHble cTeku:</string>
+	<string name="skills.desc.params.stacks.bleeding">CTeku kpoBoTe4eHuR:</string>
+
+	<string name="skills.desc.params.status_effect">8ffekT cocToRHuR:</string>
+	<string name="skills.desc.params.affliction.mul">MHojuTel' cTpadaHuR:</string>
+	<string name="skills.desc.params.aura.range">Paduyc aypbl:</string>
+	<string name="skills.desc.params.detection.range">Paduyc o6HapyjeHuR:</string>
+
+	<string name="skills.desc.params.health_lost">TToTepR 3dopoB'R:</string>
+	<string name="skills.desc.params.health_lost.mana">TToTepR 3dopoB'R B 3aBucumocTu oT cToumocTu maHbl:</string>
+	<string name="skills.desc.params.health_lost.stamina">TToTepR 3dopoB'R B 3aBucumocTu oT cToumocTu BblHocluBocTu:</string>
+	<string name="skills.desc.params.mana_lost">TToTepR maHbl:</string>
+	<string name="skills.desc.params.mana.spent.trigger">TToTpa4eHo maHbl dlR akTuBattuu:</string>
+	<string name="skills.desc.params.threshold.mana">TTopor maHbl:</string>
+	<string name="skills.desc.params.stamina_cost.max">CToumocT' BblHocluBocTu HaBblka:</string>
+
+	<string name="skills.desc.params.projectile.pierce">TTpo6uBaHue cHapRda:</string>
+	<string name="skills.desc.params.projectile.range_speed">Dal'HocT' u ckopocT' cHapRda:</string>
+	<string name="skills.desc.params.projectile.dmg_speed">YpoH u ckopocT' cHapRda:</string>
+	<string name="skills.desc.params.projectile.number">Kolu4ecTBo cHapRdoB:</string>
+	<string name="skills.desc.params.projectile.lifetime">BpemR ju3Hu cHapRda:</string>
+
+	<string name="skills.desc.params.bounce">OTckoku:</string>
+	<string name="skills.desc.params.bounce.damage">YpoH 3a oTckok:</string>
+	<string name="skills.desc.params.jumps">TTpbljku:</string>
+	<string name="skills.desc.params.jumps.damage">YpoH 3a TTpbljok:</string>
+	<string name="skills.desc.params.chains">tteTTu:</string>
+	<string name="skills.desc.params.chains.damage">YpoH 3a tteTT':</string>
+	<string name="skills.desc.params.cleave.damage">YpoH pacce4eHuR:</string>
+	<string name="skills.desc.params.cleave.range">Dal'HocT' pacce4eHuR:</string>
+	<string name="skills.desc.params.cleave.arc">Dyra pacce4eHuR:</string>
+	<string name="skills.desc.params.hits.destroy">YdapoB dlR yHu4TojeHuR:</string>
+
+	<string name="skills.desc.params.pillars.strikes">DoTTolHuTel'Hble B3pblBbl:</string>
+	<string name="skills.desc.params.pillars.add">DoTTolHuTel'Hble cTol6bl:</string>
+	<string name="skills.desc.params.wolf.damage">YpoH Bolka:</string>
+	<string name="skills.desc.params.wolf.health">3dopoB'e Bolka:</string>
+	<string name="skills.desc.params.lightning_bolts">MolHuu:</string>
+	<string name="skills.desc.params.spirit_wolves">DyxoBHble Bolku:</string>
+	<string name="skills.desc.params.flurry.strikes">BparoB 3a ydap:</string>
+	<string name="skills.desc.params.traps.max">Makcumal'Hoe kolu4ecTBo loBywek:</string>
+	<string name="skills.desc.params.traps.add">DoTTolHuTel'Hble loBywku:</string>
+	<string name="skills.desc.params.fiend.health">3dopoB'e demoHa:</string>
+	<string name="skills.desc.params.fiend.lifetime">BpemR ju3Hu demoHa:</string>
+	<string name="skills.desc.params.fiend.damage">YpoH demoHa:</string>
+	<string name="skills.desc.params.frost_shards">LedRHble ockolku:</string>
+	<string name="skills.desc.params.meteors">MeTeopbl:</string>
+
+
+
+
+
+
+
+	
+
+	<string name="skills.attacks.mainhand.mace.name">Удар булавой</string>
+	<string name="skills.attacks.mainhand.mace.desc">MowHblu ydap, HaHocRwuu 100% ypoHa opyjuem c 15% waHcom orlywuT' ttel'.</string>
+	<string name="skills.attacks.mainhand.axe.name">Удар топором</string>
+	<string name="skills.attacks.mainhand.axe.desc">Pejywuu ydap, HaHocRwuu 100% ypoHa opyjuem c 20% waHcom HalojuT' 8ffekT kpoBoTe4eHuR.</string>
+	<string name="skills.attacks.mainhand.sword.name">Удар мечом</string>
+	<string name="skills.attacks.mainhand.sword.desc">Wupokuu ydap, HaHocRwuu 100% ypoHa opyjuem.</string>
+	<string name="skills.attacks.mainhand.dagger.name">Удар кинжалом</string>
+	<string name="skills.attacks.mainhand.dagger.desc">6blcTpblu ydap, HaHocRwuu 100% ypoHa opyjuem c 20% waHcom HalojuT' 8ffekT kpoBoTe4eHuR.</string>
+	<string name="skills.attacks.mainhand.dirk.name">Укол кинжалом</string>
+	<string name="skills.attacks.mainhand.dirk.desc">6blcTpblu ykol, HaHocRwuu 60% ypoHa opyjuem.</string>
+	<string name="skills.attacks.mainhand.wand.fire.name">Огненная стрела</string>
+	<string name="skills.attacks.mainhand.wand.fire.desc">BblTTyckaeT orHeHHyI0 cTpely, koTopaR B3pblBaeTcR TTpu TToTTadaHuu, HaHocR 40% ypoHa opyjuem.</string>
+	<string name="skills.attacks.mainhand.wand.ice.name">Ледяные осколки</string>
+	<string name="skills.attacks.mainhand.wand.ice.desc">BblTTyckaeT Tpu ledRHblx ockolka, kajdblu u3 koTopblx HaHocuT 60% ypoHa opyjuem.</string>
+	<string name="skills.attacks.mainhand.wand.lightning.name">Молния</string>
+	<string name="skills.attacks.mainhand.wand.lightning.desc">BblTTyckaeT molHuI0, koTopaR mojeT TTepeckakuBaT' mejdy Bparamu, HaHocR 40% ypoHa opyjuem. YpoH ymeH'waeTcR Ha 10% 3a kajdblu TTpbljok.</string>
+
+	<string name="skills.attacks.offhand.crossbow.name">Быстрый выстрел</string>
+	<string name="skills.attacks.offhand.crossbow.desc">6blcTpo BblTTyckaeT cTpely, HaHocRwyI0 75% fu3u4eckoro ypoHa.</string>
+	<string name="skills.attacks.offhand.shield.name">Удар щитом</string>
+	<string name="skills.attacks.offhand.shield.desc">Ydap wuTom, orlywaI0wuu BparoB.</string>
+	<string name="skills.attacks.offhand.tome.fire.name">Глиф огня</string>
+	<string name="skills.attacks.offhand.tome.fire.desc">YcTaHaBluBaeT rluf Ha 3emle, koTopblu akTuBupyeTcR TTpu TTpu6lujeHuu Bpara, co3daBaR 3oHy orHR Ha 5 cekyHd, HaHocR 75% ypoHa opyjuem.</string>
+	<string name="skills.attacks.offhand.tome.ice.name">Глиф льда</string>
+	<string name="skills.attacks.offhand.tome.ice.desc">YcTaHaBluBaeT rluf Ha 3emle, koTopblu akTuBupyeTcR TTpu TTpu6lujeHuu Bpara, co3daBaR B3pblB l'da, HaHocRwuu 100% ypoHa opyjuem B o6lacTu.</string>
+	<string name="skills.attacks.offhand.tome.lightning.name">Глиф молнии</string>
+	<string name="skills.attacks.offhand.tome.lightning.desc">YcTaHaBluBaeT rluf Ha 3emle, koTopblu akTuBupyeTcR TTpu TTpu6lujeHuu Bpara, Bbl3blBaR Tpu ydapa molHuu, kajdblu u3 koTopblx HaHocuT 75% ypoHa opyjuem.</string>
+
+	<string name="skills.attacks.twohanded.shortbow1.name">Быстрый выстрел</string>
+	<string name="skills.attacks.twohanded.shortbow1.desc">6blcTpo BblTTyckaeT cTpely, HaHocRwyI0 50% ypoHa opyjuem.</string>
+	<string name="skills.attacks.twohanded.shortbow2.name">Мощный выстрел</string>
+	<string name="skills.attacks.twohanded.shortbow2.desc">YdepjuBauTe dlR 3apRda mowHoro BblcTpela. Dal'HocT', ckopocT' u ypoH cHapRda yBelu4uBaI0TcR B 3aBucumocTu oT BpemeHu 3apRda, HaHocR do 150% ypoHa opyjuem.</string>
+
+	<string name="skills.attacks.twohanded.longbow1.name">Быстрый выстрел</string>
+	<string name="skills.attacks.twohanded.longbow1.desc">6blcTpo BblTTyckaeT cTpely, HaHocRwyI0 60% ypoHa opyjuem.</string>
+	<string name="skills.attacks.twohanded.longbow2.name">Мощный выстрел</string>
+	<string name="skills.attacks.twohanded.longbow2.desc">YdepjuBauTe dlR 3apRda mowHoro BblcTpela. Dal'HocT', ckopocT' u ypoH cHapRda yBelu4uBaI0TcR B 3aBucumocTu oT BpemeHu 3apRda, HaHocR do 150% ypoHa opyjuem.</string>
+
+	<string name="skills.attacks.twohanded.crossbow1.name">Быстрый выстрел</string>
+	<string name="skills.attacks.twohanded.crossbow1.desc">6blcTpo BblTTyckaeT cTpely, HaHocRwyI0 100% ypoHa opyjuem.</string>
+	<string name="skills.attacks.twohanded.crossbow2.name">Взрывной выстрел</string>
+	<string name="skills.attacks.twohanded.crossbow2.desc">BblTTyckaeT cTpely, koTopaR B3pblBaeTcR TTpu TToTTadaHuu, HaHocR 150% ypoHa opyjuem.</string>
+
+	<string name="skills.attacks.twohanded.maul1.name">Удар молотом</string>
+	<string name="skills.attacks.twohanded.maul1.desc">MedleHHblu mowHblu ydap, HaHocRwuu 150% ypoHa opyjuem c 20% waHcom orlywuT' ttel'.</string>
+	<string name="skills.attacks.twohanded.maul2.name">Удар по земле</string>
+	<string name="skills.attacks.twohanded.maul2.desc">MowHblu ydap TTo 3emle, HaHocRwuu 200% ypoHa opyjuem B o6lacTu u orlywaI0wuu BparoB.</string>
+
+	<string name="skills.attacks.twohanded.greataxe1.name">Удар двуручным топором</string>
+	<string name="skills.attacks.twohanded.greataxe1.desc">Wupokuu pejywuu ydap, HaHocRwuu 125% ypoHa opyjuem c 20% waHcom HalojuT' 8ffekT kpoBoTe4eHuR.</string>
+	<string name="skills.attacks.twohanded.greataxe2.name">Вихрь</string>
+	<string name="skills.attacks.twohanded.greataxe2.desc">YdepjuBauTe dlR HeTTpepblBHoro BpaweHuR c ToTTopom, HaHocR 75% ypoHa opyjuem Bcem Bparam B o6lacTu.</string>
+
+	<string name="skills.attacks.twohanded.daggers1.name">Двойной удар</string>
+	<string name="skills.attacks.twohanded.daggers1.desc">HaHocuT dBa 6blcTpblx ydapa, kajdblu u3 koTopblx HaHocuT 100% fu3u4eckoro ypoHa.</string>
+	<string name="skills.attacks.twohanded.daggers2.name">Рывок с ударом</string>
+	<string name="skills.attacks.twohanded.daggers2.desc">6blcTpblu pblBok BTTeped, HaHocRwuu 200% ypoHa opyjuem Bcem Bparam Ha TTyTu.</string>
+
+	<string name="skills.attacks.twohanded.staff.fire1.name">Огненный поток</string>
+	<string name="skills.attacks.twohanded.staff.fire1.desc">YdepjuBauTe dlR HeTTpepblBHoro Bbl6poca orHR, HaHocRwero 25% ypoHa opyjuem.</string>
+	<string name="skills.attacks.twohanded.staff.fire2.name">Огненный взрыв</string>
+	<string name="skills.attacks.twohanded.staff.fire2.desc">Ydap TTocoxom TTo 3emle, Bbl3blBaI0wuu orHeHHblu B3pblB, HaHocRwuu 100% ypoHa opyjuem B o6lacTu.</string>
+
+	<string name="skills.attacks.twohanded.staff.ice1.name">Ледяное копье</string>
+	<string name="skills.attacks.twohanded.staff.ice1.desc">YdepjuBauTe dlR 3apRda ledRHoro cHapRda. Dal'HocT', ckopocT' u ypoH cHapRda yBelu4uBaI0TcR B 3aBucumocTu oT BpemeHu 3apRda, HaHocR do 75% ypoHa opyjuem.</string>
+	<string name="skills.attacks.twohanded.staff.ice2.name">Ледяные шипы</string>
+	<string name="skills.attacks.twohanded.staff.ice2.desc">Ydap TTocoxom TTo 3emle, Bbl3blBaI0wuu Tpu ledRHblx wuTTa, koTopble TToRBlRI0TcR B HaTTpaBleHuu BTTeped, kajdblu u3 koTopblx HaHocuT 150% ypoHa opyjuem.</string>
+
+	<string name="skills.attacks.twohanded.staff.lightning1.name">Луч молнии</string>
+	<string name="skills.attacks.twohanded.staff.lightning1.desc">YdepjuBauTe dlR co3daHuR ly4a 8lekTpu4ecTBa, HaHocRwero 40% ypoHa opyjuem. YpoH ymeH'waeTcR Ha 10% 3a kajdoro TTocledyI0wero Bpara.</string>
+	<string name="skills.attacks.twohanded.staff.lightning2.name">Удары молнии</string>
+	<string name="skills.attacks.twohanded.staff.lightning2.desc">Ydap TTocoxom TTo 3emle, Bbl3blBaI0wuu dBa ydapa molHuu, koTopble TTopajaI0T o6lacT' TTeped Bamu, kajdblu u3 koTopblx HaHocuT 100% ypoHa opyjuem.</string>
+
+	
+
+	<string name="skills.paladin.spell_1.name">Благословенный удар</string>
+	<string name="skills.paladin.spell_1.desc">Bbl HaHocuTe ydap TTo Bcem Bparam B o6lacTu TTeped Bamu, HaHocR fu3u4eckuu ypoH.</string>
+	<string name="skills.paladin.spell_1.up1.name">Массивный удар</string>
+	<string name="skills.paladin.spell_1.up1.desc">YBelu4uBaeT o6lacT' ydapa.</string>
+	<string name="skills.paladin.spell_1.up2.name">Очищающее пламя</string>
+	<string name="skills.paladin.spell_1.up2.desc">O6lacT' ydapa BcTTblxuBaeT TTlameHem, HaHocR doTTolHuTel'Hblu ypoH orHem B Te4eHue HekoToporo BpemeHu.</string>
+	<string name="skills.paladin.spell_1.up3.name">Гневный удар</string>
+	<string name="skills.paladin.spell_1.up3.desc">HaHocuT doTTolHuTel'Hblu ypoH molHueu, koTopblu mojeT TTepexoduT' Ha dpyrux 6lujauwux BparoB.</string>
+
+	<string name="skills.paladin.spell_2.name">Возложение рук</string>
+	<string name="skills.paladin.spell_2.desc">Bbl ucttelReTe ce6R u Bcex coI03HukoB Bokpyr.</string>
+	<string name="skills.paladin.spell_2.up1.name">Оживляющее прикосновение</string>
+	<string name="skills.paladin.spell_2.up1.desc">Takje HakladblBaeT 6aff, yBelu4uBaI0wuu BoccTaHoBleHue 3dopoB'R u maHbl Ha kopoTkuu TTepuod.</string>
+	<string name="skills.paladin.spell_2.up2.name">Очищающее прикосновение</string>
+	<string name="skills.paladin.spell_2.up2.desc">YdalReT Bce de6affbl u cTpadaHuR. Bbl Takje TToly4aeTe ummyHuTeT ko Bcem de6affam Ha kopoTkuu TTepuod.</string>
+	<string name="skills.paladin.spell_2.up3.name">Изгнание нежити</string>
+	<string name="skills.paladin.spell_2.up3.desc">HaHocuT fu3u4eckuu ypoH Bcem Bparam-HejuTu B o6lacTu.</string>
+
+	<string name="skills.paladin.passive_1.name">Бронированный рыцарь</string>
+	<string name="skills.paladin.passive_1.desc">YBelu4uBaeT Bawy 6poHI0 u daeT waHc 6lokupoBaT' 100% fu3u4eckoro ypoHa.</string>
+	<string name="skills.paladin.passive_1.up1.name">Элементальный бастион</string>
+	<string name="skills.paladin.passive_1.up1.desc">YBelu4uBaeT Bawe coTTpoTuBleHue orHI0, l'dy u molHuu.</string>
+	<string name="skills.paladin.passive_1.up2.name">Скользящие удары</string>
+	<string name="skills.paladin.passive_1.up2.desc">Bbl TToly4aeTe doTTolHuTel'Hblu waHc 6lokupoBaT' 100% ypoHa lI06oro TuTTa.</string>
+	<string name="skills.paladin.passive_1.up3.name">Броня гнева</string>
+	<string name="skills.paladin.passive_1.up3.desc">Bbl TToly4aeTe waHc ydapuT' cly4auHoro 6lujauwero Bpara molHueu TTpu TToly4eHuu ypoHa, HaHocR ypoH molHueu, ocHoBaHHblu Ha 3Ha4eHuu Baweu 6poHu.</string>
+
+	<string name="skills.paladin.passive_2.name">Убеждение</string>
+	<string name="skills.paladin.passive_2.desc">Bawu ydapbl \cffdfb06lujHero opyjuR\d umeI0T waHc BoccTaHoBuT' 4acT' Baweu maHbl.</string>
+	<string name="skills.paladin.passive_2.up1.name">Решимость</string>
+	<string name="skills.paladin.passive_2.up1.desc">TToka Bawe 3dopoB'e Huje TToloBuHbl, Bawu 3akluHaHuR cToRT meH'we maHbl.</string>
+	<string name="skills.paladin.passive_2.up2.name">Щит веры</string>
+	<string name="skills.paladin.passive_2.up2.desc">TToka y Bac 6ol'we TToloBuHbl makcumal'Hou maHbl, Bbl 6lokupyeTe ypoH 3a c4eT maHbl.</string>
+	<string name="skills.paladin.passive_2.up3.name">Рвение</string>
+	<string name="skills.paladin.passive_2.up3.desc">Korda cpa6aTblBaeT \cb0dfffY6ejdeHue\d, Bbl HaHocuTe doTTolHuTel'Hblu fu3u4eckuu ypoH, ocHoBaHHblu Ha Tekywem ypoBHe maHbl.</string>
+
+
+	<string name="skills.paladin.mastery_1.name">Правосудие</string>
+	<string name="skills.paladin.mastery_1.desc" />
+
+	<string name="skills.paladin.mastery_1.spell_1.name">Суд</string>
+	<string name="skills.paladin.mastery_1.spell_1.desc">Bbl BblHocuTe TTpuroBop cly4auHblm 6lujauwum Bparam Ha HekoTopoe BpemR, HaHocR um ydap 6ojecTBeHHblm moloTom, HaHocR fu3u4eckuu ypoH.</string>
+	<string name="skills.paladin.mastery_1.spell_1.up1.name">Продолжительное преследование</string>
+	<string name="skills.paladin.mastery_1.spell_1.up1.desc">TToka \cb0dfffCyd\d akTuBeH, Bbl TToly4aeTe waHc TTpodluT' ero dluTel'HocT' TTpu y6uucTBe BparoB. DluTel'HocT' He mojeT 6blT' TTpodleHa 6olee 4em Ha 7 cekyHd.</string>
+	<string name="skills.paladin.mastery_1.spell_1.up2.name">Молот гнева</string>
+	<string name="skills.paladin.mastery_1.spell_1.up2.desc">HaHocuT doTTolHuTel'Hblu ypoH molHueu.</string>
+	<string name="skills.paladin.mastery_1.spell_1.up3.name" />
+	<string name="skills.paladin.mastery_1.spell_1.up3.desc" />
+
+	<string name="skills.paladin.mastery_1.passive_1.name">Законодатель</string>
+	<string name="skills.paladin.mastery_1.passive_1.desc">Korda Bbl 6lokupyeTe ulu TToly4aeTe ypoH, y Bac ecT' waHc HalojuT' \cb0dfffPa3opyjeHue\d u \cb0dfff6e3molBue\d Ha aTakyI0wero.</string>
+	<string name="skills.paladin.mastery_1.passive_1.up1.name">Наказание нечестивых</string>
+	<string name="skills.paladin.mastery_1.passive_1.up1.desc">Bbl HaHocuTe 6ol'we ypoHa Bparam, TTopajeHHblm \cb0dfffPa3opyjeHuem\d ulu \cb0dfff6e3molBuem\d.</string>
+	<string name="skills.paladin.mastery_1.passive_1.up2.name">Оковы</string>
+	<string name="skills.paladin.mastery_1.passive_1.up2.desc">Ydapbl \cffdfb0Opyjuem\d u \cffdfb03akluHaHuRmu\d umeI0T waHc ckoBaT' ttel' u dpyroro 6lujauwero Bpara. CkoBaHHble Bparu umeI0T cHujeHHyI0 ckopocT' TTepedBujeHuR u TToly4aI0T TTocToRHHblu fu3u4eckuu ypoH.</string>
+	<string name="skills.paladin.mastery_1.passive_1.up3.name" />
+	<string name="skills.paladin.mastery_1.passive_1.up3.desc" />
+
+	<string name="skills.paladin.mastery_2.name">Божественное</string>
+	<string name="skills.paladin.mastery_2.desc" />
+
+	<string name="skills.paladin.mastery_2.spell_1.name">Божественные столпы</string>
+	<string name="skills.paladin.mastery_2.spell_1.desc">Bbl TTpu3blBaeTe cTolTTbl He6ecHoro cBeTa, koTopble B3pblBaI0TcR Ha Bawem mecTe, HaHocR fu3u4eckuu ypoH u HakladblBaR \cb0dfffCleTToTy\d.</string>
+	<string name="skills.paladin.mastery_2.spell_1.up1.name">Божественный узор</string>
+	<string name="skills.paladin.mastery_2.spell_1.up1.desc">Bbl3blBaeT doTTolHuTel'Hble cTolTTbl, koTopble ydapRI0T TTocledoBaTel'Ho B Bude ceTku. Kajdblu TTocledyI0wuu cTolTT HaHocuT BdBoe meH'we ypoHa.</string>
+	<string name="skills.paladin.mastery_2.spell_1.up2.name">Столпы гнева</string>
+	<string name="skills.paladin.mastery_2.spell_1.up2.desc">HaHocuT doTTolHuTel'Hblu ypoH molHueu.</string>
+	<string name="skills.paladin.mastery_2.spell_1.up3.name" />
+	<string name="skills.paladin.mastery_2.spell_1.up3.desc" />
+
+	<string name="skills.paladin.mastery_2.passive_1.name">Божественная защита</string>
+	<string name="skills.paladin.mastery_2.passive_1.desc">TToly4eHue ypoHa TTpu 3dopoB'e Huje TToloBuHbl daeT waHc TToly4uT' 6aff \cb0dfffHeyR3BumocTu\d Ha kopoTkuu TTepuod. 8ToT 8ffekT umeeT TTepe3apRdky.</string>
+	<string name="skills.paladin.mastery_2.passive_1.up1.name">Восстановление</string>
+	<string name="skills.paladin.mastery_2.passive_1.up1.desc">Bbl TToly4aeTe 3Ha4uTel'Hoe yBelu4eHue BoccTaHoBleHuR 3dopoB'R, TToka deucTByeT 6aff.</string>
+	<string name="skills.paladin.mastery_2.passive_1.up2.name">Божественный ответ</string>
+	<string name="skills.paladin.mastery_2.passive_1.up2.desc">Korda Bbl TToly4aeTe 6aff, Bbl aBTomaTu4ecku TTpumeHReTe \cb0dfff6ojecTBeHHble cTolTTbl\d.</string>
+	<string name="skills.paladin.mastery_2.passive_1.up3.name" />
+	<string name="skills.paladin.mastery_2.passive_1.up3.desc" />
+
+	<string name="skills.paladin.mastery_3.name">Сияние</string>
+	<string name="skills.paladin.mastery_3.desc" />
+
+	<string name="skills.paladin.mastery_3.spell_1.name">Сожжение</string>
+	<string name="skills.paladin.mastery_3.spell_1.desc">Bbl 3apRjaeTe mowHblu B3pblB, koTopblu BblcBo6ojdaeTcR TTpu oTTTyckaHuu 3akluHaHuR, HaHocR ypoH orHem Bcem Bparam Bokpyr.</string>
+	<string name="skills.paladin.mastery_3.spell_1.up1.name">Подпитка пламени</string>
+	<string name="skills.paladin.mastery_3.spell_1.up1.desc">Bbl TToly4aeTe doTTolHuTel'Hble cTeku \cb0dfffBHyTpeHHero TTlameHu\d TTpu ucTTol'3oBaHuu \cb0dfffCojjeHuR\d.</string>
+	<string name="skills.paladin.mastery_3.spell_1.up2.name">Пылающее копье</string>
+	<string name="skills.paladin.mastery_3.spell_1.up2.desc">TeTTep' Bbl BblTTyckaeTe TTbllaI0wee koTT'e, koTopoe HaHocuT doTTolHuTel'Hblu ypoH orHem Bcem Bparam Ha cBoem TTyTu.</string>
+	<string name="skills.paladin.mastery_3.spell_1.up3.name" />
+	<string name="skills.paladin.mastery_3.spell_1.up3.desc" />
+
+	<string name="skills.paladin.mastery_3.passive_1.name">Внутреннее пламя</string>
+	<string name="skills.paladin.mastery_3.passive_1.desc">NcTTol'3oBaHue 3akluHaHuu co3daeT cTeku \cb0dfffBHyTpeHHero TTlameHu\d. TToka y Bac ecT' cTeku \cb0dfffBHyTpeHHero TTlameHu\d, Bbl TToly4aeTe aypy, HaHocRwyI0 ypoH orHem 6lujauwum Bparam.</string>
+	<string name="skills.paladin.mastery_3.passive_1.up1.name">Пламя преданности</string>
+	<string name="skills.paladin.mastery_3.passive_1.up1.desc">Kajdblu cTek \cb0dfffBHyTpeHHero TTlameHu\d do6aBlReT ypoH orHem Bawemy opyjuI0.</string>
+	<string name="skills.paladin.mastery_3.passive_1.up2.name">Приносящий пламя</string>
+	<string name="skills.paladin.mastery_3.passive_1.up2.desc">Kajdblu cTek \cb0dfffBHyTpeHHero TTlameHu\d yBelu4uBaeT Bawe coTTpoTuBleHue orHI0 u TTpo6uBaHue orHR.</string>
+	<string name="skills.paladin.mastery_3.passive_1.up3.name" />
+	<string name="skills.paladin.mastery_3.passive_1.up3.desc" />
+
+
+
+	
+
+	<string name="skills.ranger.spell_1.name">Меткий выстрел</string>
+	<string name="skills.ranger.spell_1.desc">Bbl BblTTyckaeTe cHapRd, koTopblu HaHocuT fu3u4eckuu ypoH u HakladblBaeT \cb0dfffMeTky\d Ha Bcex BparoB B tteleBou o6lacTu. Bbl HaHocuTe 6ol'we ypoHa Bparam, TTopajeHHblm \cb0dfffMeTkou\d.</string>
+	<string name="skills.ranger.spell_1.up1.name">Горячая погоня</string>
+	<string name="skills.ranger.spell_1.up1.desc">Bbl TToly4aeTe kpaTkoBpemeHHblu 6aff, yBelu4uBaI0wuu ckopocT' TTepedBujeHuR TTpu TToTTadaHuu TTo ttelRm c \cb0dfffMeTkou\d.</string>
+	<string name="skills.ranger.spell_1.up2.name">Азарт охоты</string>
+	<string name="skills.ranger.spell_1.up2.desc">Y6uucTBo BparoB, TTopajeHHblx \cb0dfffMeTkou\d, umeeT waHc BoccTaHoBuT' 4acT' Bawero 3dopoB'R u maHbl.</string>
+	<string name="skills.ranger.spell_1.up3.name">Охотник на крупную дичь</string>
+	<string name="skills.ranger.spell_1.up3.desc">Bbl HaHocuTe doTTolHuTel'Hblu ypoH \cb0dfff6occam\d u \cb0dfff8luTam\d, TTopajeHHblm \cb0dfffMeTkou\d.</string>
+
+	<string name="skills.ranger.spell_2.name">Ловушка</string>
+	<string name="skills.ranger.spell_2.desc">6pocaeT loBywky, koTopaR akTuBupyeTcR 4epe3 kopoTkoe BpemR. LoBywku HaHocRT fu3u4eckuu ypoH B He6ol'wou o6lacTu TTpu cpa6aTblBaHuu u HakladblBaI0T \cb0dfffXpomoTy\d.</string>
+	<string name="skills.ranger.spell_2.up1.name">Множественная установка</string>
+	<string name="skills.ranger.spell_2.up1.desc">Bbl ycTaHaBluBaeTe doTTolHuTel'Hble loBywku c kajdblm TTpumeHeHuem.</string>
+	<string name="skills.ranger.spell_2.up2.name">Зубчатые ловушки</string>
+	<string name="skills.ranger.spell_2.up2.desc">LoBywku TeTTep' HakladblBaI0T cTeku \cb0dfffKpoBoTe4eHuR\d.</string>
+	<string name="skills.ranger.spell_2.up3.name">Ледяные ловушки</string>
+	<string name="skills.ranger.spell_2.up3.desc">LoBywku HaHocRT doTTolHuTel'Hblu ypoH l'dom.</string>
+
+	<string name="skills.ranger.passive_1.name">Ритм</string>
+	<string name="skills.ranger.passive_1.desc">Bbl TToly4aeTe waHc kpuTu4eckoro ydapa opyjuem, a kpuTu4eckue ydapbl opyjuem daI0T Bam cTeku \cb0dfffPuTma\d. Kajdblu cTek \cb0dfffPuTma\d yBelu4uBaeT Baw waHc kpuTu4eckoro ydapa u ypoH opyjuem.</string>
+	<string name="skills.ranger.passive_1.up1.name">В потоке</string>
+	<string name="skills.ranger.passive_1.up1.desc">Kajdblu cTek \cb0dfffPuTma\d yBelu4uBaeT ckopocT' Bawero opyjuR.</string>
+	<string name="skills.ranger.passive_1.up2.name">Эффективность</string>
+	<string name="skills.ranger.passive_1.up2.desc">Kajdblu cTek \cb0dfffPuTma\d cHujaeT 3aTpaTbl maHbl.</string>
+	<string name="skills.ranger.passive_1.up3.name">Импульс</string>
+	<string name="skills.ranger.passive_1.up3.desc">Bbl TToly4aeTe cTek \cb0dfffPuTma\d TTpu ucTTol'3oBaHuu pblBka.</string>
+
+	<string name="skills.ranger.passive_2.name">Выживальщик</string>
+	<string name="skills.ranger.passive_2.desc">Kajdblu pa3, korda Bbl TToly4aeTe ydap, Bbl TToly4aeTe 6aff, koTopblu cHujaeT TToly4aemblu ypoH Ha kopoTkuu TTepuod. 8ToT 8ffekT umeeT kopoTkyI0 TTepe3apRdky.</string>
+	<string name="skills.ranger.passive_2.up1.name">Уклончивый маневр</string>
+	<string name="skills.ranger.passive_2.up1.desc">Takje daeT ykloHeHue Ha BpemR deucTBuR 6affa.</string>
+	<string name="skills.ranger.passive_2.up2.name">Тактический маневр</string>
+	<string name="skills.ranger.passive_2.up2.desc">Bbl TToly4aeTe 3apRd pblBka TTpu TToly4eHuu ypoHa. 8ToT 8ffekT umeeT kopoTkyI0 TTepe3apRdky.</string>
+	<string name="skills.ranger.passive_2.up3.name">Быстрое восстановление</string>
+	<string name="skills.ranger.passive_2.up3.desc">YBelu4uBaeT BoccTaHoBleHue 3dopoB'R Ha BpemR deucTBuR 6affa.</string>
+
+
+	<string name="skills.ranger.mastery_1.name">Стрелок</string>
+	<string name="skills.ranger.mastery_1.desc" />
+
+	<string name="skills.ranger.mastery_1.spell_1.name">Дождь стрел</string>
+	<string name="skills.ranger.mastery_1.spell_1.desc">Bbl 3aTTyckaeTe rpad cTpel B Bo3dyx, koTopble TTadaI0T Ha 3emlI0 B HaTTpaBleHuu BTTeped, HaHocR fu3u4eckuu ypoH.</string>
+	<string name="skills.ranger.mastery_1.spell_1.up1.name">Шторм стрел</string>
+	<string name="skills.ranger.mastery_1.spell_1.up1.desc">YBelu4uBaeT o6lacT' TTopajeHuR.</string>
+	<string name="skills.ranger.mastery_1.spell_1.up2.name">Призыватель грома</string>
+	<string name="skills.ranger.mastery_1.spell_1.up2.desc">CTpelbl coTTpoBojdaI0TcR cepueu ydapoB molHuu, HaHocRwux ypoH molHueu.</string>
+	<string name="skills.ranger.mastery_1.spell_1.up3.name" />
+	<string name="skills.ranger.mastery_1.spell_1.up3.desc" />
+
+	<string name="skills.ranger.mastery_1.passive_1.name">Стрельба из лука</string>
+	<string name="skills.ranger.mastery_1.passive_1.desc">WTpaf k ckopocTu TTepedBujeHuR TTpu ucTTol'3oBaHuu HaBblkoB \cffdfb0Lyka\d ymeH'weH, u Bbl HaHocuTe yBelu4eHHblu ypoH HaBblkamu \cffdfb0Lyka\d.</string>
+	<string name="skills.ranger.mastery_1.passive_1.up1.name">Быстрый выстрел</string>
+	<string name="skills.ranger.mastery_1.passive_1.up1.desc">Bbl TToly4aeTe yBelu4eHHyI0 ckopocT' HaBblkoB c \cffdfb0Lykom\d.</string>
+	<string name="skills.ranger.mastery_1.passive_1.up2.name">Ледяные стрелы</string>
+	<string name="skills.ranger.mastery_1.passive_1.up2.desc">Bawu HaBblku \cffdfb0Lyka\d umeI0T waHc Bbl3BaT' ledRHou B3pblB TTpu TToTTadaHuu, HaHocR ypoH l'dom. 8ToT 8ffekT umeeT kopoTkyI0 TTepe3apRdky.</string>
+	<string name="skills.ranger.mastery_1.passive_1.up3.name" />
+	<string name="skills.ranger.mastery_1.passive_1.up3.desc" />
+
+	<string name="skills.ranger.mastery_2.name">Повелитель зверей</string>
+	<string name="skills.ranger.mastery_2.desc" />
+
+	<string name="skills.ranger.mastery_2.spell_1.name">Духовные волки</string>
+	<string name="skills.ranger.mastery_2.spell_1.desc">Bbl BblTTyckaeTe dyxoBHblx BolkoB, koTopble uwyT 6lujauwux BparoB, HaHocR fu3u4eckuu u ledRHou ypoH TTpu TToTTadaHuu.</string>
+	<string name="skills.ranger.mastery_2.spell_1.up1.name">Неутомимые охотники</string>
+	<string name="skills.ranger.mastery_2.spell_1.up1.desc">DyxoBHble Bolku TToly4aI0T waHc HauTu HoByI0 ttel' TTpu TToTTadaHuu.</string>
+	<string name="skills.ranger.mastery_2.spell_1.up2.name">Беспокойные духи</string>
+	<string name="skills.ranger.mastery_2.spell_1.up2.desc">Bbl TToly4aeTe waHc BblTTycTuT' dyxoBHoro Bolka TTpu y6uucTBe BparoB. 8ToT 8ffekT umeeT kopoTkyI0 TTepe3apRdky.</string>
+	<string name="skills.ranger.mastery_2.spell_1.up3.name" />
+	<string name="skills.ranger.mastery_2.spell_1.up3.desc" />
+
+	<string name="skills.ranger.mastery_2.passive_1.name">Волчий спутник</string>
+	<string name="skills.ranger.mastery_2.passive_1.desc">Bbl TTaccuBHo TTpu3blBaeTe Bolka-cTTyTHuka, koTopblu cpajaeTcR pRdom c Bamu u aTakyeT 6lujauwux BparoB, HaHocR fu3u4eckuu ypoH.</string>
+	<string name="skills.ranger.mastery_2.passive_1.up1.name">Волчья стая</string>
+	<string name="skills.ranger.mastery_2.passive_1.up1.desc">Bbl TTpu3blBaeTe doTTolHuTel'Hblx BolkoB.</string>
+	<string name="skills.ranger.mastery_2.passive_1.up2.name">Зимний волк</string>
+	<string name="skills.ranger.mastery_2.passive_1.up2.desc">Bawu Bolku HaHocRT doTTolHuTel'Hblu ypoH l'dom.</string>
+	<string name="skills.ranger.mastery_2.passive_1.up3.name" />
+	<string name="skills.ranger.mastery_2.passive_1.up3.desc" />
+
+	<string name="skills.ranger.mastery_3.name">Страж</string>
+	<string name="skills.ranger.mastery_3.desc" />
+
+	<string name="skills.ranger.mastery_3.spell_1.name">Оковы</string>
+	<string name="skills.ranger.mastery_3.spell_1.desc">Bbl co3daeTe kopHu, koTopble TTpopacTaI0T B 6ol'wou o6lacTu Bokpyr Bac u coxpaHRI0TcR HekoTopoe BpemR. Bparu B o6lacTu TToly4aI0T fu3u4eckuu ypoH u HakladblBaI0T \cb0dfffXpomoTy\d.</string>
+	<string name="skills.ranger.mastery_3.spell_1.up1.name">Исцеляющие огоньки</string>
+	<string name="skills.ranger.mastery_3.spell_1.up1.desc">KopHu co3daI0T oroH'ku, koTopble TTpukpeTTlRI0TcR k coI03Hukam, BxodRwum B o6lacT', BoccTaHaBluBaR 3dopoB'e B Te4eHue HekoToporo BpemeHu.</string>
+	<string name="skills.ranger.mastery_3.spell_1.up2.name">Ядовитый плющ</string>
+	<string name="skills.ranger.mastery_3.spell_1.up2.desc">HaHocuT doTTolHuTel'Hblu ypoH Rdom.</string>
+	<string name="skills.ranger.mastery_3.spell_1.up3.name" />
+	<string name="skills.ranger.mastery_3.spell_1.up3.desc" />
+	
+	<string name="skills.ranger.mastery_3.passive_1.name">Ткач ветра</string>
+	<string name="skills.ranger.mastery_3.passive_1.desc">Ydapbl \cffdfb0Opyjuem\d BblTTyckaI0T TTopblBbl BeTpa BTTeped, HaHocR fu3u4eckuu ypoH. 8ToT 8ffekT umeeT kopoTkyI0 TTepe3apRdky.</string>
+	<string name="skills.ranger.mastery_3.passive_1.up1.name">Зимние ветры</string>
+	<string name="skills.ranger.mastery_3.passive_1.up1.desc">TTopblBbl BeTpa HaHocRT doTTolHuTel'Hblu ypoH l'dom.</string>
+	<string name="skills.ranger.mastery_3.passive_1.up2.name">Бегун ветра</string>
+	<string name="skills.ranger.mastery_3.passive_1.up2.desc">Bbl BblTTyckaeTe Heckol'ko TTopblBoB BeTpa Bo Bcex HaTTpaBleHuRx TTpu ucTTol'3oBaHuu pblBka.</string>
+	<string name="skills.ranger.mastery_3.passive_1.up3.name" />
+	<string name="skills.ranger.mastery_3.passive_1.up3.desc" />
+
+
+
+
+
+	<string name="skills.rogue.spell_1.name">Веер клинков</string>
+	<string name="skills.rogue.spell_1.desc">MeTaeT Heckol'ko kluHkoB B fopme koHyca, HaHocR fu3u4eckuu ypoH.</string>
+	<string name="skills.rogue.spell_1.up1.name">Рикошет</string>
+	<string name="skills.rogue.spell_1.up1.desc">CHapRdbl TeTTep' oTckakuBaI0T oT cTeH u TTpeTTRTcTBuu. Kajdblu oTckok ymeH'waeT ckopocT' u ypoH.</string>
+	<string name="skills.rogue.spell_1.up2.name">Смертельный прицел</string>
+	<string name="skills.rogue.spell_1.up2.desc">Bbl TToly4aeTe yBelu4eHHblu waHc kpuTu4eckoro ydapa c \cb0dfffBeepom kluHkoB\d.</string>
+	<string name="skills.rogue.spell_1.up3.name">Отравленные клинки</string>
+	<string name="skills.rogue.spell_1.up3.desc">HaHocuT doTTolHuTel'Hblu ypoH Rdom.</string>
+	<string name="skills.rogue.spell_1.up4.name">Сосредоточенный бросок</string>
+	<string name="skills.rogue.spell_1.up4.desc">Bbl 6pocaeTe meH'we cHapRdoB BTTeped. CHapRdbl HaHocRT 6ol'we ypoHa u umeI0T HemHoro 6ol'wee BpemR ju3Hu.</string>
+
+	<string name="skills.rogue.spell_2.name">Шквал клинков</string>
+	<string name="skills.rogue.spell_2.desc">Bbl coBepwaeTe cepuI0 ydapoB, TTopajaR Bcex BparoB B o6lacTu Bokpyr ce6R, HaHocR fu3u4eckuu ypoH.</string>
+	<string name="skills.rogue.spell_2.up1.name">Обезоруживающие удары</string>
+	<string name="skills.rogue.spell_2.up1.desc">TToly4aeT waHc HalojuT' \cb0dfffPa3opyjeHue\d.</string>
+	<string name="skills.rogue.spell_2.up2.name">Огненные болас</string>
+	<string name="skills.rogue.spell_2.up2.desc">6olac TTpumeHRI0TcR k kajdomy TTopajeHHomy Bpary u doTTolHuTel'Homy 6lujauwemy Bpary. TTopajeHHble Bparu 3amedlRI0TcR u TToly4aI0T ypoH orHem B Te4eHue HekoToporo BpemeHu.</string>
+	<string name="skills.rogue.spell_2.up3.name">Шоковая атака</string>
+	<string name="skills.rogue.spell_2.up3.desc">HaHocuT doTTolHuTel'Hblu ypoH molHueu.</string>
+
+	<string name="skills.rogue.passive_1.name">Резка и рубка</string>
+	<string name="skills.rogue.passive_1.desc">Ydapbl \cffdfb06lujHero 6oR\d daI0T cTaku \cb0dfffPe3ku u py6ku\d. Kajdblu cTak yBelu4uBaeT Bawy ckopocT' aTaku. Bbl TepReTe Bce cTaku, eclu BpemR deucTBuR ucTekaeT.</string>
+	<string name="skills.rogue.passive_1.up1.name">Адреналин</string>
+	<string name="skills.rogue.passive_1.up1.desc">Kajdblu cTak yBelu4uBaeT Bawe BoccTaHoBleHue maHbl.</string>
+	<string name="skills.rogue.passive_1.up2.name">Парирование клинком</string>
+	<string name="skills.rogue.passive_1.up2.desc">Kajdblu cTak yBelu4uBaeT Bawe TTapupoBaHue.</string>
+	<string name="skills.rogue.passive_1.up3.name">Ловкое колдовство</string>
+	<string name="skills.rogue.passive_1.up3.desc">Kajdblu cTak yBelu4uBaeT Bawy ckopocT' TTpou3HeceHuR 3akluHaHuu, u Bbl Takje TToly4aeTe cTaku TTpu TTpou3HeceHuu 3akluHaHuu.</string>
+
+	<string name="skills.rogue.passive_2.name">Уклонение</string>
+	<string name="skills.rogue.passive_2.desc">DaeT ykloHeHue u oduH cTak rapaHTupoBaHHoro ykloHeHuR, koTopblu BoccTaHaBluBaeTcR kajdble Heckol'ko cekyHd.</string>
+	<string name="skills.rogue.passive_2.up1.name">Легконогий</string>
+	<string name="skills.rogue.passive_2.up1.desc">YBelu4uBaeT Bawy ckopocT' TTepedBujeHuR.</string>
+	<string name="skills.rogue.passive_2.up2.name">Смертельное начало</string>
+	<string name="skills.rogue.passive_2.up2.desc">DaeT doTTolHuTel'Hblu waHc kpuTu4eckoro ydapa Ha kopoTkoe BpemR TTocle ykloHeHuR.</string>
+	<string name="skills.rogue.passive_2.up3.name">В движении</string>
+	<string name="skills.rogue.passive_2.up3.desc">PblBok TToly4aeT waHc BoccTaHoBuT' rapaHTupoBaHHoe ykloHeHue oT \cb0dfffYkloHeHuR\d.</string>
+
+	<string name="skills.rogue.mastery_1.name">Клинки</string>
+	<string name="skills.rogue.mastery_1.desc" />
+
+	<string name="skills.rogue.mastery_1.spell_1.name">Смертельный удар</string>
+	<string name="skills.rogue.mastery_1.spell_1.desc">Bbl HaHocuTe 6blcTpblu cmepTel'Hblu ydap, koTopblu HaHocuT orpomHblu fu3u4eckuu ypoH.</string>
+	<string name="skills.rogue.mastery_1.spell_1.up1.name">Фантомный удар</string>
+	<string name="skills.rogue.mastery_1.spell_1.up1.desc">Ydap TeTTep' TTepexoduT Ha doTTolHuTel'Hblx BparoB B koHyce 3a ttel'I0. HaHocuT meH'we ypoHa 3a kajdoro TTocledyI0wero TTopajeHHoro Bpara.</string>
+	<string name="skills.rogue.mastery_1.spell_1.up2.name">Кровавый удар</string>
+	<string name="skills.rogue.mastery_1.spell_1.up2.desc">Bbl TToly4aeTe He6ol'woe kolu4ecTBo kpaju ju3Hu c \cb0dfffCmepTel'Hblm ydapom\d.</string>
+	<string name="skills.rogue.mastery_1.spell_1.up3.name" />
+	<string name="skills.rogue.mastery_1.spell_1.up3.desc" />
+
+	<string name="skills.rogue.mastery_1.passive_1.name">Убийца</string>
+	<string name="skills.rogue.mastery_1.passive_1.desc">YBelu4uBaeT Baw kpuTu4eckuu ypoH opyjuem u ymeH'waeT paduyc o6HapyjeHuR Bac Bparamu.</string>
+	<string name="skills.rogue.mastery_1.passive_1.up1.name">Палач</string>
+	<string name="skills.rogue.mastery_1.passive_1.up1.desc">Bbl TToly4aeTe waHc mrHoBeHHo y6uT' Bpara Ha \cb0dfffHu3kom 3dopoB'e\d TTpu HaHeceHuu kpuTu4eckux ydapoB \cffdfb06lujHero 6oR\d. He pa6oTaeT Ha 6occoB.</string>
+	<string name="skills.rogue.mastery_1.passive_1.up2.name">Скрытые порезы</string>
+	<string name="skills.rogue.mastery_1.passive_1.up2.desc">ATaku \cffdfb06lujHero 6oR\d opyjuem HaHocRT ypoH cly4auHomy 6lujauwemy Bpary, paBHblu ypoHy ocHoBHou pyku.</string>
+	<string name="skills.rogue.mastery_1.passive_1.up3.name" />
+	<string name="skills.rogue.mastery_1.passive_1.up3.desc" />
+
+	<string name="skills.rogue.mastery_2.name">Яд</string>
+	<string name="skills.rogue.mastery_2.desc" />
+
+	<string name="skills.rogue.mastery_2.spell_1.name">Токсичное облако</string>
+	<string name="skills.rogue.mastery_2.spell_1.desc">Bbl co3daeTe 6ol'woe Tokcu4Hoe o6lako, koTopoe coxpaHReTcR HekoTopoe BpemR. O6lako 6lokupyeT o63op BparoB u HaHocuT ypoH Rdom Bcem Bparam BHyTpu o6laka.</string>
+	<string name="skills.rogue.mastery_2.spell_1.up1.name">Клубящееся облако</string>
+	<string name="skills.rogue.mastery_2.spell_1.up1.desc">Bbl u Bawu coI03Huku TToly4aeTe ykloHeHue, HaxodRc' BHyTpu o6laka.</string>
+	<string name="skills.rogue.mastery_2.spell_1.up2.name">Коррозия</string>
+	<string name="skills.rogue.mastery_2.spell_1.up2.desc">Bparu, BxodRwue B o6lako, TToly4aI0T \cb0dfffClom 6poHu\d.</string>
+	<string name="skills.rogue.mastery_2.spell_1.up3.name" />
+	<string name="skills.rogue.mastery_2.spell_1.up3.desc" />
+
+	<string name="skills.rogue.mastery_2.passive_1.name">Мастерство яда</string>
+	<string name="skills.rogue.mastery_2.passive_1.desc">Bbl HaHocuTe yBelu4eHHblu ypoH Rdom, u Bawu \cffdfb0RdoBuTble\d HaBblku TToly4aI0T waHc HalojuT' \cb0dfffYR3BumocT'\d.</string>
+	<string name="skills.rogue.mastery_2.passive_1.up1.name">Покрытые оружия</string>
+	<string name="skills.rogue.mastery_2.passive_1.up1.desc">Do6aBlReT ypoH Rdom k Bawemy opyjuI0 3a kajdblu ypoBeH' TTepcoHaja.</string>
+	<string name="skills.rogue.mastery_2.passive_1.up2.name">Смертельные токсины</string>
+	<string name="skills.rogue.mastery_2.passive_1.up2.desc">YBelu4uBaeT Bawe TTpoHukHoBeHue Rdom u coTTpoTuBleHue Rdy.</string>
+	<string name="skills.rogue.mastery_2.passive_1.up3.name" />
+	<string name="skills.rogue.mastery_2.passive_1.up3.desc" />
+
+	<string name="skills.rogue.mastery_3.name">Взрывчатка</string>
+	<string name="skills.rogue.mastery_3.desc" />
+
+	<string name="skills.rogue.mastery_3.spell_1.name">Граната</string>
+	<string name="skills.rogue.mastery_3.spell_1.desc">Bbl 6pocaeTe rpaHaTy BTTeped, koTopaR B3pblBaeTcR 4epe3 kopoTkoe BpemR, HaHocR fu3u4eckuu ypoH.</string>
+	<string name="skills.rogue.mastery_3.spell_1.up1.name">Зажигательные гранаты</string>
+	<string name="skills.rogue.mastery_3.spell_1.up1.desc">GpaHaTa TeTTep' B3pblBaeTcR TTpu ydape u ocTaBlReT o6lacT' ropRweu 3emlu Ha kopoTkoe BpemR, HaHocR ypoH orHem.</string>
+	<string name="skills.rogue.mastery_3.spell_1.up2.name">Шоковые гранаты</string>
+	<string name="skills.rogue.mastery_3.spell_1.up2.desc">GpaHaTa HaHocuT doTTolHuTel'Hblu ypoH molHueu, koTopblu mojeT TTepexoduT' Ha dpyrux 6lujauwux BparoB.</string>
+	<string name="skills.rogue.mastery_3.spell_1.up3.name">Взрывной выход</string>
+	<string name="skills.rogue.mastery_3.spell_1.up3.desc">Eclu Bbl Ha4uHaeTe pblBok pRdom c Bparom, Bbl 6pocaeTe rpaHaTy. 8ToT 8ffekT umeeT kopoTkoe BpemR BoccTaHoBleHuR.</string>
+
+	<string name="skills.rogue.mastery_3.passive_1.name">Артифакторный костюм</string>
+	<string name="skills.rogue.mastery_3.passive_1.desc">YBelu4uBaeT Bawy 6poHI0 u fu3u4eckuu ypoH. TToly4eHue ypoHa Bbl3blBaeT cpa6aTblBaHue cBeTowymoBou rpaHaTbl, koTopaR ocleTTlReT 6lujauwux BparoB. 8ToT 8ffekT umeeT kopoTkoe BpemR BoccTaHoBleHuR.</string>
+	<string name="skills.rogue.mastery_3.passive_1.up1.name">Зззап</string>
+	<string name="skills.rogue.mastery_3.passive_1.up1.desc">\cffdfb0OpyjeuHble\d HaBblku umeI0T waHc Bbl3BaT' ydap molHuu, koTopblu TTopajaeT cly4auHoro 6lujauwero Bpara, HaHocR ypoH molHueu.</string>
+	<string name="skills.rogue.mastery_3.passive_1.up2.name">Осколки</string>
+	<string name="skills.rogue.mastery_3.passive_1.up2.desc">TTpou3HeceHue 3akluHaHuu umeeT waHc Bbl6pocuT' mHojecTBo ockolkoB Bo Bcex HaTTpaBleHuRx, HaHocR fu3u4eckuu u orHeHHblu ypoH.</string>
+	<string name="skills.rogue.mastery_3.passive_1.up3.name" />
+	<string name="skills.rogue.mastery_3.passive_1.up3.desc" />
+
+	
+
+
+
+
+	
+
+	<string name="skills.sorcerer.spell_1.name">Разряд</string>
+	<string name="skills.sorcerer.spell_1.desc">Bbl BblTTyckaeTe Heckol'ko dyr molHuu B fopme koHyca, HaHocR ypoH molHueu. Kajdblu Bpar mojeT 6blT' TTopajeH Tol'ko odHou dyrou.</string>
+	<string name="skills.sorcerer.spell_1.up1.name">Цепная молния</string>
+	<string name="skills.sorcerer.spell_1.up1.desc">KajdaR dyra molHuu mojeT TTepexoduT' Ha doTTolHuTel'Hble ttelu.</string>
+	<string name="skills.sorcerer.spell_1.up2.name">Расширенный разряд</string>
+	<string name="skills.sorcerer.spell_1.up2.desc">YBelu4uBaeT dal'HocT' 3akluHaHuR.</string>
+	<string name="skills.sorcerer.spell_1.up3.name">Опаляющие лучи</string>
+	<string name="skills.sorcerer.spell_1.up3.desc">MeHReT TuTT ypoHa Ha orHeHHblu, u ly4u TeTTep' TTpoH3aI0T ttelu.</string>
+	<string name="skills.sorcerer.spell_1.up4.name">Лучи холода</string>
+	<string name="skills.sorcerer.spell_1.up4.desc">BblTTyckaeT meH'we ly4eu B 6olee y3kuu koHyc, Ho Bparu TeTTep' moryT 6blT' TTopajeHbl Heckol'kumu ly4amu. MeHReT TuTT ypoHa Ha ledRHou.</string>
+
+	<string name="skills.sorcerer.spell_2.name">Стихийная сфера</string>
+	<string name="skills.sorcerer.spell_2.desc">Bbl co3daeTe medleHHo dBujywyI0cR cfepy, koTopaR TTocToRHHo HaHocuT ypoH Bcemu 8lemeHTamu 6lujauwum Bparam.</string>
+	<string name="skills.sorcerer.spell_2.up1.name">Адаптивная сфера</string>
+	<string name="skills.sorcerer.spell_2.up1.desc">Eclu y Bac ecT' \cb0dfffCTuxuuHoe cpodcTBo\d TTpu TTpou3HeceHuu 3akluHaHuR, cfepa 6ydeT HaHocuT' ypoH Tol'ko cooTBeTcTByI0wum 8lemeHTom.</string>
+	<string name="skills.sorcerer.spell_2.up2.name">Стабильная сфера</string>
+	<string name="skills.sorcerer.spell_2.up2.desc">YBelu4uBaeT BpemR ju3Hu cfepbl.</string>
+	<string name="skills.sorcerer.spell_2.up3.name">Стихийный поток</string>
+	<string name="skills.sorcerer.spell_2.up3.desc">Cfepa TeTTep' Ha4uHaeT Bbl6pacblBaT' meH'wue cHapRdbl Bo Bcex HaTTpaBleHuRx. 8Tu cHapRdbl HaHocRT meH'we ypoHa.</string>
+
+	<string name="skills.sorcerer.passive_1.name">Стихийное сродство</string>
+	<string name="skills.sorcerer.passive_1.desc">TTpu TTpou3HeceHuu \cffdfb03akluHaHuR\d Bbl TToly4aeTe \cb0dfffCTuxuuHoe cpodcTBo\d Toro je 8lemeHTa, 4To u TTpou3HeceHHoe 3akluHaHue. Bbl HaHocuTe 6ol'we ypoHa cooTBeTcTByI0wum 8lemeHTom, TToka y Bac ecT' \cb0dfffCTuxuuHoe cpodcTBo\d. OdHoBpemeHHo mojeT 6blT' akTuBeH Tol'ko oduH TuTT 8lemeHTa.</string>
+	<string name="skills.sorcerer.passive_1.up1.name">Стихийная защита</string>
+	<string name="skills.sorcerer.passive_1.up1.desc">DaeT doTTolHuTel'Hoe coTTpoTuBleHue orHI0, l'dy u molHuu 3a kajdblu ypoBeH' TTepcoHaja.</string>
+	<string name="skills.sorcerer.passive_1.up2.name">Стихийное проникновение</string>
+	<string name="skills.sorcerer.passive_1.up2.desc">DaeT TTpoHukHoBeHue orHR, l'da u molHuu.</string>
+	<string name="skills.sorcerer.passive_1.up3.name">Стихийное равновесие</string>
+	<string name="skills.sorcerer.passive_1.up3.desc">TToka y Bac ecT' \cb0dfffCTuxuuHoe cpodcTBo\d, Baw 6oHyc k ypoHy ydBauBaeTcR dlR dpyrux 8lemeHToB.</string>
+
+	<string name="skills.sorcerer.passive_2.name">Врождённая сила</string>
+	<string name="skills.sorcerer.passive_2.desc">DaeT waHc kpuTu4eckoro ydapa 3akluHaHuRmu.</string>
+	<string name="skills.sorcerer.passive_2.up1.name">Неуправляемая сила</string>
+	<string name="skills.sorcerer.passive_2.up1.desc">Bbl HaHocuTe yBelu4eHHblu kpuTu4eckuu ypoH 3akluHaHuRmu.</string>
+	<string name="skills.sorcerer.passive_2.up2.name">Скачок силы</string>
+	<string name="skills.sorcerer.passive_2.up2.desc">Bbl TToly4aeTe 6aff yBelu4eHHou ckopocTu aTaku, TTpou3HeceHuR 3akluHaHuu u TTepedBujeHuR TTpu HaHeceHuu kpuTu4eckoro ydapa 3akluHaHuem.</string>
+	<string name="skills.sorcerer.passive_2.up3.name">Скачок маны</string>
+	<string name="skills.sorcerer.passive_2.up3.desc">Bbl BoccTaHaBluBaeTe 4acT' cBoeu maHbl TTpu HaHeceHuu kpuTu4eckoro ydapa 3akluHaHuem.</string>
+
+	<string name="skills.sorcerer.mastery_1.name">Огонь</string>
+	<string name="skills.sorcerer.mastery_1.desc" />
+
+	<string name="skills.sorcerer.mastery_1.spell_1.name">Стена огня</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.desc">Bbl co3daeTe TTbllaI0wyI0 cTeHy orHR TTeped co6ou, HaHocR ypoH orHem Bcem Bparam pRdom c Heu.</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up1.name">Огненный след</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up1.desc">Bbl u Bawu coI03Huku, BxodRwue B cTeHy, TToly4aI0T BpemeHHyI0 aypy, koTopaR HaHocuT ypoH orHem 6lujauwum Bparam.</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up2.name">Огненный шаг</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up2.desc">Bbl co3daeTe odHy cTeHy TTpu ucTTol'3oBaHuu pblBka.</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up3.name">Управление стеной</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up3.desc">TeTTep' mojHo Bbl6upaT' mecTo pa3meweHuR cTeHbl.</string>
+
+	<string name="skills.sorcerer.mastery_1.passive_1.name">Мастерство огня</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.desc">Bbl HaHocuTe yBelu4eHHblu ypoH orHem, u Bawu \cffdfb0OrHeHHble\d HaBblku TToly4aI0T waHc HalojuT' \cb0dfffCla6ocT'\d.</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.up1.name">Взрывные пламена</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.up1.desc">Bawu \cffdfb0OrHeHHble\d HaBblku TToly4aI0T waHc Bbl3BaT' B3pblB, HaHocRwuu doTTolHuTel'Hblu ypoH orHem. 8ToT 8ffekT umeeT kopoTkoe BpemR BoccTaHoBleHuR.</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.up2.name">Исцеляющие пламена</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.up2.desc">Bbl BoccTaHaBluBaeTe 4acT' cBoero 3dopoB'R TTpu HaHeceHuu kpuTu4eckoro ydapa 3akluHaHuem.</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.up3.name" />
+	<string name="skills.sorcerer.mastery_1.passive_1.up3.desc" />
+
+	<string name="skills.sorcerer.mastery_2.name">Лёд</string>
+	<string name="skills.sorcerer.mastery_2.desc" />
+
+	<string name="skills.sorcerer.mastery_2.spell_1.name">Ледяная nova</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.desc">Bbl BblTTyckaeTe mHojecTBo ledRHblx ockolkoB Bo Bcex HaTTpaBleHuRx, HaHocR ledRHou ypoH.</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.up1.name">Ледяные искатели</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.up1.desc">CHapRdbl TToly4aI0T waHc uckaT' HoBble ttelu TTpu TToTTadaHuu.</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.up2.name">Ледяные осколки</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.up2.desc">CHapRdbl TToly4aI0T waHc co3daT' HoByI0 meH'wyI0 nova u3 cHapRdoB TTpu y6uucTBe BparoB.</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.up3.name" />
+	<string name="skills.sorcerer.mastery_2.spell_1.up3.desc" />
+
+	<string name="skills.sorcerer.mastery_2.passive_1.name">Мастерство льда</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.desc">Bbl HaHocuTe yBelu4eHHblu ledRHou ypoH, u Bawu \cffdfb0LedRHble\d HaBblku TToly4aI0T waHc HalojuT' \cb0dfff3amopo3ky\d.</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.up1.name">Разрушение</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.up1.desc">Y6uucTBo BparoB \cffdfb0LedRHblmu\d HaBblkamu umeeT waHc Bbl3BaT' B3pblB, HaHocRwuu ledRHou ypoH.</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.up2.name">Ледяной блок</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.up2.desc">Bbl TToly4aeTe waHc 6lokupoBaT' fu3u4eckuu u ledRHou ypoH.</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.up3.name" />
+	<string name="skills.sorcerer.mastery_2.passive_1.up3.desc" />
+
+	<string name="skills.sorcerer.mastery_3.name">Молния</string>
+	<string name="skills.sorcerer.mastery_3.desc" />
+
+	<string name="skills.sorcerer.mastery_3.spell_1.name">Шар молнии</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.desc">Bbl 3apRjaeTe wap molHuu, koTopblu BblTTyckaeTcR TTpu TTpou3HeceHuu 3akluHaHuR, HaHocR ypoH molHueu Bcem Bparam Ha ero TTyTu. YpoH cHapRda 3aBucuT oT BpemeHu 3apRdku.</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.up1.name">Энергизированный шар</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.up1.desc">Kajdblu TTopajeHHblu Bpar yBelu4uBaeT BpemR ju3Hu cHapRda.</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.up2.name">Статическое поле</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.up2.desc">Bbl ocTaBlReTe 3a co6ou TTole 8lekTpu4ecTBa, koTopoe coxpaHReTcR HekoTopoe BpemR, HaHocR doTTolHuTel'Hblu ypoH molHueu.</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.up3.name" />
+	<string name="skills.sorcerer.mastery_3.spell_1.up3.desc" />
+
+	<string name="skills.sorcerer.mastery_3.passive_1.name">Мастерство молнии</string>
+	<string name="skills.sorcerer.mastery_3.passive_1.desc">Bbl HaHocuTe yBelu4eHHblu ypoH molHueu, u Bawu \cffdfb0MolHueHocHble\d HaBblku TToly4aI0T waHc HalojuT' \cb0dfffOrlyweHue\d.</string>
+	<string name="skills.sorcerer.mastery_3.passive_1.up1.name">Дуга молнии</string>
+	<string name="skills.sorcerer.mastery_3.passive_1.up1.desc">Bawu \cffdfb0MolHueHocHble\d HaBblku TToly4aI0T waHc Bbl3BaT' dyry 8lekTpu4ecTBa, koTopaR TTepexoduT mejdy Bparamu, HaHocR ypoH molHueu.</string>
+	<string name="skills.sorcerer.mastery_3.passive_1.up2.name">Нулевое поле</string>
+	<string name="skills.sorcerer.mastery_3.passive_1.up2.desc">Bbl TToly4aeTe waHc 6lokupoBaT' 6ol'wuHcTBo cHapRdoB. 8ToT 8ffekT umeeT kopoTkoe BpemR BoccTaHoBleHuR.</string>
+	<string name="skills.sorcerer.mastery_3.passive_1.up3.name" />
+	<string name="skills.sorcerer.mastery_3.passive_1.up3.desc" />
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<string name="skills.warlock.spell_1.name">Хвост демона</string>
+	<string name="skills.warlock.spell_1.desc">Co3daeT d'RBol'ckuu xlblcT, koTopblu 6'eT BTTeped, HaHocR fu3u4eckuu ypoH u HakladblBaR \cb0dfff3amedleHue\d.</string>
+	<string name="skills.warlock.spell_1.up1.name">Трескучий удар</string>
+	<string name="skills.warlock.spell_1.up1.desc">Bokpyr xlblcTa Bo3HukaI0T Tpecky4ue dyru molHuu, koTopble TTopajaI0T 6lujauwux BparoB, HaHocR ypoH molHueu.</string>
+	<string name="skills.warlock.spell_1.up2.name">Огненный хлыст</string>
+	<string name="skills.warlock.spell_1.up2.desc">Bdol' xlblcTa Bo3HukaI0T R3blku TTlameHu, koTopble coxpaHRI0TcR Ha kopoTkoe BpemR, HaHocR ypoH orHem.</string>
+	<string name="skills.warlock.spell_1.up3.name">Мощный удар</string>
+	<string name="skills.warlock.spell_1.up3.desc">Bparu, TTopajeHHble koH4ukom xlblcTa, Takje TToly4aI0T \cb0dfffOrlyweHue\d.</string>
+
+	<string name="skills.warlock.spell_2.name">Тёмный ритуал</string>
+	<string name="skills.warlock.spell_2.desc">Bbl Ha4uHaeTe TTpoBoduT' puTyal, koTopblu 3aBepwaeTcR 4epe3 Heckol'ko cekyHd. Bparu BHyTpu o6lacTu TToly4aI0T fu3u4eckuu ypoH, a TTpu 3aBepweHuu puTyala — ewe 6ol'we ypoHa. PuTyal TTpepblBaeTcR, eclu Bbl TTokudaeTe o6lacT' do ero 3aBepweHuR.</string>
+	<string name="skills.warlock.spell_2.up1.name">Кровавый ритуал</string>
+	<string name="skills.warlock.spell_2.up1.desc">Bparu BHyTpu o6lacTu TeTTep' umeI0T waHc TToly4uT' cTaku \cb0dfffKpoBoTe4eHuR\d.</string>
+	<string name="skills.warlock.spell_2.up2.name">Пожар</string>
+	<string name="skills.warlock.spell_2.up2.desc">TuTT ypoHa u3meHeH Ha orHeHHblu, u puTyal HaHocuT ewe 6ol'we ypoHa TTpu 3aBepweHuu.</string>
+	<string name="skills.warlock.spell_2.up3.name">Похищающий ритуал</string>
+	<string name="skills.warlock.spell_2.up3.desc">Bbl u Bawu coI03Huku TToly4aeTe \cb0dfffKpajy ju3Hu\d, HaxodRc' BHyTpu o6lacTu.</string>
+
+	<string name="skills.warlock.passive_1.name">Высасывание сущности</string>
+	<string name="skills.warlock.passive_1.desc">Bbl TToly4aeTe cTaku \cb0dfffCywHocTu\d TTpu TToTTadaHuu TTo Bparam \cffdfb06lujHero 6oR\d. Kajdblu cTak yBelu4uBaeT Bawe 3dopoB'e u maHy. 8ToT 8ffekT umeeT kopoTkoe BpemR BoccTaHoBleHuR.</string>
+	<string name="skills.warlock.passive_1.up1.name">Похищение жизни</string>
+	<string name="skills.warlock.passive_1.up1.desc">Korda Bbl TToly4aeTe cTaku \cb0dfffCywHocTu\d, Bbl BoccTaHaBluBaeTe TTpotteHT cBoero 3dopoB'R.</string>
+	<string name="skills.warlock.passive_1.up2.name">Похищение энергии</string>
+	<string name="skills.warlock.passive_1.up2.desc">Korda Bbl TToly4aeTe cTaku \cb0dfffCywHocTu\d, Bbl BoccTaHaBluBaeTe TTpotteHT cBoeu maHbl.</string>
+	<string name="skills.warlock.passive_1.up3.name">Высасывание крови</string>
+	<string name="skills.warlock.passive_1.up3.desc">TeTTep' Bbl Takje HakladblBaeTe cTaku \cb0dfffKpoBoTe4eHuR\d Ha ttelu, oT koTopblx TToly4aeTe \cb0dfffCywHocT'\d.</string>
+	<string name="skills.warlock.passive_1.up4.name">Сборщик сущности</string>
+	<string name="skills.warlock.passive_1.up4.desc">Bbl TToly4aeTe waHc TToly4uT' cTaku \cb0dfffCywHocTu\d TTpu y6uucTBe BparoB.</string>
+
+	<string name="skills.warlock.passive_2.name">Аура истощения</string>
+	<string name="skills.warlock.passive_2.desc">Bbl co3daeTe aypy Bokpyr ce6R, koTopaR cHujaeT ypoH, HaHocumblu Bparamu.</string>
+	<string name="skills.warlock.passive_2.up1.name">Агония</string>
+	<string name="skills.warlock.passive_2.up1.desc">Bparu B Baweu aype Takje TToly4aI0T 6ol'we ypoHa.</string>
+	<string name="skills.warlock.passive_2.up2.name">Распространяющаяся порча</string>
+	<string name="skills.warlock.passive_2.up2.desc">\cffdfb06lujHuu 6ou\d opyjuem HaHocuT doTTolHuTel'Hblu ypoH Rdom dpyromy 6lujauwemy Bpary.</string>
+	<string name="skills.warlock.passive_2.up3.name">Самовозгорание</string>
+	<string name="skills.warlock.passive_2.up3.desc">TTpou3HeceHue \cffdfb03akluHaHuR\d HaHocuT ypoH orHem Bcem Bparam, HaxodRwumcR TTod deucTBuem Baweu aypbl.</string>
+
+	<string name="skills.warlock.mastery_1.name">Призыв</string>
+	<string name="skills.warlock.mastery_1.desc" />
+
+	<string name="skills.warlock.mastery_1.spell_1.name">Призыв бесов</string>
+	<string name="skills.warlock.mastery_1.spell_1.desc">HaTTpaBlRuTe 3akluHaHue, 4To6bl TTpu3blBaT' 6ecoB, pacxodyR cTaku \cb0dfffCywHocTu\d. 6ecbl aTakyI0T 6lujauwux BparoB, HaHocR fu3u4eckuu ypoH.</string>
+	<string name="skills.warlock.mastery_1.spell_1.up1.name">Инфернальные бесы</string>
+	<string name="skills.warlock.mastery_1.spell_1.up1.desc">Bawu 6ecbl HaHocRT doTTolHuTel'Hblu ypoH orHem u TToly4aI0T cTToco6HocT' meTaT' orHeHHble wapbl B cBou ttelu.</string>
+	<string name="skills.warlock.mastery_1.spell_1.up2.name">Взрывная гибель</string>
+	<string name="skills.warlock.mastery_1.spell_1.up2.desc">Bawu 6ecbl B3pblBaI0TcR TTpu cmepTu, HaHocR fu3u4eckuu ypoH TTo He6ol'wou o6lacTu.</string>
+	<string name="skills.warlock.mastery_1.spell_1.up3.name" />
+	<string name="skills.warlock.mastery_1.spell_1.up3.desc" />
+
+	<string name="skills.warlock.mastery_1.passive_1.name">Слуга-горгулья</string>
+	<string name="skills.warlock.mastery_1.passive_1.desc">TTaccuBHo TTpu3blBaeT ropryl'I0, koTopaR cpajaeTcR Ha Baweu cTopoHe. Gopryl'R aTakyeT BparoB korTRmu u Tpe3y6ttem, HaHocR fu3u4eckuu ypoH.</string>
+	<string name="skills.warlock.mastery_1.passive_1.up1.name">Огненные удары</string>
+	<string name="skills.warlock.mastery_1.passive_1.up1.desc">Bawa ropryl'R HaHocuT doTTolHuTel'Hblu ypoH orHem cBoumu korTRmu.</string>
+	<string name="skills.warlock.mastery_1.passive_1.up2.name">Молниеносный трезубец</string>
+	<string name="skills.warlock.mastery_1.passive_1.up2.desc">Tpe3y6ett Baweu ropryl'u TeTTep' TTocToRHHo TTopajaeT BparoB molHueu, HaHocR doTTolHuTel'Hblu ypoH molHueu.</string>
+	<string name="skills.warlock.mastery_1.passive_1.up3.name" />
+	<string name="skills.warlock.mastery_1.passive_1.up3.desc" />
+
+	<string name="skills.warlock.mastery_2.name">Души</string>
+	<string name="skills.warlock.mastery_2.desc" />
+
+	<string name="skills.warlock.mastery_2.spell_1.name">Вихрь душ</string>
+	<string name="skills.warlock.mastery_2.spell_1.desc">Bbl co3daeTe BpawaI0wuucR Buxp' 8Hepruu dyw Bokpyr ce6R, HaHocR fu3u4eckuu u RdoBuTblu ypoH Bcem Bparam B o6lacTu.</string>
+	<string name="skills.warlock.mastery_2.spell_1.up1.name">Молниеносный вихрь</string>
+	<string name="skills.warlock.mastery_2.spell_1.up1.desc">Buxp' TeTTep' TTocToRHHo Bbl3blBaeT ydapbl molHuu, koTopble cly4auHblm o6pa3om TTopajaI0T o6lacT' Bokpyr Bac, HaHocR doTTolHuTel'Hblu ypoH molHueu.</string>
+	<string name="skills.warlock.mastery_2.spell_1.up2.name">Покров вихря</string>
+	<string name="skills.warlock.mastery_2.spell_1.up2.desc">Bbl TToly4aeTe ykloHeHue Ha BpemR deucTBuR 3akluHaHuR.</string>
+	<string name="skills.warlock.mastery_2.spell_1.up3.name" />
+	<string name="skills.warlock.mastery_2.spell_1.up3.desc" />
+
+	<string name="skills.warlock.mastery_2.passive_1.name">Формирователь душ</string>
+	<string name="skills.warlock.mastery_2.passive_1.desc">TToka y Bac ecT' cTaku \cb0dfffCywHocTu\d, Bawu aTaku opyjuem ocHoBHou pyku BblTTyckaI0T cHapRd dywu B cly4auHoro 6lujauwero Bpara, HaHocR ypoH opyjuem ocHoBHou pyku.</string>
+	<string name="skills.warlock.mastery_2.passive_1.up1.name">Рассечение душ</string>
+	<string name="skills.warlock.mastery_2.passive_1.up1.desc">CHapRdbl TToly4aI0T waHc B3pblBaT'cR, HaHocR doTTolHuTel'Hblu ypoH. 8ToT 8ffekT umeeT kopoTkoe BpemR BoccTaHoBleHuR.</string>
+	<string name="skills.warlock.mastery_2.passive_1.up2.name">Неутомимые души</string>
+	<string name="skills.warlock.mastery_2.passive_1.up2.desc">CHapRdbl TTepexodRT Ha doTTolHuTel'Hble ttelu TTpu TToTTadaHuu.</string>
+	<string name="skills.warlock.mastery_2.passive_1.up3.name" />
+	<string name="skills.warlock.mastery_2.passive_1.up3.desc" />
+
+	<string name="skills.warlock.mastery_3.name">Хаос</string>
+	<string name="skills.warlock.mastery_3.desc" />
+
+	<string name="skills.warlock.mastery_3.spell_1.name">Клинок хаоса</string>
+	<string name="skills.warlock.mastery_3.spell_1.desc">Bbl co3daeTe maru4eckuu kluHok, koTopblu paccekaeT o6lacT' TTeped Bamu, HaHocR fu3u4eckuu u ypoH molHueu.</string>
+	<string name="skills.warlock.mastery_3.spell_1.up1.name">Дуги клинка</string>
+	<string name="skills.warlock.mastery_3.spell_1.up1.desc">3akluHaHue TeTTep' Takje BblTTyckaeT Heckol'ko cHapRdoB TTo dyre TTeped Bamu.</string>
+	<string name="skills.warlock.mastery_3.spell_1.up2.name">Разрыв</string>
+	<string name="skills.warlock.mastery_3.spell_1.up2.desc">Ydap kluHka TeTTep' HakladblBaeT cTaku \cb0dfffKpoBoTe4eHuR\d.</string>
+	<string name="skills.warlock.mastery_3.spell_1.up3.name" />
+	<string name="skills.warlock.mastery_3.spell_1.up3.desc" />
+
+	<string name="skills.warlock.mastery_3.passive_1.name">Разломы хаоса</string>
+	<string name="skills.warlock.mastery_3.passive_1.desc">TTpou3HeceHue \cffdfb03akluHaHuR\d co3daeT pa3lom, koTopblu HaHocuT fu3u4eckuu u ypoH molHueu 6lujauwum Bparam. Pa3lombl, co3daHHble 6lu3ko dpyr k dpyry, o6pa3yI0T TToToku 8Hepruu mejdy co6ou, HaHocR doTTolHuTel'Hblu ypoH.</string>
+	<string name="skills.warlock.mastery_3.passive_1.up1.name">Жнец хаоса</string>
+	<string name="skills.warlock.mastery_3.passive_1.up1.desc">Y6uucTBo Bpara umeeT waHc co3daT' pa3lom. 8ToT 8ffekT umeeT kopoTkoe BpemR BoccTaHoBleHuR.</string>
+	<string name="skills.warlock.mastery_3.passive_1.up2.name">Клинок разлома</string>
+	<string name="skills.warlock.mastery_3.passive_1.up2.desc">Ydapbl \cb0dfffKluHkom xaoca\d TToly4aI0T waHc co3daT' pa3lom. 8ToT 8ffekT umeeT kopoTkoe BpemR BoccTaHoBleHuR.</string>
+	<string name="skills.warlock.mastery_3.passive_1.up3.name" />
+	<string name="skills.warlock.mastery_3.passive_1.up3.desc" />
+
+
+	
+
+	<string name="skills.warrior.spell_1.name">Вихревые Топоры</string>
+	<string name="skills.warrior.spell_1.desc">Bbl 6pocaeTe dBa BpawaI0wuxcR ToTTopa, koTopble HaHocRT fu3u4eckuu ypoH Bcem Bparam Ha ux TTyTu.</string>
+	<string name="skills.warrior.spell_1.up1.name">Возвращающиеся Топоры</string>
+	<string name="skills.warrior.spell_1.up1.desc">ToTTopbl TeTTep' Bo3BpawaI0TcR k Bam 4epe3 HekoTopoe BpemR.</string>
+	<string name="skills.warrior.spell_1.up2.name">Горящие Топоры</string>
+	<string name="skills.warrior.spell_1.up2.desc">ToTTopbl HaHocRT doTTolHuTel'Hblu ypoH orHem.</string>
+	<string name="skills.warrior.spell_1.up3.name">Топоры Уничтожения</string>
+	<string name="skills.warrior.spell_1.up3.desc">ToTTopbl TToly4aI0T waHc mrHoBeHHo y6uT' Bpara c \cb0dfffHu3kum 3dopoB'em\d. He pa6oTaeT TTpoTuB 6occoB.</string>
+
+	<string name="skills.warrior.spell_2.name">Боевой Клич</string>
+	<string name="skills.warrior.spell_2.desc">Bbl u Bce coI03Huku B o6lacTu TToly4aeTe 6aff, koTopblu yBelu4uBaeT ckopocT' aTaku u TTepedBujeHuR Ha HekoTopoe BpemR.</string>
+	<string name="skills.warrior.spell_2.up1.name">Устрашающий Клич</string>
+	<string name="skills.warrior.spell_2.up1.desc">Bparu Bokpyr Bac TToly4aI0T 8ffekT \cb0dfffCla6ocT'\d TTpu ucTTol'3oBaHuu 6oeBoro Klu4a.</string>
+	<string name="skills.warrior.spell_2.up2.name">Второе Дыхание</string>
+	<string name="skills.warrior.spell_2.up2.desc">Bbl BoccTaHaBluBaeTe 4acT' cBoero 3dopoB'R TTpu ucTTol'3oBaHuu 6oeBoro Klu4a.</string>
+	<string name="skills.warrior.spell_2.up3.name">Боевой Рёв</string>
+	<string name="skills.warrior.spell_2.up3.desc">Bbl TToly4aeTe cTaku \cb0dfffKpoBaBou Pe3Hu\d 3a kajdoro Bpara Bokpyr Bac TTpu ucTTol'3oBaHuu 6oeBoro Klu4a.</string>
+
+	<string name="skills.warrior.passive_1.name">Конституция Воина</string>
+	<string name="skills.warrior.passive_1.desc">YBelu4uBaeT Bawe 3dopoB'e u coTTpoTuBleHue Rdy.</string>
+	<string name="skills.warrior.passive_1.up1.name">Боевая Подготовка</string>
+	<string name="skills.warrior.passive_1.up1.desc">Bbl HaHocuTe yBelu4eHHblu ypoH c TTomow'I0 HaBblkoB \cffdfb06lujHero 6oR\d.</string>
+	<string name="skills.warrior.passive_1.up2.name">Прочность</string>
+	<string name="skills.warrior.passive_1.up2.desc">Bbl TToly4aeTe meH'we ypoHa.</string>
+	<string name="skills.warrior.passive_1.up3.name">Могучая Сила</string>
+	<string name="skills.warrior.passive_1.up3.desc">YBelu4uBaeT Bawe TTpo6uBaHue 6poHu.</string>
+
+	<string name="skills.warrior.passive_2.name">Кровавая Резня</string>
+	<string name="skills.warrior.passive_2.desc">Bbl TToly4aeTe cTaku \cb0dfffKpoBaBou Pe3Hu\d 3a y6uucTBo BparoB. Kajdblu cTak yBelu4uBaeT Baw ypoH. Bbl TepReTe Bce cTaku, eclu BpemR deucTBuR ucTekaeT.</string>
+	<string name="skills.warrior.passive_2.up1.name">Брутальность</string>
+	<string name="skills.warrior.passive_2.up1.desc">Kajdblu cTak TeTTep' Takje daeT waHc kpuTu4eckoro ydapa opyjuem u 3akluHaHuRmu.</string>
+	<string name="skills.warrior.passive_2.up2.name">Убийственное Телосложение</string>
+	<string name="skills.warrior.passive_2.up2.desc">Kajdblu cTak yBelu4uBaeT Bawe BoccTaHoBleHue 3dopoB'R.</string>
+	<string name="skills.warrior.passive_2.up3.name">Неустрашимость</string>
+	<string name="skills.warrior.passive_2.up3.desc">\cffdfb06lujHue aTaku\d TTo \cb0dfff6occam\d u \cb0dfff8luTam\d TToly4aI0T waHc do6aBuT' cTaku \cb0dfffKpoBaBou Pe3Hu\d.</string>
+
+	<string name="skills.warrior.mastery_1.name">Берсерк</string>
+	<string name="skills.warrior.mastery_1.desc" />
+
+	<string name="skills.warrior.mastery_1.spell_1.name">Прыжок</string>
+	<string name="skills.warrior.mastery_1.spell_1.desc">Bbl TTpblraeTe B yka3aHHoe mecTo, TTpu3emlRRc' c ydapom, koTopblu HaHocuT fu3u4eckuu ypoH u orlywaeT BparoB B o6lacTu.</string>
+	<string name="skills.warrior.mastery_1.spell_1.up1.name">Трясущий Удар</string>
+	<string name="skills.warrior.mastery_1.spell_1.up1.desc">TTocle TTpu3emleHuR Bbl Bbl3blBaeTe cepuI0 Tol4koB, koTopble u3BepraI0TcR TTocle He6ol'wou 3adepjku, HaHocR doTTolHuTel'Hblu fu3u4eckuu ypoH.</string>
+	<string name="skills.warrior.mastery_1.spell_1.up2.name">Огненный Прыжок</string>
+	<string name="skills.warrior.mastery_1.spell_1.up2.desc">Bbl TTodjuraeTe 3emlI0 B mecTe, oTkyda TTpblraeTe u TTpu3emlReTec', HaHocR ypoH orHem B Te4eHue HekoToporo BpemeHu.</string>
+	<string name="skills.warrior.mastery_1.spell_1.up3.name" />
+	<string name="skills.warrior.mastery_1.spell_1.up3.desc" />
+
+	<string name="skills.warrior.mastery_1.passive_1.name">Ярость</string>
+	<string name="skills.warrior.mastery_1.passive_1.desc">TToly4eHue ypoHa daeT Bam BpemeHHblu 6aff \cb0dfffRpocT'\d, koTopblu yBelu4uBaeT waHc kpuTu4eckoro ydapa u kpuTu4eckuu ypoH dlR HaBblkoB \cffdfb0Fu3u4eckoro\d ypoHa.</string>
+	<string name="skills.warrior.mastery_1.passive_1.up1.name">Неукротимая Ярость</string>
+	<string name="skills.warrior.mastery_1.passive_1.up1.desc">Bbl aBTomaTu4ecku TToly4aeTe RpocT' TTpu \cb0dfffHu3kom 3dopoB'e\d, a Takje TToly4aeTe meH'we ypoHa B 8Tom cocToRHuu.</string>
+	<string name="skills.warrior.mastery_1.passive_1.up2.name">Яростный Клич</string>
+	<string name="skills.warrior.mastery_1.passive_1.up2.desc">Bbl TToly4aeTe \cb0dfffRpocT'\d TTpu ucTTol'3oBaHuu \cb0dfff6oeBoro Klu4a\d. Bawu TTepe3apRdku Takje cokpawaI0TcR Bo BpemR \cb0dfffRpocTu\d.</string>
+	<string name="skills.warrior.mastery_1.passive_1.up3.name" />
+	<string name="skills.warrior.mastery_1.passive_1.up3.desc" />
+
+	<string name="skills.warrior.mastery_2.name">Праймалист</string>
+	<string name="skills.warrior.mastery_2.desc" />
+
+	<string name="skills.warrior.mastery_2.spell_1.name">Древние Тотемы</string>
+	<string name="skills.warrior.mastery_2.spell_1.desc">Bbl ycTaHaBluBaeTe ToTem B yka3aHHom mecTe, koTopblu HaHocuT fu3u4eckuu ypoH 6lujauwum Bparam B Te4eHue HekoToporo BpemeHu.</string>
+	<string name="skills.warrior.mastery_2.spell_1.up1.name">Шоковые Тотемы</string>
+	<string name="skills.warrior.mastery_2.spell_1.up1.desc">ToTembl TTepuodu4ecku wokupyI0T 6lujauwux BparoB, HaHocR ypoH molHueu. Eclu ToTembl ycTaHoBleHbl 6lu3ko dpyr k dpyry, oHu co3daI0T 6ap'epbl molHuu mejdy co6ou, HaHocR doTTolHuTel'Hblu ypoH.</string>
+	<string name="skills.warrior.mastery_2.spell_1.up2.name">Тотемы Ледяного Укуса</string>
+	<string name="skills.warrior.mastery_2.spell_1.up2.desc">N3meHReT TuTT ypoHa Ha ledRHou u TToly4aeT waHc HalojuT' \cb0dfff3amopo3ky\d.</string>
+	<string name="skills.warrior.mastery_2.spell_1.up3.name" />
+	<string name="skills.warrior.mastery_2.spell_1.up3.desc" />
+
+	<string name="skills.warrior.mastery_2.passive_1.name">Трясущие Удары</string>
+	<string name="skills.warrior.mastery_2.passive_1.desc">Bawu aTaku \cffdfb06lujHero 6oR\d Bbl3blBaI0T Tol4ku Bokpyr Bac, HaHocR fu3u4eckuu ypoH B o6lacTu. 8ToT 8ffekT umeeT kopoTkyI0 TTepe3apRdky.</string>
+	<string name="skills.warrior.mastery_2.passive_1.up1.name">Удары Бури</string>
+	<string name="skills.warrior.mastery_2.passive_1.up1.desc">Bawu ydapbl \cffdfb06lujHero 6oR\d TToly4aI0T waHc HaHecTu doTTolHuTel'Hblu ypoH molHueu ttelu u cly4auHomy dpyromy 6lujauwemy Bpary.</string>
+	<string name="skills.warrior.mastery_2.passive_1.up2.name">Ледяные Удары</string>
+	<string name="skills.warrior.mastery_2.passive_1.up2.desc">Bawu ydapbl \cffdfb06lujHero 6oR\d TToly4aI0T waHc Bbl3BaT' He6ol'wou B3pblB, HaHocR doTTolHuTel'Hblu ledRHou ypoH. 8ToT 8ffekT umeeT kopoTkyI0 TTepe3apRdky.</string>
+	<string name="skills.warrior.mastery_2.passive_1.up3.name" />
+	<string name="skills.warrior.mastery_2.passive_1.up3.desc" />
+
+	<string name="skills.warrior.mastery_3.name">Тиран</string>
+	<string name="skills.warrior.mastery_3.desc" />
+
+	<string name="skills.warrior.mastery_3.spell_1.name">Цепи</string>
+	<string name="skills.warrior.mastery_3.spell_1.desc">Bbl 6pocaeTe tteTTu Bokpyr ce6R, HaHocR fu3u4eckuu ypoH u HakladblBaR Ha BparoB 8ffekT \cb0dfffXpomoTbl\d.</string>
+	<string name="skills.warrior.mastery_3.spell_1.up1.name">Шипастые Цепи</string>
+	<string name="skills.warrior.mastery_3.spell_1.up1.desc">tteTTu TeTTep' HakladblBaI0T cTaku \cb0dfffKpoBoTe4eHuR\d.</string>
+	<string name="skills.warrior.mastery_3.spell_1.up2.name">Колючие Цепи</string>
+	<string name="skills.warrior.mastery_3.spell_1.up2.desc">Ha koHttax tteTTeu TeTTep' BblTTyckaI0TcR wuTTacTble cHapRdbl.</string>
+	<string name="skills.warrior.mastery_3.spell_1.up3.name" />
+	<string name="skills.warrior.mastery_3.spell_1.up3.desc" />
+
+	<string name="skills.warrior.mastery_3.passive_1.name">Безжалостность</string>
+	<string name="skills.warrior.mastery_3.passive_1.desc">Bbl HaHocuTe yBelu4eHHblu fu3u4eckuu ypoH, u Bawu HaBblku \cffdfb0Fu3u4eckoro\d ypoHa TToly4aI0T waHc HalojuT' cTaku \cb0dfffKpoBoTe4eHuR\d.</string>
+	<string name="skills.warrior.mastery_3.passive_1.up1.name">Взрывающиеся Останки</string>
+	<string name="skills.warrior.mastery_3.passive_1.up1.desc">Y6uucTBo BparoB HaBblkamu \cffdfb0Fu3u4eckoro\d ypoHa umeeT waHc Bbl3BaT' B3pblB ocTaHkoB, HaHocR fu3u4eckuu ypoH B o6lacTu.</string>
+	<string name="skills.warrior.mastery_3.passive_1.up2.name">Убийца</string>
+	<string name="skills.warrior.mastery_3.passive_1.up2.desc">Bbl HaHocuTe yBelu4eHHblu ypoH Bparam B 3aBucumocTu oT ux HedocTaI0wero 3dopoB'R.</string>
+	<string name="skills.warrior.mastery_3.passive_1.up3.name" />
+	<string name="skills.warrior.mastery_3.passive_1.up3.desc" />
+
+
+	
+
+	<string name="skills.wizard.spell_1.name">Магические стрелы</string>
+	<string name="skills.wizard.spell_1.desc">BblTTyckaeT Heckol'ko maru4eckux cTpel, koTopble HaxodRT 6lujauwux BparoB u HaHocRT fu3u4eckuu ypoH TTpu TToTTadaHuu.</string>
+	<string name="skills.wizard.spell_1.up1.name">Барадж стрел</string>
+	<string name="skills.wizard.spell_1.up1.desc">BblTTyckaeT doTTolHuTel'Hble cHapRdbl 3a kajdoe TTpou3HeceHue.</string>
+	<string name="skills.wizard.spell_1.up2.name">Отскакивающие стрелы</string>
+	<string name="skills.wizard.spell_1.up2.desc">CHapRdbl TToly4aI0T cTToco6HocT' TTepexoduT' Ha doTTolHuTel'Hble ttelu TTpu TToTTadaHuu.</string>
+	<string name="skills.wizard.spell_1.up3.name">Оглушающие удары</string>
+	<string name="skills.wizard.spell_1.up3.desc">CHapRdbl TToly4aI0T waHc HalojuT' \cb0dfffOrlyweHue\d.</string>
+
+	<string name="skills.wizard.spell_2.name">Огненный шар</string>
+	<string name="skills.wizard.spell_2.desc">BblTTyckaeT orHeHHblu wap B Bbl6paHHoe mecTo, koTopblu B3pblBaeTcR, HaHocR ypoH orHem.</string>
+	<string name="skills.wizard.spell_2.up1.name">Усиленный огненный шар</string>
+	<string name="skills.wizard.spell_2.up1.desc">YBelu4uBaeT pa3mep B3pblBa.</string>
+	<string name="skills.wizard.spell_2.up2.name">Ударная волна</string>
+	<string name="skills.wizard.spell_2.up2.desc">Bparu, TTopajeHHble orHeHHblm wapom, TToly4aI0T \cb0dfff3amedleHue\d.</string>
+	<string name="skills.wizard.spell_2.up3.name">Отскакивающий огненный шар</string>
+	<string name="skills.wizard.spell_2.up3.desc">OrHeHHblu wap TeTTep' oTckakuBaeT u Bbl3blBaeT B3pblB TTpu kajdom oTckoke.</string>
+
+	<string name="skills.wizard.passive_1.name">Магический интеллект</string>
+	<string name="skills.wizard.passive_1.desc">YBelu4uBaeT Bawy maHy u uHTellekT.</string>
+	<string name="skills.wizard.passive_1.up1.name">Савант</string>
+	<string name="skills.wizard.passive_1.up1.desc">YmeH'waeT BpemR BoccTaHoBleHuR Bawux 3akluHaHuu.</string>
+	<string name="skills.wizard.passive_1.up2.name">Магическое оружие</string>
+	<string name="skills.wizard.passive_1.up2.desc">Bbl HaHocuTe yBelu4eHHblu ypoH \cffdfb0Maru4eckum\d opyjuem.</string>
+	<string name="skills.wizard.passive_1.up3.name">Обучение</string>
+	<string name="skills.wizard.passive_1.up3.desc">YBelu4uBaeT Baw TTpupocT oTTblTa.</string>
+
+	<string name="skills.wizard.passive_2.name">Барьер</string>
+	<string name="skills.wizard.passive_2.desc">Bbl reHepupyeTe 3awuTHble cTaku \cb0dfff6ap'epa\d co BpemeHem. TTpu TToly4eHuu ypoHa pacxodyeTcR cTak, cHujaR TToly4eHHblu ypoH.</string>
+	<string name="skills.wizard.passive_2.up1.name">Огненный щит</string>
+	<string name="skills.wizard.passive_2.up1.desc">TToly4eHue ypoHa TTpu Halu4uu cTakoB \cb0dfff6ap'epa\d TTodjuraeT Bo3dyx Bokpyr Bac Ha HekoTopoe BpemR, HaHocR ypoH orHem 6lujauwum Bparam.</string>
+	<string name="skills.wizard.passive_2.up2.name">Ледяная оболочка</string>
+	<string name="skills.wizard.passive_2.up2.desc">TToka y Bac ecT' cTaku \cb0dfff6ap'epa\d, Bbl TToly4aeTe yBelu4eHHyI0 6poHI0 u coTTpoTuBleHue l'dy. Bbl Takje HakladblBaeTe \cb0dfff3amopo3ky\d Ha aTakyI0wux.</string>
+	<string name="skills.wizard.passive_2.up3.name">Защитные чары</string>
+	<string name="skills.wizard.passive_2.up3.desc">TTpou3HeceHue \cffdfb03akluHaHuR\d TToly4aeT waHc reHepupoBaT' cTaku 6ap'epa. 8ToT 8ffekT umeeT kopoTkoe BpemR BoccTaHoBleHuR.</string>
+
+	<string name="skills.wizard.mastery_1.name">Эвокация</string>
+	<string name="skills.wizard.mastery_1.desc" />
+
+	<string name="skills.wizard.mastery_1.spell_1.name">Метеоритный дождь</string>
+	<string name="skills.wizard.mastery_1.spell_1.desc">Bbl TTpu3blBaeTe meTeopbl, koTopble TTadaI0T B o6lacT' B Te4eHue HekoToporo BpemeHu, HaHocR kak fu3u4eckuu, Tak u orHeHHblu ypoH.</string>
+	<string name="skills.wizard.mastery_1.spell_1.up1.name">Горящая земля</string>
+	<string name="skills.wizard.mastery_1.spell_1.up1.desc">MeTeopbl co3daI0T o6lacT' ropRweu 3emlu TTpu ydape, HaHocR doTTolHuTel'Hblu ypoH orHem B Te4eHue HekoToporo BpemeHu.</string>
+	<string name="skills.wizard.mastery_1.spell_1.up2.name">Комета</string>
+	<string name="skills.wizard.mastery_1.spell_1.up2.desc">MeHReT TuTT ypoHa Ha ledRHou u fu3u4eckuu, a Takje TToly4aeT waHc HalojuT' \cb0dfff3amopo3ky\d.</string>
+	<string name="skills.wizard.mastery_1.spell_1.up3.name" />
+	<string name="skills.wizard.mastery_1.spell_1.up3.desc" />
+
+	<string name="skills.wizard.mastery_1.passive_1.name">Ритм заклинателя</string>
+	<string name="skills.wizard.mastery_1.passive_1.desc">TTpou3HeceHue \cffdfb03akluHaHuu\d reHepupyeT cTaku \cb0dfffPuTma 3akluHaTelR\d. Kajdblu cTak yBelu4uBaeT Bawy ckopocT' TTpou3HeceHuR 3akluHaHuu u cHujaeT cToumocT' maHbl 3akluHaHuu.</string>
+	<string name="skills.wizard.mastery_1.passive_1.up1.name">Растущий крещендо</string>
+	<string name="skills.wizard.mastery_1.passive_1.up1.desc">Kajdblu cTak \cb0dfffPuTma 3akluHaTelR\d yBelu4uBaeT Baw waHc kpuTu4eckoro ydapa 3akluHaHuRmu.</string>
+	<string name="skills.wizard.mastery_1.passive_1.up2.name">Поток заклинателя</string>
+	<string name="skills.wizard.mastery_1.passive_1.up2.desc">Kajdblu cTak PuTma 3akluHaTelR yBelu4uBaeT Bawy ckopocT' aTaku.</string>
+	<string name="skills.wizard.mastery_1.passive_1.up3.name" />
+	<string name="skills.wizard.mastery_1.passive_1.up3.desc" />
+
+	<string name="skills.wizard.mastery_2.name">Конъюрация</string>
+	<string name="skills.wizard.mastery_2.desc" />
+
+	<string name="skills.wizard.mastery_2.spell_1.name">Призыв гидр</string>
+	<string name="skills.wizard.mastery_2.spell_1.desc">Bbl TTpu3blBaeTe Heckol'ko rudp, koTopble u3BepraI0T oroH' TTo 6lujauwum Bparam, HaHocR ypoH orHem.</string>
+	<string name="skills.wizard.mastery_2.spell_1.up1.name">Великая гидра</string>
+	<string name="skills.wizard.mastery_2.spell_1.up1.desc">Bbl TTpu3blBaeTe doTTolHuTel'Hble roloBbl rudpbl c kajdblm TTpou3HeceHuem.</string>
+	<string name="skills.wizard.mastery_2.spell_1.up2.name">Ледяное дыхание</string>
+	<string name="skills.wizard.mastery_2.spell_1.up2.desc">MeHReT TuTT ypoHa Ha ledRHou.</string>
+	<string name="skills.wizard.mastery_2.spell_1.up3.name" />
+	<string name="skills.wizard.mastery_2.spell_1.up3.desc" />
+
+	<string name="skills.wizard.mastery_2.passive_1.name">Оживлённый меч</string>
+	<string name="skills.wizard.mastery_2.passive_1.desc">Bbl TTpu3blBaeTe maru4eckuu me4, koTopblu cledyeT 3a Bamu. Me4 aTakyeT 6lujauwux BparoB, HaHocR fu3u4eckuu ypoH.</string>
+	<string name="skills.wizard.mastery_2.passive_1.up1.name">Огненный меч</string>
+	<string name="skills.wizard.mastery_2.passive_1.up1.desc">Me4 TeTTep' oxBa4eH TTlameHem u TTocToRHHo HaHocuT ypoH orHem 6lujauwum Bparam.</string>
+	<string name="skills.wizard.mastery_2.passive_1.up2.name">Ледяной меч</string>
+	<string name="skills.wizard.mastery_2.passive_1.up2.desc">Me4 TeTTep' HaHocuT ledRHou ypoH u TToly4aeT waHc HalojuT' \cb0dfff3amopo3ky\d.</string>
+	<string name="skills.wizard.mastery_2.passive_1.up3.name" />
+	<string name="skills.wizard.mastery_2.passive_1.up3.desc" />
+
+	<string name="skills.wizard.mastery_3.name">Трансмутация</string>
+	<string name="skills.wizard.mastery_3.desc" />
+
+	<string name="skills.wizard.mastery_3.spell_1.name">Ускорение</string>
+	<string name="skills.wizard.mastery_3.spell_1.desc">Bbl TToly4aeTe BpemeHHblu 6aff, koTopblu yBelu4uBaeT Bawy ckopocT' aTaku, TTpou3HeceHuR 3akluHaHuu u TTepedBujeHuR.</string>
+	<string name="skills.wizard.mastery_3.spell_1.up1.name">Размытие</string>
+	<string name="skills.wizard.mastery_3.spell_1.up1.desc">Bbl Takje TToly4aeTe ykloHeHue Ha BpemR deucTBuR 6affa.</string>
+	<string name="skills.wizard.mastery_3.spell_1.up2.name">Временной сдвиг</string>
+	<string name="skills.wizard.mastery_3.spell_1.up2.desc">Ha BpemR deucTBuR 6affa Bbl HakladblBaeTe \cb0dfff3amedleHue\d Ha 6lujauwux BparoB.</string>
+	<string name="skills.wizard.mastery_3.spell_1.up3.name" />
+	<string name="skills.wizard.mastery_3.spell_1.up3.desc" />
+
+	<string name="skills.wizard.mastery_3.passive_1.name">Улучшенное телосложение</string>
+	<string name="skills.wizard.mastery_3.passive_1.desc">DaeT doTTolHuTel'HyI0 culy, loBkocT' u uHTellekT 3a kajdblu ypoBeH' TTepcoHaja.</string>
+	<string name="skills.wizard.mastery_3.passive_1.up1.name">Улучшенная сила</string>
+	<string name="skills.wizard.mastery_3.passive_1.up1.desc">DaeT culy 3akluHaHuu 3a kajdyI0 eduHutty culbl.</string>
+	<string name="skills.wizard.mastery_3.passive_1.up2.name">Улучшенная ловкость</string>
+	<string name="skills.wizard.mastery_3.passive_1.up2.desc">DaeT culy 3akluHaHuu 3a kajdyI0 eduHutty loBkocTu.</string>
+	<string name="skills.wizard.mastery_3.passive_1.up3.name">Свобода передвижения</string>
+	<string name="skills.wizard.mastery_3.passive_1.up3.desc">Bbl TToly4aeTe ummyHuTeT k \cb0dfff3amedleHuI0\d u \cb0dfffXpomoTe\d.</string>
+
+
+
+	
+
+	<string name="menu.crafting.potion.title">Приготовление зелий</string>
+	<string name="menu.crafting.food.title">Кулинария</string>
+	<string name="menu.crafting.workbench.title">Верстак</string>
+	<string name="menu.crafting.cloth.title">Портной</string>
+	<string name="menu.crafting.leather.title">Кожевник</string>
+	<string name="menu.crafting.metal.title">Кузнец</string>
+	<string name="menu.crafting.armor.title">Броня</string>
+	<string name="menu.crafting.weaponsmith.title">Оружейник</string>
+	<string name="menu.crafting.scales.title">Чешуйчатая броня</string>
+
+	<string name="menu.crafting.slot.tier.name">Уровень</string>
+	<string name="menu.crafting.slot.tier.desc">Bbl6epuTe ypoBeH' TTpedmeTa dlR kpafTa.</string>
+	<string name="menu.crafting.slot.quality.name">Качество</string>
+	<string name="menu.crafting.slot.quality.desc">Bbl6epuTe ka4ecTBo TTpedmeTa dlR kpafTa.</string>
+	<string name="menu.crafting.slot.blueprint.name">Чертеж</string>
+	<string name="menu.crafting.slot.blueprint.desc">Bbl6epuTe, kakou TTpedmeT co3daT'.</string>
+	<string name="menu.crafting.slot.meal.name">Рецепт блюда</string>
+	<string name="menu.crafting.slot.meal.desc">Bbl6epuTe, kakoe 6lI0do TTpuroToBuT'.</string>
+	<string name="menu.crafting.slot.potion.name">Рецепт зелья</string>
+	<string name="menu.crafting.slot.potion.desc">Bbl6epuTe, kakoe 3el'e co3daT'.</string>
+	<string name="menu.crafting.slot.bottle.name">Бутылка</string>
+	<string name="menu.crafting.slot.bottle.desc">Bbl6epuTe, kakyI0 6yTbllky ucTTol'3oBaT' dlR 3el'R.</string>
+
+	<string name="menu.enchanting.title">Зачарование</string>
+	<string name="menu.enchanting.slot.equipment.name">Зачаровать</string>
+	<string name="menu.enchanting.slot.equipment.desc">Yly4wuTe Bbl6paHHoe cHapRjeHue, 4To6bl do6aBuT' cly4auHblu modufukaTop.</string>
+	<string name="menu.enchanting.slot.component.name">Компонент</string>
+	<string name="menu.enchanting.slot.component.desc">TTpumeHuTe komTToHeHT k 3a4apoBaHuI0, 4To6bl do6aBuT' oTTpedeleHHblu modufukaTop.</string>
+	<string name="menu.disenchanting.title">Разачарование</string>
+	<string name="menu.disenchanting.slot.equipment.name">Разачаровать</string>
+	<string name="menu.disenchanting.slot.equipment.desc">YHu4Toj'Te Bbl6paHHoe cHapRjeHue, 4To6bl TToly4uT' 8l'fuuckue pyHbl.</string>
+	<string name="menu.reenchanting.title">Перезачарование</string>
+	<string name="menu.reenchanting.slot.equipment.name">Перезачаровать</string>
+	<string name="menu.reenchanting.slot.equipment.desc">TTepeco3dauTe modufukaTopbl Ha Bbl6paHHom cHapRjeHuu.</string>
+
+	<string name="crafting.blueprint.apprentice.name">Ученик</string>
+	<string name="crafting.blueprint.apprentice.desc">Co3dauTe TTpedmeT ypoBHR Y4eHuka.</string>
+	<string name="crafting.blueprint.adept.name">Адепт</string>
+	<string name="crafting.blueprint.adept.desc">Co3dauTe TTpedmeT ypoBHR AdeTTTa.</string>
+	<string name="crafting.blueprint.expert.name">Эксперт</string>
+	<string name="crafting.blueprint.expert.desc">Co3dauTe TTpedmeT ypoBHR 8kcTTepTa.</string>
+	<string name="crafting.blueprint.master.name">Мастер</string>
+	<string name="crafting.blueprint.master.desc">Co3dauTe TTpedmeT ypoBHR MacTepa.</string>
+	<string name="crafting.blueprint.common.name">Обычный</string>
+	<string name="crafting.blueprint.common.desc">Co3dauTe TTpedmeT o6bl4Horo ka4ecTBa.</string>
+	<string name="crafting.blueprint.uncommon.name">Необычный</string>
+	<string name="crafting.blueprint.uncommon.desc">Co3dauTe TTpedmeT Heo6bl4Horo ka4ecTBa.</string>
+	<string name="crafting.blueprint.rare.name">Редкий</string>
+	<string name="crafting.blueprint.rare.desc">Co3dauTe TTpedmeT pedkoro ka4ecTBa.</string>
+	<string name="crafting.blueprint.epic.name">Эпический</string>
+	<string name="crafting.blueprint.epic.desc">Co3dauTe TTpedmeT 8TTu4eckoro ka4ecTBa.</string>
+
+	<string name="crafting.blueprint.chest_str.name">Латный доспех</string>
+	<string name="crafting.blueprint.chest_dex.name">Кожаный доспех</string>
+	<string name="crafting.blueprint.chest_int.name">Мантия</string>
+	<string name="crafting.blueprint.head_str.name">Латный шлем</string>
+	<string name="crafting.blueprint.head_dex.name">Капюшон</string>
+	<string name="crafting.blueprint.head_int.name">Венец</string>
+	<string name="crafting.blueprint.hands_str.name">Латные перчатки</string>
+	<string name="crafting.blueprint.hands_dex.name">Кожаные наручи</string>
+	<string name="crafting.blueprint.hands_int.name">Перчатки</string>
+	<string name="crafting.blueprint.feet_str.name">Латные поножи</string>
+	<string name="crafting.blueprint.feet_dex.name">Кожаные ботинки</string>
+	<string name="crafting.blueprint.feet_int.name">Туфли</string>
+
+	<string name="crafting.blueprint.acc_belt.name">Кожаный пояс</string>
+
+	<string name="crafting.blueprint.paladin.mainhand.name">Основная рука паладина</string>
+	<string name="crafting.blueprint.paladin.offhand.name">Дополнительная рука паладина</string>
+	<string name="crafting.blueprint.ranger.mainhand.name">Основная рука следопыта</string>
+	<string name="crafting.blueprint.ranger.offhand.name">Дополнительная рука следопыта</string>
+	<string name="crafting.blueprint.rogue.mainhand.name">Основная рука разбойника</string>
+	<string name="crafting.blueprint.rogue.offhand.name">Дополнительная рука разбойника</string>
+	<string name="crafting.blueprint.warlock.mainhand.name">Основная рука чернокнижника</string>
+	<string name="crafting.blueprint.warlock.offhand.name">Дополнительная рука чернокнижника</string>
+	<string name="crafting.blueprint.wizard.mainhand.name">Основная рука мага</string>
+	<string name="crafting.blueprint.wizard.offhand.name">Дополнительная рука мага</string>
+
+	<string name="crafting.blueprint.potion.health.name">Зелье здоровья</string>
+	<string name="crafting.blueprint.potion.health.desc">BoccTaHaBluBaeT 3dopoB'e.</string>
+	<string name="crafting.blueprint.potion.mana.name">Зелье маны</string>
+	<string name="crafting.blueprint.potion.mana.desc">BoccTaHaBluBaeT maHy.</string>
+	<string name="crafting.blueprint.potion.rejuvenation.name">Зелье восстановления</string>
+	<string name="crafting.blueprint.potion.rejuvenation.desc">BoccTaHaBluBaeT He6ol'woe kolu4ecTBo 3dopoB'R, maHbl u BblHocluBocTu.</string>
+
+	<string name="crafting.blueprint.leather.name">Кожа (%type%)</string>
+
+
+
+	
+
+
+	<string name="modifiers.attributes.all.prefix" />
+	<string name="modifiers.attributes.all.suffix">of Talent</string>
+	<string name="modifiers.attributes.str.prefix">Brawny</string>
+	<string name="modifiers.attributes.str.suffix">of Might</string>
+	<string name="modifiers.attributes.dex.prefix">Nimble</string>
+	<string name="modifiers.attributes.dex.suffix">of Agility</string>
+	<string name="modifiers.attributes.int.prefix">Keen</string>
+	<string name="modifiers.attributes.int.suffix">of Intellect</string>
+	<string name="modifiers.attributes.str_pct.prefix" />
+	<string name="modifiers.attributes.str_pct.suffix">of the Ox</string>
+	<string name="modifiers.attributes.dex_pct.prefix" />
+	<string name="modifiers.attributes.dex_pct.suffix">of the Cat</string>
+	<string name="modifiers.attributes.int_pct.prefix" />
+	<string name="modifiers.attributes.int_pct.suffix">of the Owl</string>
+
+	<string name="modifiers.defences.damage.prefix">Guardian</string>
+	<string name="modifiers.defences.damage.suffix">of Protection</string>
+	<string name="modifiers.defences.damage.desc">%desc%% reduced damage taken.</string>
+	<string name="modifiers.defences.damage.stand.desc">%desc%% reduced damage taken while not moving.</string>
+
+	<string name="modifiers.defences.evasion.prefix">Slippery</string>
+	<string name="modifiers.defences.evasion.suffix">of Evasion</string>
+	<string name="modifiers.defences.block.physical.prefix">Defender's</string>
+	<string name="modifiers.defences.block.physical.suffix">of the Defender</string>
+	<string name="modifiers.defences.block.physical.desc">Blocks %value% Physical Damage.</string>
+	<string name="modifiers.defences.block.fire.desc">Blocks %value% Fire Damage.</string>
+	<string name="modifiers.defences.block.ice.desc">Blocks %value% Ice Damage.</string>
+	<string name="modifiers.defences.block.lightning.desc">Blocks %value% Lightning Damage.</string>
+	<string name="modifiers.defences.block.poison.desc">Blocks %value% Poison Damage.</string>
+	<string name="modifiers.defences.block.any.desc">Blocks %value% Damage.</string>
+	<string name="modifiers.defences.block_chance.physical.desc">%chance%% to block %value% Physical Damage.</string>
+	<string name="modifiers.defences.block_chance.fire.desc">%chance%% to block %value% Fire Damage.</string>
+	<string name="modifiers.defences.block_chance.ice.desc">%chance%% to block %value% Ice Damage.</string>
+	<string name="modifiers.defences.block_chance.lightning.desc">%chance%% to block %value% Lightning Damage.</string>
+	<string name="modifiers.defences.block_chance.poison.desc">%chance%% to block %value% Poison Damage.</string>
+	<string name="modifiers.defences.block_chance.any.desc">%chance%% to block %value% Damage.</string>
+
+	<string name="modifiers.damage.all.prefix" />
+	<string name="modifiers.damage.all.suffix">of Annihilation</string>
+	<string name="modifiers.damage.all.desc">%desc%% increased damage.</string>
+	<string name="modifiers.damage.attack.prefix" />
+	<string name="modifiers.damage.attack.suffix">of Slaughter</string>
+	<string name="modifiers.damage.attack.desc">%desc%% increased damage with Attacks.</string>
+
+	<string name="modifiers.damage.spell.prefix" />
+	<string name="modifiers.damage.spell.suffix">of Prowess</string>
+	<string name="modifiers.damage.spell.desc">%desc%% increased damage with Spells.</string>
+	<string name="modifiers.damage.beast.prefix">Trapper's</string>
+	<string name="modifiers.damage.beast.suffix">of the Hunter</string>
+	<string name="modifiers.damage.beast.desc">%desc%% increased damage done to Beasts.</string>
+	<string name="modifiers.damage.human.prefix">Despot's</string>
+	<string name="modifiers.damage.human.suffix">of the Tyrant</string>
+	<string name="modifiers.damage.human.desc">%desc%% increased damage done to Humans.</string>
+	<string name="modifiers.damage.undead.prefix">Saint's</string>
+	<string name="modifiers.damage.undead.suffix">of the Seraph</string>
+	<string name="modifiers.damage.undead.desc">%desc%% increased damage done to Undead.</string>
+	<string name="modifiers.damage.elites.prefix">Challenger's</string>
+	<string name="modifiers.damage.elites.suffix">of the Duelist</string>
+	<string name="modifiers.damage.elites.desc">%desc%% increased damage done to Elite and Superior enemies.</string>
+	<string name="modifiers.damage.bosses.prefix">Hero's</string>
+	<string name="modifiers.damage.bosses.suffix">of the Champion</string>
+	<string name="modifiers.damage.bosses.desc">%desc%% increased damage done to Bosses.</string>
+	<string name="modifiers.damage.physical.prefix">Carnage</string>
+	<string name="modifiers.damage.physical.suffix">of War</string>
+	<string name="modifiers.damage.fire.prefix">Hellfire</string>
+	<string name="modifiers.damage.fire.suffix">of Inferno</string>
+	<string name="modifiers.damage.ice.prefix">Blizzard</string>
+	<string name="modifiers.damage.ice.suffix">of Winter</string>
+	<string name="modifiers.damage.lightning.prefix">Tempest</string>
+	<string name="modifiers.damage.lightning.suffix">of Storm</string>
+	<string name="modifiers.damage.poison.prefix">Plague</string>
+	<string name="modifiers.damage.poison.suffix">of Decay</string>
+	<string name="modifiers.penetration.physical.prefix">Puncturing</string>
+	<string name="modifiers.penetration.physical.suffix">of Sundering</string>
+	<string name="modifiers.penetration.fire.prefix">Incinerating</string>
+	<string name="modifiers.penetration.fire.suffix">of Conflagration</string>
+	<string name="modifiers.penetration.ice.prefix">Biting</string>
+	<string name="modifiers.penetration.ice.suffix">of Frostbite</string>
+	<string name="modifiers.penetration.lightning.prefix">Electrocution</string>
+	<string name="modifiers.penetration.lightning.suffix">of Discharge</string>
+	<string name="modifiers.penetration.poison.prefix">Infestation</string>
+	<string name="modifiers.penetration.poison.suffix">of Rot</string>
+
+	<string name="modifiers.misc.mspeed.prefix">Swift</string>
+	<string name="modifiers.misc.mspeed.suffix">of Speed</string>
+	<string name="modifiers.misc.experience.prefix">Academic's</string>
+	<string name="modifiers.misc.experience.suffix">of Enlightenment</string>
+	<string name="modifiers.misc.kill_health.prefix">Predator's</string>
+	<string name="modifiers.misc.kill_health.suffix">of the Predator</string>
+	<string name="modifiers.misc.kill_health.desc">Restore %value% Health on Kill.</string>
+	<string name="modifiers.misc.kill_stamina.prefix">Juggernaut's</string>
+	<string name="modifiers.misc.kill_stamina.suffix">of the Juggernaut</string>
+	<string name="modifiers.misc.kill_stamina.desc">Restores %value% Stamina on Kill.</string>
+	<string name="modifiers.misc.kill_mana.prefix">Witch's</string>
+	<string name="modifiers.misc.kill_mana.suffix">of the Witch</string>
+	<string name="modifiers.misc.kill_mana.desc">Restores %value% Mana on Kill.</string>
+	<string name="modifiers.misc.kill_mana_undead.desc">Restores %value% Mana when killing Undead</string>
+	<string name="modifiers.misc.slow_effect.desc">Slow effects reduced by %value%%.</string>
+	<string name="modifiers.misc.miss.attack.desc">%value%% Attack miss chance.</string>
+
+	<string name="modifiers.full_health.damage.desc">%value%% increased damage done on full Health.</string>
+	<string name="modifiers.full_health.damage.attack.desc">%value%% increased damage with Attacks on full Health.</string>
+	<string name="modifiers.full_health.damage.spell.desc">%value%% increased damage with Spell on full Health.</string>
+	<string name="modifiers.full_health.damage_taken.desc">%value%% reduced damage taken on full Health.</string>
+
+	<string name="modifiers.low_health.damage.desc">%value%% increased damage done on Low Health.</string>
+	<string name="modifiers.low_health.damage.attack.desc">%value%% increased damage with Attacks on Low Health.</string>
+	<string name="modifiers.low_health.damage.spell.desc">%value%% increased damage with Spells on Low Health.</string>
+	<string name="modifiers.low_health.damage_taken.desc">%value%% reduced damage taken on Low Health.</string>
+	<string name="modifiers.low_health.health_regen.desc">%value% increased Health Regen on Low Health.</string>
+
+	<string name="modifiers.resistances.all.prefix" />
+	<string name="modifiers.resistances.all.suffix">of Resistance</string>
+	<string name="modifiers.resistances.armor.prefix">Durable</string>
+	<string name="modifiers.resistances.armor.suffix">of Fortification</string>
+	<string name="modifiers.resistances.fire.prefix">Fiery</string>
+	<string name="modifiers.resistances.fire.suffix">of Embers</string>
+	<string name="modifiers.resistances.ice.prefix">Icy</string>
+	<string name="modifiers.resistances.ice.suffix">of Frost</string>
+	<string name="modifiers.resistances.lightning.prefix">Static</string>
+	<string name="modifiers.resistances.lightning.suffix">of Cracking</string>
+	<string name="modifiers.resistances.poison.prefix">Cleansing</string>
+	<string name="modifiers.resistances.poison.suffix">of Remedy</string>
+	<string name="modifiers.resistances.armor_pct.prefix" />
+	<string name="modifiers.resistances.armor_pct.suffix">of the Turtle</string>
+	<string name="modifiers.resistances.fire_pct.prefix" />
+	<string name="modifiers.resistances.fire_pct.suffix">of the Drake</string>
+	<string name="modifiers.resistances.ice_pct.prefix" />
+	<string name="modifiers.resistances.ice_pct.suffix">of the Yeti</string>
+	<string name="modifiers.resistances.lightning_pct.prefix" />
+	<string name="modifiers.resistances.lightning_pct.suffix">of the Eel</string>
+	<string name="modifiers.resistances.poison_pct.prefix" />
+	<string name="modifiers.resistances.poison_pct.suffix">of the Serpent</string>
+
+	<string name="modifiers.skills.attack_speed.prefix">Berserker's</string>
+	<string name="modifiers.skills.attack_speed.suffix">of the Fencer</string>
+	<string name="modifiers.skills.attack_crit.prefix">Assassins's</string>
+	<string name="modifiers.skills.attack_crit.suffix">of the Marksman</string>
+	<string name="modifiers.skills.attack_crit_dmg.prefix">Lethal</string>
+	<string name="modifiers.skills.attack_crit_dmg.suffix">of the Butcher</string>
+	<string name="modifiers.skills.spell_speed.prefix">Spellslinger's</string>
+	<string name="modifiers.skills.spell_speed.suffix">of Alacrity</string>
+	<string name="modifiers.skills.spell_crit.prefix">Exalted</string>
+	<string name="modifiers.skills.spell_crit.suffix">of Excellence</string>
+	<string name="modifiers.skills.spell_crit_dmg.prefix">Deadly</string>
+	<string name="modifiers.skills.spell_crit_dmg.suffix">of Supremacy</string>
+	<string name="modifiers.skills.spell_cost.prefix">Spellcaster's</string>
+	<string name="modifiers.skills.spell_cost.suffix">of Efficiency</string>
+	<string name="modifiers.skills.spell_cost.desc">Reduces Spell Cost by %desc%%.</string>
+	<string name="modifiers.skills.spell_cooldown.prefix">Spellweaver's</string>
+	<string name="modifiers.skills.spell_cooldown.suffix">of Celerity</string>
+	<string name="modifiers.skills.spell_cooldown.desc">Reduces Spell Cooldown by %cd%%.</string>
+
+	<string name="modifiers.skills.leech.health.desc">%value%% Life Leech.</string>
+	<string name="modifiers.skills.leech.mana.desc">%value%% Mana Leech.</string>
+	<string name="modifiers.skills.leech.stamina.desc">%value%% Stamina Leech.</string>
+	<string name="modifiers.skills.leech.attack_health.desc">%value%% Attack Life Leech.</string>
+	<string name="modifiers.skills.leech.attack_mana.desc">%value%% Attack Mana Leech.</string>
+	<string name="modifiers.skills.leech.attack_stamina.desc">%value%% Attack Stamina Leech.</string>
+	<string name="modifiers.skills.leech.spell_health.desc">%value%% Spell Life Leech.</string>
+	<string name="modifiers.skills.leech.spell_mana.desc">%value%% Spell Mana Leech.</string>
+	<string name="modifiers.skills.leech.spell_stamina.desc">%value%% Spell Stamina Leech.</string>
+
+	<string name="modifiers.skills.leech.attack_health.crit.desc">%value%% Life Leech with Attack Critical Hits.</string>
+	<string name="modifiers.skills.leech.attack_health.bleeding.desc">%value%% Attack Life Leech against targets inflicted by %c-highlight%Bleeding\d.</string>
+
+	<string name="modifiers.stats.health.prefix">Stout</string>
+	<string name="modifiers.stats.health.suffix">of Toughness</string>
+	<string name="modifiers.stats.stamina.prefix">Hardy</string>
+	<string name="modifiers.stats.stamina.suffix">of Fitness</string>
+	<string name="modifiers.stats.mana.prefix">Astute</string>
+	<string name="modifiers.stats.mana.suffix">of Focus</string>
+	<string name="modifiers.stats.health_regen.prefix">Revivifying</string>
+	<string name="modifiers.stats.health_regen.suffix">of Recovery</string>
+	<string name="modifiers.stats.stamina_regen.prefix">Rejuvenating</string>
+	<string name="modifiers.stats.stamina_regen.suffix">of Refreshment</string>
+	<string name="modifiers.stats.mana_regen.prefix">Rejuvenating</string>
+	<string name="modifiers.stats.mana_regen.suffix">of Concentration</string>
+	<string name="modifiers.stats.health_pct.prefix">Wrestler's</string>
+	<string name="modifiers.stats.health_pct.suffix">of the Wrestler</string>
+	<string name="modifiers.stats.stamina_pct.prefix">Acrobat's</string>
+	<string name="modifiers.stats.stamina_pct.suffix">of the Acrobat</string>
+	<string name="modifiers.stats.mana_pct.prefix">Scholar's</string>
+	<string name="modifiers.stats.mana_pct.suffix">of the Scholar</string>
+	<string name="modifiers.stats.health_regen_pct.prefix">Veteran's</string>
+	<string name="modifiers.stats.health_regen_pct.suffix">of the Veteran</string>
+	<string name="modifiers.stats.stamina_regen_pct.prefix">Athlete's</string>
+	<string name="modifiers.stats.stamina_regen_pct.suffix">of the Athlete</string>
+	<string name="modifiers.stats.mana_regen_pct.prefix">Sage's</string>
+	<string name="modifiers.stats.mana_regen_pct.suffix">of the Sage</string>
+
+	<string name="modifiers.weapons.speed.prefix">Nimble</string>
+	<string name="modifiers.weapons.speed.suffix">of Quickness</string>
+	<string name="modifiers.weapons.crit.prefix">Precise</string>
+	<string name="modifiers.weapons.crit.suffix">of Accuracy</string>
+	<string name="modifiers.weapons.physical.prefix">Crushing</string>
+	<string name="modifiers.weapons.physical.suffix">of Battering</string>
+	<string name="modifiers.weapons.fire.prefix">Scorching</string>
+	<string name="modifiers.weapons.fire.suffix">of Blazing</string>
+	<string name="modifiers.weapons.ice.prefix">Chilling</string>
+	<string name="modifiers.weapons.ice.suffix">of Shivering</string>
+	<string name="modifiers.weapons.lightning.prefix">Shocking</string>
+	<string name="modifiers.weapons.lightning.suffix">of Sparking</string>
+	<string name="modifiers.weapons.poison.prefix">Venomous</string>
+	<string name="modifiers.weapons.poison.suffix">of Venom</string>
+	<string name="modifiers.weapons.pure.prefix">Disintegrating</string>
+	<string name="modifiers.weapons.pure.suffix">of Disintegration</string>
+
+	<string name="modifiers.debuff.armor_break.prefix">Armor Break</string>
+	<string name="modifiers.debuff.armor_break.suffix">of Armor Break</string>
+	<string name="modifiers.debuff.bleeding.desc">%value%% chance to inflict %c-highlight%Armor Break\d.</string>
+	<string name="modifiers.debuff.bleeding.prefix">Bleeding</string>
+	<string name="modifiers.debuff.bleeding.suffix">of Bleeding</string>
+	<string name="modifiers.debuff.bleeding.desc">%value%% chance to inflict %c-highlight%Bleeding\d.</string>
+	<string name="modifiers.debuff.cripple.prefix">Crippling</string>
+	<string name="modifiers.debuff.cripple.suffix">of Crippling</string>
+	<string name="modifiers.debuff.cripple.desc">%value%% chance to inflict %c-highlight%Cripple\d.</string>
+	<string name="modifiers.debuff.disarm.prefix">Disarming</string>
+	<string name="modifiers.debuff.disarm.suffix">of Disarming</string>
+	<string name="modifiers.debuff.disarm.desc">%value%% chance to inflict %c-highlight%Disarm\d.</string>
+	<string name="modifiers.debuff.freeze.prefix">Freezing</string>
+	<string name="modifiers.debuff.freeze.suffix">of Freezing</string>
+	<string name="modifiers.debuff.freeze.desc">%value%% chance to inflict %c-highlight%Freezing\d.</string>
+	<string name="modifiers.debuff.immobilize.prefix">Immobilizing</string>
+	<string name="modifiers.debuff.immobilize.suffix">of Immobilize</string>
+	<string name="modifiers.debuff.immobilize.desc">%value%% chance to inflict %c-highlight%Immobilize\d.</string>
+	<string name="modifiers.debuff.marked.prefix">Marking</string>
+	<string name="modifiers.debuff.marked.suffix">of Marking</string>
+	<string name="modifiers.debuff.marked.desc">%value%% chance to inflict %c-highlight%Marked\d.</string>
+	<string name="modifiers.debuff.silence.prefix">Silencing</string>
+	<string name="modifiers.debuff.silence.suffix">of Silence</string>
+	<string name="modifiers.debuff.silence.desc">%value%% chance to inflict %c-highlight%Silence\d.</string>
+	<string name="modifiers.debuff.slow.prefix">Slowing</string>
+	<string name="modifiers.debuff.slow.suffix">of Slow</string>
+	<string name="modifiers.debuff.slow.desc">%value%% chance to inflict %c-highlight%Slow\d.</string>
+	<string name="modifiers.debuff.stun.prefix">Stunning</string>
+	<string name="modifiers.debuff.stun.suffix">of Stunning</string>
+	<string name="modifiers.debuff.stun.desc">%value%% chance to inflict %c-highlight%Stun\d.</string>
+	<string name="modifiers.debuff.stun_minor.desc">%value%% chance to inflict %c-highlight%Minor Stun\d.</string>
+	<string name="modifiers.debuff.stun_greater.desc">%value%% chance to inflict %c-highlight%Greater Stun\d.</string>
+	<string name="modifiers.debuff.vulnerability.prefix">Vulnerability</string>
+	<string name="modifiers.debuff.vulnerability.suffix">of Vulnerability</string>
+	<string name="modifiers.debuff.vulnerability.desc">%value%% chance to inflict %c-highlight%Vulnerability\d.</string>
+	<string name="modifiers.debuff.weakness.prefix">Weakening</string>
+	<string name="modifiers.debuff.weakness.suffix">of Weakness</string>
+	<string name="modifiers.debuff.weakness.desc">%value%% chance to inflict %c-highlight%Weakness\d.</string>
+
+	<string name="modifiers.debuff.immune.armor_break.desc">You gain immunity to %c-highlight%Armor Break\d.</string>
+	<string name="modifiers.debuff.immune.bleeding.desc">You gain immunity to %c-highlight%Bleeding\d.</string>
+	<string name="modifiers.debuff.immune.blindness.desc">You gain immunity to %c-highlight%Blindness\d.</string>
+	<string name="modifiers.debuff.immune.cripple.desc">You gain immunity to %c-highlight%Cripple\d.</string>
+	<string name="modifiers.debuff.immune.disarm.desc">You gain immunity to %c-highlight%Disarm\d.</string>
+	<string name="modifiers.debuff.immune.freeze.desc">You gain immunity to %c-highlight%Freeze\d.</string>
+	<string name="modifiers.debuff.immune.immobilize.desc">You gain immunity to %c-highlight%Immobilize\d.</string>
+	<string name="modifiers.debuff.immune.marked.desc">You gain immunity to %c-highlight%Marked\d.</string>
+	<string name="modifiers.debuff.immune.silence">You gain immunity to %c-highlight%Silence\d.</string>
+	<string name="modifiers.debuff.immune.slow.desc">You gain immunity to %c-highlight%Slow\d.</string>
+	<string name="modifiers.debuff.immune.stun.desc">You gain immunity to %c-highlight%Stun\d.</string>
+	<string name="modifiers.debuff.immune.vulnerability.desc">You gain immunity to %c-highlight%Vulnerability\d.</string>
+	<string name="modifiers.debuff.immune.weakness.desc">You gain immunity to %c-highlight%Weakness\d.</string>
+
+	<string name="modifiers.projectiles.piercing.prefix">Piercing</string>
+	<string name="modifiers.projectiles.piercing.suffix">of Piercing</string>
+	<string name="modifiers.projectiles.piercing.desc">%desc% projectile piercing.</string>
+	<string name="modifiers.projectiles.bouncing.prefix">Bouncing</string>
+	<string name="modifiers.projectiles.bouncing.suffix">of Bouncing</string>
+	<string name="modifiers.projectiles.bouncing.desc">%desc% projectile bouncing.</string>
+
+	<string name="modifiers.return.physical.desc">Return %value% Physical damage to the attacker when taking damage.</string>
+	<string name="modifiers.return.fire.desc">Return %value% Fire damage to the attacker when taking damage.</string>
+	<string name="modifiers.return.ice.desc">Return %value% Ice damage to the attacker when taking damage.</string>
+	<string name="modifiers.return.lightning.desc">Return %value% Lightning damage to the attacker when taking damage.</string>
+	<string name="modifiers.return.poison.desc">Return %value% Poison damage to the attacker when taking damage.</string>
+	<string name="modifiers.return.pure.desc">Return %value% Pure damage to the attacker when taking damage.</string>
+
+	<string name="modifiers.enchant.gemstone_blue.prefix">Aquamarine</string>
+	<string name="modifiers.enchant.gemstone_blue.suffix">of Ice Protection</string>
+	<string name="modifiers.enchant.gemstone_green.prefix">Peridot</string>
+	<string name="modifiers.enchant.gemstone_green.suffix">of Poison Protection</string>
+	<string name="modifiers.enchant.gemstone_purple.prefix">Amethyst</string>
+	<string name="modifiers.enchant.gemstone_purple.suffix">of Lightning Protection</string>
+	<string name="modifiers.enchant.gemstone_red.prefix">Topaz</string>
+	<string name="modifiers.enchant.gemstone_red.suffix">of Fire Resistance</string>
+	<string name="modifiers.enchant.iron_ore.prefix">Reinforced</string>
+	<string name="modifiers.enchant.iron_ore.suffix">of Iron</string>
+	<string name="modifiers.enchant.nails.prefix">Spiked</string>
+	<string name="modifiers.enchant.nails.suffix">of Nails</string>
+	<string name="modifiers.enchant.wolf_liver.prefix">Feral</string>
+	<string name="modifiers.enchant.wolf_liver.suffix">of the Wolf</string>
+	<string name="modifiers.enchant.wolf_liver_2.suffix">of the Hunt</string>
+	<string name="modifiers.enchant.boar_tusk.prefix">Ferocious</string>
+	<string name="modifiers.enchant.boar_tusk.suffix">of the Boar</string>
+	<string name="modifiers.enchant.maggot_gland.prefix">Virulent</string>
+	<string name="modifiers.enchant.maggot_gland.suffix">of the Maggot</string>
+	<string name="modifiers.enchant.maggot_gland_2.suffix">of Infestation</string>
+	<string name="modifiers.enchant.wasp_stinger.prefix">Stinging</string>
+	<string name="modifiers.enchant.wasp_stinger.suffix">of the Wasp</string>
+	<string name="modifiers.enchant.wasp_stinger_2.suffix">of the Hornet</string>
+	<string name="modifiers.enchant.spider_silk.prefix">Webbing</string>
+	<string name="modifiers.enchant.spider_silk.suffix">of the Spider</string>
+	<string name="modifiers.enchant.spider_silk_2.suffix">of the Arachnid</string>
+	<string name="modifiers.enchant.bone_dust.prefix">Tomb</string>
+	<string name="modifiers.enchant.bone_dust.suffix">of the Grave</string>
+	<string name="modifiers.enchant.ectoplasm.prefix">Ghastly</string>
+	<string name="modifiers.enchant.ectoplasm.suffix">of the Spectre</string>
+	<string name="modifiers.enchant.troll_skin.prefix">Raging</string>
+	<string name="modifiers.enchant.troll_skin.suffix">of the Troll</string>
+	<string name="modifiers.enchant.troll_skin_2.suffix">of the Brute</string>
+	<string name="modifiers.enchant.shambler_claw.prefix">Crackling</string>
+	<string name="modifiers.enchant.shambler_claw.suffix">of the Shambler</string>
+	<string name="modifiers.enchant.archon_essence.prefix">Essence</string>
+	<string name="modifiers.enchant.archon_essence.suffix">of the Archons</string>
+	<string name="modifiers.enchant.thunderbird_feather.prefix">Tempest</string>
+	<string name="modifiers.enchant.thunderbird_feather.suffix">of the Thunderbird</string>
+
+	<string name="modifiers.class.ranger.wolf_add.desc">You can summon %value% additional %c-highlight%Wolf Companion\d.</string>
+	<string name="modifiers.class.rogue.knives_speed.desc">%value%% Attack Speed with %c-highlight%Throwing Knives\d.</string>
+
+	<string name="modifiers.unique.potion_health.desc">Restores %amount% of your Health when using a Potion.</string>
+
+
+
+	
+
+
+
+	<string name="epic.name.agony">Agony</string>
+	<string name="epic.name.apocalypse">Apocalypse</string>
+	<string name="epic.name.armageddon">Armageddon</string>
+	<string name="epic.name.beast">Beast</string>
+	<string name="epic.name.behemoth">Behemoth</string>
+	<string name="epic.name.blood">Blood</string>
+	<string name="epic.name.bramble">Bramble</string>
+	<string name="epic.name.brimstone">Brimstone</string>
+	<string name="epic.name.brood">Brood</string>
+	<string name="epic.name.carrion">Carrion</string>
+	<string name="epic.name.cataclysm">Cataclysm</string>
+	<string name="epic.name.chimeric">Chimeric</string>
+	<string name="epic.name.corpse">Corpse</string>
+	<string name="epic.name.corruption">Corruption</string>
+	<string name="epic.name.damnation">Damnation</string>
+	<string name="epic.name.death">Death</string>
+	<string name="epic.name.demon">Demon</string>
+	<string name="epic.name.dire">Dire</string>
+	<string name="epic.name.dragon">Dragon</string>
+	<string name="epic.name.dread">Dread</string>
+	<string name="epic.name.doom">Doom</string>
+	<string name="epic.name.dusk">Dusk</string>
+	<string name="epic.name.eagle">Eagle</string>
+	<string name="epic.name.empyrean">Empyrean</string>
+	<string name="epic.name.fate">Fate</string>
+	<string name="epic.name.foe">Foe</string>
+	<string name="epic.name.gale">Gale</string>
+	<string name="epic.name.ghoul">Ghoul</string>
+	<string name="epic.name.gloom">Gloom</string>
+	<string name="epic.name.glyph">Glyph</string>
+	<string name="epic.name.golem">Golem</string>
+	<string name="epic.name.grim">Grim</string>
+	<string name="epic.name.hate">Hate</string>
+	<string name="epic.name.havoc">Havoc</string>
+	<string name="epic.name.horror">Horror</string>
+	<string name="epic.name.hypnotic">Hypnotic</string>
+	<string name="epic.name.kraken">Kraken</string>
+	<string name="epic.name.loath">Loath</string>
+	<string name="epic.name.malestrom">Maelstrom</string>
+	<string name="epic.name.mind">Mind</string>
+	<string name="epic.name.miracle">Miracle</string>
+	<string name="epic.name.morbid">Morbid</string>
+	<string name="epic.name.oblivion">Oblivion</string>
+	<string name="epic.name.onslaught">Onslaught</string>
+	<string name="epic.name.pain">Pain</string>
+	<string name="epic.name.pandemonium">Pandemonium</string>
+	<string name="epic.name.phoenix">Phoenix</string>
+	<string name="epic.name.plague">Plague</string>
+	<string name="epic.name.rage">Rage</string>
+	<string name="epic.name.rapture">Rapture</string>
+	<string name="epic.name.rune">Rune</string>
+	<string name="epic.name.skull">Skull</string>
+	<string name="epic.name.soul">Soul</string>
+	<string name="epic.name.sorrow">Sorrow</string>
+	<string name="epic.name.spirit">Spirit</string>
+	<string name="epic.name.storm">Storm</string>
+	<string name="epic.name.tempest">Tempest</string>
+	<string name="epic.name.torment">Torment</string>
+	<string name="epic.name.vengeance">Vengeance</string>
+	<string name="epic.name.victory">Victory</string>
+	<string name="epic.name.viper">Viper</string>
+	<string name="epic.name.vortex">Vortex</string>
+	<string name="epic.name.woe">Woe</string>
+	<string name="epic.name.wrath">Wrath</string>
+
+	<string name="epic.name.piece">Piece</string>
+
+
+	<string name="epic.name.bane">Bane</string>
+
+	<string name="epic.name.trinket">Trinket</string>
+	<string name="epic.name.ornament">Ornament</string>
+
+
+	<string name="epic.name.guardian">Guardian</string>
+	<string name="epic.name.keep">Keep</string>
+	<string name="epic.name.salvation">Salvation</string>
+	<string name="epic.name.sanctuary">Sanctuary</string>
+	<string name="epic.name.shell">Shell</string>
+	<string name="epic.name.shelter">Shelter</string>
+	<string name="epic.name.ward">Ward</string>
+
+	<string name="epic.name.attire">Attire</string>
+	<string name="epic.name.carapace">Carapace</string>
+	<string name="epic.name.coat">Coat</string>
+	<string name="epic.name.curtain">Curtain</string>
+	<string name="epic.name.guardian">Guardian</string>
+	<string name="epic.name.hide">Hide</string>
+	<string name="epic.name.jack">Jack</string>
+	<string name="epic.name.mantle">Mantle</string>
+	<string name="epic.name.pelt">Pelt</string>
+	<string name="epic.name.shroud">Shroud</string>
+	<string name="epic.name.skin">Skin</string>
+	<string name="epic.name.suit">Suit</string>
+	<string name="epic.name.veil">Veil</string>
+	<string name="epic.name.wrap">Wrap</string>
+
+	<string name="epic.name.caress">Caress</string>
+	<string name="epic.name.claw">Claw</string>
+	<string name="epic.name.clutches">Clutches</string>
+	<string name="epic.name.fingers">Fingers</string>
+	<string name="epic.name.fist">Fist</string>
+	<string name="epic.name.grasp">Grasp</string>
+	<string name="epic.name.grip">Grip</string>
+	<string name="epic.name.hand">Hand</string>
+	<string name="epic.name.hold">Hold</string>
+	<string name="epic.name.knuckle">Knuckle</string>
+	<string name="epic.name.mitts">Mitts</string>
+	<string name="epic.name.nails">Nails</string>
+	<string name="epic.name.palm">Palm</string>
+	<string name="epic.name.paw">Paw</string>
+	<string name="epic.name.talons">Talons</string>
+	<string name="epic.name.touch">Touch</string>
+	<string name="epic.name.vise">Vise</string>
+
+	<string name="epic.name.brow">Brow</string>
+	<string name="epic.name.corona">Corona</string>
+	<string name="epic.name.cowl">Cowl</string>
+	<string name="epic.name.crest">Crest</string>
+	<string name="epic.name.crown">Crown</string>
+	<string name="epic.name.dome">Dome</string>
+	<string name="epic.name.glance">Glance</string>
+	<string name="epic.name.halo">Halo</string>
+	<string name="epic.name.horn">Horn</string>
+	<string name="epic.name.peak">Peak</string>
+	<string name="epic.name.veil">Veil</string>
+	<string name="epic.name.visage">Visage</string>
+	<string name="epic.name.visor">Visor</string>
+
+	<string name="epic.name.dash">Dash</string>
+	<string name="epic.name.goad">Goad</string>
+	<string name="epic.name.hoof">Hoof</string>
+	<string name="epic.name.league">League</string>
+	<string name="epic.name.march">March</string>
+	<string name="epic.name.pace">Pace</string>
+	<string name="epic.name.road">Road</string>
+	<string name="epic.name.slippers">Slippers</string>
+	<string name="epic.name.sole">Sole</string>
+	<string name="epic.name.span">Span</string>
+	<string name="epic.name.spark">Spark</string>
+	<string name="epic.name.spur">Spur</string>
+	<string name="epic.name.stride">Stride</string>
+	<string name="epic.name.track">Track</string>
+	<string name="epic.name.trail">Trail</string>
+	<string name="epic.name.tread">Tread</string>
+	<string name="epic.name.urge">Urge</string>
+
+
+
+	
+
+
+	<string name="status_effect.armor_break">Armor Break</string>
+	<string name="status_effect.armor_break_minor">Minor Armor Break</string>
+	<string name="status_effect.armor_break_greater">Greater Armor Break</string>
+	<string name="status_effect.bleeding">Bleeding</string>
+	<string name="status_effect.bleeding_minor">Minor Bleeding</string>
+	<string name="status_effect.bleeding_greater">Greater Bleeding</string>
+	<string name="status_effect.blindness">Blindness</string>
+	<string name="status_effect.blindness_minor">Minor Blindness</string>
+	<string name="status_effect.blindness_greater">Greater Blindness</string>
+	<string name="status_effect.cripple">Cripple</string>
+	<string name="status_effect.cripple_minor">Minor Cripple</string>
+	<string name="status_effect.cripple_greater">Greater Cripple</string>
+	<string name="status_effect.disarm">Disarm</string>
+	<string name="status_effect.disarm_minor">Minor Disarm</string>
+	<string name="status_effect.disarm_greater">Greater Disarm</string>
+	<string name="status_effect.freeze">Freeze</string>
+	<string name="status_effect.freeze_minor">Minor Freeze</string>
+	<string name="status_effect.freeze_greater">Greater Freeze</string>
+	<string name="status_effect.immobilize">Immobilize</string>
+	<string name="status_effect.immobilize_minor">Minor Immobilize</string>
+	<string name="status_effect.immobilize_greater">Greater Immobilize</string>
+	<string name="status_effect.marked">Marked</string>
+	<string name="status_effect.marked_minor">Minor Marked</string>
+	<string name="status_effect.marked_greater">Greater Marked</string>
+	<string name="status_effect.silence">Silence</string>
+	<string name="status_effect.silence_minor">Minor Silence</string>
+	<string name="status_effect.silence_greater">Greater Silence</string>
+	<string name="status_effect.slow">Slow</string>
+	<string name="status_effect.slow_minor">Minor Slow</string>
+	<string name="status_effect.slow_greater">Greater Slow</string>
+	<string name="status_effect.stun">Stun</string>
+	<string name="status_effect.stun_minor">Minor Stun</string>
+	<string name="status_effect.stun_greater">Greater Stun</string>
+	<string name="status_effect.vulnerability">Vulnerability</string>
+	<string name="status_effect.vulnerability_minor">Minor Vulnerability</string>
+	<string name="status_effect.vulnerability_greater">Greater Vulnerability</string>
+	<string name="status_effect.weakness">Weakness</string>
+	<string name="status_effect.weakness_minor">Minor Weakness</string>
+	<string name="status_effect.weakness_greater">Greater Weakness</string>
+
+
+
+</lang>

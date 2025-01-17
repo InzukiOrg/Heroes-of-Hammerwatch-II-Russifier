@@ -1,0 +1,101 @@
+<lang>
+
+	<!-- Trinkets -->
+
+
+
+
+	<!-- Tavern Meals -->
+	<string name="tavern.meal.simple_broth.name">Простой бульон</string>
+	<string name="tavern.meal.simple_broth.desc">+0.5 регенерации Здоровья и Маны.</string>
+	<string name="tavern.meal.hearty_meal.name">Сытная еда</string>
+	<string name="tavern.meal.hearty_meal.desc">+1 регенерации Здоровья и Маны.</string>
+	<string name="tavern.meal.elemental_breakfast.name">Завтрак стихий</string>
+	<string name="tavern.meal.elemental_breakfast.desc">+50 сопротивления к Огню, Льду и Молнии.</string>
+	<string name="tavern.meal.hunters_travel_rations.name">Походные пайки охотника</string>
+	<string name="tavern.meal.hunters_travel_rations.desc">+20% урона по зверям.\n-25% времени восстановления Рывка.</string>
+	<string name="tavern.meal.foragers_feast.name">Пиршество для рыбака</string>
+	<string name="tavern.meal.foragers_feast.desc">+25% получаемых Деревянных, Каменных и Железных материалов</string>
+	<string name="tavern.meal.bishops_blessed_bread.name">Благословенный хлеб епископа</string>
+	<string name="tavern.meal.bishops_blessed_bread.desc">+20% урона по нежити.\n-10% получаемого Теневого проклятия.</string>
+	<string name="tavern.meal.sweet_pancakes.name">Сладкие блинчики</string>
+	<string name="tavern.meal.sweet_pancakes.desc">+5% скорости передвижения.\n+20% получаемого опыта.</string>
+
+
+	<!-- Tavern Drinks -->
+	<string name="tavern.drink.stinging_curse.name">Жгучее проклятие</string>
+	<string name="tavern.drink.stinging_curse.desc">50% шанс нйтрализовать входящее проклятие тени и вместо этого получить 35 единиц чистого урона.</string>
+	<string name="tavern.drink.hair_of_the_goblin.name">Волосы гоблина</string>
+	<string name="tavern.drink.hair_of_the_goblin.desc">+10% шанс критического урона оружия.\n+25% времени восстановления Рывка.</string>
+	<string name="tavern.drink.the_impetuous_apprentice.name">Беспокойный ученик</string>
+	<string name="tavern.drink.the_impetuous_apprentice.desc">+25% скорости сотворения и -25% перезарядки заклинаний.\n+10% затрат Маны на заклинания.</string>
+	<string name="tavern.drink.slow_and_steady.name">Медленно и уверенно</string>
+	<string name="tavern.drink.slow_and_steady.desc">-10% получаемого урона.\n-25% получаемого опыта.</string>
+	<string name="tavern.drink.sawdust.name">Опилки</string>
+	<string name="tavern.drink.sawdust.desc">+50% получаемого Дерева.\n-25% получаемого Золота.</string>
+	<string name="tavern.drink.crooked_back.name">Кривая спина</string>
+	<string name="tavern.drink.crooked_back.desc">+50% получаемого Камня.\n-5% Здоровья.</string>
+	<string name="tavern.drink.prospectors_pride.name">Гордость старателя</string>
+	<string name="tavern.drink.prospectors_pride.desc">+50% получаемого Железа.\n-10% Брони.</string>
+	<string name="tavern.drink.barking_mad.name">Безумный лай</string>
+	<string name="tavern.drink.barking_mad.desc">+25% скорости оружия.\n+10% получаемого урона.</string>
+	<string name="tavern.drink.enduring_light.name">Негасимый свет</string>
+	<string name="tavern.drink.enduring_light.desc">-25% получаемого Теневого проклятия.\n-25% регенерации Маны.</string>
+	<string name="tavern.drink.fair_play.name">Честная игра</string>
+	<string name="tavern.drink.fair_play.desc">Вы получаете \cb0dfffНастоящий удар\d.\nУклонение равно 0.</string>
+	<string name="tavern.drink.the_ambitious_adept.name">Амбициозный адепт</string>
+	<string name="tavern.drink.the_ambitious_adept.desc">+25% шанс критического урона заклинаний.\n+20% затрат Маны на заклинания.</string>
+	<string name="tavern.drink.dark_desire.name">Тёмное желание</string>
+	<string name="tavern.drink.dark_desire.desc">+20% урона.\n+25% получаемого Теневого проклятия.</string>
+	<string name="tavern.drink.thrill_seeker.name">Искатель острых ощущений</string>
+	<string name="tavern.drink.thrill_seeker.desc">+200% регенерации Здоровья при снижении Здоровья ниже половины.\nРегенерация Здоровья равна 0, если здоровье выше половины.</string>
+
+	<string name="tavern.drink.sudden_death.name">Внезапная смерть</string>
+	<string name="tavern.drink.sudden_death.desc">+50% урона заклинаний.\nПри произнесении заклинаний вы теряете 50% стоимости Маны в виде Здоровья.</string>
+	<string name="tavern.drink.double_edged.name">Двусторонний</string>
+	<string name="tavern.drink.double_edged.desc">25% шанс критического урона оружия.\nВы теряете 2,5% текущего Здоровья при получении критического урона от оружия.</string>
+	<string name="tavern.drink.soul_anguish.name">Soul Anguish</string>
+	<string name="tavern.drink.soul_anguish.desc">3% похищение Маны оружием.\nРегенерация Маны равна 0.</string>
+	<string name="tavern.drink.crimson_feast.name">Багровый пир</string>
+	<string name="tavern.drink.crimson_feast.desc">10% шанс нанести стаки \cb0dfffКровотечения\d оружием и заклинаниями.\n10% шанс получить стак \cb0dfffКровотечения\d при получении урона.</string>
+	<string name="tavern.drink.the_happy_hydra.name">Счастливая гидра</string>
+	<string name="tavern.drink.the_happy_hydra.desc">+100% регенерации Маны при полном здоровье.\n-50% регенерации Маны, когда здоровье ниже полного.</string>
+	<string name="tavern.drink.gulch_burner.name">Сжигатель ущелья</string>
+	<string name="tavern.drink.gulch_burner.desc">+25% урона огня.\n-25% сопротивлению Льду.</string>
+	<string name="tavern.drink.chilly_fingers.name">Озябшие пальцы</string>
+	<string name="tavern.drink.chilly_fingers.desc">+25% урона морозом.\n-25% сопротивлению Огню.</string>
+	<string name="tavern.drink.shocking_zinger.name">Шокирующий Зингер</string>
+	<string name="tavern.drink.shocking_zinger.desc">+25% урона молнией\n-20% Брони.</string>
+	<string name="tavern.drink.toxic_twist.name">Токсичный поворот</string>
+	<string name="tavern.drink.toxic_twist.desc">+25% урона ядом\n-10% Здоровья.</string>
+
+	<!-- Valuables -->
+
+	<string name="item.scale_green">Чешуя жука</string>
+	<string name="item.wolf_fur">Волчий мех</string>
+	<string name="item.chalice_bronze">Бронзовая чаша</string>
+	<string name="item.copper_tankard">Медня кружка</string>
+	<string name="item.brass_statuette">Латунная статуэтка</string>
+	<string name="item.fine_painting">Изящная живопись</string>
+	<string name="item.ceramic_vase">Керамическая ваза</string>
+	<string name="item.silver_goblet">Серебряный бокал</string>
+	<string name="item.chalice_silver">Серебряная чаша</string>
+	<string name="item.silver_mirror">Серебряное зеркало</string>
+	<string name="item.silver_plate">Серебряная пластина</string>
+	<string name="item.ivory_figurine">Фигурка из слоновой кости</string>
+	<string name="item.crystal_pitcher">Хрустальный кувшин</string>
+	<string name="item.silk_handkerchief">Шёлковый платок</string>
+	<string name="item.chalice_gold">Золотая чаша</string>
+	<string name="item.gold_statuette">Золотая статуэтка</string>
+	<string name="item.embroidered_tapestry">Вышитый гобелен</string>
+	<string name="item.jade_game_board">Нефритовая игровая доска</string>
+	<string name="item.jewelry_box">Шкатулка для украшений</string>
+	<string name="item.emerald">Изумруд</string>
+	<string name="item.diamond">Алмаз</string>
+	<string name="item.ruby">Рубин</string>
+	<string name="item.sapphire">Сапфир</string>
+	<string name="item.gold_music_box">Золотая музыкальная шкатулка</string>
+	<string name="item.masterpiece_painting">Шедевральная живопись</string>
+	<string name="item.adamant_statuette">Адамантавая статуэтка</string>
+
+</lang>
