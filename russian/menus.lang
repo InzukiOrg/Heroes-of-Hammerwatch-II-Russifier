@@ -1,70 +1,70 @@
 <lang>
 
 	<!-- Game -->
-	<string name="option.g_virtual_res_scale.title">Game Scale | Масштаб игры (Masshtab igry)</string>
-	<string name="option.ui_scale.title">UI Scale | Масштаб интерфейса (Masshtab interfeysa)</string>
+	<string name="option.g_virtual_res_scale.title">Масштаб игры</string>
+	<string name="option.ui_scale.title">Масштаб интерфейса</string>
 
-	<string name="option.ui_minimap.title">Minimap | Миникарта (Minikarta)</string>
-	<string name="option.ui_minimap_alpha.title">Minimap Transparency | Прозрачность миникарты (Prozrachnost' minikarty)</string>
-	<string name="option.ui_minimap_scale.title">Minimap Scale | Масштаб миникарты (Masshtab minikarty)</string>
-	<string name="option.ui_minimap_size.title">Minimap Size | Размер миникарты (Razmer minikarty)</string>
+	<string name="option.ui_minimap.title">Миникарта</string>
+	<string name="option.ui_minimap_alpha.title">Прозрачность миникарты</string>
+	<string name="option.ui_minimap_scale.title">Масштаб миникарты</string>
+	<string name="option.ui_minimap_size.title">Размер миникарты</string>
 
-	<string name="option.g_real_names.title">Real Names | Настоящие имена (Nastoyashchiye imena)</string>
-	<string name="option.g_show_pings.title">Show Pings | Показывать пинг в мультиплеере (Pokazyvat' ping v mul'tipleere)</string>
-	<string name="option.g_emotes.title">Emotes | Эмоции в мультиплеере (Emotsii v mul'tipleere)</string>
+	<string name="option.g_real_names.title">Настоящие имена</string>
+	<string name="option.g_show_pings.title">Показывать пинг в мультиплеере</string>
+	<string name="option.g_emotes.title">Эмоции в мультиплеере</string>
 
-	<string name="option.ui_cursor_fat.title">Large Crosshair | Крупное перекрестие (Krupnoye perekrestiye)</string>
-	<string name="option.ui_cursor_alpha.title">Cursor Transparency | Прозрачность курсора (Prozrachnost' kursora)</string>
-	<string name="option.ui_overlay_minimap_alpha.title">Map Overlay Transparency | Прозрачность оверлея карты (Prozrachnost' overlya karty)</string>
-	<string name="option.ui_hud_hpbars_enemy.title">Enemy Health Bars | Полоски здоровья у врагов (Poloski zdorov'ya u vragov)</string>
-	<string name="option.ui_hud_hpbars_plr.title">Ally Health Bars | Полоски здоровья у союзников (Poloski zdorov'ya u soyuznikov)</string>
-	<string name="option.ui_hud_dashbar.title">Dash Bar | Полоска рывка игрока (Poloska ryvka igroka)</string>
-	<string name="option.ui_cursor_health.title">Cursor Parameters | Параметры рядом с курсором (Parametry ryadom s kursorum)</string>
-	<string name="option.g_laser_sight.title">Aim Guide | Aim Guide (Napravlyayushchaya)</string>
-	<string name="option.g_quickcast.title">Quick Cast | Быстрое применение навыков (Bystroye primeneniye navykov)</string>
+	<string name="option.ui_cursor_fat.title">Крупное перекрестие</string>
+	<string name="option.ui_cursor_alpha.title">Прозрачность курсора</string>
+	<string name="option.ui_overlay_minimap_alpha.title">Прозрачность оверлея карты</string>
+	<string name="option.ui_hud_hpbars_enemy.title">Полоски здоровья у врагов</string>
+	<string name="option.ui_hud_hpbars_plr.title">Полоски здоровья у союзников</string>
+	<string name="option.ui_hud_dashbar.title">Полоска рывка игрока</string>
+	<string name="option.ui_cursor_health.title">Параметры рядом с курсором</string>
+	<string name="option.g_laser_sight.title">Aim Guide</string>
+	<string name="option.g_quickcast.title">Быстрое применение навыков</string>
 
-	<string name="option.g_movedir_snap.title">Movement Direction Snap | Привязка направления движения (Privyazka napravleniya dvizheniya)</string>
-	<string name="option.g_aimdir_snap.title">Aim Direction Snap | Привязка направления прицеливания (Privyazka napravleniya pritselivaniya)</string>
-	<string name="option.g_charge_movedir.title">Charge in Movement Direction | Рывок в направлении движения (Ryvok v napravlenii dvizheniya)</string>
-	<string name="option.g_controller_move_dir.title">Aim in Movement Direction | Прицеливание в направлении движения (Pritselivaniye v napravlenii dvizheniya)</string>
+	<string name="option.g_movedir_snap.title">Привязка направления движения</string>
+	<string name="option.g_aimdir_snap.title">Привязка направления прицеливания</string>
+	<string name="option.g_charge_movedir.title">Рывок в направлении движения</string>
+	<string name="option.g_controller_move_dir.title">Прицеливание в направлении движения</string>
 
-	<string name="option.ui_txt.title">Floating Text | Плавающие тексты (Plavayushchiye teksty)</string>
-	<string name="option.ui_txt_enemy_hurt_husk.title">Remote Damage Numbers | Remote Damage Numbers (Udalyonnyye chisla urona)</string>
-	<string name="option.ui_txt_enemy_hurt_local.title">Local Damage Numbers | Local Damage Numbers (Lokal'nyye chisla urona)</string>
+	<string name="option.ui_txt.title">Плавающие тексты</string>
+	<string name="option.ui_txt_enemy_hurt_husk.title">Remote Damage Numbers</string>
+	<string name="option.ui_txt_enemy_hurt_local.title">Local Damage Numbers</string>
 
-	<string name="option.ui_hud_overlay_always_visible.title">Always Show HUD Overlay | Всегда отображать оверлей HUD (Vsegda otobrazhat' overly HUD)</string>
+	<string name="option.ui_hud_overlay_always_visible.title">Всегда отображать оверлей HUD</string>
 
-	<string name="option.g_item_pickup_tooltip_trinket.title">Trinket Pickup Preview | Предпросмотр подбираемых брелоков (Predprosmotr podbirayemykh brelokov)</string>
-	<string name="option.g_item_pickup_tooltip_equipment.title">Equipment Pickup Preview | Предпросмотр подбираемого снаряжения (Predprosmotr podbirayemogo snaryazheniya)</string>
+	<string name="option.g_item_pickup_tooltip_trinket.title">Предпросмотр подбираемых брелоков</string>
+	<string name="option.g_item_pickup_tooltip_equipment.title">Предпросмотр подбираемого снаряжения</string>
 
 
 	<!-- Graphics -->
-	<string name="option.v_fullscreen.title">Fullscreen | Полноэкранный (Polnoekrannyy)</string>
-	<string name="option.v_vsync.title">VSync | Вертикальная синхронизация</string>
+	<string name="option.v_fullscreen.title">Полноэкранный</string>
+	<string name="option.v_vsync.title">VSync</string>
 	<string name="option.v_fps_limit.title">FPS Limit</string>
 	<string name="option.rg_pixel_perfect.title">Pixel Perfect</string>
-	<string name="option.r_hdr.title">Enhanced Lighting | Улучшенное освещение (Uluchshennoye osveshcheniye)</string>
-	<string name="option.r_light_decal_proj.title">Light Projection | Проецирование света (Proyetsirovaniye sveta)</string>
-	<string name="option.r_shadows.title">Shadows | Тени (Tenі)</string>
-	<string name="option.r_draw_glow.title">Glow | Засветы (Zasvety)</string>
-	<string name="option.r_draw_bloom.title">Bloom | Свечение (Svecheniye)</string>
+	<string name="option.r_hdr.title">Улучшенное освещение</string>
+	<string name="option.r_light_decal_proj.title">Проецирование света</string>
+	<string name="option.r_shadows.title">Тени</string>
+	<string name="option.r_draw_glow.title">Засветы</string>
+	<string name="option.r_draw_bloom.title">Свечение</string>
 	<string name="option.r_draw_xray.title">X-Ray</string>
-	<string name="option.r_environmental_detail.title">Environmental Detail | Детали окружения (Detali okruzheniya)</string>
-	<string name="option.r_wind_sprite_animations.title">Wind Foliage Animations | Анимация ветра с листвой (Animatsiya vetra s listvoy)</string>
-	<string name="option.rg_brightness.title">Brightness | Яркость (Yarkost')</string>
-	<string name="option.rg_gamma.title">Gamma | Гамма</string>
-	<string name="option.rg_contrast.title">Contrast | Контраст </string>
-	<string name="option.rg_crt_curve.title">CRT Curve | Кривая ЭЛТ (Krivaya ELT)</string>
+	<string name="option.r_environmental_detail.title">Детали окружения</string>
+	<string name="option.r_wind_sprite_animations.title">Анимация ветра с листвой</string>
+	<string name="option.rg_brightness.title">Яркость</string>
+	<string name="option.rg_gamma.title">Gamma</string>
+	<string name="option.rg_contrast.title">Contrast</string>
+	<string name="option.rg_crt_curve.title">CRT Curve</string>
 	<string name="option.rg_post_phosphor.title">Post-Processing Phosphor</string>
 	<string name="option.rg_post_bloom.title">Post-Processing Bloom</string>
 
 
 	<!-- Sound -->
-	<string name="option.snd_volume.title">Master | Общее (Obshchee)</string>
-	<string name="option.snd_volume_music.title">Music | Музыка (Muzyka)</string>
-	<string name="option.snd_volume_sfx.title">SFX | Эффекты (Effekty)</string>
-	<string name="option.snd_volume_voice.title">Voice | Голос (Golos)</string>
-	<string name="option.snd_volume_env.title">Ambience | Окружение (Okruzhenie)</string>
-	<string name="option.snd_volume_ui.title">UI | Интерфейс (Interfeys)</string>
+	<string name="option.snd_volume.title">Общее</string>
+	<string name="option.snd_volume_music.title">Музыка</string>
+	<string name="option.snd_volume_sfx.title">Эффекты</string>
+	<string name="option.snd_volume_voice.title">Голос</string>
+	<string name="option.snd_volume_env.title">Окружение</string>
+	<string name="option.snd_volume_ui.title">Интерфейс</string>
 
 </lang>

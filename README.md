@@ -14,7 +14,7 @@
 - [X] additional.lang
 - [X] equipment.lang
 - [X] items.lang
-- [X] menus.lang
+- [X] menus.lang (100% RuTATA)
 - [X] dialogue.lang (50% RuTATA)
 
 В процессе 
