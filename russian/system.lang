@@ -97,12 +97,12 @@
 	<string name="menu.charcreate.custom.hair">Hair</string>
 
 
-	<string name="menu.loadgame.charlevel">Level %level%</string>
-	<string name="menu.loadgame.charlevel_short">Lvl %level%</string>
+	<string name="menu.loadgame.charlevel">Уровень %level%</string>
+	<string name="menu.loadgame.charlevel_short">Ур. %level%</string>
 	<string name="menu.loadgame.ngplevel">ng+%ngp%</string>
-	<string name="menu.loadgame.run_resume">Would you like to resume your run at '%name%'?</string>
-	<string name="menu.loadgame.run_noresume">You can't resume your current run at '%name%' now. Abandon?</string>
-	<string name="menu.loadgame.delete">Are you sure you want to delete your level %level% %class%, '%name%'?</string>
+	<string name="menu.loadgame.run_resume">Хотите продолжить ваш забег с '%name%'?</string>
+	<string name="menu.loadgame.run_noresume">Вы не можете продолжить текущий забег с '%name%' сейчас. Отказаться?</string>
+	<string name="menu.loadgame.delete">Вы уверены, что хотите удалить вашего персонажа уровня %level% класса %class%, '%name%'?</string>
 
 
 	<string name="menu.guild.statistics">Statistics</string>
@@ -185,33 +185,32 @@
 
 
 	<!-- Mission Loadout Menu -->
-	<string name="menu.loadout.potion_warning">You have no potion charges!</string>
-	<string name="menu.loadout.force_start_warning">Are you sure you want to start the mission before everyone is ready?</string>
-	<string name="menu.loadout.starting_mission">Starting\n%mission%</string>
-	<string name="menu.loadout.alterations">Alterations</string>
-	<string name="menu.loadout.numready">%ready%/%total% ready!</string>
-	<string name="menu.loadout.waiting_num">Waiting for %num% players.</string>
-	<string name="menu.loadout.waiting_plrs">Waiting for %players%.</string>
-	<string name="menu.loadout.ngp">New Game+ %ngp%</string>
+	<string name="menu.loadout.potion_warning">У вас нет зарядов зелий!</string>
+	<string name="menu.loadout.force_start_warning">Вы уверены, что хотите начать миссию до того, как все будут готовы?</string>
+	<string name="menu.loadout.starting_mission">Начало\n%mission%</string>
+	<string name="menu.loadout.alterations">Изменения</string>
+	<string name="menu.loadout.numready">%ready%/%total% готовы!</string>
+	<string name="menu.loadout.waiting_num">Ожидание %num% игроков.</string>
+	<string name="menu.loadout.waiting_plrs">Ожидание %players%.</string>
+	<string name="menu.loadout.ngp">Новая игра+ %ngp%</string>
 
+	<string name="menu.mission_end.completed">Миссия завершена!</string>
+	<string name="menu.mission_end.failed">\cff0202Миссия провалена!</string>
+	<string name="menu.mission_end.aborted">\cffb508Миссия прервана!</string>
+	<string name="menu.mission_end.new_game_plus">Поздравляем, вы победили Аватара тьмы!\nЭто открыло Новую игру+ 1 для этого персонажа и увеличило максимальный уровень на 5. Новая игра+ представляет собой повышенную сложность с большими наградами. Уровень Новой игры+ можно выбрать в меню подготовки к миссии.</string>
 
-	<string name="menu.mission_end.completed">Mission Completed!</string>
-	<string name="menu.mission_end.failed">\cff0202Mission Failed!</string>
-	<string name="menu.mission_end.aborted">\cffb508Mission Aborted!</string>
-	<string name="menu.mission_end.new_game_plus">Congratulations, you defeated the Avatar of shadows!\nThis has unlocked New Game+ 1 for this character and increased the level cap by 5. New Game+ represents a higher difficulty with greater rewards. The level of NG+ can be chosen in the mission loadout.</string>
-	
-	<string name="menu.mission_end.materials">Materials</string>
-	<string name="menu.mission_end.stats">Statistics</string>
-	
-	<string name="menu.mission_end.step.sent_back">Sent back: </string>
-	<string name="menu.mission_end.step.picked_up">Picked up: </string>
-	<string name="menu.mission_end.step.valuables">Valuables: </string>
-	<string name="menu.mission_end.step.trinkets.common">Common Trinkets: </string>
-	<string name="menu.mission_end.step.trinkets.uncommon">Uncommon Trinkets: </string>
-	<string name="menu.mission_end.step.trinkets.rare">Rare Trinkets: </string>
-	<string name="menu.mission_end.step.trinkets.epic">Epic Trinkets: </string>
-	<string name="menu.mission_end.step.revive">Revive "donation" (%rate%%): </string>
-	<string name="menu.mission_end.step.reward">Mission reward: </string>
+	<string name="menu.mission_end.materials">Материалы</string>
+	<string name="menu.mission_end.stats">Статистика</string>
+
+	<string name="menu.mission_end.step.sent_back">Отправлено назад: </string>
+	<string name="menu.mission_end.step.picked_up">Подобрано: </string>
+	<string name="menu.mission_end.step.valuables">Ценности: </string>
+	<string name="menu.mission_end.step.trinkets.common">Обычные безделушки: </string>
+	<string name="menu.mission_end.step.trinkets.uncommon">Необычные безделушки: </string>
+	<string name="menu.mission_end.step.trinkets.rare">Редкие безделушки: </string>
+	<string name="menu.mission_end.step.trinkets.epic">Эпические безделушки: </string>
+	<string name="menu.mission_end.step.revive">"Пожертвование" за воскрешение (%rate%%): </string>
+	<string name="menu.mission_end.step.reward">Награда за миссию: </string>
 
 
 	<string name="menu.player_stash.withdraw">Withdraw</string>
