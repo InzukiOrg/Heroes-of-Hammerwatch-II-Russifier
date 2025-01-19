@@ -15,10 +15,10 @@
 - [X] equipment.lang
 - [X] items.lang
 - [X] menus.lang
+- [X] dialogue.lang (50% RuTATA)
 
 В процессе 
 
-- [ ] dialogue.lang (🟩🟩🟩🟩🟨🟨🟨🟨 50%)
 - [ ] skills.lang (🟩🟩🟩🟩🟩🟨🟨🟨 60%)
 - [ ] system.lang
 

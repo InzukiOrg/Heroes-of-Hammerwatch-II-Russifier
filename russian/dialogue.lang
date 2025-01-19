@@ -44,12 +44,12 @@
 
 
 
-	<string name="dialogue.mercenary.join1">We'll join you on this quest!</string>
-	<string name="dialogue.mercenary.join2">We'll answer your call to arms!</string>
-	<string name="dialogue.mercenary.archon.join1">Lead the way!</string>
-	<string name="dialogue.mercenary.archon.join2">You go, we follow!</string>
+	<string name="dialogue.mercenary.join1">Мы присоединимся к вам в этом квесте!</string>
+	<string name="dialogue.mercenary.join2">Мы ответим на ваш призыв к оружию!</string>
+	<string name="dialogue.mercenary.archon.join1">Ведите нас!</string>
+	<string name="dialogue.mercenary.archon.join2">Вы идёте, мы следуем!</string>
 
-	<string name="dialogue.player.dark_citadel.locked">This must be the Dark Citadel. I wonder how to get in.</string>
+	<string name="dialogue.player.dark_citadel.locked">Должно быть, это Тёмная Цитадель. Интересно, как сюда попасть.</string>
 
 
 	<string name="npc.shop.armorer">Оружейник</string>
@@ -115,109 +115,98 @@
 
 
 
-	<string name="dialogue.adam.intro.shout">Help!</string>
-	<string name="dialogue.adam.intro.prompt1">The cult found our camp and attacked!</string>
-	<string name="dialogue.player.intro.response1">What's going on?</string>
-	<string name="dialogue.adam.intro.prompt2">Will you please help, we're not soldiers, they'll kill everyone!</string>
-	<string name="dialogue.player.intro.response2">Of course!</string>
-	<string name="dialogue.adam.intro.prompt3">Thank you! Usually it's just the goblins who are a threat, but they've been managable.</string>
-	<string name="dialogue.adam.intro.prompt4">Recently cultists have been more active and ventured out of their temple.</string>
-	<string name="dialogue.adam.intro.prompt5">But please, hurry, I don't know for how long they'll be able to hold on!</string>
+	<string name="dialogue.adam.intro.shout">Помогите!</string>
+	<string name="dialogue.adam.intro.prompt1">Культисты нашли наш лагерь и атаковали!</string>
+	<string name="dialogue.player.intro.response1">Что происходит?</string>
+	<string name="dialogue.adam.intro.prompt2">Пожалуйста, помогите, мы не солдаты, они убьют всех!</string>
+	<string name="dialogue.player.intro.response2">Конечно!</string>
+	<string name="dialogue.adam.intro.prompt3">Спасибо! Обычно только гоблины представляют угрозу, но с ними можно справиться.</string>
+	<string name="dialogue.adam.intro.prompt4">В последнее время культисты стали более активными и начали выходить из своего храма.</string>
+	<string name="dialogue.adam.intro.prompt5">Но, пожалуйста, поторопитесь, я не знаю, как долго они смогут продержаться!</string>
 
+	<string name="dialogue.adam.prompt1.1">Мы никогда не сможем отблагодарить вас.</string>
+	<string name="dialogue.adam.prompt1.2">Не только культисты становятся агрессивными, но и гоблины, кажется, что-то замышляют!</string>
+	<string name="dialogue.adam.prompt2.1">Здесь всё начинает налаживаться.</string>
+	<string name="dialogue.adam.prompt2.2">Надеюсь, культисты снова нас не найдут.</string>
+	<string name="dialogue.adam.prompt3">Такое строительство никогда бы не стало возможным без вас, спасибо огромное.</string>
 
-	<string name="dialogue.adam.prompt1.1">We'll never be able to repay you.</string>
-	<string name="dialogue.adam.prompt1.2">Not only is the cult getting aggressive, the goblins seem to be up to something too!</string>
-	<string name="dialogue.adam.prompt2.1">Things are really starting to come together around here.</string>
-	<string name="dialogue.adam.prompt2.2">I hope the cult doesn't find us again.</string>
-	<string name="dialogue.adam.prompt3">Building like this would never have been possible without you, thank you so much.</string>
+	<string name="dialogue.kevin.prompt1.1">Эти напитки просто великолепны! Всегда стоит выпить что-нибудь перед тем, как отправиться в лес, так веселее!</string>
+	<string name="dialogue.kevin.prompt1.2">Существуют рецепты как еды, так и напитков.</string>
 
-	<string name="dialogue.kevin.prompt1.1">These are some great drinks! You should always drink something when going out into the forest, it's much more fun!</string>
-	<string name="dialogue.kevin.prompt1.2">There are recipes out there for both food and drinks.</string>
+	<string name="dialogue.kelly.prompt1.1">Это такой дружелюбный к животным город, мои кошки обожают исследовать его.</string>
+	<string name="dialogue.kelly.prompt1.2">Здесь уютно, но я бы хотела переехать в один из больших домов.</string>
+	<string name="dialogue.kelly.prompt1.3">Приятно познакомиться, можете звать меня Келли.</string>
 
-	<string name="dialogue.kelly.prompt1.1">It's such a pet friendly town, my cats love exploring.</string>
-	<string name="dialogue.kelly.prompt1.2">This place is cozy, but I'd love to move to one of the bigger houses.</string>
-	<string name="dialogue.kelly.prompt1.3">Nice to meet you, you can call me Kelly.</string>
+	<string name="dialogue.traveling_monk.prompt1.1">Эй, мы раньше встречались?</string>
+	<string name="dialogue.traveling_monk.prompt1.2">Я часто в пути, путешествую по новым местам, куда ещё не дошёл свет.</string>
 
+	<string name="dialogue.elin.prompt1.1">Ты читал что-нибудь из этого?</string>
+	<string name="dialogue.elin.prompt1.2">Здесь есть что-то действительно интересное.</string>
+	<string name="dialogue.elin.prompt1.3">Может, мне стоит взять это в таверну и почитать там.</string>
 
-	<string name="dialogue.traveling_monk.prompt1.1">Hey, have we met before?</string>
-	<string name="dialogue.traveling_monk.prompt1.2">I am often on the road, traveling to new places where the light has not yet reached.</string>
+	<string name="dialogue.grandma.prompt1">Надеюсь, мой внук скоро заглянет. Я скучаю по нему.</string>
 
-	<string name="dialogue.elin.prompt1.1">Did you read any of these?</string>
-	<string name="dialogue.elin.prompt1.2">There's some great stuff here.</string>
-	<string name="dialogue.elin.prompt1.3">Maybe I should bring this to the tavern and read it there.</string>
+	<string name="dialogue.guard_exit.prompt1">Будьте осторожны там!</string>
 
-	<string name="dialogue.grandma.prompt1">I sure hope my grandson drops by soon. I miss him.</string>
+	<string name="dialogue.librarian.found">О, здравствуйте! Я искал уже некоторое время, но здесь ничего нет. Ни одной книги.</string>
+	<string name="dialogue.librarian.prompt1.1">Книги — это нечто особенное, они могут перенести вас в другой мир, в другое мышление.</string>
+	<string name="dialogue.librarian.prompt1.2">Вам стоит подумать о постройке библиотеки, это выведет город на новый уровень.</string>
 
-	<string name="dialogue.guard_exit.prompt1">Be careful out there!</string>
+	<string name="dialogue.enchanter.found.1">В этих книгах и свитках так много заклинаний и чар.</string>
+	<string name="dialogue.enchanter.found.2">Всё это очень уникально, но мне нужно выбираться отсюда. Здесь повсюду угрозы!</string>
 
+	<string name="dialogue.architect.found.1">Спасибо, что спасли меня, но боюсь, что уже слишком поздно.</string>
+	<string name="dialogue.architect.found.2">Я никогда не помогал им пройти через главный вход, но думаю, они смогли добраться до цитадели через эту крипту.</string>
+	<string name="dialogue.architect.prompt1">Я встречу вас в лесу у цитадели.</string>
+	<string name="dialogue.architect.prompt2">Я открою это для вас.</string>
 
-	<string name="dialogue.librarian.found">Oh hello! I've been looking for a while now, but there's nothing here. Not a single book.</string>
-	<string name="dialogue.librarian.prompt1.1">Books are truly something special, they can take you to a different world, a different kind of thought.</string>
-	<string name="dialogue.librarian.prompt1.2">You should look in to building a library, it would take this town to the next level.</string>
-	
-	<string name="dialogue.enchanter.found.1">There are so many enchantments and spells in these books and scrolls.</string>
-	<string name="dialogue.enchanter.found.2">This is all very unique, but I need to get out of here. There are threats everywhere here!</string>
-	
-	<string name="dialogue.architect.found.1">Thank you for saving me, but I fear it might be too late.</string>
-	<string name="dialogue.architect.found.2">I never helped them get through the main entrance, but I think they managed to get to the citadel through this crypt.</string>
-	<string name="dialogue.architect.prompt1">I'll meet you out in the forest by the citadel.</string>
-	<string name="dialogue.architect.prompt2">I'll open this for you.</string>
+	<string name="dialogue.rogue.found.1">Привет! Ты тоже здесь ищешь сокровища?</string>
+	<string name="dialogue.rogue.found.2">У вас есть лагерь? Если у вас есть место для меня, я покажу вам пару трюков.</string>
+	<string name="dialogue.rogue.is_same">Хм. Не уверен, что доверяю тебе.</string>
+	<string name="dialogue.rogue.is_other">Подумай о том, чтобы обучить кого-то своим навыкам, помощь с золотом может быть полезной.</string>
 
+	<string name="dialogue.warlock.found.1">Будьте осторожны! Дверь заминирована, а крипты внизу очень опасны.</string>
+	<string name="dialogue.warlock.found.2">Что-то пробуждается там внизу, я ухожу отсюда, и вам стоит сделать то же самое.</string>
+	<string name="dialogue.warlock.is_same">Рад видеть тебя, послушник.</string>
+	<string name="dialogue.warlock.is_other">Мы, изучающие тёмную сторону магии, знаем больше, чем многие, эта теневая магия — нечто особенное.</string>
 
-
-	<string name="dialogue.rogue.found.1">Hello there! You're also out here looking for treasure?</string>
-	<string name="dialogue.rogue.found.2">You have a camp set up? If you have space for me I'll show you some tricks.</string>
-	<string name="dialogue.rogue.is_same">Hm. Not sure I trust you.</string>
-	<string name="dialogue.rogue.is_other">Consider training someone in the arts, getting some help with gold can be useful.</string>
-
-	<string name="dialogue.warlock.found.1">Be careful! The door is trapped, and besides, the crypts below are very dangerous.</string>
-	<string name="dialogue.warlock.found.2">Something is awakening down there, I'm getting out of here and you should do the same.</string>
-	<string name="dialogue.warlock.is_same">Good to see you acolyte.</string>
-	<string name="dialogue.warlock.is_other">Us at the darker side of magic have more insight than many, this shadow magic is something special.</string>
-
-	<string name="dialogue.sorcerer.found.1">Oh hey! You figured out that door too? It gets harder now.</string>
-	<string name="dialogue.sorcerer.found.2">The more candles I light before I continue, the harder the fight. I've not managed to get past the shades yet though, so I'm not sure about what's after.</string>
-	<string name="dialogue.sorcerer.is_same">Another student of the elements? Good, they unlock the secrets of the universe.</string>
-	<string name="dialogue.sorcerer.is_other">There is magic all around us, all you need to do is channel it.</string>
+	<string name="dialogue.sorcerer.found.1">О, привет! Ты тоже разгадал эту дверь? Теперь будет сложнее.</string>
+	<string name="dialogue.sorcerer.found.2">Чем больше свечей я зажгу перед тем, как продолжить, тем сложнее будет бой. Пока мне не удалось пройти дальше теней, так что я не знаю, что ждёт впереди.</string>
+	<string name="dialogue.sorcerer.is_same">Ещё один ученик стихий? Отлично, они открывают секреты вселенной.</string>
+	<string name="dialogue.sorcerer.is_other">Магия окружает нас повсюду, всё, что нужно, — это направить её.</string>
 
 
 
-	<string name="dialogue.hunter.intro1">Oh, has the road collapsed?</string>
-	<string name="dialogue.hunter.intro2">You can probably go around by crossing the stream to the west, then heading deeper into the forest to the north.</string>
-	<string name="dialogue.hunter.intro3">But be careful, the forests here are dangerous and the road may well have been blocked deliberately.</string>
+	<string name="dialogue.hunter.intro1">О, дорога обрушилась?</string>
+	<string name="dialogue.hunter.intro2">Вы, вероятно, можете обойти это, перейдя ручей на западе, а затем углубившись в лес на север.</string>
+	<string name="dialogue.hunter.intro3">Но будьте осторожны, леса здесь опасны, и дорога могла быть заблокирована намеренно.</string>
 
-	<string name="dialogue.hunter.prompt1">Oh, you're setting up a camp? If you can get me the tools I'll teach you how to get the most from the beasts you slay.</string>
-	<string name="dialogue.hunter.prompt2.1">I need some better shelter than this tent.</string>
-	<string name="dialogue.hunter.prompt2.2">What's going on with these robed idiots running around the forest, do you know anything about that?</string>
-	<string name="dialogue.hunter.prompt3">How's it going out there?</string>
+	<string name="dialogue.hunter.prompt1">О, вы разбиваете лагерь? Если вы достанете мне инструменты, я научу вас, как максимально эффективно использовать добычу от убитых зверей.</string>
+	<string name="dialogue.hunter.prompt2.1">Мне нужно укрытие получше, чем этот шатёр.</string>
+	<string name="dialogue.hunter.prompt2.2">Что происходит с этими одетыми в робы идиотами, бегающими по лесу? Вы что-нибудь знаете об этом?</string>
+	<string name="dialogue.hunter.prompt3">Как дела там, снаружи?</string>
 
+	<string name="dialogue.builder.intro.prompt1">Все готовьтесь, это наш последний рубеж!</string>
+	<string name="dialogue.builder.intro.prompt2.1">Вау, ты настоящий герой! Спасибо огромное, мы бы не выжили без тебя.</string>
+	<string name="dialogue.builder.intro.prompt2.2">Эти культисты теперь не остановятся, раз они нас нашли. В последнее время они стали очень агрессивными.</string>
 
-	<string name="dialogue.builder.intro.prompt1">Everybody prepare, this is our last stand!</string>
-	<string name="dialogue.builder.intro.prompt2.1">Wow, you're a real hero! Thank you so much, we wouldn't have survived without you.</string>
-	<string name="dialogue.builder.intro.prompt2.2">Those cultists will never stop coming now that they found us, they've been very aggressive recently.</string>
+	<string name="dialogue.apothecary.intro.prompt1.1">Спасибо за помощь! Они разрушили мою лабораторию, так что я ограничен в том, что могу для вас сделать, но вот, возьмите зелье.</string>
+	<string name="dialogue.apothecary.intro.prompt1.2">Мне нужна настоящая лаборатория, чтобы помочь вам дальше, но я смогу улучшить ваше зелье.</string>
 
+	<string name="dialogue.chaplain.intro.prompt1.1">Это было так страшно, вы действительно появились как благословение свыше.</string>
+	<string name="dialogue.chaplain.intro.prompt1.2">Я могу отвести нас в более безопасное место.</string>
+	<string name="dialogue.chaplain.prompt1.1">Эти культисты уже давно пытаются проникнуть в Тёмную Цитадель, но в последнее время они стали намного агрессивнее. Возможно, они уже близки к цели.</string>
+	<string name="dialogue.chaplain.prompt1.2">Цитадель была закрыта веками; никто не знает, что там произошло.</string>
+	<string name="dialogue.chaplain.prompt1.3">Было бы здорово, если бы вы могли отправиться на север в лес и разобраться с этой проблемой.</string>
 
-	<string name="dialogue.apothecary.intro.prompt1.1">Thank you for your help! They tore down my lab, so I'm limited in what I can do for you, but here, have a potion.</string>
-	<string name="dialogue.apothecary.intro.prompt1.2">I need a proper apothecary lab to help you further, but I will be able to improve your potion.</string>
+	<string name="dialogue.subclass.lowlvl">Я пока не могу вам помочь,\nвозвращайтесь, когда достигнете 10 уровня.</string>
 
+	<string name="dialogue.armorer.rescue">Эй! Вы знаете дорогу к остальным?</string>
+	<string name="dialogue.armorer.prompt1">Спасибо, что нашли нас и привели сюда, мы сделаем всё, чтобы помочь.</string>
 
-
-	<string name="dialogue.chaplain.intro.prompt1.1">That was so scary, you really arrived like a blessing from above.</string>
-	<string name="dialogue.chaplain.intro.prompt1.2">I can take us somewhere safer.</string>
-	<string name="dialogue.chaplain.prompt1.1">Those cultists have been trying to enter the Dark Citadel for some time now, but they have been much more aggressive lately. They might be getting close now.</string>
-	<string name="dialogue.chaplain.prompt1.2">The Citadel has been closed for centuries; no one knows what happened.</string>
-	<string name="dialogue.chaplain.prompt1.3">It would be a big help if you could head north into the forest and investigate this issue.</string>
-
-
-	<string name="dialogue.subclass.lowlvl">I can't help you yet,\ncome back when you're level 10.</string>
-
-
-	<string name="dialogue.armorer.rescue">Hey! You know the way to the others?</string>
-	<string name="dialogue.armorer.prompt1">Thank you for finding us and getting us here, we'll do what we can to help out.</string>
-
-	<string name="dialogue.blacksmith.rescue">Oh nice, if it was up to my brother here we would be still lost!</string>
-	<string name="dialogue.blacksmith.prompt1">This is a nice spot you have here! If you can help us build a smithy I can help with upgrading your equipment.</string>
-	<string name="dialogue.blacksmith.prompt2.1">My brother can teach you how to use your armor and weapons more efficiently, if you can get us resources for a proper forge I'll also be able to upgrade your equipment.</string>
-	<string name="dialogue.blacksmith.prompt2.2">We also have weapons in the back for sale, they are simple pieces, but of high quality.</string>
+	<string name="dialogue.blacksmith.rescue">О, отлично, если бы всё зависело от моего брата, мы бы до сих пор блуждали!</string>
+	<string name="dialogue.blacksmith.prompt1">Здесь у вас отличное место! Если поможете нам построить кузницу, я смогу улучшать ваше снаряжение.</string>
+	<string name="dialogue.blacksmith.prompt2.1">Мой брат может научить вас более эффективно использовать вашу броню и оружие. Если вы достанете нам ресурсы для настоящей кузницы, я также смогу улучшать ваше снаряжение.</string>
+	<string name="dialogue.blacksmith.prompt2.2">У нас также есть оружие на продажу. Это простые изделия, но высокого качества.</string>
 
 </lang>
